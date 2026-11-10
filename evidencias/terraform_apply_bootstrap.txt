@@ -1,0 +1,8 @@
+google_storage_bucket.estado: Creating...
+google_storage_bucket.estado: Creation complete after 2s [id=nebula-arena-ga-20261109-nebula-tfstate]
+
+Apply complete! Resources: 1 added, 0 changed, 0 destroyed.
+
+Outputs:
+
+bucket = "nebula-arena-ga-20261109-nebula-tfstate"

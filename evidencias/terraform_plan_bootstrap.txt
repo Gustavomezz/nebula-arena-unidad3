@@ -16,7 +16,7 @@ Terraform will perform the following actions:
       + name                        = "nebula-arena-ga-20261109-nebula-tfstate"
       + project                     = (known after apply)
       + project_number              = (known after apply)
-      + public_access_prevention    = (known after apply)
+      + public_access_prevention    = "enforced"
       + rpo                         = (known after apply)
       + self_link                   = (known after apply)
       + storage_class               = "STANDARD"
@@ -28,7 +28,10 @@ Terraform will perform the following actions:
       + updated                     = (known after apply)
       + url                         = (known after apply)
 
-      + soft_delete_policy (known after apply)
+      + soft_delete_policy {
+          + effective_time             = (known after apply)
+          + retention_duration_seconds = 0
+        }
 
       + versioning {
           + enabled = true

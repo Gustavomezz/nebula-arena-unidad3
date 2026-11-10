@@ -10,7 +10,9 @@ resource "google_storage_bucket" "estado" {
   name                        = "${var.proyecto}-nebula-tfstate"
   location                    = "US-CENTRAL1"
   uniform_bucket_level_access = true
+  public_access_prevention    = "enforced"
   force_destroy               = true
+  soft_delete_policy { retention_duration_seconds = 0 }
   versioning { enabled = true }
 }
 output "bucket" { value = google_storage_bucket.estado.name }

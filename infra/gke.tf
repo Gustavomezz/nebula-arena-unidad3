@@ -44,7 +44,7 @@ resource "google_container_node_pool" "juego" {
     auto_upgrade = true
   }
   node_config {
-    machine_type    = "e2-standard-4"
+    machine_type    = var.maquina_nodos
     disk_size_gb    = 30
     disk_type       = "pd-standard"
     service_account = google_service_account.nodos.email
