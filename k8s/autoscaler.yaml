@@ -4,6 +4,9 @@ metadata:
   name: nebula-autoscaler
 spec:
   fleetName: nebula-fleet
+  sync:
+    type: FixedInterval
+    fixedInterval: {seconds: 5}
   policy:
     type: Buffer
     buffer:

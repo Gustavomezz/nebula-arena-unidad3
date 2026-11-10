@@ -22,16 +22,20 @@ if __name__ == "__main__":
     parser.add_argument("--output", required=True)
     args = parser.parse_args()
     with open(args.output, "w", newline="") as file:
-        writer = csv.DictWriter(file, fieldnames=["timestamp", *QUERIES])
+        writer = csv.DictWriter(file, fieldnames=["timestamp", *QUERIES, "error"])
         writer.writeheader()
         end = time.monotonic() + args.seconds
         while time.monotonic() < end:
             row = {"timestamp": time.time()}
-            for key, query in QUERIES.items():
-                response = requests.get(args.url + "/api/v1/query", params={"query": query}, timeout=10)
-                response.raise_for_status()
-                data = response.json()["data"]["result"]
-                row[key] = data[0]["value"][1] if data else ""
+            try:
+                for key, query in QUERIES.items():
+                    response = requests.get(args.url + "/api/v1/query", params={"query": query}, timeout=10)
+                    response.raise_for_status()
+                    data = response.json()["data"]["result"]
+                    row[key] = data[0]["value"][1] if data else ""
+            except (requests.RequestException, ValueError, KeyError) as exc:
+                # Conserva el hueco de medición y continúa; no inventa valores.
+                row["error"] = str(exc)
             writer.writerow(row)
             file.flush()
             time.sleep(5)

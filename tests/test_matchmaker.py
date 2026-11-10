@@ -1,4 +1,6 @@
 from concurrent.futures import ThreadPoolExecutor
+import threading
+import time
 
 from matchmaker.main import Rooms, connection_info, create_app
 
@@ -11,8 +13,15 @@ def test_25_jugadores_ocupan_tres_partidas():
         return {"url": "ws://localhost:7654", "partida": f"sala-{len(calls)}"}
 
     rooms = Rooms(allocate)
+    def join_with_retry(_):
+        for _ in range(100):
+            try:
+                return rooms.join()
+            except RuntimeError:
+                time.sleep(.001)
+        raise TimeoutError("asignación bloqueada")
     with ThreadPoolExecutor(max_workers=8) as pool:
-        results = list(pool.map(lambda _: rooms.join(), range(25)))
+        results = list(pool.map(join_with_retry, range(25)))
     assert len(calls) == 3
     assert sum(r["partida"] == "sala-1" for r in results) == 10
     assert sum(r["partida"] == "sala-2" for r in results) == 10
@@ -31,3 +40,22 @@ def test_generador_en_vpc_recibe_la_direccion_interna():
                   {"type": "ExternalIP", "address": "203.0.113.5"},
                   {"type": "InternalIP", "address": "10.40.0.6"}]}
     assert connection_info(status)["url"] == "ws://10.40.0.6:7001"
+
+
+def test_espera_de_agones_no_bloquea_otro_cliente():
+    started, release = threading.Event(), threading.Event()
+    def slow_allocate():
+        started.set()
+        release.wait(2)
+        return {"url": "ws://localhost:7654", "partida": "sala"}
+    app = create_app(Rooms(slow_allocate))
+    with ThreadPoolExecutor(max_workers=2) as pool:
+        first = pool.submit(lambda: app.test_client().post("/join"))
+        assert started.wait(1)
+        second = pool.submit(lambda: app.test_client().post("/join"))
+        try:
+            assert second.result(timeout=1).status_code == 503
+            assert app.test_client().get("/healthz").status_code == 200
+        finally:
+            release.set()
+        assert first.result(timeout=1).status_code == 200

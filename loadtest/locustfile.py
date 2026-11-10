@@ -15,9 +15,9 @@ from websocket import create_connection
 class Jugador(User):
     wait_time = constant_pacing(.05)
 
-    def measurement(self, name, started, error=None, length=0):
+    def measurement(self, name, started, error=None, length=0, request_type="WS"):
         self.environment.events.request.fire(
-            request_type="WS", name=name, response_time=(time.perf_counter() - started) * 1000,
+            request_type=request_type, name=name, response_time=(time.perf_counter() - started) * 1000,
             response_length=length, exception=error)
 
     def on_start(self):
@@ -35,10 +35,16 @@ class Jugador(User):
                 url = None
                 deadline = time.monotonic() + 180
                 while time.monotonic() < deadline:
-                    response = requests.post(os.environ["MATCHMAKER_URL"] + "/join", timeout=15)
-                    if response.status_code == 200:
-                        url = response.json()["url"]
-                        break
+                    attempt = time.perf_counter()
+                    try:
+                        response = requests.post(os.environ["MATCHMAKER_URL"] + "/join", timeout=15)
+                        error = None if response.ok else requests.HTTPError(f"HTTP {response.status_code}")
+                        self.measurement("asignacion", attempt, error, len(response.content), "HTTP")
+                        if response.status_code == 200:
+                            url = response.json()["url"]
+                            break
+                    except requests.RequestException as exc:
+                        self.measurement("asignacion", attempt, exc, request_type="HTTP")
                     gevent.sleep(random.uniform(.5, 1.5))
                 if url is None:
                     raise TimeoutError("Agones no tuvo servidores listos en 180 s")

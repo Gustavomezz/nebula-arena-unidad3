@@ -17,13 +17,17 @@ class Rooms:
         self.expires = 0
 
     def join(self):
-        with self.lock:
+        if not self.lock.acquire(blocking=False):
+            raise RuntimeError("asignación en curso, reintentar")
+        try:
             if not self.slots or time.monotonic() >= self.expires:
                 self.current = self.allocate()
                 self.slots = 10
-                self.expires = time.monotonic() + 30
+                self.expires = time.monotonic() + 300
             self.slots -= 1
             return self.current
+        finally:
+            self.lock.release()
 
 
 def allocate():
