@@ -1,0 +1,31 @@
+{
+  "tarifas_referencia_usd": {
+    "e2_standard_4_h": 0.13402284,
+    "e2_standard_8_h": 0.26804568,
+    "gestion_gke_h": 0.1,
+    "ip_externa_h": 0.005
+  },
+  "capacidad_configurada_no_medida": {
+    "jugadores": 1000,
+    "partidas": 100,
+    "servidores_con_buffer": 125,
+    "vCPU_solo_contenedores_juego": 31.25
+  },
+  "escenario_10_nodos": {
+    "computo_y_gestion_h": 1.4402284,
+    "computo_gestion_por_jugador_h": 0.0014402284000000001
+  },
+  "stream_500_360p_5min_gb": 15.0,
+  "stream_20000_1080p_1h_gb": 54000.0,
+  "stream_20000_1080p_1h_gib": 50291.41902923584,
+  "cdn_norteamerica_solo_transferencia_usd": 3022.028046607971,
+  "serverless_ejemplo_200000_peticiones_100ms_usd_sin_capa_gratuita": 0.585,
+  "vm_e2_small_730h_solo_computo_usd": 12.22958415,
+  "exclusiones": "Discos, IP, balanceadores, observabilidad, registro, Firestore, solicitudes CDN e impuestos. Verificar en calculadora antes de ejecutar.",
+  "fuentes": [
+    "https://cloud.google.com/products/compute/pricing/general-purpose",
+    "https://cloud.google.com/kubernetes-engine/pricing",
+    "https://cloud.google.com/run/pricing",
+    "https://cloud.google.com/cdn/pricing"
+  ]
+}

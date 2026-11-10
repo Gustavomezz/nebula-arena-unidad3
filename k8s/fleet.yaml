@@ -1,0 +1,44 @@
+apiVersion: agones.dev/v1
+kind: Fleet
+metadata:
+  name: nebula-fleet
+spec:
+  replicas: 3
+  scheduling: Packed
+  strategy:
+    type: RollingUpdate
+    rollingUpdate:
+      maxSurge: 25%
+      maxUnavailable: 0
+  template:
+    spec:
+      ports:
+        - name: game
+          containerPort: 7654
+          protocol: TCP
+      health:
+        initialDelaySeconds: 15
+        periodSeconds: 5
+        failureThreshold: 3
+      template:
+        spec:
+          terminationGracePeriodSeconds: 30
+          nodeSelector: {rol: juego}
+          securityContext:
+            runAsNonRoot: true
+            runAsUser: 1000
+            seccompProfile: {type: RuntimeDefault}
+          containers:
+            - name: nebula
+              image: NEBULA_SERVER_IMAGE
+              env:
+                - {name: AGONES_ENABLED, value: "true"}
+              ports:
+                - {name: metrics, containerPort: 9100}
+              resources:
+                requests: {cpu: 250m, memory: 256Mi}
+                limits: {cpu: 500m, memory: 512Mi}
+              securityContext:
+                allowPrivilegeEscalation: false
+                capabilities: {drop: [ALL]}
+                readOnlyRootFilesystem: true

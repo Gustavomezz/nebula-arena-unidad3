@@ -1,0 +1,19 @@
+{
+  "dispositivo_entrenamiento": "cpu",
+  "equipo": "macOS-27.0-arm64-arm-64bit",
+  "torch": "2.15.0",
+  "pasos_solicitados": 100000,
+  "pasos_reales": 100352,
+  "semilla": 42,
+  "hilos_cpu": 1,
+  "entrenamiento_s": 18.823203375097364,
+  "inferencia_cpu_media_ms": 0.0633253408,
+  "inferencia_cpu_p95_ms": 0.12337709999999996,
+  "decisiones_s_por_hilo": 15791.466534041929,
+  "demanda_bots_s": 20000,
+  "vCPU_con_margen_30_por_ciento": 2,
+  "recompensa_media_10_episodios": 500.0,
+  "recompensa_desviacion": 0.0,
+  "fecha_utc": "2026-11-10T02:07:53Z",
+  "nota": "Una medición local de un hilo no equivale a medir una vCPU de Google Cloud."
+}

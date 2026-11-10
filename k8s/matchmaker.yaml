@@ -1,0 +1,76 @@
+apiVersion: v1
+kind: ServiceAccount
+metadata:
+  name: nebula-matchmaker
+---
+apiVersion: rbac.authorization.k8s.io/v1
+kind: Role
+metadata:
+  name: nebula-allocate
+rules:
+  - apiGroups: [allocation.agones.dev]
+    resources: [gameserverallocations]
+    verbs: [create]
+---
+apiVersion: rbac.authorization.k8s.io/v1
+kind: RoleBinding
+metadata:
+  name: nebula-allocate
+subjects:
+  - {kind: ServiceAccount, name: nebula-matchmaker}
+roleRef: {apiGroup: rbac.authorization.k8s.io, kind: Role, name: nebula-allocate}
+---
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: matchmaker
+spec:
+  replicas: 2
+  selector:
+    matchLabels: {app: matchmaker}
+  template:
+    metadata:
+      labels: {app: matchmaker}
+    spec:
+      serviceAccountName: nebula-matchmaker
+      containers:
+        - name: matchmaker
+          image: NEBULA_MATCHMAKER_IMAGE
+          ports: [{containerPort: 8080, name: http}]
+          resources:
+            requests: {cpu: 50m, memory: 128Mi}
+            limits: {cpu: 500m, memory: 256Mi}
+          readinessProbe: {httpGet: {path: /healthz, port: http}, initialDelaySeconds: 3}
+          livenessProbe: {httpGet: {path: /healthz, port: http}, initialDelaySeconds: 10}
+          securityContext:
+            runAsUser: 1000
+            runAsNonRoot: true
+            allowPrivilegeEscalation: false
+            capabilities: {drop: [ALL]}
+---
+apiVersion: v1
+kind: Service
+metadata:
+  name: matchmaker
+  annotations:
+    networking.gke.io/load-balancer-type: Internal
+spec:
+  type: LoadBalancer
+  selector: {app: matchmaker}
+  ports: [{port: 80, targetPort: http}]
+---
+apiVersion: autoscaling/v2
+kind: HorizontalPodAutoscaler
+metadata:
+  name: matchmaker-hpa
+spec:
+  scaleTargetRef: {apiVersion: apps/v1, kind: Deployment, name: matchmaker}
+  minReplicas: 2
+  maxReplicas: 10
+  metrics:
+    - type: Resource
+      resource:
+        name: cpu
+        target: {type: Utilization, averageUtilization: 60}
+  behavior:
+    scaleDown: {stabilizationWindowSeconds: 300}

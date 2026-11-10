@@ -1,0 +1,118 @@
+name: Nebula Arena
+on:
+  push:
+    branches: [main]
+  pull_request:
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+concurrency:
+  group: nebula-${{ github.ref }}
+  cancel-in-progress: false
+
+jobs:
+  pruebas:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with: {python-version: '3.11'}
+      - run: pip install -r requirements-dev.txt
+      - run: pytest -q --junitxml=resultado-pruebas.xml
+      - uses: hashicorp/setup-terraform@v3
+      - name: Validar infraestructura
+        run: |
+          terraform fmt -check -recursive infra
+          for dir in infra infra/bootstrap infra/addons; do
+            terraform -chdir="$dir" init -backend=false -input=false
+            terraform -chdir="$dir" validate
+          done
+      - uses: actions/upload-artifact@v4
+        if: always()
+        with:
+          name: pruebas
+          path: resultado-pruebas.xml
+
+  contenedores:
+    needs: pruebas
+    runs-on: ubuntu-latest
+    permissions:
+      contents: read
+      packages: write
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with: {python-version: '3.11'}
+      - run: pip install websockets==12.0 requests
+      - uses: docker/login-action@v3
+        if: github.event_name != 'pull_request'
+        with:
+          registry: ghcr.io
+          username: ${{ github.actor }}
+          password: ${{ secrets.GITHUB_TOKEN }}
+      - name: Construir y comprobar los tres contenedores
+        run: |
+          for component in server serverless matchmaker; do
+            docker build -t "nebula-$component:${GITHUB_SHA}" "$component"
+          done
+          docker run -d --name nebula-smoke -p 7654:7654 -p 9100:9100 "nebula-server:${GITHUB_SHA}"
+          docker run -d --name scores-smoke -p 8080:8080 -e SCORES_BACKEND=sqlite -e SQLITE_PATH=/tmp/scores.sqlite "nebula-serverless:${GITHUB_SHA}"
+          for attempt in $(seq 1 30); do
+            if curl --fail --silent http://localhost:9100/metrics >/dev/null && curl --fail --silent http://localhost:8080/healthz >/dev/null; then break; fi
+            sleep 1
+          done
+          python scripts/smoke.py
+          docker logs nebula-smoke
+          docker logs scores-smoke
+      - name: Publicar imágenes con etiqueta del commit
+        if: github.event_name != 'pull_request'
+        run: |
+          owner="${GITHUB_REPOSITORY_OWNER,,}"
+          for component in server serverless matchmaker; do
+            image="ghcr.io/$owner/nebula-$component:${GITHUB_SHA}"
+            docker tag "nebula-$component:${GITHUB_SHA}" "$image"
+            docker push "$image"
+          done
+
+  nube:
+    if: github.ref == 'refs/heads/main' && vars.CLOUD_ENABLED == 'true'
+    needs: [pruebas, contenedores]
+    runs-on: ubuntu-latest
+    environment: laboratorio
+    permissions:
+      contents: read
+      id-token: write
+    env:
+      PROYECTO: ${{ vars.GCP_PROJECT }}
+      REGION: us-central1
+      ZONA: us-central1-a
+    steps:
+      - uses: actions/checkout@v4
+      - uses: google-github-actions/auth@v2
+        with:
+          workload_identity_provider: ${{ vars.WIF_PROVIDER }}
+          service_account: ${{ vars.DEPLOY_SERVICE_ACCOUNT }}
+      - uses: google-github-actions/setup-gcloud@v2
+      - uses: google-github-actions/get-gke-credentials@v2
+        with:
+          cluster_name: nebula-dev
+          location: us-central1-a
+      - name: Publicar en Artifact Registry
+        run: |
+          gcloud auth configure-docker "$REGION-docker.pkg.dev" --quiet
+          for component in server serverless matchmaker; do
+            image="$REGION-docker.pkg.dev/$PROYECTO/nebula/nebula-$component:$GITHUB_SHA"
+            docker build -t "$image" "$component"
+            docker push "$image"
+          done
+      - name: Actualizar flota y tabla de líderes
+        run: |
+          export SERVER_IMAGE="$REGION-docker.pkg.dev/$PROYECTO/nebula/nebula-server:$GITHUB_SHA"
+          export MATCHMAKER_IMAGE="$REGION-docker.pkg.dev/$PROYECTO/nebula/nebula-matchmaker:$GITHUB_SHA"
+          python scripts/aplicar_k8s.py
+          gcloud run services update nebula-dev-leaderboard --region "$REGION" \
+            --image "$REGION-docker.pkg.dev/$PROYECTO/nebula/nebula-serverless:$GITHUB_SHA"
+          kubectl rollout status deployment/matchmaker --timeout=180s
+          kubectl get fleet,gameServers,fleetautoscalers

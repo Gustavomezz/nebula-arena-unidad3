@@ -1,0 +1,17 @@
+grafana:
+  service: {type: ClusterIP}
+  sidecar:
+    dashboards:
+      enabled: true
+      searchNamespace: ALL
+  persistence: {enabled: false}
+prometheus:
+  prometheusSpec:
+    retention: 6h
+    podMonitorSelectorNilUsesHelmValues: false
+    serviceMonitorSelectorNilUsesHelmValues: false
+    resources:
+      requests: {cpu: 300m, memory: 768Mi}
+      limits: {cpu: 1000m, memory: 1536Mi}
+alertmanager:
+  enabled: false

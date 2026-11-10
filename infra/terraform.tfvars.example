@@ -1,0 +1,9 @@
+proyecto      = "ID_DEL_PROYECTO"
+region        = "us-central1"
+zona          = "us-central1-a"
+entorno       = "dev"
+nodos_minimos = 3
+nodos_maximos = 16
+crear_generador = true
+crear_cdn       = false
+crear_serverless = false

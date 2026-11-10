@@ -1,0 +1,12 @@
+{
+  "entorno": "localhost macOS, servidor y clientes en el mismo equipo",
+  "equipo": "macOS-27.0-arm64-arm-64bit",
+  "jugadores": 10,
+  "duracion_s": 30,
+  "muestras_rtt": 300,
+  "rtt_media_ms": 0.9068491558233897,
+  "rtt_p95_ms": 2.0504998974502087,
+  "rtt_p99_ms": 3.765250090509653,
+  "limitacion": "No demuestra capacidad de Google Cloud ni autoescalado.",
+  "fecha_utc": "2026-11-10T02:15:19Z"
+}
