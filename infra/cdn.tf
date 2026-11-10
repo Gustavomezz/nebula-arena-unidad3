@@ -4,7 +4,8 @@ resource "google_storage_bucket" "stream" {
   location                    = var.region
   force_destroy               = true
   uniform_bucket_level_access = true
-  labels                      = local.labels
+  soft_delete_policy { retention_duration_seconds = 0 }
+  labels = local.labels
 }
 
 resource "google_storage_bucket_iam_member" "stream" {
