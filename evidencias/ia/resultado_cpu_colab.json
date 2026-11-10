@@ -1,0 +1,19 @@
+{
+  "dispositivo_entrenamiento": "cpu",
+  "equipo": "Linux-6.6.159+-x86_64-with-glibc2.39",
+  "torch": "2.14.1+cu130",
+  "pasos_solicitados": 100000,
+  "pasos_reales": 100352,
+  "semilla": 42,
+  "hilos_cpu": 1,
+  "entrenamiento_s": 120.84842659700007,
+  "inferencia_cpu_media_ms": 0.3520138853,
+  "inferencia_cpu_p95_ms": 0.51913665,
+  "decisiones_s_por_hilo": 2840.7970303437346,
+  "demanda_bots_s": 20000,
+  "vCPU_con_margen_30_por_ciento": 10,
+  "recompensa_media_10_episodios": 500.0,
+  "recompensa_desviacion": 0.0,
+  "fecha_utc": "2026-11-10T02:31:23Z",
+  "nota": "Una medición local de un hilo no equivale a medir una vCPU de Google Cloud."
+}

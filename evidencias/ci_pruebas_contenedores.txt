@@ -1,0 +1,1029 @@
+pruebas	Set up job	﻿2026-11-10T02:30:18.2123278Z Current runner version: '2.338.2'
+pruebas	Set up job	2026-11-10T02:30:18.2189576Z ##[group]Runner Image Provisioner
+pruebas	Set up job	2026-11-10T02:30:18.2190697Z Hosted Compute Agent
+pruebas	Set up job	2026-11-10T02:30:18.2191416Z Version: 20261028.624
+pruebas	Set up job	2026-11-10T02:30:18.2192269Z Commit: 54898b74c23fde5556c9b3c3a2290865feef0dfe
+pruebas	Set up job	2026-11-10T02:30:18.2193248Z Build Date: 2026-10-28T21:51:42Z
+pruebas	Set up job	2026-11-10T02:30:18.2194086Z Worker ID: {b7317507-713c-4ab0-9275-a0d51727910f}
+pruebas	Set up job	2026-11-10T02:30:18.2208674Z Region: centralus
+pruebas	Set up job	2026-11-10T02:30:18.2209412Z Cloud: Azure
+pruebas	Set up job	2026-11-10T02:30:18.2210182Z ##[endgroup]
+pruebas	Set up job	2026-11-10T02:30:18.2211951Z ##[group]Operating System
+pruebas	Set up job	2026-11-10T02:30:18.2212754Z Ubuntu
+pruebas	Set up job	2026-11-10T02:30:18.2213505Z 26.04.1
+pruebas	Set up job	2026-11-10T02:30:18.2214145Z LTS
+pruebas	Set up job	2026-11-10T02:30:18.2214943Z ##[endgroup]
+pruebas	Set up job	2026-11-10T02:30:18.2215738Z ##[group]Runner Image
+pruebas	Set up job	2026-11-10T02:30:18.2216475Z Image: ubuntu-26.04
+pruebas	Set up job	2026-11-10T02:30:18.2217343Z Version: 20261101.186.1
+pruebas	Set up job	2026-11-10T02:30:18.2218707Z Included Software: https://github.com/actions/runner-images/blob/ubuntu26/20261101.186/images/ubuntu/Ubuntu2604-Readme.md
+pruebas	Set up job	2026-11-10T02:30:18.2221112Z Image Release: https://github.com/actions/runner-images/releases/tag/ubuntu26%2F20261101.186
+pruebas	Set up job	2026-11-10T02:30:18.2222408Z ##[endgroup]
+pruebas	Set up job	2026-11-10T02:30:18.2223817Z ##[group]GITHUB_TOKEN Permissions
+pruebas	Set up job	2026-11-10T02:30:18.2226886Z Contents: read
+pruebas	Set up job	2026-11-10T02:30:18.2227693Z Metadata: read
+pruebas	Set up job	2026-11-10T02:30:18.2228359Z ##[endgroup]
+pruebas	Set up job	2026-11-10T02:30:18.2230602Z Secret source: Actions
+pruebas	Set up job	2026-11-10T02:30:18.2232258Z Cache mode: write
+pruebas	Set up job	2026-11-10T02:30:18.2233433Z Prepare workflow directory
+pruebas	Set up job	2026-11-10T02:30:18.2664305Z Prepare all required actions
+pruebas	Set up job	2026-11-10T02:30:18.2761763Z Getting action download info
+pruebas	Set up job	2026-11-10T02:30:18.5627752Z Download action repository 'actions/checkout@v4' (SHA:11d5960a326750d5838078e36cf38b85af677262)
+pruebas	Set up job	2026-11-10T02:30:18.7076771Z Download action repository 'actions/setup-python@v5' (SHA:a26af69be951a213d495a4c3e4e4022e16d87065)
+pruebas	Set up job	2026-11-10T02:30:19.9219036Z Download action repository 'hashicorp/setup-terraform@v3' (SHA:b9cd54a3c349d3f38e8881555d616ced269862dd)
+pruebas	Set up job	2026-11-10T02:30:21.1138505Z Download action repository 'actions/upload-artifact@v4' (SHA:ea165f8d65b6e75b540449e92b4886f43607fa02)
+pruebas	Set up job	2026-11-10T02:30:21.9430718Z Complete job name: pruebas
+pruebas	Run actions/checkout@v4	﻿2026-11-10T02:30:22.0052993Z ##[group]Run actions/checkout@v4
+pruebas	Run actions/checkout@v4	2026-11-10T02:30:22.0053490Z with:
+pruebas	Run actions/checkout@v4	2026-11-10T02:30:22.0053709Z   repository: Gustavomezz/nebula-arena-unidad3
+pruebas	Run actions/checkout@v4	2026-11-10T02:30:22.0056818Z   token: ***
+pruebas	Run actions/checkout@v4	2026-11-10T02:30:22.0057076Z   ssh-strict: true
+pruebas	Run actions/checkout@v4	2026-11-10T02:30:22.0057325Z   ssh-user: git
+pruebas	Run actions/checkout@v4	2026-11-10T02:30:22.0057584Z   persist-credentials: true
+pruebas	Run actions/checkout@v4	2026-11-10T02:30:22.0057875Z   clean: true
+pruebas	Run actions/checkout@v4	2026-11-10T02:30:22.0058138Z   sparse-checkout-cone-mode: true
+pruebas	Run actions/checkout@v4	2026-11-10T02:30:22.0058425Z   fetch-depth: 1
+pruebas	Run actions/checkout@v4	2026-11-10T02:30:22.0058596Z   fetch-tags: false
+pruebas	Run actions/checkout@v4	2026-11-10T02:30:22.0058781Z   show-progress: true
+pruebas	Run actions/checkout@v4	2026-11-10T02:30:22.0058980Z   lfs: false
+pruebas	Run actions/checkout@v4	2026-11-10T02:30:22.0059138Z   submodules: false
+pruebas	Run actions/checkout@v4	2026-11-10T02:30:22.0059314Z   set-safe-directory: true
+pruebas	Run actions/checkout@v4	2026-11-10T02:30:22.0059520Z   allow-unsafe-pr-checkout: false
+pruebas	Run actions/checkout@v4	2026-11-10T02:30:22.0060000Z ##[endgroup]
+pruebas	Run actions/checkout@v4	2026-11-10T02:30:22.2512968Z Syncing repository: Gustavomezz/nebula-arena-unidad3
+pruebas	Run actions/checkout@v4	2026-11-10T02:30:22.2514538Z ##[group]Getting Git version info
+pruebas	Run actions/checkout@v4	2026-11-10T02:30:22.2518970Z Working directory is '/home/runner/work/nebula-arena-unidad3/nebula-arena-unidad3'
+pruebas	Run actions/checkout@v4	2026-11-10T02:30:22.2520232Z [command]/usr/bin/git version
+pruebas	Run actions/checkout@v4	2026-11-10T02:30:22.2595429Z git version 2.56.0
+pruebas	Run actions/checkout@v4	2026-11-10T02:30:22.2694206Z ##[endgroup]
+pruebas	Run actions/checkout@v4	2026-11-10T02:30:22.2736250Z Temporarily overriding HOME='/home/runner/work/_temp/8cc482e2-4be2-436f-a9ba-c1b76c63d336' before making global git config changes
+pruebas	Run actions/checkout@v4	2026-11-10T02:30:22.2755641Z Adding repository directory to the temporary git global config as a safe directory
+pruebas	Run actions/checkout@v4	2026-11-10T02:30:22.2763306Z [command]/usr/bin/git config --global --add safe.directory /home/runner/work/nebula-arena-unidad3/nebula-arena-unidad3
+pruebas	Run actions/checkout@v4	2026-11-10T02:30:22.2855743Z Deleting the contents of '/home/runner/work/nebula-arena-unidad3/nebula-arena-unidad3'
+pruebas	Run actions/checkout@v4	2026-11-10T02:30:22.2857537Z ##[group]Initializing the repository
+pruebas	Run actions/checkout@v4	2026-11-10T02:30:22.2875709Z [command]/usr/bin/git init /home/runner/work/nebula-arena-unidad3/nebula-arena-unidad3
+pruebas	Run actions/checkout@v4	2026-11-10T02:30:22.3031151Z hint: Using 'master' as the name for the initial branch. This default branch name
+pruebas	Run actions/checkout@v4	2026-11-10T02:30:22.3032502Z hint: will change to "main" in Git 3.0. To configure the initial branch name
+pruebas	Run actions/checkout@v4	2026-11-10T02:30:22.3033873Z hint: to use in all of your new repositories, which will suppress this warning,
+pruebas	Run actions/checkout@v4	2026-11-10T02:30:22.3035085Z hint: call:
+pruebas	Run actions/checkout@v4	2026-11-10T02:30:22.3035540Z hint:
+pruebas	Run actions/checkout@v4	2026-11-10T02:30:22.3036359Z hint: 	git config --global init.defaultBranch <name>
+pruebas	Run actions/checkout@v4	2026-11-10T02:30:22.3037222Z hint:
+pruebas	Run actions/checkout@v4	2026-11-10T02:30:22.3037918Z hint: Names commonly chosen instead of 'master' are 'main', 'trunk' and
+pruebas	Run actions/checkout@v4	2026-11-10T02:30:22.3038871Z hint: 'development'. The just-created branch can be renamed via this command:
+pruebas	Run actions/checkout@v4	2026-11-10T02:30:22.3040055Z hint:
+pruebas	Run actions/checkout@v4	2026-11-10T02:30:22.3040500Z hint: 	git branch -m <name>
+pruebas	Run actions/checkout@v4	2026-11-10T02:30:22.3041156Z hint:
+pruebas	Run actions/checkout@v4	2026-11-10T02:30:22.3041952Z hint: Disable this message with "git config set advice.defaultBranchName false"
+pruebas	Run actions/checkout@v4	2026-11-10T02:30:22.3043575Z Initialized empty Git repository in /home/runner/work/nebula-arena-unidad3/nebula-arena-unidad3/.git/
+pruebas	Run actions/checkout@v4	2026-11-10T02:30:22.3057605Z [command]/usr/bin/git remote add origin https://github.com/Gustavomezz/nebula-arena-unidad3
+pruebas	Run actions/checkout@v4	2026-11-10T02:30:22.3136513Z ##[endgroup]
+pruebas	Run actions/checkout@v4	2026-11-10T02:30:22.3137343Z ##[group]Disabling automatic garbage collection
+pruebas	Run actions/checkout@v4	2026-11-10T02:30:22.3143277Z [command]/usr/bin/git config --local gc.auto 0
+pruebas	Run actions/checkout@v4	2026-11-10T02:30:22.3193793Z ##[endgroup]
+pruebas	Run actions/checkout@v4	2026-11-10T02:30:22.3194478Z ##[group]Setting up auth
+pruebas	Run actions/checkout@v4	2026-11-10T02:30:22.3196492Z [command]/usr/bin/git config --local --name-only --get-regexp core\.sshCommand
+pruebas	Run actions/checkout@v4	2026-11-10T02:30:22.3262774Z [command]/usr/bin/git submodule foreach --recursive sh -c "git config --local --name-only --get-regexp 'core\.sshCommand' && git config --local --unset-all 'core.sshCommand' || :"
+pruebas	Run actions/checkout@v4	2026-11-10T02:30:22.3774114Z [command]/usr/bin/git config --local --name-only --get-regexp http\.https\:\/\/github\.com\/\.extraheader
+pruebas	Run actions/checkout@v4	2026-11-10T02:30:22.3803982Z [command]/usr/bin/git submodule foreach --recursive sh -c "git config --local --name-only --get-regexp 'http\.https\:\/\/github\.com\/\.extraheader' && git config --local --unset-all 'http.https://github.com/.extraheader' || :"
+pruebas	Run actions/checkout@v4	2026-11-10T02:30:22.4053779Z [command]/usr/bin/git config --local --name-only --get-regexp ^includeIf\.gitdir:
+pruebas	Run actions/checkout@v4	2026-11-10T02:30:22.4080162Z [command]/usr/bin/git submodule foreach --recursive git config --local --show-origin --name-only --get-regexp remote.origin.url
+pruebas	Run actions/checkout@v4	2026-11-10T02:30:22.4321449Z [command]/usr/bin/git config --local http.https://github.com/.extraheader AUTHORIZATION: basic ***
+pruebas	Run actions/checkout@v4	2026-11-10T02:30:22.4357302Z ##[endgroup]
+pruebas	Run actions/checkout@v4	2026-11-10T02:30:22.4358580Z ##[group]Fetching the repository
+pruebas	Run actions/checkout@v4	2026-11-10T02:30:22.4365656Z [command]/usr/bin/git -c protocol.version=2 fetch --no-tags --prune --no-recurse-submodules --depth=1 origin +f070ff67c466654537be3b1484880ac3d49444b7:refs/remotes/origin/main
+pruebas	Run actions/checkout@v4	2026-11-10T02:30:22.8224302Z From https://github.com/Gustavomezz/nebula-arena-unidad3
+pruebas	Run actions/checkout@v4	2026-11-10T02:30:22.8225430Z  * [new ref]         f070ff67c466654537be3b1484880ac3d49444b7 -> origin/main
+pruebas	Run actions/checkout@v4	2026-11-10T02:30:22.8245983Z ##[endgroup]
+pruebas	Run actions/checkout@v4	2026-11-10T02:30:22.8247667Z ##[group]Determining the checkout info
+pruebas	Run actions/checkout@v4	2026-11-10T02:30:22.8248531Z ##[endgroup]
+pruebas	Run actions/checkout@v4	2026-11-10T02:30:22.8251321Z [command]/usr/bin/git sparse-checkout disable
+pruebas	Run actions/checkout@v4	2026-11-10T02:30:22.8253832Z [command]/usr/bin/git config --local --unset-all extensions.worktreeConfig
+pruebas	Run actions/checkout@v4	2026-11-10T02:30:22.8256719Z ##[group]Checking out the ref
+pruebas	Run actions/checkout@v4	2026-11-10T02:30:22.8257254Z [command]/usr/bin/git checkout --progress --force -B main refs/remotes/origin/main
+pruebas	Run actions/checkout@v4	2026-11-10T02:30:22.8312097Z Switched to a new branch 'main'
+pruebas	Run actions/checkout@v4	2026-11-10T02:30:22.8324268Z branch 'main' set up to track 'origin/main'.
+pruebas	Run actions/checkout@v4	2026-11-10T02:30:22.8332201Z ##[endgroup]
+pruebas	Run actions/checkout@v4	2026-11-10T02:30:22.8363504Z [command]/usr/bin/git log -1 --format=%H
+pruebas	Run actions/checkout@v4	2026-11-10T02:30:22.8385955Z f070ff67c466654537be3b1484880ac3d49444b7
+pruebas	Run actions/setup-python@v5	﻿2026-11-10T02:30:22.8692691Z ##[group]Run actions/setup-python@v5
+pruebas	Run actions/setup-python@v5	2026-11-10T02:30:22.8693101Z with:
+pruebas	Run actions/setup-python@v5	2026-11-10T02:30:22.8693346Z   python-version: 3.11
+pruebas	Run actions/setup-python@v5	2026-11-10T02:30:22.8693629Z   check-latest: false
+pruebas	Run actions/setup-python@v5	2026-11-10T02:30:22.8697133Z   token: ***
+pruebas	Run actions/setup-python@v5	2026-11-10T02:30:22.8697461Z   update-environment: true
+pruebas	Run actions/setup-python@v5	2026-11-10T02:30:22.8697782Z   allow-prereleases: false
+pruebas	Run actions/setup-python@v5	2026-11-10T02:30:22.8698083Z   freethreaded: false
+pruebas	Run actions/setup-python@v5	2026-11-10T02:30:22.8698362Z ##[endgroup]
+pruebas	Run actions/setup-python@v5	2026-11-10T02:30:22.9871018Z ##[group]Installed versions
+pruebas	Run actions/setup-python@v5	2026-11-10T02:30:22.9945522Z (node:2080) [DEP0040] DeprecationWarning: The `punycode` module is deprecated. Please use a userland alternative instead.
+pruebas	Run actions/setup-python@v5	2026-11-10T02:30:22.9946892Z Successfully set up CPython (3.11.18)
+pruebas	Run actions/setup-python@v5	2026-11-10T02:30:22.9947868Z ##[endgroup]
+pruebas	Run actions/setup-python@v5	2026-11-10T02:30:22.9976898Z (Use `node --trace-deprecation ...` to show where the warning was created)
+pruebas	Run pip install -r requirements-dev.txt	﻿2026-11-10T02:30:23.0175092Z ##[group]Run pip install -r requirements-dev.txt
+pruebas	Run pip install -r requirements-dev.txt	2026-11-10T02:30:23.0175716Z ^[[36;1mpip install -r requirements-dev.txt^[[0m
+pruebas	Run pip install -r requirements-dev.txt	2026-11-10T02:30:23.0304014Z shell: /usr/bin/bash -e {0}
+pruebas	Run pip install -r requirements-dev.txt	2026-11-10T02:30:23.0304356Z env:
+pruebas	Run pip install -r requirements-dev.txt	2026-11-10T02:30:23.0304597Z   pythonLocation: /opt/hostedtoolcache/Python/3.11.18/x64
+pruebas	Run pip install -r requirements-dev.txt	2026-11-10T02:30:23.0305169Z   PKG_CONFIG_PATH: /opt/hostedtoolcache/Python/3.11.18/x64/lib/pkgconfig
+pruebas	Run pip install -r requirements-dev.txt	2026-11-10T02:30:23.0305514Z   Python_ROOT_DIR: /opt/hostedtoolcache/Python/3.11.18/x64
+pruebas	Run pip install -r requirements-dev.txt	2026-11-10T02:30:23.0305822Z   Python2_ROOT_DIR: /opt/hostedtoolcache/Python/3.11.18/x64
+pruebas	Run pip install -r requirements-dev.txt	2026-11-10T02:30:23.0306140Z   Python3_ROOT_DIR: /opt/hostedtoolcache/Python/3.11.18/x64
+pruebas	Run pip install -r requirements-dev.txt	2026-11-10T02:30:23.0306442Z   LD_LIBRARY_PATH: /opt/hostedtoolcache/Python/3.11.18/x64/lib
+pruebas	Run pip install -r requirements-dev.txt	2026-11-10T02:30:23.0306700Z ##[endgroup]
+pruebas	Run pip install -r requirements-dev.txt	2026-11-10T02:30:25.9904022Z Collecting websockets==12.0 (from -r /home/runner/work/nebula-arena-unidad3/nebula-arena-unidad3/server/requirements.txt (line 1))
+pruebas	Run pip install -r requirements-dev.txt	2026-11-10T02:30:26.0412836Z   Downloading websockets-12.0-cp311-cp311-manylinux_2_5_x86_64.manylinux1_x86_64.manylinux_2_17_x86_64.manylinux2014_x86_64.whl.metadata (6.6 kB)
+pruebas	Run pip install -r requirements-dev.txt	2026-11-10T02:30:26.0599260Z Collecting prometheus-client==0.20.0 (from -r /home/runner/work/nebula-arena-unidad3/nebula-arena-unidad3/server/requirements.txt (line 2))
+pruebas	Run pip install -r requirements-dev.txt	2026-11-10T02:30:26.0734157Z   Downloading prometheus_client-0.20.0-py3-none-any.whl.metadata (1.8 kB)
+pruebas	Run pip install -r requirements-dev.txt	2026-11-10T02:30:26.0923721Z Collecting flask==3.1.3 (from -r /home/runner/work/nebula-arena-unidad3/nebula-arena-unidad3/serverless/requirements.txt (line 1))
+pruebas	Run pip install -r requirements-dev.txt	2026-11-10T02:30:26.1057080Z   Downloading flask-3.1.3-py3-none-any.whl.metadata (3.2 kB)
+pruebas	Run pip install -r requirements-dev.txt	2026-11-10T02:30:26.1267708Z Collecting gunicorn==25.3.0 (from -r /home/runner/work/nebula-arena-unidad3/nebula-arena-unidad3/serverless/requirements.txt (line 2))
+pruebas	Run pip install -r requirements-dev.txt	2026-11-10T02:30:26.1399852Z   Downloading gunicorn-25.3.0-py3-none-any.whl.metadata (5.5 kB)
+pruebas	Run pip install -r requirements-dev.txt	2026-11-10T02:30:26.1626806Z Collecting google-cloud-firestore==2.34.1 (from -r /home/runner/work/nebula-arena-unidad3/nebula-arena-unidad3/serverless/requirements.txt (line 3))
+pruebas	Run pip install -r requirements-dev.txt	2026-11-10T02:30:26.1766018Z   Downloading google_cloud_firestore-2.34.1-py3-none-any.whl.metadata (9.5 kB)
+pruebas	Run pip install -r requirements-dev.txt	2026-11-10T02:30:26.2006631Z Collecting requests==2.34.2 (from -r /home/runner/work/nebula-arena-unidad3/nebula-arena-unidad3/matchmaker/requirements.txt (line 3))
+pruebas	Run pip install -r requirements-dev.txt	2026-11-10T02:30:26.2180542Z   Downloading requests-2.34.2-py3-none-any.whl.metadata (4.8 kB)
+pruebas	Run pip install -r requirements-dev.txt	2026-11-10T02:30:26.2446330Z Collecting pytest==9.2.0 (from -r requirements-dev.txt (line 4))
+pruebas	Run pip install -r requirements-dev.txt	2026-11-10T02:30:26.2581064Z   Downloading pytest-9.2.0-py3-none-any.whl.metadata (7.9 kB)
+pruebas	Run pip install -r requirements-dev.txt	2026-11-10T02:30:26.2815247Z Collecting pytest-asyncio==1.4.1.post1 (from -r requirements-dev.txt (line 5))
+pruebas	Run pip install -r requirements-dev.txt	2026-11-10T02:30:26.2951307Z   Downloading pytest_asyncio-1.4.1.post1-py3-none-any.whl.metadata (4.4 kB)
+pruebas	Run pip install -r requirements-dev.txt	2026-11-10T02:30:26.3269116Z Collecting pyyaml==6.0.3 (from -r requirements-dev.txt (line 6))
+pruebas	Run pip install -r requirements-dev.txt	2026-11-10T02:30:26.3406192Z   Downloading pyyaml-6.0.3-cp311-cp311-manylinux2014_x86_64.manylinux_2_17_x86_64.manylinux_2_28_x86_64.whl.metadata (2.4 kB)
+pruebas	Run pip install -r requirements-dev.txt	2026-11-10T02:30:26.3573089Z Collecting blinker>=1.9.0 (from flask==3.1.3->-r /home/runner/work/nebula-arena-unidad3/nebula-arena-unidad3/serverless/requirements.txt (line 1))
+pruebas	Run pip install -r requirements-dev.txt	2026-11-10T02:30:26.3707804Z   Downloading blinker-1.9.0-py3-none-any.whl.metadata (1.6 kB)
+pruebas	Run pip install -r requirements-dev.txt	2026-11-10T02:30:26.3899759Z Collecting click>=8.1.3 (from flask==3.1.3->-r /home/runner/work/nebula-arena-unidad3/nebula-arena-unidad3/serverless/requirements.txt (line 1))
+pruebas	Run pip install -r requirements-dev.txt	2026-11-10T02:30:26.4034725Z   Downloading click-8.5.1-py3-none-any.whl.metadata (2.6 kB)
+pruebas	Run pip install -r requirements-dev.txt	2026-11-10T02:30:26.4230185Z Collecting itsdangerous>=2.2.0 (from flask==3.1.3->-r /home/runner/work/nebula-arena-unidad3/nebula-arena-unidad3/serverless/requirements.txt (line 1))
+pruebas	Run pip install -r requirements-dev.txt	2026-11-10T02:30:26.4364287Z   Downloading itsdangerous-2.2.0-py3-none-any.whl.metadata (1.9 kB)
+pruebas	Run pip install -r requirements-dev.txt	2026-11-10T02:30:26.4545529Z Collecting jinja2>=3.1.2 (from flask==3.1.3->-r /home/runner/work/nebula-arena-unidad3/nebula-arena-unidad3/serverless/requirements.txt (line 1))
+pruebas	Run pip install -r requirements-dev.txt	2026-11-10T02:30:26.4683552Z   Downloading jinja2-3.1.6-py3-none-any.whl.metadata (2.9 kB)
+pruebas	Run pip install -r requirements-dev.txt	2026-11-10T02:30:26.5118729Z Collecting markupsafe>=2.1.1 (from flask==3.1.3->-r /home/runner/work/nebula-arena-unidad3/nebula-arena-unidad3/serverless/requirements.txt (line 1))
+pruebas	Run pip install -r requirements-dev.txt	2026-11-10T02:30:26.5263636Z   Downloading markupsafe-3.0.4-cp311-cp311-manylinux2014_x86_64.manylinux_2_17_x86_64.manylinux_2_28_x86_64.whl.metadata (2.7 kB)
+pruebas	Run pip install -r requirements-dev.txt	2026-11-10T02:30:26.5478087Z Collecting werkzeug>=3.1.0 (from flask==3.1.3->-r /home/runner/work/nebula-arena-unidad3/nebula-arena-unidad3/serverless/requirements.txt (line 1))
+pruebas	Run pip install -r requirements-dev.txt	2026-11-10T02:30:26.5615251Z   Downloading werkzeug-3.1.9-py3-none-any.whl.metadata (4.1 kB)
+pruebas	Run pip install -r requirements-dev.txt	2026-11-10T02:30:26.5872601Z Collecting packaging (from gunicorn==25.3.0->-r /home/runner/work/nebula-arena-unidad3/nebula-arena-unidad3/serverless/requirements.txt (line 2))
+pruebas	Run pip install -r requirements-dev.txt	2026-11-10T02:30:26.6016393Z   Downloading packaging-26.3-py3-none-any.whl.metadata (3.5 kB)
+pruebas	Run pip install -r requirements-dev.txt	2026-11-10T02:30:26.6298596Z Collecting google-api-core<3.0.0,>=2.28.0 (from google-api-core[grpc]<3.0.0,>=2.28.0->google-cloud-firestore==2.34.1->-r /home/runner/work/nebula-arena-unidad3/nebula-arena-unidad3/serverless/requirements.txt (line 3))
+pruebas	Run pip install -r requirements-dev.txt	2026-11-10T02:30:26.6436072Z   Downloading google_api_core-2.44.0-py3-none-any.whl.metadata (3.2 kB)
+pruebas	Run pip install -r requirements-dev.txt	2026-11-10T02:30:26.6814991Z Collecting google-auth!=2.24.0,!=2.25.0,<3.0.0,>=2.14.1 (from google-cloud-firestore==2.34.1->-r /home/runner/work/nebula-arena-unidad3/nebula-arena-unidad3/serverless/requirements.txt (line 3))
+pruebas	Run pip install -r requirements-dev.txt	2026-11-10T02:30:26.6963287Z   Downloading google_auth-2.62.1-py3-none-any.whl.metadata (6.0 kB)
+pruebas	Run pip install -r requirements-dev.txt	2026-11-10T02:30:26.7221443Z Collecting google-cloud-core<3.0.0,>=2.0.0 (from google-cloud-firestore==2.34.1->-r /home/runner/work/nebula-arena-unidad3/nebula-arena-unidad3/serverless/requirements.txt (line 3))
+pruebas	Run pip install -r requirements-dev.txt	2026-11-10T02:30:26.7356301Z   Downloading google_cloud_core-2.8.0-py3-none-any.whl.metadata (2.9 kB)
+pruebas	Run pip install -r requirements-dev.txt	2026-11-10T02:30:27.0961199Z Collecting grpcio<2.0.0,>=1.59.0 (from google-cloud-firestore==2.34.1->-r /home/runner/work/nebula-arena-unidad3/nebula-arena-unidad3/serverless/requirements.txt (line 3))
+pruebas	Run pip install -r requirements-dev.txt	2026-11-10T02:30:27.1104414Z   Downloading grpcio-1.85.1-cp311-cp311-manylinux2014_x86_64.manylinux_2_17_x86_64.whl.metadata (3.8 kB)
+pruebas	Run pip install -r requirements-dev.txt	2026-11-10T02:30:27.1308525Z Collecting proto-plus<2.0.0,>=1.26.1 (from google-cloud-firestore==2.34.1->-r /home/runner/work/nebula-arena-unidad3/nebula-arena-unidad3/serverless/requirements.txt (line 3))
+pruebas	Run pip install -r requirements-dev.txt	2026-11-10T02:30:27.1445934Z   Downloading proto_plus-1.29.0-py3-none-any.whl.metadata (2.2 kB)
+pruebas	Run pip install -r requirements-dev.txt	2026-11-10T02:30:27.2607485Z Collecting protobuf<8.0.0,>=6.33.5 (from google-cloud-firestore==2.34.1->-r /home/runner/work/nebula-arena-unidad3/nebula-arena-unidad3/serverless/requirements.txt (line 3))
+pruebas	Run pip install -r requirements-dev.txt	2026-11-10T02:30:27.2746575Z   Downloading protobuf-7.36.2-cp310-abi3-manylinux2014_x86_64.whl.metadata (595 bytes)
+pruebas	Run pip install -r requirements-dev.txt	2026-11-10T02:30:27.3611154Z Collecting charset_normalizer<4,>=2 (from requests==2.34.2->-r /home/runner/work/nebula-arena-unidad3/nebula-arena-unidad3/matchmaker/requirements.txt (line 3))
+pruebas	Run pip install -r requirements-dev.txt	2026-11-10T02:30:27.3749560Z   Downloading charset_normalizer-3.5.2-cp311-cp311-manylinux2014_x86_64.manylinux_2_17_x86_64.manylinux_2_28_x86_64.whl.metadata (46 kB)
+pruebas	Run pip install -r requirements-dev.txt	2026-11-10T02:30:27.4078266Z Collecting idna<4,>=2.5 (from requests==2.34.2->-r /home/runner/work/nebula-arena-unidad3/nebula-arena-unidad3/matchmaker/requirements.txt (line 3))
+pruebas	Run pip install -r requirements-dev.txt	2026-11-10T02:30:27.4209296Z   Downloading idna-3.20-py3-none-any.whl.metadata (7.2 kB)
+pruebas	Run pip install -r requirements-dev.txt	2026-11-10T02:30:27.4432616Z Collecting urllib3<3,>=1.26 (from requests==2.34.2->-r /home/runner/work/nebula-arena-unidad3/nebula-arena-unidad3/matchmaker/requirements.txt (line 3))
+pruebas	Run pip install -r requirements-dev.txt	2026-11-10T02:30:27.4565477Z   Downloading urllib3-2.8.0-py3-none-any.whl.metadata (7.4 kB)
+pruebas	Run pip install -r requirements-dev.txt	2026-11-10T02:30:27.4769946Z Collecting certifi>=2023.5.7 (from requests==2.34.2->-r /home/runner/work/nebula-arena-unidad3/nebula-arena-unidad3/matchmaker/requirements.txt (line 3))
+pruebas	Run pip install -r requirements-dev.txt	2026-11-10T02:30:27.4904532Z   Downloading certifi-2026.10.23-py3-none-any.whl.metadata (2.5 kB)
+pruebas	Run pip install -r requirements-dev.txt	2026-11-10T02:30:27.5069465Z Collecting iniconfig>=2 (from pytest==9.2.0->-r requirements-dev.txt (line 4))
+pruebas	Run pip install -r requirements-dev.txt	2026-11-10T02:30:27.5202137Z   Downloading iniconfig-2.3.1-py3-none-any.whl.metadata (2.8 kB)
+pruebas	Run pip install -r requirements-dev.txt	2026-11-10T02:30:27.5385313Z Collecting pluggy<2,>=1.6 (from pytest==9.2.0->-r requirements-dev.txt (line 4))
+pruebas	Run pip install -r requirements-dev.txt	2026-11-10T02:30:27.5520193Z   Downloading pluggy-1.7.0-py3-none-any.whl.metadata (5.0 kB)
+pruebas	Run pip install -r requirements-dev.txt	2026-11-10T02:30:27.5734308Z Collecting pygments>=2.15 (from pytest==9.2.0->-r requirements-dev.txt (line 4))
+pruebas	Run pip install -r requirements-dev.txt	2026-11-10T02:30:27.5869758Z   Downloading pygments-2.21.0-py3-none-any.whl.metadata (2.5 kB)
+pruebas	Run pip install -r requirements-dev.txt	2026-11-10T02:30:27.6085935Z Collecting typing-extensions>=4.12 (from pytest-asyncio==1.4.1.post1->-r requirements-dev.txt (line 5))
+pruebas	Run pip install -r requirements-dev.txt	2026-11-10T02:30:27.6219495Z   Downloading typing_extensions-4.16.0-py3-none-any.whl.metadata (3.3 kB)
+pruebas	Run pip install -r requirements-dev.txt	2026-11-10T02:30:27.6446538Z Collecting googleapis-common-protos<2.0.0,>=1.69.2 (from google-api-core<3.0.0,>=2.28.0->google-api-core[grpc]<3.0.0,>=2.28.0->google-cloud-firestore==2.34.1->-r /home/runner/work/nebula-arena-unidad3/nebula-arena-unidad3/serverless/requirements.txt (line 3))
+pruebas	Run pip install -r requirements-dev.txt	2026-11-10T02:30:27.6585240Z   Downloading googleapis_common_protos-1.76.0-py3-none-any.whl.metadata (8.5 kB)
+pruebas	Run pip install -r requirements-dev.txt	2026-11-10T02:30:27.6908187Z Collecting opentelemetry-api<2.0.0,>=1.44.0 (from google-api-core<3.0.0,>=2.28.0->google-api-core[grpc]<3.0.0,>=2.28.0->google-cloud-firestore==2.34.1->-r /home/runner/work/nebula-arena-unidad3/nebula-arena-unidad3/serverless/requirements.txt (line 3))
+pruebas	Run pip install -r requirements-dev.txt	2026-11-10T02:30:27.7041883Z   Downloading opentelemetry_api-1.45.2-py3-none-any.whl.metadata (1.4 kB)
+pruebas	Run pip install -r requirements-dev.txt	2026-11-10T02:30:27.7337202Z Collecting grpcio-status<2.0.0,>=1.59.0 (from google-api-core[grpc]<3.0.0,>=2.28.0->google-cloud-firestore==2.34.1->-r /home/runner/work/nebula-arena-unidad3/nebula-arena-unidad3/serverless/requirements.txt (line 3))
+pruebas	Run pip install -r requirements-dev.txt	2026-11-10T02:30:27.7472246Z   Downloading grpcio_status-1.85.1-py3-none-any.whl.metadata (1.3 kB)
+pruebas	Run pip install -r requirements-dev.txt	2026-11-10T02:30:27.7696549Z Collecting pyasn1-modules>=0.2.1 (from google-auth!=2.24.0,!=2.25.0,<3.0.0,>=2.14.1->google-cloud-firestore==2.34.1->-r /home/runner/work/nebula-arena-unidad3/nebula-arena-unidad3/serverless/requirements.txt (line 3))
+pruebas	Run pip install -r requirements-dev.txt	2026-11-10T02:30:27.7838136Z   Downloading pyasn1_modules-0.4.2-py3-none-any.whl.metadata (3.5 kB)
+pruebas	Run pip install -r requirements-dev.txt	2026-11-10T02:30:27.9363783Z Collecting cryptography>=38.0.3 (from google-auth!=2.24.0,!=2.25.0,<3.0.0,>=2.14.1->google-cloud-firestore==2.34.1->-r /home/runner/work/nebula-arena-unidad3/nebula-arena-unidad3/serverless/requirements.txt (line 3))
+pruebas	Run pip install -r requirements-dev.txt	2026-11-10T02:30:27.9501828Z   Downloading cryptography-50.0.2-cp311-abi3-manylinux_2_34_x86_64.whl.metadata (4.4 kB)
+pruebas	Run pip install -r requirements-dev.txt	2026-11-10T02:30:28.0338385Z Collecting cffi>=2.0.0 (from cryptography>=38.0.3->google-auth!=2.24.0,!=2.25.0,<3.0.0,>=2.14.1->google-cloud-firestore==2.34.1->-r /home/runner/work/nebula-arena-unidad3/nebula-arena-unidad3/serverless/requirements.txt (line 3))
+pruebas	Run pip install -r requirements-dev.txt	2026-11-10T02:30:28.0474060Z   Downloading cffi-2.1.1-cp311-cp311-manylinux2014_x86_64.manylinux_2_17_x86_64.whl.metadata (2.5 kB)
+pruebas	Run pip install -r requirements-dev.txt	2026-11-10T02:30:28.0645022Z Collecting pycparser (from cffi>=2.0.0->cryptography>=38.0.3->google-auth!=2.24.0,!=2.25.0,<3.0.0,>=2.14.1->google-cloud-firestore==2.34.1->-r /home/runner/work/nebula-arena-unidad3/nebula-arena-unidad3/serverless/requirements.txt (line 3))
+pruebas	Run pip install -r requirements-dev.txt	2026-11-10T02:30:28.0794592Z   Downloading pycparser-3.12-py3-none-any.whl.metadata (9.7 kB)
+pruebas	Run pip install -r requirements-dev.txt	2026-11-10T02:30:28.1160686Z Collecting pyasn1<0.7.0,>=0.6.1 (from pyasn1-modules>=0.2.1->google-auth!=2.24.0,!=2.25.0,<3.0.0,>=2.14.1->google-cloud-firestore==2.34.1->-r /home/runner/work/nebula-arena-unidad3/nebula-arena-unidad3/serverless/requirements.txt (line 3))
+pruebas	Run pip install -r requirements-dev.txt	2026-11-10T02:30:28.1295979Z   Downloading pyasn1-0.6.5-py3-none-any.whl.metadata (8.4 kB)
+pruebas	Run pip install -r requirements-dev.txt	2026-11-10T02:30:28.1484115Z Downloading websockets-12.0-cp311-cp311-manylinux_2_5_x86_64.manylinux1_x86_64.manylinux_2_17_x86_64.manylinux2014_x86_64.whl (130 kB)
+pruebas	Run pip install -r requirements-dev.txt	2026-11-10T02:30:28.1762019Z Downloading prometheus_client-0.20.0-py3-none-any.whl (54 kB)
+pruebas	Run pip install -r requirements-dev.txt	2026-11-10T02:30:28.2041148Z Downloading flask-3.1.3-py3-none-any.whl (103 kB)
+pruebas	Run pip install -r requirements-dev.txt	2026-11-10T02:30:28.2215478Z Downloading gunicorn-25.3.0-py3-none-any.whl (208 kB)
+pruebas	Run pip install -r requirements-dev.txt	2026-11-10T02:30:28.2417707Z Downloading google_cloud_firestore-2.34.1-py3-none-any.whl (443 kB)
+pruebas	Run pip install -r requirements-dev.txt	2026-11-10T02:30:28.2700828Z Downloading requests-2.34.2-py3-none-any.whl (73 kB)
+pruebas	Run pip install -r requirements-dev.txt	2026-11-10T02:30:28.2857025Z Downloading pytest-9.2.0-py3-none-any.whl (411 kB)
+pruebas	Run pip install -r requirements-dev.txt	2026-11-10T02:30:28.3037090Z Downloading pytest_asyncio-1.4.1.post1-py3-none-any.whl (17 kB)
+pruebas	Run pip install -r requirements-dev.txt	2026-11-10T02:30:28.3203869Z Downloading pyyaml-6.0.3-cp311-cp311-manylinux2014_x86_64.manylinux_2_17_x86_64.manylinux_2_28_x86_64.whl (806 kB)
+pruebas	Run pip install -r requirements-dev.txt	2026-11-10T02:30:28.3355334Z    ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 806.6/806.6 kB 43.7 MB/s  0:00:00
+pruebas	Run pip install -r requirements-dev.txt	2026-11-10T02:30:28.3493477Z Downloading charset_normalizer-3.5.2-cp311-cp311-manylinux2014_x86_64.manylinux_2_17_x86_64.manylinux_2_28_x86_64.whl (269 kB)
+pruebas	Run pip install -r requirements-dev.txt	2026-11-10T02:30:28.3702984Z Downloading google_api_core-2.44.0-py3-none-any.whl (225 kB)
+pruebas	Run pip install -r requirements-dev.txt	2026-11-10T02:30:28.3876960Z Downloading google_auth-2.62.1-py3-none-any.whl (267 kB)
+pruebas	Run pip install -r requirements-dev.txt	2026-11-10T02:30:28.4056022Z Downloading google_cloud_core-2.8.0-py3-none-any.whl (31 kB)
+pruebas	Run pip install -r requirements-dev.txt	2026-11-10T02:30:28.4216054Z Downloading googleapis_common_protos-1.76.0-py3-none-any.whl (307 kB)
+pruebas	Run pip install -r requirements-dev.txt	2026-11-10T02:30:28.4429539Z Downloading grpcio-1.85.1-cp311-cp311-manylinux2014_x86_64.manylinux_2_17_x86_64.whl (7.4 MB)
+pruebas	Run pip install -r requirements-dev.txt	2026-11-10T02:30:28.7281425Z    ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 7.4/7.4 MB 25.3 MB/s  0:00:00
+pruebas	Run pip install -r requirements-dev.txt	2026-11-10T02:30:28.7533272Z Downloading grpcio_status-1.85.1-py3-none-any.whl (14 kB)
+pruebas	Run pip install -r requirements-dev.txt	2026-11-10T02:30:28.7959438Z Downloading idna-3.20-py3-none-any.whl (69 kB)
+pruebas	Run pip install -r requirements-dev.txt	2026-11-10T02:30:28.8297884Z Downloading opentelemetry_api-1.45.2-py3-none-any.whl (60 kB)
+pruebas	Run pip install -r requirements-dev.txt	2026-11-10T02:30:28.8779860Z Downloading pluggy-1.7.0-py3-none-any.whl (27 kB)
+pruebas	Run pip install -r requirements-dev.txt	2026-11-10T02:30:28.8936318Z Downloading proto_plus-1.29.0-py3-none-any.whl (50 kB)
+pruebas	Run pip install -r requirements-dev.txt	2026-11-10T02:30:28.9115873Z Downloading protobuf-7.36.2-cp310-abi3-manylinux2014_x86_64.whl (343 kB)
+pruebas	Run pip install -r requirements-dev.txt	2026-11-10T02:30:28.9315283Z Downloading typing_extensions-4.16.0-py3-none-any.whl (45 kB)
+pruebas	Run pip install -r requirements-dev.txt	2026-11-10T02:30:28.9477733Z Downloading urllib3-2.8.0-py3-none-any.whl (135 kB)
+pruebas	Run pip install -r requirements-dev.txt	2026-11-10T02:30:28.9639881Z Downloading blinker-1.9.0-py3-none-any.whl (8.5 kB)
+pruebas	Run pip install -r requirements-dev.txt	2026-11-10T02:30:28.9805266Z Downloading certifi-2026.10.23-py3-none-any.whl (135 kB)
+pruebas	Run pip install -r requirements-dev.txt	2026-11-10T02:30:28.9961301Z Downloading click-8.5.1-py3-none-any.whl (126 kB)
+pruebas	Run pip install -r requirements-dev.txt	2026-11-10T02:30:29.0118026Z Downloading cryptography-50.0.2-cp311-abi3-manylinux_2_34_x86_64.whl (4.8 MB)
+pruebas	Run pip install -r requirements-dev.txt	2026-11-10T02:30:29.0662491Z    ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 4.8/4.8 MB 86.1 MB/s  0:00:00
+pruebas	Run pip install -r requirements-dev.txt	2026-11-10T02:30:29.0805358Z Downloading cffi-2.1.1-cp311-cp311-manylinux2014_x86_64.manylinux_2_17_x86_64.whl (217 kB)
+pruebas	Run pip install -r requirements-dev.txt	2026-11-10T02:30:29.1099642Z Downloading iniconfig-2.3.1-py3-none-any.whl (7.6 kB)
+pruebas	Run pip install -r requirements-dev.txt	2026-11-10T02:30:29.1249763Z Downloading itsdangerous-2.2.0-py3-none-any.whl (16 kB)
+pruebas	Run pip install -r requirements-dev.txt	2026-11-10T02:30:29.1404731Z Downloading jinja2-3.1.6-py3-none-any.whl (134 kB)
+pruebas	Run pip install -r requirements-dev.txt	2026-11-10T02:30:29.1575789Z Downloading markupsafe-3.0.4-cp311-cp311-manylinux2014_x86_64.manylinux_2_17_x86_64.manylinux_2_28_x86_64.whl (22 kB)
+pruebas	Run pip install -r requirements-dev.txt	2026-11-10T02:30:29.1730263Z Downloading packaging-26.3-py3-none-any.whl (129 kB)
+pruebas	Run pip install -r requirements-dev.txt	2026-11-10T02:30:29.2022789Z Downloading pyasn1_modules-0.4.2-py3-none-any.whl (181 kB)
+pruebas	Run pip install -r requirements-dev.txt	2026-11-10T02:30:29.2202129Z Downloading pyasn1-0.6.5-py3-none-any.whl (84 kB)
+pruebas	Run pip install -r requirements-dev.txt	2026-11-10T02:30:29.2383187Z Downloading pygments-2.21.0-py3-none-any.whl (1.3 MB)
+pruebas	Run pip install -r requirements-dev.txt	2026-11-10T02:30:29.2559992Z    ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 1.3/1.3 MB 66.7 MB/s  0:00:00
+pruebas	Run pip install -r requirements-dev.txt	2026-11-10T02:30:29.2701783Z Downloading werkzeug-3.1.9-py3-none-any.whl (228 kB)
+pruebas	Run pip install -r requirements-dev.txt	2026-11-10T02:30:29.2876048Z Downloading pycparser-3.12-py3-none-any.whl (62 kB)
+pruebas	Run pip install -r requirements-dev.txt	2026-11-10T02:30:29.5231323Z Installing collected packages: websockets, urllib3, typing-extensions, pyyaml, pygments, pycparser, pyasn1, protobuf, prometheus-client, pluggy, packaging, markupsafe, itsdangerous, iniconfig, idna, click, charset_normalizer, certifi, blinker, werkzeug, requests, pytest, pyasn1-modules, proto-plus, opentelemetry-api, jinja2, gunicorn, grpcio, googleapis-common-protos, cffi, pytest-asyncio, grpcio-status, flask, cryptography, google-auth, google-api-core, google-cloud-core, google-cloud-firestore
+pruebas	Run pip install -r requirements-dev.txt	2026-11-10T02:30:32.1295321Z 
+pruebas	Run pip install -r requirements-dev.txt	2026-11-10T02:30:32.1310582Z 
+pruebas	Run pip install -r requirements-dev.txt	2026-11-10T02:30:32.1313670Z Successfully installed blinker-1.9.0 certifi-2026.10.23 cffi-2.1.1 charset_normalizer-3.5.2 click-8.5.1 cryptography-50.0.2 flask-3.1.3 google-api-core-2.44.0 google-auth-2.62.1 google-cloud-core-2.8.0 google-cloud-firestore-2.34.1 googleapis-common-protos-1.76.0 grpcio-1.85.1 grpcio-status-1.85.1 gunicorn-25.3.0 idna-3.20 iniconfig-2.3.1 itsdangerous-2.2.0 jinja2-3.1.6 markupsafe-3.0.4 opentelemetry-api-1.45.2 packaging-26.3 pluggy-1.7.0 prometheus-client-0.20.0 proto-plus-1.29.0 protobuf-7.36.2 pyasn1-0.6.5 pyasn1-modules-0.4.2 pycparser-3.12 pygments-2.21.0 pytest-9.2.0 pytest-asyncio-1.4.1.post1 pyyaml-6.0.3 requests-2.34.2 typing-extensions-4.16.0 urllib3-2.8.0 websockets-12.0 werkzeug-3.1.9
+pruebas	Run pip install -r requirements-dev.txt	2026-11-10T02:30:32.1317418Z [notice] A new release of pip is available: 26.2.2 -> 26.3
+pruebas	Run pip install -r requirements-dev.txt	2026-11-10T02:30:32.1318220Z [notice] To update, run: pip install --upgrade pip
+pruebas	Run pytest -q --junitxml=resultado-pruebas.xml	﻿2026-11-10T02:30:32.2580215Z ##[group]Run pytest -q --junitxml=resultado-pruebas.xml
+pruebas	Run pytest -q --junitxml=resultado-pruebas.xml	2026-11-10T02:30:32.2580608Z ^[[36;1mpytest -q --junitxml=resultado-pruebas.xml^[[0m
+pruebas	Run pytest -q --junitxml=resultado-pruebas.xml	2026-11-10T02:30:32.2624604Z shell: /usr/bin/bash -e {0}
+pruebas	Run pytest -q --junitxml=resultado-pruebas.xml	2026-11-10T02:30:32.2624986Z env:
+pruebas	Run pytest -q --junitxml=resultado-pruebas.xml	2026-11-10T02:30:32.2625206Z   pythonLocation: /opt/hostedtoolcache/Python/3.11.18/x64
+pruebas	Run pytest -q --junitxml=resultado-pruebas.xml	2026-11-10T02:30:32.2625551Z   PKG_CONFIG_PATH: /opt/hostedtoolcache/Python/3.11.18/x64/lib/pkgconfig
+pruebas	Run pytest -q --junitxml=resultado-pruebas.xml	2026-11-10T02:30:32.2625886Z   Python_ROOT_DIR: /opt/hostedtoolcache/Python/3.11.18/x64
+pruebas	Run pytest -q --junitxml=resultado-pruebas.xml	2026-11-10T02:30:32.2626193Z   Python2_ROOT_DIR: /opt/hostedtoolcache/Python/3.11.18/x64
+pruebas	Run pytest -q --junitxml=resultado-pruebas.xml	2026-11-10T02:30:32.2626491Z   Python3_ROOT_DIR: /opt/hostedtoolcache/Python/3.11.18/x64
+pruebas	Run pytest -q --junitxml=resultado-pruebas.xml	2026-11-10T02:30:32.2626790Z   LD_LIBRARY_PATH: /opt/hostedtoolcache/Python/3.11.18/x64/lib
+pruebas	Run pytest -q --junitxml=resultado-pruebas.xml	2026-11-10T02:30:32.2627045Z ##[endgroup]
+pruebas	Run pytest -q --junitxml=resultado-pruebas.xml	2026-11-10T02:30:33.8831226Z .....................                                                    [100%]
+pruebas	Run pytest -q --junitxml=resultado-pruebas.xml	2026-11-10T02:30:33.8831970Z 21 passed in 0.82s
+pruebas	Run hashicorp/setup-terraform@v3	﻿2026-11-10T02:30:33.9346742Z ##[group]Run hashicorp/setup-terraform@v3
+pruebas	Run hashicorp/setup-terraform@v3	2026-11-10T02:30:33.9347018Z with:
+pruebas	Run hashicorp/setup-terraform@v3	2026-11-10T02:30:33.9347225Z   cli_config_credentials_hostname: app.terraform.io
+pruebas	Run hashicorp/setup-terraform@v3	2026-11-10T02:30:33.9347509Z   terraform_version: latest
+pruebas	Run hashicorp/setup-terraform@v3	2026-11-10T02:30:33.9347728Z   terraform_wrapper: true
+pruebas	Run hashicorp/setup-terraform@v3	2026-11-10T02:30:33.9347913Z env:
+pruebas	Run hashicorp/setup-terraform@v3	2026-11-10T02:30:33.9348117Z   pythonLocation: /opt/hostedtoolcache/Python/3.11.18/x64
+pruebas	Run hashicorp/setup-terraform@v3	2026-11-10T02:30:33.9348454Z   PKG_CONFIG_PATH: /opt/hostedtoolcache/Python/3.11.18/x64/lib/pkgconfig
+pruebas	Run hashicorp/setup-terraform@v3	2026-11-10T02:30:33.9348785Z   Python_ROOT_DIR: /opt/hostedtoolcache/Python/3.11.18/x64
+pruebas	Run hashicorp/setup-terraform@v3	2026-11-10T02:30:33.9349078Z   Python2_ROOT_DIR: /opt/hostedtoolcache/Python/3.11.18/x64
+pruebas	Run hashicorp/setup-terraform@v3	2026-11-10T02:30:33.9349368Z   Python3_ROOT_DIR: /opt/hostedtoolcache/Python/3.11.18/x64
+pruebas	Run hashicorp/setup-terraform@v3	2026-11-10T02:30:33.9349665Z   LD_LIBRARY_PATH: /opt/hostedtoolcache/Python/3.11.18/x64/lib
+pruebas	Run hashicorp/setup-terraform@v3	2026-11-10T02:30:33.9349923Z ##[endgroup]
+pruebas	Run hashicorp/setup-terraform@v3	2026-11-10T02:30:34.0558939Z (node:2139) [DEP0169] DeprecationWarning: `url.parse()` behavior is not standardized and prone to errors that have security implications. Use the WHATWG URL API instead. CVEs are not issued for `url.parse()` vulnerabilities.
+pruebas	Run hashicorp/setup-terraform@v3	2026-11-10T02:30:34.0561306Z (Use `node --trace-deprecation ...` to show where the warning was created)
+pruebas	Run hashicorp/setup-terraform@v3	2026-11-10T02:30:34.4978507Z [command]/usr/bin/unzip -o -q /home/runner/work/_temp/277e7916-048e-4a4b-86db-5a7162e7e7ad
+pruebas	Validar infraestructura	﻿2026-11-10T02:30:35.2151998Z ##[group]Run terraform fmt -check -recursive infra
+pruebas	Validar infraestructura	2026-11-10T02:30:35.2152535Z ^[[36;1mterraform fmt -check -recursive infra^[[0m
+pruebas	Validar infraestructura	2026-11-10T02:30:35.2152991Z ^[[36;1mfor dir in infra infra/bootstrap infra/addons; do^[[0m
+pruebas	Validar infraestructura	2026-11-10T02:30:35.2153570Z ^[[36;1m  terraform -chdir="$dir" init -backend=false -input=false^[[0m
+pruebas	Validar infraestructura	2026-11-10T02:30:35.2154043Z ^[[36;1m  terraform -chdir="$dir" validate^[[0m
+pruebas	Validar infraestructura	2026-11-10T02:30:35.2154387Z ^[[36;1mdone^[[0m
+pruebas	Validar infraestructura	2026-11-10T02:30:35.2217670Z shell: /usr/bin/bash -e {0}
+pruebas	Validar infraestructura	2026-11-10T02:30:35.2218004Z env:
+pruebas	Validar infraestructura	2026-11-10T02:30:35.2218338Z   pythonLocation: /opt/hostedtoolcache/Python/3.11.18/x64
+pruebas	Validar infraestructura	2026-11-10T02:30:35.2218929Z   PKG_CONFIG_PATH: /opt/hostedtoolcache/Python/3.11.18/x64/lib/pkgconfig
+pruebas	Validar infraestructura	2026-11-10T02:30:35.2219483Z   Python_ROOT_DIR: /opt/hostedtoolcache/Python/3.11.18/x64
+pruebas	Validar infraestructura	2026-11-10T02:30:35.2219969Z   Python2_ROOT_DIR: /opt/hostedtoolcache/Python/3.11.18/x64
+pruebas	Validar infraestructura	2026-11-10T02:30:35.2220458Z   Python3_ROOT_DIR: /opt/hostedtoolcache/Python/3.11.18/x64
+pruebas	Validar infraestructura	2026-11-10T02:30:35.2220955Z   LD_LIBRARY_PATH: /opt/hostedtoolcache/Python/3.11.18/x64/lib
+pruebas	Validar infraestructura	2026-11-10T02:30:35.2221644Z   TERRAFORM_CLI_PATH: /home/runner/work/_temp/f9770adb-299b-4994-82c4-2a3007b40a60
+pruebas	Validar infraestructura	2026-11-10T02:30:35.2222141Z ##[endgroup]
+pruebas	Validar infraestructura	2026-11-10T02:30:35.5757362Z ^[[0m^[[1mInitializing provider plugins...^[[0m
+pruebas	Validar infraestructura	2026-11-10T02:30:35.5758299Z - Reusing version 6.50.0 of hashicorp/google from the dependency lock file
+pruebas	Validar infraestructura	2026-11-10T02:30:35.8529198Z - Installing hashicorp/google v6.50.0...
+pruebas	Validar infraestructura	2026-11-10T02:30:37.2645883Z - Installed hashicorp/google v6.50.0 (signed by HashiCorp)
+pruebas	Validar infraestructura	2026-11-10T02:30:37.2655254Z 
+pruebas	Validar infraestructura	2026-11-10T02:30:37.2655790Z Terraform has made some changes to the provider dependency selections recorded
+pruebas	Validar infraestructura	2026-11-10T02:30:37.2656625Z in the .terraform.lock.hcl file. Review those changes and commit them to your
+pruebas	Validar infraestructura	2026-11-10T02:30:37.2657435Z version control system if they represent changes you intended to make.
+pruebas	Validar infraestructura	2026-11-10T02:30:37.2657985Z 
+pruebas	Validar infraestructura	2026-11-10T02:30:37.2658611Z ^[[0m^[[1m^[[32mTerraform has been successfully initialized!^[[0m^[[32m^[[0m
+pruebas	Validar infraestructura	2026-11-10T02:30:37.2659229Z ^[[0m^[[32m
+pruebas	Validar infraestructura	2026-11-10T02:30:37.2659767Z You may now begin working with Terraform. Try running "terraform plan" to see
+pruebas	Validar infraestructura	2026-11-10T02:30:37.2660547Z any changes that are required for your infrastructure. All Terraform commands
+pruebas	Validar infraestructura	2026-11-10T02:30:37.2661161Z should now work.
+pruebas	Validar infraestructura	2026-11-10T02:30:37.2661446Z 
+pruebas	Validar infraestructura	2026-11-10T02:30:37.2661814Z If you ever set or change modules or backend configuration for Terraform,
+pruebas	Validar infraestructura	2026-11-10T02:30:37.2662585Z rerun this command to reinitialize your working directory. If you forget, other
+pruebas	Validar infraestructura	2026-11-10T02:30:37.2663406Z commands will detect it and remind you to do so if necessary.^[[0m
+pruebas	Validar infraestructura	2026-11-10T02:30:37.9145435Z ^[[32m^[[1mSuccess!^[[0m The configuration is valid.
+pruebas	Validar infraestructura	2026-11-10T02:30:37.9146425Z ^[[0m
+pruebas	Validar infraestructura	2026-11-10T02:30:38.0283469Z ^[[0m^[[1mInitializing provider plugins...^[[0m
+pruebas	Validar infraestructura	2026-11-10T02:30:38.0284169Z - Reusing version 6.50.0 of hashicorp/google from the dependency lock file
+pruebas	Validar infraestructura	2026-11-10T02:30:38.3104482Z - Installing hashicorp/google v6.50.0...
+pruebas	Validar infraestructura	2026-11-10T02:30:39.7231949Z - Installed hashicorp/google v6.50.0 (signed by HashiCorp)
+pruebas	Validar infraestructura	2026-11-10T02:30:39.7232728Z 
+pruebas	Validar infraestructura	2026-11-10T02:30:39.7233272Z Terraform has made some changes to the provider dependency selections recorded
+pruebas	Validar infraestructura	2026-11-10T02:30:39.7234250Z in the .terraform.lock.hcl file. Review those changes and commit them to your
+pruebas	Validar infraestructura	2026-11-10T02:30:39.7245585Z version control system if they represent changes you intended to make.
+pruebas	Validar infraestructura	2026-11-10T02:30:39.7246198Z 
+pruebas	Validar infraestructura	2026-11-10T02:30:39.7249195Z ^[[0m^[[1m^[[32mTerraform has been successfully initialized!^[[0m^[[32m^[[0m
+pruebas	Validar infraestructura	2026-11-10T02:30:39.7250115Z ^[[0m^[[32m
+pruebas	Validar infraestructura	2026-11-10T02:30:39.7250664Z You may now begin working with Terraform. Try running "terraform plan" to see
+pruebas	Validar infraestructura	2026-11-10T02:30:39.7251742Z any changes that are required for your infrastructure. All Terraform commands
+pruebas	Validar infraestructura	2026-11-10T02:30:39.7252392Z should now work.
+pruebas	Validar infraestructura	2026-11-10T02:30:39.7252676Z 
+pruebas	Validar infraestructura	2026-11-10T02:30:39.7253052Z If you ever set or change modules or backend configuration for Terraform,
+pruebas	Validar infraestructura	2026-11-10T02:30:39.7253816Z rerun this command to reinitialize your working directory. If you forget, other
+pruebas	Validar infraestructura	2026-11-10T02:30:39.7254921Z commands will detect it and remind you to do so if necessary.^[[0m
+pruebas	Validar infraestructura	2026-11-10T02:30:40.3230393Z ^[[32m^[[1mSuccess!^[[0m The configuration is valid.
+pruebas	Validar infraestructura	2026-11-10T02:30:40.3231137Z ^[[0m
+pruebas	Validar infraestructura	2026-11-10T02:30:40.4462200Z ^[[0m^[[1mInitializing provider plugins...^[[0m
+pruebas	Validar infraestructura	2026-11-10T02:30:40.4467322Z - Reusing version 6.50.0 of hashicorp/google from the dependency lock file
+pruebas	Validar infraestructura	2026-11-10T02:30:40.5425238Z - Reusing version 3.3.0 of hashicorp/helm from the dependency lock file
+pruebas	Validar infraestructura	2026-11-10T02:30:40.7290124Z - Installing hashicorp/helm v3.3.0...
+pruebas	Validar infraestructura	2026-11-10T02:30:41.6400263Z - Installed hashicorp/helm v3.3.0 (signed by HashiCorp)
+pruebas	Validar infraestructura	2026-11-10T02:30:41.7967571Z - Installing hashicorp/google v6.50.0...
+pruebas	Validar infraestructura	2026-11-10T02:30:43.2569545Z - Installed hashicorp/google v6.50.0 (signed by HashiCorp)
+pruebas	Validar infraestructura	2026-11-10T02:30:43.2570124Z 
+pruebas	Validar infraestructura	2026-11-10T02:30:43.2570416Z Terraform has made some changes to the provider dependency selections recorded
+pruebas	Validar infraestructura	2026-11-10T02:30:43.2570933Z in the .terraform.lock.hcl file. Review those changes and commit them to your
+pruebas	Validar infraestructura	2026-11-10T02:30:43.2571583Z version control system if they represent changes you intended to make.
+pruebas	Validar infraestructura	2026-11-10T02:30:43.2735693Z 
+pruebas	Validar infraestructura	2026-11-10T02:30:43.2736680Z ^[[0m^[[1m^[[32mTerraform has been successfully initialized!^[[0m^[[32m^[[0m
+pruebas	Validar infraestructura	2026-11-10T02:30:43.2737370Z ^[[0m^[[32m
+pruebas	Validar infraestructura	2026-11-10T02:30:43.2738003Z You may now begin working with Terraform. Try running "terraform plan" to see
+pruebas	Validar infraestructura	2026-11-10T02:30:43.2738795Z any changes that are required for your infrastructure. All Terraform commands
+pruebas	Validar infraestructura	2026-11-10T02:30:43.2739499Z should now work.
+pruebas	Validar infraestructura	2026-11-10T02:30:43.2739812Z 
+pruebas	Validar infraestructura	2026-11-10T02:30:43.2740218Z If you ever set or change modules or backend configuration for Terraform,
+pruebas	Validar infraestructura	2026-11-10T02:30:43.2741054Z rerun this command to reinitialize your working directory. If you forget, other
+pruebas	Validar infraestructura	2026-11-10T02:30:43.2741904Z commands will detect it and remind you to do so if necessary.^[[0m
+pruebas	Validar infraestructura	2026-11-10T02:30:44.0676148Z ^[[32m^[[1mSuccess!^[[0m The configuration is valid.
+pruebas	Validar infraestructura	2026-11-10T02:30:44.0686119Z ^[[0m
+pruebas	Run actions/upload-artifact@v4	﻿2026-11-10T02:30:44.0826050Z ##[group]Run actions/upload-artifact@v4
+pruebas	Run actions/upload-artifact@v4	2026-11-10T02:30:44.0826307Z with:
+pruebas	Run actions/upload-artifact@v4	2026-11-10T02:30:44.0826474Z   name: pruebas
+pruebas	Run actions/upload-artifact@v4	2026-11-10T02:30:44.0826665Z   path: resultado-pruebas.xml
+pruebas	Run actions/upload-artifact@v4	2026-11-10T02:30:44.0826875Z   if-no-files-found: warn
+pruebas	Run actions/upload-artifact@v4	2026-11-10T02:30:44.0827081Z   compression-level: 6
+pruebas	Run actions/upload-artifact@v4	2026-11-10T02:30:44.0827264Z   overwrite: false
+pruebas	Run actions/upload-artifact@v4	2026-11-10T02:30:44.0827445Z   include-hidden-files: false
+pruebas	Run actions/upload-artifact@v4	2026-11-10T02:30:44.0827637Z env:
+pruebas	Run actions/upload-artifact@v4	2026-11-10T02:30:44.0827845Z   pythonLocation: /opt/hostedtoolcache/Python/3.11.18/x64
+pruebas	Run actions/upload-artifact@v4	2026-11-10T02:30:44.0828202Z   PKG_CONFIG_PATH: /opt/hostedtoolcache/Python/3.11.18/x64/lib/pkgconfig
+pruebas	Run actions/upload-artifact@v4	2026-11-10T02:30:44.0828554Z   Python_ROOT_DIR: /opt/hostedtoolcache/Python/3.11.18/x64
+pruebas	Run actions/upload-artifact@v4	2026-11-10T02:30:44.0828853Z   Python2_ROOT_DIR: /opt/hostedtoolcache/Python/3.11.18/x64
+pruebas	Run actions/upload-artifact@v4	2026-11-10T02:30:44.0829146Z   Python3_ROOT_DIR: /opt/hostedtoolcache/Python/3.11.18/x64
+pruebas	Run actions/upload-artifact@v4	2026-11-10T02:30:44.0829440Z   LD_LIBRARY_PATH: /opt/hostedtoolcache/Python/3.11.18/x64/lib
+pruebas	Run actions/upload-artifact@v4	2026-11-10T02:30:44.0829796Z   TERRAFORM_CLI_PATH: /home/runner/work/_temp/f9770adb-299b-4994-82c4-2a3007b40a60
+pruebas	Run actions/upload-artifact@v4	2026-11-10T02:30:44.0830136Z ##[endgroup]
+pruebas	Run actions/upload-artifact@v4	2026-11-10T02:30:44.2279868Z (node:2353) [DEP0040] DeprecationWarning: The `punycode` module is deprecated. Please use a userland alternative instead.
+pruebas	Run actions/upload-artifact@v4	2026-11-10T02:30:44.2280971Z (Use `node --trace-deprecation ...` to show where the warning was created)
+pruebas	Run actions/upload-artifact@v4	2026-11-10T02:30:44.2333723Z With the provided path, there will be 1 file uploaded
+pruebas	Run actions/upload-artifact@v4	2026-11-10T02:30:44.2334944Z Artifact name is valid!
+pruebas	Run actions/upload-artifact@v4	2026-11-10T02:30:44.2363001Z Root directory input is valid!
+pruebas	Run actions/upload-artifact@v4	2026-11-10T02:30:44.4911627Z Beginning upload of artifact content to blob storage
+pruebas	Run actions/upload-artifact@v4	2026-11-10T02:30:44.5087373Z (node:2353) [DEP0169] DeprecationWarning: `url.parse()` behavior is not standardized and prone to errors that have security implications. Use the WHATWG URL API instead. CVEs are not issued for `url.parse()` vulnerabilities.
+pruebas	Run actions/upload-artifact@v4	2026-11-10T02:30:44.6505847Z Uploaded bytes 770
+pruebas	Run actions/upload-artifact@v4	2026-11-10T02:30:44.6925633Z Finished uploading artifact content to blob storage!
+pruebas	Run actions/upload-artifact@v4	2026-11-10T02:30:44.6927375Z SHA256 digest of uploaded artifact zip is 34cc4a7c718d88b28791f4f77c21c272bd48a1cb0c59b3bf45c8678192fb2744
+pruebas	Run actions/upload-artifact@v4	2026-11-10T02:30:44.6929136Z Finalizing artifact upload
+pruebas	Run actions/upload-artifact@v4	2026-11-10T02:30:45.1117953Z Artifact pruebas.zip successfully finalized. Artifact ID 13729923204
+pruebas	Run actions/upload-artifact@v4	2026-11-10T02:30:45.1118883Z Artifact pruebas has been successfully uploaded! Final size is 770 bytes. Artifact ID is 13729923204
+pruebas	Run actions/upload-artifact@v4	2026-11-10T02:30:45.1119993Z Artifact download URL: https://github.com/Gustavomezz/nebula-arena-unidad3/actions/runs/42743200460/artifacts/13729923204
+pruebas	Post Run actions/setup-python@v5	﻿2026-11-10T02:30:45.1287662Z Post job cleanup.
+pruebas	Post Run actions/setup-python@v5	2026-11-10T02:30:45.2304333Z (node:2365) [DEP0040] DeprecationWarning: The `punycode` module is deprecated. Please use a userland alternative instead.
+pruebas	Post Run actions/setup-python@v5	2026-11-10T02:30:45.2305905Z (Use `node --trace-deprecation ...` to show where the warning was created)
+pruebas	Post Run actions/checkout@v4	﻿2026-11-10T02:30:45.2528212Z Post job cleanup.
+pruebas	Post Run actions/checkout@v4	2026-11-10T02:30:45.3515295Z [command]/usr/bin/git version
+pruebas	Post Run actions/checkout@v4	2026-11-10T02:30:45.3644039Z git version 2.56.0
+pruebas	Post Run actions/checkout@v4	2026-11-10T02:30:45.3726272Z Temporarily overriding HOME='/home/runner/work/_temp/41e5fc98-7ef2-455d-93d8-eb5a645ecfbe' before making global git config changes
+pruebas	Post Run actions/checkout@v4	2026-11-10T02:30:45.3735674Z Adding repository directory to the temporary git global config as a safe directory
+pruebas	Post Run actions/checkout@v4	2026-11-10T02:30:45.3767623Z [command]/usr/bin/git config --global --add safe.directory /home/runner/work/nebula-arena-unidad3/nebula-arena-unidad3
+pruebas	Post Run actions/checkout@v4	2026-11-10T02:30:45.3840644Z [command]/usr/bin/git config --local --name-only --get-regexp core\.sshCommand
+pruebas	Post Run actions/checkout@v4	2026-11-10T02:30:45.3930517Z [command]/usr/bin/git submodule foreach --recursive sh -c "git config --local --name-only --get-regexp 'core\.sshCommand' && git config --local --unset-all 'core.sshCommand' || :"
+pruebas	Post Run actions/checkout@v4	2026-11-10T02:30:45.4547408Z [command]/usr/bin/git config --local --name-only --get-regexp http\.https\:\/\/github\.com\/\.extraheader
+pruebas	Post Run actions/checkout@v4	2026-11-10T02:30:45.4596525Z http.https://github.com/.extraheader
+pruebas	Post Run actions/checkout@v4	2026-11-10T02:30:45.4635604Z [command]/usr/bin/git config --local --unset-all http.https://github.com/.extraheader
+pruebas	Post Run actions/checkout@v4	2026-11-10T02:30:45.4706003Z [command]/usr/bin/git submodule foreach --recursive sh -c "git config --local --name-only --get-regexp 'http\.https\:\/\/github\.com\/\.extraheader' && git config --local --unset-all 'http.https://github.com/.extraheader' || :"
+pruebas	Post Run actions/checkout@v4	2026-11-10T02:30:45.5003628Z [command]/usr/bin/git config --local --name-only --get-regexp ^includeIf\.gitdir:
+pruebas	Post Run actions/checkout@v4	2026-11-10T02:30:45.5037233Z [command]/usr/bin/git submodule foreach --recursive git config --local --show-origin --name-only --get-regexp remote.origin.url
+pruebas	Complete job	﻿2026-11-10T02:30:45.5432188Z Cleaning up orphan processes
+pruebas	Complete job	2026-11-10T02:30:45.5727994Z ##[warning]Node.js 20 is deprecated. The following actions target Node.js 20 but are being forced to run on Node.js 24: actions/checkout@v4, actions/setup-python@v5, actions/upload-artifact@v4, hashicorp/setup-terraform@v3. For more information see: https://github.blog/changelog/2025-09-19-deprecation-of-node-20-on-github-actions-runners/
+contenedores	Set up job	﻿2026-11-10T02:30:50.4218350Z Current runner version: '2.338.2'
+contenedores	Set up job	2026-11-10T02:30:50.4293575Z ##[group]Runner Image Provisioner
+contenedores	Set up job	2026-11-10T02:30:50.4294828Z Hosted Compute Agent
+contenedores	Set up job	2026-11-10T02:30:50.4295698Z Version: 20261028.624
+contenedores	Set up job	2026-11-10T02:30:50.4296539Z Commit: 54898b74c23fde5556c9b3c3a2290865feef0dfe
+contenedores	Set up job	2026-11-10T02:30:50.4297413Z Build Date: 2026-10-28T21:51:42Z
+contenedores	Set up job	2026-11-10T02:30:50.4298196Z Worker ID: {9388f533-37b5-4631-aa04-3444d5ce2df6}
+contenedores	Set up job	2026-11-10T02:30:50.4299212Z Region: eastus2
+contenedores	Set up job	2026-11-10T02:30:50.4299872Z Cloud: Azure
+contenedores	Set up job	2026-11-10T02:30:50.4300558Z ##[endgroup]
+contenedores	Set up job	2026-11-10T02:30:50.4302346Z ##[group]Operating System
+contenedores	Set up job	2026-11-10T02:30:50.4303107Z Ubuntu
+contenedores	Set up job	2026-11-10T02:30:50.4304357Z 26.04.1
+contenedores	Set up job	2026-11-10T02:30:50.4325298Z LTS
+contenedores	Set up job	2026-11-10T02:30:50.4326169Z ##[endgroup]
+contenedores	Set up job	2026-11-10T02:30:50.4326942Z ##[group]Runner Image
+contenedores	Set up job	2026-11-10T02:30:50.4327708Z Image: ubuntu-26.04
+contenedores	Set up job	2026-11-10T02:30:50.4328493Z Version: 20261101.186.1
+contenedores	Set up job	2026-11-10T02:30:50.4329833Z Included Software: https://github.com/actions/runner-images/blob/ubuntu26/20261101.186/images/ubuntu/Ubuntu2604-Readme.md
+contenedores	Set up job	2026-11-10T02:30:50.4332222Z Image Release: https://github.com/actions/runner-images/releases/tag/ubuntu26%2F20261101.186
+contenedores	Set up job	2026-11-10T02:30:50.4333417Z ##[endgroup]
+contenedores	Set up job	2026-11-10T02:30:50.4334882Z ##[group]GITHUB_TOKEN Permissions
+contenedores	Set up job	2026-11-10T02:30:50.4338459Z Contents: read
+contenedores	Set up job	2026-11-10T02:30:50.4339341Z Metadata: read
+contenedores	Set up job	2026-11-10T02:30:50.4340104Z ##[endgroup]
+contenedores	Set up job	2026-11-10T02:30:50.4342830Z Secret source: Actions
+contenedores	Set up job	2026-11-10T02:30:50.4343955Z Cache mode: write
+contenedores	Set up job	2026-11-10T02:30:50.4365417Z Prepare workflow directory
+contenedores	Set up job	2026-11-10T02:30:50.4833966Z Prepare all required actions
+contenedores	Set up job	2026-11-10T02:30:50.4895788Z Getting action download info
+contenedores	Set up job	2026-11-10T02:30:50.6670017Z Download action repository 'actions/checkout@v4' (SHA:11d5960a326750d5838078e36cf38b85af677262)
+contenedores	Set up job	2026-11-10T02:30:50.7738121Z Download action repository 'actions/setup-python@v5' (SHA:a26af69be951a213d495a4c3e4e4022e16d87065)
+contenedores	Set up job	2026-11-10T02:30:50.9096105Z Download action repository 'actions/upload-artifact@v4' (SHA:ea165f8d65b6e75b540449e92b4886f43607fa02)
+contenedores	Set up job	2026-11-10T02:30:51.2319130Z Complete job name: contenedores
+contenedores	Run actions/checkout@v4	﻿2026-11-10T02:30:51.3177279Z ##[group]Run actions/checkout@v4
+contenedores	Run actions/checkout@v4	2026-11-10T02:30:51.3178390Z with:
+contenedores	Run actions/checkout@v4	2026-11-10T02:30:51.3179126Z   repository: Gustavomezz/nebula-arena-unidad3
+contenedores	Run actions/checkout@v4	2026-11-10T02:30:51.3187424Z   token: ***
+contenedores	Run actions/checkout@v4	2026-11-10T02:30:51.3188095Z   ssh-strict: true
+contenedores	Run actions/checkout@v4	2026-11-10T02:30:51.3188748Z   ssh-user: git
+contenedores	Run actions/checkout@v4	2026-11-10T02:30:51.3189415Z   persist-credentials: true
+contenedores	Run actions/checkout@v4	2026-11-10T02:30:51.3190155Z   clean: true
+contenedores	Run actions/checkout@v4	2026-11-10T02:30:51.3190821Z   sparse-checkout-cone-mode: true
+contenedores	Run actions/checkout@v4	2026-11-10T02:30:51.3191618Z   fetch-depth: 1
+contenedores	Run actions/checkout@v4	2026-11-10T02:30:51.3192258Z   fetch-tags: false
+contenedores	Run actions/checkout@v4	2026-11-10T02:30:51.3192920Z   show-progress: true
+contenedores	Run actions/checkout@v4	2026-11-10T02:30:51.3193590Z   lfs: false
+contenedores	Run actions/checkout@v4	2026-11-10T02:30:51.3194203Z   submodules: false
+contenedores	Run actions/checkout@v4	2026-11-10T02:30:51.3194906Z   set-safe-directory: true
+contenedores	Run actions/checkout@v4	2026-11-10T02:30:51.3195878Z   allow-unsafe-pr-checkout: false
+contenedores	Run actions/checkout@v4	2026-11-10T02:30:51.3196970Z ##[endgroup]
+contenedores	Run actions/checkout@v4	2026-11-10T02:30:51.6179384Z Syncing repository: Gustavomezz/nebula-arena-unidad3
+contenedores	Run actions/checkout@v4	2026-11-10T02:30:51.6182060Z ##[group]Getting Git version info
+contenedores	Run actions/checkout@v4	2026-11-10T02:30:51.6203571Z Working directory is '/home/runner/work/nebula-arena-unidad3/nebula-arena-unidad3'
+contenedores	Run actions/checkout@v4	2026-11-10T02:30:51.7062318Z [command]/usr/bin/git version
+contenedores	Run actions/checkout@v4	2026-11-10T02:30:51.7063147Z git version 2.56.0
+contenedores	Run actions/checkout@v4	2026-11-10T02:30:51.7065521Z ##[endgroup]
+contenedores	Run actions/checkout@v4	2026-11-10T02:30:51.7072127Z Temporarily overriding HOME='/home/runner/work/_temp/4c644065-c682-4e6e-9b6a-f63bc2a64f55' before making global git config changes
+contenedores	Run actions/checkout@v4	2026-11-10T02:30:51.7073466Z Adding repository directory to the temporary git global config as a safe directory
+contenedores	Run actions/checkout@v4	2026-11-10T02:30:51.7074764Z [command]/usr/bin/git config --global --add safe.directory /home/runner/work/nebula-arena-unidad3/nebula-arena-unidad3
+contenedores	Run actions/checkout@v4	2026-11-10T02:30:51.7077062Z Deleting the contents of '/home/runner/work/nebula-arena-unidad3/nebula-arena-unidad3'
+contenedores	Run actions/checkout@v4	2026-11-10T02:30:51.7078397Z ##[group]Initializing the repository
+contenedores	Run actions/checkout@v4	2026-11-10T02:30:51.7079297Z [command]/usr/bin/git init /home/runner/work/nebula-arena-unidad3/nebula-arena-unidad3
+contenedores	Run actions/checkout@v4	2026-11-10T02:30:51.8217008Z hint: Using 'master' as the name for the initial branch. This default branch name
+contenedores	Run actions/checkout@v4	2026-11-10T02:30:51.8218210Z hint: will change to "main" in Git 3.0. To configure the initial branch name
+contenedores	Run actions/checkout@v4	2026-11-10T02:30:51.8219155Z hint: to use in all of your new repositories, which will suppress this warning,
+contenedores	Run actions/checkout@v4	2026-11-10T02:30:51.8220047Z hint: call:
+contenedores	Run actions/checkout@v4	2026-11-10T02:30:51.8220777Z hint:
+contenedores	Run actions/checkout@v4	2026-11-10T02:30:51.8221564Z hint: 	git config --global init.defaultBranch <name>
+contenedores	Run actions/checkout@v4	2026-11-10T02:30:51.8222216Z hint:
+contenedores	Run actions/checkout@v4	2026-11-10T02:30:51.8222901Z hint: Names commonly chosen instead of 'master' are 'main', 'trunk' and
+contenedores	Run actions/checkout@v4	2026-11-10T02:30:51.8223872Z hint: 'development'. The just-created branch can be renamed via this command:
+contenedores	Run actions/checkout@v4	2026-11-10T02:30:51.8224533Z hint:
+contenedores	Run actions/checkout@v4	2026-11-10T02:30:51.8225236Z hint: 	git branch -m <name>
+contenedores	Run actions/checkout@v4	2026-11-10T02:30:51.8225812Z hint:
+contenedores	Run actions/checkout@v4	2026-11-10T02:30:51.8226525Z hint: Disable this message with "git config set advice.defaultBranchName false"
+contenedores	Run actions/checkout@v4	2026-11-10T02:30:51.8233439Z Initialized empty Git repository in /home/runner/work/nebula-arena-unidad3/nebula-arena-unidad3/.git/
+contenedores	Run actions/checkout@v4	2026-11-10T02:30:51.8246849Z [command]/usr/bin/git remote add origin https://github.com/Gustavomezz/nebula-arena-unidad3
+contenedores	Run actions/checkout@v4	2026-11-10T02:30:51.9208143Z ##[endgroup]
+contenedores	Run actions/checkout@v4	2026-11-10T02:30:51.9209387Z ##[group]Disabling automatic garbage collection
+contenedores	Run actions/checkout@v4	2026-11-10T02:30:51.9210261Z [command]/usr/bin/git config --local gc.auto 0
+contenedores	Run actions/checkout@v4	2026-11-10T02:30:52.0396761Z ##[endgroup]
+contenedores	Run actions/checkout@v4	2026-11-10T02:30:52.0398305Z ##[group]Setting up auth
+contenedores	Run actions/checkout@v4	2026-11-10T02:30:52.0403907Z [command]/usr/bin/git config --local --name-only --get-regexp core\.sshCommand
+contenedores	Run actions/checkout@v4	2026-11-10T02:30:52.0442010Z [command]/usr/bin/git submodule foreach --recursive sh -c "git config --local --name-only --get-regexp 'core\.sshCommand' && git config --local --unset-all 'core.sshCommand' || :"
+contenedores	Run actions/checkout@v4	2026-11-10T02:30:52.1112102Z [command]/usr/bin/git config --local --name-only --get-regexp http\.https\:\/\/github\.com\/\.extraheader
+contenedores	Run actions/checkout@v4	2026-11-10T02:30:52.1146759Z [command]/usr/bin/git submodule foreach --recursive sh -c "git config --local --name-only --get-regexp 'http\.https\:\/\/github\.com\/\.extraheader' && git config --local --unset-all 'http.https://github.com/.extraheader' || :"
+contenedores	Run actions/checkout@v4	2026-11-10T02:30:52.1439126Z [command]/usr/bin/git config --local --name-only --get-regexp ^includeIf\.gitdir:
+contenedores	Run actions/checkout@v4	2026-11-10T02:30:52.1469649Z [command]/usr/bin/git submodule foreach --recursive git config --local --show-origin --name-only --get-regexp remote.origin.url
+contenedores	Run actions/checkout@v4	2026-11-10T02:30:52.1727130Z [command]/usr/bin/git config --local http.https://github.com/.extraheader AUTHORIZATION: basic ***
+contenedores	Run actions/checkout@v4	2026-11-10T02:30:52.1953135Z ##[endgroup]
+contenedores	Run actions/checkout@v4	2026-11-10T02:30:52.1955240Z ##[group]Fetching the repository
+contenedores	Run actions/checkout@v4	2026-11-10T02:30:52.1963404Z [command]/usr/bin/git -c protocol.version=2 fetch --no-tags --prune --no-recurse-submodules --depth=1 origin +f070ff67c466654537be3b1484880ac3d49444b7:refs/remotes/origin/main
+contenedores	Run actions/checkout@v4	2026-11-10T02:30:52.4739450Z From https://github.com/Gustavomezz/nebula-arena-unidad3
+contenedores	Run actions/checkout@v4	2026-11-10T02:30:52.4741554Z  * [new ref]         f070ff67c466654537be3b1484880ac3d49444b7 -> origin/main
+contenedores	Run actions/checkout@v4	2026-11-10T02:30:52.4748191Z ##[endgroup]
+contenedores	Run actions/checkout@v4	2026-11-10T02:30:52.4748877Z ##[group]Determining the checkout info
+contenedores	Run actions/checkout@v4	2026-11-10T02:30:52.4749478Z ##[endgroup]
+contenedores	Run actions/checkout@v4	2026-11-10T02:30:52.4749866Z [command]/usr/bin/git sparse-checkout disable
+contenedores	Run actions/checkout@v4	2026-11-10T02:30:52.6334294Z [command]/usr/bin/git config --local --unset-all extensions.worktreeConfig
+contenedores	Run actions/checkout@v4	2026-11-10T02:30:52.6443290Z ##[group]Checking out the ref
+contenedores	Run actions/checkout@v4	2026-11-10T02:30:52.6447263Z [command]/usr/bin/git checkout --progress --force -B main refs/remotes/origin/main
+contenedores	Run actions/checkout@v4	2026-11-10T02:30:52.8112887Z Switched to a new branch 'main'
+contenedores	Run actions/checkout@v4	2026-11-10T02:30:52.8151460Z branch 'main' set up to track 'origin/main'.
+contenedores	Run actions/checkout@v4	2026-11-10T02:30:52.8154691Z ##[endgroup]
+contenedores	Run actions/checkout@v4	2026-11-10T02:30:52.8266127Z [command]/usr/bin/git log -1 --format=%H
+contenedores	Run actions/checkout@v4	2026-11-10T02:30:52.8286160Z f070ff67c466654537be3b1484880ac3d49444b7
+contenedores	Run actions/setup-python@v5	﻿2026-11-10T02:30:52.8542457Z ##[group]Run actions/setup-python@v5
+contenedores	Run actions/setup-python@v5	2026-11-10T02:30:52.8542771Z with:
+contenedores	Run actions/setup-python@v5	2026-11-10T02:30:52.8542980Z   python-version: 3.11
+contenedores	Run actions/setup-python@v5	2026-11-10T02:30:52.8543421Z   check-latest: false
+contenedores	Run actions/setup-python@v5	2026-11-10T02:30:52.8546063Z   token: ***
+contenedores	Run actions/setup-python@v5	2026-11-10T02:30:52.8546296Z   update-environment: true
+contenedores	Run actions/setup-python@v5	2026-11-10T02:30:52.8546539Z   allow-prereleases: false
+contenedores	Run actions/setup-python@v5	2026-11-10T02:30:52.8546764Z   freethreaded: false
+contenedores	Run actions/setup-python@v5	2026-11-10T02:30:52.8546986Z ##[endgroup]
+contenedores	Run actions/setup-python@v5	2026-11-10T02:30:52.9948755Z ##[group]Installed versions
+contenedores	Run actions/setup-python@v5	2026-11-10T02:30:53.0178253Z (node:2078) [DEP0040] DeprecationWarning: The `punycode` module is deprecated. Please use a userland alternative instead.
+contenedores	Run actions/setup-python@v5	2026-11-10T02:30:53.0179600Z (Use `node --trace-deprecation ...` to show where the warning was created)
+contenedores	Run actions/setup-python@v5	2026-11-10T02:30:53.0225885Z Successfully set up CPython (3.11.18)
+contenedores	Run actions/setup-python@v5	2026-11-10T02:30:53.0228333Z ##[endgroup]
+contenedores	Run pip install websockets==12.0 requests	﻿2026-11-10T02:30:53.0716019Z ##[group]Run pip install websockets==12.0 requests
+contenedores	Run pip install websockets==12.0 requests	2026-11-10T02:30:53.0716524Z ^[[36;1mpip install websockets==12.0 requests^[[0m
+contenedores	Run pip install websockets==12.0 requests	2026-11-10T02:30:53.0854856Z shell: /usr/bin/bash -e {0}
+contenedores	Run pip install websockets==12.0 requests	2026-11-10T02:30:53.0855453Z env:
+contenedores	Run pip install websockets==12.0 requests	2026-11-10T02:30:53.0855750Z   pythonLocation: /opt/hostedtoolcache/Python/3.11.18/x64
+contenedores	Run pip install websockets==12.0 requests	2026-11-10T02:30:53.0856210Z   PKG_CONFIG_PATH: /opt/hostedtoolcache/Python/3.11.18/x64/lib/pkgconfig
+contenedores	Run pip install websockets==12.0 requests	2026-11-10T02:30:53.0856591Z   Python_ROOT_DIR: /opt/hostedtoolcache/Python/3.11.18/x64
+contenedores	Run pip install websockets==12.0 requests	2026-11-10T02:30:53.0856930Z   Python2_ROOT_DIR: /opt/hostedtoolcache/Python/3.11.18/x64
+contenedores	Run pip install websockets==12.0 requests	2026-11-10T02:30:53.0857276Z   Python3_ROOT_DIR: /opt/hostedtoolcache/Python/3.11.18/x64
+contenedores	Run pip install websockets==12.0 requests	2026-11-10T02:30:53.0857615Z   LD_LIBRARY_PATH: /opt/hostedtoolcache/Python/3.11.18/x64/lib
+contenedores	Run pip install websockets==12.0 requests	2026-11-10T02:30:53.0857913Z ##[endgroup]
+contenedores	Run pip install websockets==12.0 requests	2026-11-10T02:30:54.1779067Z Collecting websockets==12.0
+contenedores	Run pip install websockets==12.0 requests	2026-11-10T02:30:54.3792424Z   Downloading websockets-12.0-cp311-cp311-manylinux_2_5_x86_64.manylinux1_x86_64.manylinux_2_17_x86_64.manylinux2014_x86_64.whl.metadata (6.6 kB)
+contenedores	Run pip install websockets==12.0 requests	2026-11-10T02:30:54.4315302Z Collecting requests
+contenedores	Run pip install websockets==12.0 requests	2026-11-10T02:30:54.4931547Z   Downloading requests-2.34.2-py3-none-any.whl.metadata (4.8 kB)
+contenedores	Run pip install websockets==12.0 requests	2026-11-10T02:30:54.6210344Z Collecting charset_normalizer<4,>=2 (from requests)
+contenedores	Run pip install websockets==12.0 requests	2026-11-10T02:30:54.6831225Z   Downloading charset_normalizer-3.5.2-cp311-cp311-manylinux2014_x86_64.manylinux_2_17_x86_64.manylinux_2_28_x86_64.whl.metadata (46 kB)
+contenedores	Run pip install websockets==12.0 requests	2026-11-10T02:30:54.7782709Z Collecting idna<4,>=2.5 (from requests)
+contenedores	Run pip install websockets==12.0 requests	2026-11-10T02:30:54.8405890Z   Downloading idna-3.20-py3-none-any.whl.metadata (7.2 kB)
+contenedores	Run pip install websockets==12.0 requests	2026-11-10T02:30:54.8808072Z Collecting urllib3<3,>=1.26 (from requests)
+contenedores	Run pip install websockets==12.0 requests	2026-11-10T02:30:54.9432754Z   Downloading urllib3-2.8.0-py3-none-any.whl.metadata (7.4 kB)
+contenedores	Run pip install websockets==12.0 requests	2026-11-10T02:30:54.9809117Z Collecting certifi>=2023.5.7 (from requests)
+contenedores	Run pip install websockets==12.0 requests	2026-11-10T02:30:55.0438757Z   Downloading certifi-2026.10.23-py3-none-any.whl.metadata (2.5 kB)
+contenedores	Run pip install websockets==12.0 requests	2026-11-10T02:30:55.1123493Z Downloading websockets-12.0-cp311-cp311-manylinux_2_5_x86_64.manylinux1_x86_64.manylinux_2_17_x86_64.manylinux2014_x86_64.whl (130 kB)
+contenedores	Run pip install websockets==12.0 requests	2026-11-10T02:30:55.2490299Z Downloading requests-2.34.2-py3-none-any.whl (73 kB)
+contenedores	Run pip install websockets==12.0 requests	2026-11-10T02:30:55.3218251Z Downloading charset_normalizer-3.5.2-cp311-cp311-manylinux2014_x86_64.manylinux_2_17_x86_64.manylinux_2_28_x86_64.whl (269 kB)
+contenedores	Run pip install websockets==12.0 requests	2026-11-10T02:30:55.4517975Z Downloading idna-3.20-py3-none-any.whl (69 kB)
+contenedores	Run pip install websockets==12.0 requests	2026-11-10T02:30:55.5197297Z Downloading urllib3-2.8.0-py3-none-any.whl (135 kB)
+contenedores	Run pip install websockets==12.0 requests	2026-11-10T02:30:55.5907615Z Downloading certifi-2026.10.23-py3-none-any.whl (135 kB)
+contenedores	Run pip install websockets==12.0 requests	2026-11-10T02:30:55.6468039Z Installing collected packages: websockets, urllib3, idna, charset_normalizer, certifi, requests
+contenedores	Run pip install websockets==12.0 requests	2026-11-10T02:30:55.8927350Z 
+contenedores	Run pip install websockets==12.0 requests	2026-11-10T02:30:55.8936707Z Successfully installed certifi-2026.10.23 charset_normalizer-3.5.2 idna-3.20 requests-2.34.2 urllib3-2.8.0 websockets-12.0
+contenedores	Run pip install websockets==12.0 requests	2026-11-10T02:30:55.8944385Z 
+contenedores	Run pip install websockets==12.0 requests	2026-11-10T02:30:55.8945136Z [notice] A new release of pip is available: 26.2.2 -> 26.3
+contenedores	Run pip install websockets==12.0 requests	2026-11-10T02:30:55.8945969Z [notice] To update, run: pip install --upgrade pip
+contenedores	Construir y comprobar los tres contenedores	﻿2026-11-10T02:30:55.9554613Z ##[group]Run for component in server serverless matchmaker; do
+contenedores	Construir y comprobar los tres contenedores	2026-11-10T02:30:55.9555378Z ^[[36;1mfor component in server serverless matchmaker; do^[[0m
+contenedores	Construir y comprobar los tres contenedores	2026-11-10T02:30:55.9555854Z ^[[36;1m  docker build --label "org.opencontainers.image.source=https://github.com/$GITHUB_REPOSITORY" \^[[0m
+contenedores	Construir y comprobar los tres contenedores	2026-11-10T02:30:55.9556512Z ^[[36;1m    -t "nebula-$component:${GITHUB_SHA}" "$component"^[[0m
+contenedores	Construir y comprobar los tres contenedores	2026-11-10T02:30:55.9556787Z ^[[36;1mdone^[[0m
+contenedores	Construir y comprobar los tres contenedores	2026-11-10T02:30:55.9557142Z ^[[36;1mdocker run -d --name nebula-smoke -p 7654:7654 -p 9100:9100 "nebula-server:${GITHUB_SHA}"^[[0m
+contenedores	Construir y comprobar los tres contenedores	2026-11-10T02:30:55.9557752Z ^[[36;1mdocker run -d --name scores-smoke -p 8080:8080 -e SCORES_BACKEND=sqlite -e SQLITE_PATH=/tmp/scores.sqlite "nebula-serverless:${GITHUB_SHA}"^[[0m
+contenedores	Construir y comprobar los tres contenedores	2026-11-10T02:30:55.9558250Z ^[[36;1mfor attempt in $(seq 1 30); do^[[0m
+contenedores	Construir y comprobar los tres contenedores	2026-11-10T02:30:55.9558785Z ^[[36;1m  if curl --fail --silent http://localhost:9100/metrics >/dev/null && curl --fail --silent http://localhost:8080/healthz >/dev/null; then break; fi^[[0m
+contenedores	Construir y comprobar los tres contenedores	2026-11-10T02:30:55.9559314Z ^[[36;1m  sleep 1^[[0m
+contenedores	Construir y comprobar los tres contenedores	2026-11-10T02:30:55.9559490Z ^[[36;1mdone^[[0m
+contenedores	Construir y comprobar los tres contenedores	2026-11-10T02:30:55.9559667Z ^[[36;1mpython scripts/smoke.py^[[0m
+contenedores	Construir y comprobar los tres contenedores	2026-11-10T02:30:55.9559882Z ^[[36;1mdocker logs nebula-smoke^[[0m
+contenedores	Construir y comprobar los tres contenedores	2026-11-10T02:30:55.9560094Z ^[[36;1mdocker logs scores-smoke^[[0m
+contenedores	Construir y comprobar los tres contenedores	2026-11-10T02:30:55.9606841Z shell: /usr/bin/bash -e {0}
+contenedores	Construir y comprobar los tres contenedores	2026-11-10T02:30:55.9607069Z env:
+contenedores	Construir y comprobar los tres contenedores	2026-11-10T02:30:55.9607309Z   pythonLocation: /opt/hostedtoolcache/Python/3.11.18/x64
+contenedores	Construir y comprobar los tres contenedores	2026-11-10T02:30:55.9607669Z   PKG_CONFIG_PATH: /opt/hostedtoolcache/Python/3.11.18/x64/lib/pkgconfig
+contenedores	Construir y comprobar los tres contenedores	2026-11-10T02:30:55.9608022Z   Python_ROOT_DIR: /opt/hostedtoolcache/Python/3.11.18/x64
+contenedores	Construir y comprobar los tres contenedores	2026-11-10T02:30:55.9608332Z   Python2_ROOT_DIR: /opt/hostedtoolcache/Python/3.11.18/x64
+contenedores	Construir y comprobar los tres contenedores	2026-11-10T02:30:55.9608633Z   Python3_ROOT_DIR: /opt/hostedtoolcache/Python/3.11.18/x64
+contenedores	Construir y comprobar los tres contenedores	2026-11-10T02:30:55.9608940Z   LD_LIBRARY_PATH: /opt/hostedtoolcache/Python/3.11.18/x64/lib
+contenedores	Construir y comprobar los tres contenedores	2026-11-10T02:30:55.9609204Z ##[endgroup]
+contenedores	Construir y comprobar los tres contenedores	2026-11-10T02:30:56.5836458Z #0 building with "default" instance using docker driver
+contenedores	Construir y comprobar los tres contenedores	2026-11-10T02:30:56.5836872Z 
+contenedores	Construir y comprobar los tres contenedores	2026-11-10T02:30:56.5837045Z #1 [internal] load build definition from Dockerfile
+contenedores	Construir y comprobar los tres contenedores	2026-11-10T02:30:56.5837448Z #1 transferring dockerfile: 232B done
+contenedores	Construir y comprobar los tres contenedores	2026-11-10T02:30:56.5837975Z #1 DONE 0.0s
+contenedores	Construir y comprobar los tres contenedores	2026-11-10T02:30:56.5838177Z 
+contenedores	Construir y comprobar los tres contenedores	2026-11-10T02:30:56.5838370Z #2 [auth] library/python:pull token for registry-1.docker.io
+contenedores	Construir y comprobar los tres contenedores	2026-11-10T02:30:56.5838764Z #2 DONE 0.0s
+contenedores	Construir y comprobar los tres contenedores	2026-11-10T02:30:56.5838903Z 
+contenedores	Construir y comprobar los tres contenedores	2026-11-10T02:30:56.5839115Z #3 [internal] load metadata for docker.io/library/python:3.11-slim
+contenedores	Construir y comprobar los tres contenedores	2026-11-10T02:30:56.7583211Z #3 DONE 0.4s
+contenedores	Construir y comprobar los tres contenedores	2026-11-10T02:30:56.9185965Z 
+contenedores	Construir y comprobar los tres contenedores	2026-11-10T02:30:56.9186904Z #4 [internal] load .dockerignore
+contenedores	Construir y comprobar los tres contenedores	2026-11-10T02:30:56.9187630Z #4 transferring context: 2B done
+contenedores	Construir y comprobar los tres contenedores	2026-11-10T02:30:56.9188150Z #4 DONE 0.0s
+contenedores	Construir y comprobar los tres contenedores	2026-11-10T02:30:56.9188435Z 
+contenedores	Construir y comprobar los tres contenedores	2026-11-10T02:30:56.9189030Z #5 [internal] load build context
+contenedores	Construir y comprobar los tres contenedores	2026-11-10T02:30:56.9189529Z #5 transferring context: 6.76kB done
+contenedores	Construir y comprobar los tres contenedores	2026-11-10T02:30:56.9190043Z #5 DONE 0.0s
+contenedores	Construir y comprobar los tres contenedores	2026-11-10T02:30:56.9190314Z 
+contenedores	Construir y comprobar los tres contenedores	2026-11-10T02:30:56.9190915Z #6 [1/5] FROM docker.io/library/python:3.11-slim@sha256:07d4824036af339fa1b6ef769cc99d9c10a141769538b52b3b597c84f7a7b535
+contenedores	Construir y comprobar los tres contenedores	2026-11-10T02:30:56.9192150Z #6 resolve docker.io/library/python:3.11-slim@sha256:07d4824036af339fa1b6ef769cc99d9c10a141769538b52b3b597c84f7a7b535 0.0s done
+contenedores	Construir y comprobar los tres contenedores	2026-11-10T02:30:56.9193246Z #6 sha256:bbe7053e6def9842d628414346e26f25e499463adb6ca48c0c8932e036e44000 249B / 249B 0.0s done
+contenedores	Construir y comprobar los tres contenedores	2026-11-10T02:30:56.9194228Z #6 sha256:53daecf7856e9b7235583f1ec326387aae7d29af3d5cd2efc20246259ab817cc 1.29MB / 1.29MB 0.1s done
+contenedores	Construir y comprobar los tres contenedores	2026-11-10T02:30:57.1165114Z #6 sha256:7efbce397249e9202b070b8e638baff71160948c640b9a44f2226419a71f410d 14.46MB / 14.46MB 0.3s
+contenedores	Construir y comprobar los tres contenedores	2026-11-10T02:30:57.1166248Z #6 sha256:37fb86c2a767b88d500c6872195f88078f64765fe0d2f9cc375cc2efbd4c0a41 14.68MB / 29.86MB 0.2s
+contenedores	Construir y comprobar los tres contenedores	2026-11-10T02:30:57.2642466Z #6 sha256:37fb86c2a767b88d500c6872195f88078f64765fe0d2f9cc375cc2efbd4c0a41 29.86MB / 29.86MB 0.3s
+contenedores	Construir y comprobar los tres contenedores	2026-11-10T02:30:57.3699169Z #6 sha256:7efbce397249e9202b070b8e638baff71160948c640b9a44f2226419a71f410d 14.46MB / 14.46MB 0.5s done
+contenedores	Construir y comprobar los tres contenedores	2026-11-10T02:30:57.5253618Z #6 sha256:37fb86c2a767b88d500c6872195f88078f64765fe0d2f9cc375cc2efbd4c0a41 29.86MB / 29.86MB 0.6s done
+contenedores	Construir y comprobar los tres contenedores	2026-11-10T02:30:57.5254653Z #6 extracting sha256:37fb86c2a767b88d500c6872195f88078f64765fe0d2f9cc375cc2efbd4c0a41
+contenedores	Construir y comprobar los tres contenedores	2026-11-10T02:30:58.0066000Z #6 extracting sha256:37fb86c2a767b88d500c6872195f88078f64765fe0d2f9cc375cc2efbd4c0a41 0.6s done
+contenedores	Construir y comprobar los tres contenedores	2026-11-10T02:30:58.0066599Z #6 DONE 1.2s
+contenedores	Construir y comprobar los tres contenedores	2026-11-10T02:30:58.1563441Z 
+contenedores	Construir y comprobar los tres contenedores	2026-11-10T02:30:58.1564182Z #6 [1/5] FROM docker.io/library/python:3.11-slim@sha256:07d4824036af339fa1b6ef769cc99d9c10a141769538b52b3b597c84f7a7b535
+contenedores	Construir y comprobar los tres contenedores	2026-11-10T02:30:58.1564765Z #6 extracting sha256:53daecf7856e9b7235583f1ec326387aae7d29af3d5cd2efc20246259ab817cc
+contenedores	Construir y comprobar los tres contenedores	2026-11-10T02:30:58.2263870Z #6 extracting sha256:53daecf7856e9b7235583f1ec326387aae7d29af3d5cd2efc20246259ab817cc 0.2s done
+contenedores	Construir y comprobar los tres contenedores	2026-11-10T02:30:58.2264657Z #6 DONE 1.4s
+contenedores	Construir y comprobar los tres contenedores	2026-11-10T02:30:58.3765562Z 
+contenedores	Construir y comprobar los tres contenedores	2026-11-10T02:30:58.3767538Z #6 [1/5] FROM docker.io/library/python:3.11-slim@sha256:07d4824036af339fa1b6ef769cc99d9c10a141769538b52b3b597c84f7a7b535
+contenedores	Construir y comprobar los tres contenedores	2026-11-10T02:30:58.3769605Z #6 extracting sha256:7efbce397249e9202b070b8e638baff71160948c640b9a44f2226419a71f410d
+contenedores	Construir y comprobar los tres contenedores	2026-11-10T02:30:58.6415696Z #6 extracting sha256:7efbce397249e9202b070b8e638baff71160948c640b9a44f2226419a71f410d 0.4s done
+contenedores	Construir y comprobar los tres contenedores	2026-11-10T02:30:58.6416690Z #6 DONE 1.9s
+contenedores	Construir y comprobar los tres contenedores	2026-11-10T02:30:58.8601035Z 
+contenedores	Construir y comprobar los tres contenedores	2026-11-10T02:30:58.8602052Z #6 [1/5] FROM docker.io/library/python:3.11-slim@sha256:07d4824036af339fa1b6ef769cc99d9c10a141769538b52b3b597c84f7a7b535
+contenedores	Construir y comprobar los tres contenedores	2026-11-10T02:30:58.8602969Z #6 extracting sha256:bbe7053e6def9842d628414346e26f25e499463adb6ca48c0c8932e036e44000 0.1s done
+contenedores	Construir y comprobar los tres contenedores	2026-11-10T02:30:58.8603518Z #6 DONE 1.9s
+contenedores	Construir y comprobar los tres contenedores	2026-11-10T02:30:58.8603663Z 
+contenedores	Construir y comprobar los tres contenedores	2026-11-10T02:30:58.8603766Z #7 [2/5] WORKDIR /app
+contenedores	Construir y comprobar los tres contenedores	2026-11-10T02:31:01.4026960Z #7 DONE 2.7s
+contenedores	Construir y comprobar los tres contenedores	2026-11-10T02:31:01.5884109Z 
+contenedores	Construir y comprobar los tres contenedores	2026-11-10T02:31:01.5884865Z #8 [3/5] COPY requirements.txt .
+contenedores	Construir y comprobar los tres contenedores	2026-11-10T02:31:01.5885381Z #8 DONE 0.0s
+contenedores	Construir y comprobar los tres contenedores	2026-11-10T02:31:01.5885528Z 
+contenedores	Construir y comprobar los tres contenedores	2026-11-10T02:31:01.5885767Z #9 [4/5] RUN pip install --no-cache-dir -r requirements.txt
+contenedores	Construir y comprobar los tres contenedores	2026-11-10T02:31:03.4753635Z #9 2.036 Collecting websockets==12.0 (from -r requirements.txt (line 1))
+contenedores	Construir y comprobar los tres contenedores	2026-11-10T02:31:03.6349210Z #9 2.123   Downloading websockets-12.0-cp311-cp311-manylinux_2_5_x86_64.manylinux1_x86_64.manylinux_2_17_x86_64.manylinux2014_x86_64.whl.metadata (6.6 kB)
+contenedores	Construir y comprobar los tres contenedores	2026-11-10T02:31:03.6350702Z #9 2.197 Collecting prometheus-client==0.20.0 (from -r requirements.txt (line 2))
+contenedores	Construir y comprobar los tres contenedores	2026-11-10T02:31:03.7408500Z #9 2.225   Downloading prometheus_client-0.20.0-py3-none-any.whl.metadata (1.8 kB)
+contenedores	Construir y comprobar los tres contenedores	2026-11-10T02:31:03.7409579Z #9 2.259 Downloading websockets-12.0-cp311-cp311-manylinux_2_5_x86_64.manylinux1_x86_64.manylinux_2_17_x86_64.manylinux2014_x86_64.whl (130 kB)
+contenedores	Construir y comprobar los tres contenedores	2026-11-10T02:31:03.8787993Z #9 2.303    ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 130.9/130.9 kB 3.0 MB/s eta 0:00:00
+contenedores	Construir y comprobar los tres contenedores	2026-11-10T02:31:03.8797117Z #9 2.328 Downloading prometheus_client-0.20.0-py3-none-any.whl (54 kB)
+contenedores	Construir y comprobar los tres contenedores	2026-11-10T02:31:03.8797989Z #9 2.331    ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 54.5/54.5 kB 49.9 MB/s eta 0:00:00
+contenedores	Construir y comprobar los tres contenedores	2026-11-10T02:31:03.8798660Z #9 2.362 Installing collected packages: websockets, prometheus-client
+contenedores	Construir y comprobar los tres contenedores	2026-11-10T02:31:03.8799269Z #9 2.441 Successfully installed prometheus-client-0.20.0 websockets-12.0
+contenedores	Construir y comprobar los tres contenedores	2026-11-10T02:31:04.0292562Z #9 2.441 WARNING: Running pip as the 'root' user can result in broken permissions and conflicting behaviour with the system package manager. It is recommended to use a virtual environment instead: https://pip.pypa.io/warnings/venv
+contenedores	Construir y comprobar los tres contenedores	2026-11-10T02:31:04.1326927Z #9 2.694 
+contenedores	Construir y comprobar los tres contenedores	2026-11-10T02:31:04.1327622Z #9 2.694 [notice] A new release of pip is available: 24.0 -> 26.3
+contenedores	Construir y comprobar los tres contenedores	2026-11-10T02:31:04.1328453Z #9 2.694 [notice] To update, run: pip install --upgrade pip
+contenedores	Construir y comprobar los tres contenedores	2026-11-10T02:31:04.4208692Z #9 DONE 3.0s
+contenedores	Construir y comprobar los tres contenedores	2026-11-10T02:31:04.6048349Z 
+contenedores	Construir y comprobar los tres contenedores	2026-11-10T02:31:04.6049147Z #10 [5/5] COPY server.py .
+contenedores	Construir y comprobar los tres contenedores	2026-11-10T02:31:04.6049885Z #10 DONE 0.0s
+contenedores	Construir y comprobar los tres contenedores	2026-11-10T02:31:04.6050289Z 
+contenedores	Construir y comprobar los tres contenedores	2026-11-10T02:31:04.6050561Z #11 exporting to image
+contenedores	Construir y comprobar los tres contenedores	2026-11-10T02:31:04.6051000Z #11 exporting layers
+contenedores	Construir y comprobar los tres contenedores	2026-11-10T02:31:04.9651443Z #11 exporting layers 0.5s done
+contenedores	Construir y comprobar los tres contenedores	2026-11-10T02:31:05.1608092Z #11 exporting manifest sha256:ecc7fd1f39df83110ccf88cb4ced395afa87496ac360edd45ba18858900b7194 done
+contenedores	Construir y comprobar los tres contenedores	2026-11-10T02:31:05.1609060Z #11 exporting config sha256:1f473235ae601e91387f0e7971d885253b202ac4da0acd49b50300f0e7d5c58c done
+contenedores	Construir y comprobar los tres contenedores	2026-11-10T02:31:05.1610365Z #11 exporting attestation manifest sha256:a4062154f24ba4af3f89da61c5dfd7441c92251612db1996bc4011634e43d387 0.0s done
+contenedores	Construir y comprobar los tres contenedores	2026-11-10T02:31:05.1611294Z #11 exporting manifest list sha256:cb0d611baf9787df45f27d1733a5310ca676b9ee7c66c7998bde701f17a20c2b done
+contenedores	Construir y comprobar los tres contenedores	2026-11-10T02:31:05.1612125Z #11 naming to docker.io/library/nebula-server:f070ff67c466654537be3b1484880ac3d49444b7 done
+contenedores	Construir y comprobar los tres contenedores	2026-11-10T02:31:05.1612838Z #11 unpacking to docker.io/library/nebula-server:f070ff67c466654537be3b1484880ac3d49444b7
+contenedores	Construir y comprobar los tres contenedores	2026-11-10T02:31:05.1951303Z #11 unpacking to docker.io/library/nebula-server:f070ff67c466654537be3b1484880ac3d49444b7 0.2s done
+contenedores	Construir y comprobar los tres contenedores	2026-11-10T02:31:05.2698191Z #11 DONE 0.8s
+contenedores	Construir y comprobar los tres contenedores	2026-11-10T02:31:05.4007423Z #0 building with "default" instance using docker driver
+contenedores	Construir y comprobar los tres contenedores	2026-11-10T02:31:05.4008547Z 
+contenedores	Construir y comprobar los tres contenedores	2026-11-10T02:31:05.4008853Z #1 [internal] load build definition from Dockerfile
+contenedores	Construir y comprobar los tres contenedores	2026-11-10T02:31:05.5022797Z #1 transferring dockerfile: 265B done
+contenedores	Construir y comprobar los tres contenedores	2026-11-10T02:31:05.5023275Z #1 DONE 0.0s
+contenedores	Construir y comprobar los tres contenedores	2026-11-10T02:31:05.5023437Z 
+contenedores	Construir y comprobar los tres contenedores	2026-11-10T02:31:05.5023653Z #2 [internal] load metadata for docker.io/library/python:3.11-slim
+contenedores	Construir y comprobar los tres contenedores	2026-11-10T02:31:05.5024087Z #2 DONE 0.1s
+contenedores	Construir y comprobar los tres contenedores	2026-11-10T02:31:05.6919205Z 
+contenedores	Construir y comprobar los tres contenedores	2026-11-10T02:31:05.6919709Z #3 [internal] load .dockerignore
+contenedores	Construir y comprobar los tres contenedores	2026-11-10T02:31:05.6920231Z #3 transferring context: 2B done
+contenedores	Construir y comprobar los tres contenedores	2026-11-10T02:31:05.6920594Z #3 DONE 0.0s
+contenedores	Construir y comprobar los tres contenedores	2026-11-10T02:31:05.6920754Z 
+contenedores	Construir y comprobar los tres contenedores	2026-11-10T02:31:05.6920874Z #4 [internal] load build context
+contenedores	Construir y comprobar los tres contenedores	2026-11-10T02:31:05.6921185Z #4 transferring context: 3.98kB done
+contenedores	Construir y comprobar los tres contenedores	2026-11-10T02:31:05.6921509Z #4 DONE 0.0s
+contenedores	Construir y comprobar los tres contenedores	2026-11-10T02:31:05.6921640Z 
+contenedores	Construir y comprobar los tres contenedores	2026-11-10T02:31:05.6922083Z #5 [1/5] FROM docker.io/library/python:3.11-slim@sha256:07d4824036af339fa1b6ef769cc99d9c10a141769538b52b3b597c84f7a7b535
+contenedores	Construir y comprobar los tres contenedores	2026-11-10T02:31:05.6922809Z #5 resolve docker.io/library/python:3.11-slim@sha256:07d4824036af339fa1b6ef769cc99d9c10a141769538b52b3b597c84f7a7b535 0.0s done
+contenedores	Construir y comprobar los tres contenedores	2026-11-10T02:31:05.6923225Z #5 DONE 0.0s
+contenedores	Construir y comprobar los tres contenedores	2026-11-10T02:31:05.6923318Z 
+contenedores	Construir y comprobar los tres contenedores	2026-11-10T02:31:05.6923405Z #6 [2/5] WORKDIR /app
+contenedores	Construir y comprobar los tres contenedores	2026-11-10T02:31:05.6923586Z #6 CACHED
+contenedores	Construir y comprobar los tres contenedores	2026-11-10T02:31:05.6923672Z 
+contenedores	Construir y comprobar los tres contenedores	2026-11-10T02:31:05.6923760Z #7 [3/5] COPY requirements.txt .
+contenedores	Construir y comprobar los tres contenedores	2026-11-10T02:31:05.8397439Z #7 DONE 0.3s
+contenedores	Construir y comprobar los tres contenedores	2026-11-10T02:31:05.9914875Z 
+contenedores	Construir y comprobar los tres contenedores	2026-11-10T02:31:05.9915672Z #8 [4/5] RUN pip install --no-cache-dir -r requirements.txt
+contenedores	Construir y comprobar los tres contenedores	2026-11-10T02:31:07.2831507Z #8 1.442 Collecting flask==3.1.3 (from -r requirements.txt (line 1))
+contenedores	Construir y comprobar los tres contenedores	2026-11-10T02:31:07.4759319Z #8 1.635   Downloading flask-3.1.3-py3-none-any.whl.metadata (3.2 kB)
+contenedores	Construir y comprobar los tres contenedores	2026-11-10T02:31:07.6306445Z #8 1.728 Collecting gunicorn==25.3.0 (from -r requirements.txt (line 2))
+contenedores	Construir y comprobar los tres contenedores	2026-11-10T02:31:07.6306978Z #8 1.790   Downloading gunicorn-25.3.0-py3-none-any.whl.metadata (5.5 kB)
+contenedores	Construir y comprobar los tres contenedores	2026-11-10T02:31:07.7347709Z #8 1.893 Collecting google-cloud-firestore==2.34.1 (from -r requirements.txt (line 3))
+contenedores	Construir y comprobar los tres contenedores	2026-11-10T02:31:07.8773975Z #8 1.956   Downloading google_cloud_firestore-2.34.1-py3-none-any.whl.metadata (9.5 kB)
+contenedores	Construir y comprobar los tres contenedores	2026-11-10T02:31:07.8775484Z #8 2.037 Collecting blinker>=1.9.0 (from flask==3.1.3->-r requirements.txt (line 1))
+contenedores	Construir y comprobar los tres contenedores	2026-11-10T02:31:08.0271557Z #8 2.099   Downloading blinker-1.9.0-py3-none-any.whl.metadata (1.6 kB)
+contenedores	Construir y comprobar los tres contenedores	2026-11-10T02:31:08.0272613Z #8 2.186 Collecting click>=8.1.3 (from flask==3.1.3->-r requirements.txt (line 1))
+contenedores	Construir y comprobar los tres contenedores	2026-11-10T02:31:08.1627017Z #8 2.249   Downloading click-8.5.1-py3-none-any.whl.metadata (2.6 kB)
+contenedores	Construir y comprobar los tres contenedores	2026-11-10T02:31:08.1628465Z #8 2.322 Collecting itsdangerous>=2.2.0 (from flask==3.1.3->-r requirements.txt (line 1))
+contenedores	Construir y comprobar los tres contenedores	2026-11-10T02:31:08.3073039Z #8 2.384   Downloading itsdangerous-2.2.0-py3-none-any.whl.metadata (1.9 kB)
+contenedores	Construir y comprobar los tres contenedores	2026-11-10T02:31:08.3074206Z #8 2.466 Collecting jinja2>=3.1.2 (from flask==3.1.3->-r requirements.txt (line 1))
+contenedores	Construir y comprobar los tres contenedores	2026-11-10T02:31:08.5195718Z #8 2.528   Downloading jinja2-3.1.6-py3-none-any.whl.metadata (2.9 kB)
+contenedores	Construir y comprobar los tres contenedores	2026-11-10T02:31:08.5566047Z #8 2.716 Collecting markupsafe>=2.1.1 (from flask==3.1.3->-r requirements.txt (line 1))
+contenedores	Construir y comprobar los tres contenedores	2026-11-10T02:31:08.7052603Z #8 2.778   Downloading markupsafe-3.0.4-cp311-cp311-manylinux2014_x86_64.manylinux_2_17_x86_64.manylinux_2_28_x86_64.whl.metadata (2.7 kB)
+contenedores	Construir y comprobar los tres contenedores	2026-11-10T02:31:08.7053993Z #8 2.864 Collecting werkzeug>=3.1.0 (from flask==3.1.3->-r requirements.txt (line 1))
+contenedores	Construir y comprobar los tres contenedores	2026-11-10T02:31:08.8916711Z #8 2.928   Downloading werkzeug-3.1.9-py3-none-any.whl.metadata (4.1 kB)
+contenedores	Construir y comprobar los tres contenedores	2026-11-10T02:31:08.8919455Z #8 2.937 Requirement already satisfied: packaging in /usr/local/lib/python3.11/site-packages (from gunicorn==25.3.0->-r requirements.txt (line 2)) (26.3)
+contenedores	Construir y comprobar los tres contenedores	2026-11-10T02:31:08.8920964Z #8 3.051 Collecting google-api-core<3.0.0,>=2.28.0 (from google-api-core[grpc]<3.0.0,>=2.28.0->google-cloud-firestore==2.34.1->-r requirements.txt (line 3))
+contenedores	Construir y comprobar los tres contenedores	2026-11-10T02:31:09.0828030Z #8 3.113   Downloading google_api_core-2.44.0-py3-none-any.whl.metadata (3.2 kB)
+contenedores	Construir y comprobar los tres contenedores	2026-11-10T02:31:09.0828970Z #8 3.242 Collecting google-auth!=2.24.0,!=2.25.0,<3.0.0,>=2.14.1 (from google-cloud-firestore==2.34.1->-r requirements.txt (line 3))
+contenedores	Construir y comprobar los tres contenedores	2026-11-10T02:31:09.2320451Z #8 3.304   Downloading google_auth-2.62.1-py3-none-any.whl.metadata (6.0 kB)
+contenedores	Construir y comprobar los tres contenedores	2026-11-10T02:31:09.2321373Z #8 3.391 Collecting google-cloud-core<3.0.0,>=2.0.0 (from google-cloud-firestore==2.34.1->-r requirements.txt (line 3))
+contenedores	Construir y comprobar los tres contenedores	2026-11-10T02:31:09.4444531Z #8 3.453   Downloading google_cloud_core-2.8.0-py3-none-any.whl.metadata (2.9 kB)
+contenedores	Construir y comprobar los tres contenedores	2026-11-10T02:31:09.9850194Z #8 4.144 Collecting grpcio<2.0.0,>=1.59.0 (from google-cloud-firestore==2.34.1->-r requirements.txt (line 3))
+contenedores	Construir y comprobar los tres contenedores	2026-11-10T02:31:10.1260369Z #8 4.206   Downloading grpcio-1.85.1-cp311-cp311-manylinux2014_x86_64.manylinux_2_17_x86_64.whl.metadata (3.8 kB)
+contenedores	Construir y comprobar los tres contenedores	2026-11-10T02:31:10.1261487Z #8 4.285 Collecting proto-plus<2.0.0,>=1.26.1 (from google-cloud-firestore==2.34.1->-r requirements.txt (line 3))
+contenedores	Construir y comprobar los tres contenedores	2026-11-10T02:31:10.3385110Z #8 4.347   Downloading proto_plus-1.29.0-py3-none-any.whl.metadata (2.2 kB)
+contenedores	Construir y comprobar los tres contenedores	2026-11-10T02:31:10.3831854Z #8 4.542 Collecting protobuf<8.0.0,>=6.33.5 (from google-cloud-firestore==2.34.1->-r requirements.txt (line 3))
+contenedores	Construir y comprobar los tres contenedores	2026-11-10T02:31:10.5323262Z #8 4.604   Downloading protobuf-7.36.2-cp310-abi3-manylinux2014_x86_64.whl.metadata (595 bytes)
+contenedores	Construir y comprobar los tres contenedores	2026-11-10T02:31:10.5325186Z #8 4.691 Collecting googleapis-common-protos<2.0.0,>=1.69.2 (from google-api-core<3.0.0,>=2.28.0->google-api-core[grpc]<3.0.0,>=2.28.0->google-cloud-firestore==2.34.1->-r requirements.txt (line 3))
+contenedores	Construir y comprobar los tres contenedores	2026-11-10T02:31:10.6851482Z #8 4.755   Downloading googleapis_common_protos-1.76.0-py3-none-any.whl.metadata (8.5 kB)
+contenedores	Construir y comprobar los tres contenedores	2026-11-10T02:31:10.6852645Z #8 4.844 Collecting requests<3.0.0,>=2.33.0 (from google-api-core<3.0.0,>=2.28.0->google-api-core[grpc]<3.0.0,>=2.28.0->google-cloud-firestore==2.34.1->-r requirements.txt (line 3))
+contenedores	Construir y comprobar los tres contenedores	2026-11-10T02:31:10.8300720Z #8 4.907   Downloading requests-2.34.2-py3-none-any.whl.metadata (4.8 kB)
+contenedores	Construir y comprobar los tres contenedores	2026-11-10T02:31:10.8302589Z #8 4.989 Collecting opentelemetry-api<2.0.0,>=1.44.0 (from google-api-core<3.0.0,>=2.28.0->google-api-core[grpc]<3.0.0,>=2.28.0->google-cloud-firestore==2.34.1->-r requirements.txt (line 3))
+contenedores	Construir y comprobar los tres contenedores	2026-11-10T02:31:10.9969362Z #8 5.052   Downloading opentelemetry_api-1.45.2-py3-none-any.whl.metadata (1.4 kB)
+contenedores	Construir y comprobar los tres contenedores	2026-11-10T02:31:10.9970406Z #8 5.156 Collecting grpcio-status<2.0.0,>=1.59.0 (from google-api-core[grpc]<3.0.0,>=2.28.0->google-cloud-firestore==2.34.1->-r requirements.txt (line 3))
+contenedores	Construir y comprobar los tres contenedores	2026-11-10T02:31:11.2045639Z #8 5.219   Downloading grpcio_status-1.85.1-py3-none-any.whl.metadata (1.3 kB)
+contenedores	Construir y comprobar los tres contenedores	2026-11-10T02:31:11.2046994Z #8 5.363 Collecting pyasn1-modules>=0.2.1 (from google-auth!=2.24.0,!=2.25.0,<3.0.0,>=2.14.1->google-cloud-firestore==2.34.1->-r requirements.txt (line 3))
+contenedores	Construir y comprobar los tres contenedores	2026-11-10T02:31:11.4179994Z #8 5.427   Downloading pyasn1_modules-0.4.2-py3-none-any.whl.metadata (3.5 kB)
+contenedores	Construir y comprobar los tres contenedores	2026-11-10T02:31:11.5023489Z #8 5.661 Collecting cryptography>=38.0.3 (from google-auth!=2.24.0,!=2.25.0,<3.0.0,>=2.14.1->google-cloud-firestore==2.34.1->-r requirements.txt (line 3))
+contenedores	Construir y comprobar los tres contenedores	2026-11-10T02:31:11.6499930Z #8 5.726   Downloading cryptography-50.0.2-cp311-abi3-manylinux_2_34_x86_64.whl.metadata (4.4 kB)
+contenedores	Construir y comprobar los tres contenedores	2026-11-10T02:31:11.6501852Z #8 5.809 Collecting typing-extensions~=4.12 (from grpcio<2.0.0,>=1.59.0->google-cloud-firestore==2.34.1->-r requirements.txt (line 3))
+contenedores	Construir y comprobar los tres contenedores	2026-11-10T02:31:11.8626375Z #8 5.871   Downloading typing_extensions-4.16.0-py3-none-any.whl.metadata (3.3 kB)
+contenedores	Construir y comprobar los tres contenedores	2026-11-10T02:31:11.8743214Z #8 6.033 Collecting cffi>=2.0.0 (from cryptography>=38.0.3->google-auth!=2.24.0,!=2.25.0,<3.0.0,>=2.14.1->google-cloud-firestore==2.34.1->-r requirements.txt (line 3))
+contenedores	Construir y comprobar los tres contenedores	2026-11-10T02:31:12.0876605Z #8 6.095   Downloading cffi-2.1.1-cp311-cp311-manylinux2014_x86_64.manylinux_2_17_x86_64.whl.metadata (2.5 kB)
+contenedores	Construir y comprobar los tres contenedores	2026-11-10T02:31:12.1082708Z #8 6.267 Collecting pyasn1<0.7.0,>=0.6.1 (from pyasn1-modules>=0.2.1->google-auth!=2.24.0,!=2.25.0,<3.0.0,>=2.14.1->google-cloud-firestore==2.34.1->-r requirements.txt (line 3))
+contenedores	Construir y comprobar los tres contenedores	2026-11-10T02:31:12.3208257Z #8 6.329   Downloading pyasn1-0.6.5-py3-none-any.whl.metadata (8.4 kB)
+contenedores	Construir y comprobar los tres contenedores	2026-11-10T02:31:12.3509729Z #8 6.510 Collecting charset_normalizer<4,>=2 (from requests<3.0.0,>=2.33.0->google-api-core<3.0.0,>=2.28.0->google-api-core[grpc]<3.0.0,>=2.28.0->google-cloud-firestore==2.34.1->-r requirements.txt (line 3))
+contenedores	Construir y comprobar los tres contenedores	2026-11-10T02:31:12.4750026Z #8 6.572   Downloading charset_normalizer-3.5.2-cp311-cp311-manylinux2014_x86_64.manylinux_2_17_x86_64.manylinux_2_28_x86_64.whl.metadata (46 kB)
+contenedores	Construir y comprobar los tres contenedores	2026-11-10T02:31:12.6132632Z #8 6.633      ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 46.4/46.4 kB 717.9 kB/s eta 0:00:00
+contenedores	Construir y comprobar los tres contenedores	2026-11-10T02:31:12.6133373Z #8 6.710 Collecting idna<4,>=2.5 (from requests<3.0.0,>=2.33.0->google-api-core<3.0.0,>=2.28.0->google-api-core[grpc]<3.0.0,>=2.28.0->google-cloud-firestore==2.34.1->-r requirements.txt (line 3))
+contenedores	Construir y comprobar los tres contenedores	2026-11-10T02:31:12.6134202Z #8 6.772   Downloading idna-3.20-py3-none-any.whl.metadata (7.2 kB)
+contenedores	Construir y comprobar los tres contenedores	2026-11-10T02:31:12.7652806Z #8 6.862 Collecting urllib3<3,>=1.26 (from requests<3.0.0,>=2.33.0->google-api-core<3.0.0,>=2.28.0->google-api-core[grpc]<3.0.0,>=2.28.0->google-cloud-firestore==2.34.1->-r requirements.txt (line 3))
+contenedores	Construir y comprobar los tres contenedores	2026-11-10T02:31:12.7653827Z #8 6.924   Downloading urllib3-2.8.0-py3-none-any.whl.metadata (7.4 kB)
+contenedores	Construir y comprobar los tres contenedores	2026-11-10T02:31:12.9067132Z #8 7.004 Collecting certifi>=2023.5.7 (from requests<3.0.0,>=2.33.0->google-api-core<3.0.0,>=2.28.0->google-api-core[grpc]<3.0.0,>=2.28.0->google-cloud-firestore==2.34.1->-r requirements.txt (line 3))
+contenedores	Construir y comprobar los tres contenedores	2026-11-10T02:31:12.9068366Z #8 7.066   Downloading certifi-2026.10.23-py3-none-any.whl.metadata (2.5 kB)
+contenedores	Construir y comprobar los tres contenedores	2026-11-10T02:31:13.0484505Z #8 7.145 Collecting pycparser (from cffi>=2.0.0->cryptography>=38.0.3->google-auth!=2.24.0,!=2.25.0,<3.0.0,>=2.14.1->google-cloud-firestore==2.34.1->-r requirements.txt (line 3))
+contenedores	Construir y comprobar los tres contenedores	2026-11-10T02:31:13.0485594Z #8 7.208   Downloading pycparser-3.12-py3-none-any.whl.metadata (9.7 kB)
+contenedores	Construir y comprobar los tres contenedores	2026-11-10T02:31:13.2012818Z #8 7.297 Downloading flask-3.1.3-py3-none-any.whl (103 kB)
+contenedores	Construir y comprobar los tres contenedores	2026-11-10T02:31:13.3256548Z #8 7.360    ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 103.4/103.4 kB 1.6 MB/s eta 0:00:00
+contenedores	Construir y comprobar los tres contenedores	2026-11-10T02:31:13.3257568Z #8 7.422 Downloading gunicorn-25.3.0-py3-none-any.whl (208 kB)
+contenedores	Construir y comprobar los tres contenedores	2026-11-10T02:31:13.4500545Z #8 7.484    ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 208.4/208.4 kB 3.3 MB/s eta 0:00:00
+contenedores	Construir y comprobar los tres contenedores	2026-11-10T02:31:13.4505640Z #8 7.547 Downloading google_cloud_firestore-2.34.1-py3-none-any.whl (443 kB)
+contenedores	Construir y comprobar los tres contenedores	2026-11-10T02:31:13.5742494Z #8 7.609    ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 443.9/443.9 kB 7.2 MB/s eta 0:00:00
+contenedores	Construir y comprobar los tres contenedores	2026-11-10T02:31:13.5743563Z #8 7.671 Downloading blinker-1.9.0-py3-none-any.whl (8.5 kB)
+contenedores	Construir y comprobar los tres contenedores	2026-11-10T02:31:13.5744181Z #8 7.733 Downloading click-8.5.1-py3-none-any.whl (126 kB)
+contenedores	Construir y comprobar los tres contenedores	2026-11-10T02:31:13.7103676Z #8 7.737    ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 126.2/126.2 kB 49.1 MB/s eta 0:00:00
+contenedores	Construir y comprobar los tres contenedores	2026-11-10T02:31:13.7106367Z #8 7.799 Downloading google_api_core-2.44.0-py3-none-any.whl (225 kB)
+contenedores	Construir y comprobar los tres contenedores	2026-11-10T02:31:13.7108662Z #8 7.807    ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 225.6/225.6 kB 35.4 MB/s eta 0:00:00
+contenedores	Construir y comprobar los tres contenedores	2026-11-10T02:31:13.7109342Z #8 7.869 Downloading google_auth-2.62.1-py3-none-any.whl (267 kB)
+contenedores	Construir y comprobar los tres contenedores	2026-11-10T02:31:13.8434290Z #8 7.878    ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 268.0/268.0 kB 35.9 MB/s eta 0:00:00
+contenedores	Construir y comprobar los tres contenedores	2026-11-10T02:31:13.8435106Z #8 7.940 Downloading google_cloud_core-2.8.0-py3-none-any.whl (31 kB)
+contenedores	Construir y comprobar los tres contenedores	2026-11-10T02:31:13.8436240Z #8 8.003 Downloading grpcio-1.85.1-cp311-cp311-manylinux2014_x86_64.manylinux_2_17_x86_64.whl (7.4 MB)
+contenedores	Construir y comprobar los tres contenedores	2026-11-10T02:31:14.1605717Z #8 8.195    ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 7.4/7.4 MB 38.8 MB/s eta 0:00:00
+contenedores	Construir y comprobar los tres contenedores	2026-11-10T02:31:14.1606365Z #8 8.258 Downloading itsdangerous-2.2.0-py3-none-any.whl (16 kB)
+contenedores	Construir y comprobar los tres contenedores	2026-11-10T02:31:14.1606829Z #8 8.320 Downloading jinja2-3.1.6-py3-none-any.whl (134 kB)
+contenedores	Construir y comprobar los tres contenedores	2026-11-10T02:31:14.2870495Z #8 8.322    ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 134.9/134.9 kB 449.2 MB/s eta 0:00:00
+contenedores	Construir y comprobar los tres contenedores	2026-11-10T02:31:14.2871840Z #8 8.384 Downloading markupsafe-3.0.4-cp311-cp311-manylinux2014_x86_64.manylinux_2_17_x86_64.manylinux_2_28_x86_64.whl (22 kB)
+contenedores	Construir y comprobar los tres contenedores	2026-11-10T02:31:14.2873141Z #8 8.446 Downloading proto_plus-1.29.0-py3-none-any.whl (50 kB)
+contenedores	Construir y comprobar los tres contenedores	2026-11-10T02:31:14.4198892Z #8 8.448    ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 50.8/50.8 kB 290.7 MB/s eta 0:00:00
+contenedores	Construir y comprobar los tres contenedores	2026-11-10T02:31:14.4200222Z #8 8.510 Downloading protobuf-7.36.2-cp310-abi3-manylinux2014_x86_64.whl (343 kB)
+contenedores	Construir y comprobar los tres contenedores	2026-11-10T02:31:14.4201387Z #8 8.513    ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 343.2/343.2 kB 482.2 MB/s eta 0:00:00
+contenedores	Construir y comprobar los tres contenedores	2026-11-10T02:31:14.4210679Z #8 8.579 Downloading werkzeug-3.1.9-py3-none-any.whl (228 kB)
+contenedores	Construir y comprobar los tres contenedores	2026-11-10T02:31:14.5651117Z #8 8.582    ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 228.7/228.7 kB 348.3 MB/s eta 0:00:00
+contenedores	Construir y comprobar los tres contenedores	2026-11-10T02:31:14.5652684Z #8 8.645 Downloading cryptography-50.0.2-cp311-abi3-manylinux_2_34_x86_64.whl (4.8 MB)
+contenedores	Construir y comprobar los tres contenedores	2026-11-10T02:31:14.5653842Z #8 8.662    ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 4.8/4.8 MB 303.1 MB/s eta 0:00:00
+contenedores	Construir y comprobar los tres contenedores	2026-11-10T02:31:14.5654648Z #8 8.724 Downloading googleapis_common_protos-1.76.0-py3-none-any.whl (307 kB)
+contenedores	Construir y comprobar los tres contenedores	2026-11-10T02:31:14.6926885Z #8 8.727    ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 307.7/307.7 kB 365.0 MB/s eta 0:00:00
+contenedores	Construir y comprobar los tres contenedores	2026-11-10T02:31:14.6928439Z #8 8.789 Downloading grpcio_status-1.85.1-py3-none-any.whl (14 kB)
+contenedores	Construir y comprobar los tres contenedores	2026-11-10T02:31:14.6929365Z #8 8.852 Downloading opentelemetry_api-1.45.2-py3-none-any.whl (60 kB)
+contenedores	Construir y comprobar los tres contenedores	2026-11-10T02:31:14.8210200Z #8 8.853    ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 60.3/60.3 kB 296.1 MB/s eta 0:00:00
+contenedores	Construir y comprobar los tres contenedores	2026-11-10T02:31:14.8210964Z #8 8.915 Downloading pyasn1_modules-0.4.2-py3-none-any.whl (181 kB)
+contenedores	Construir y comprobar los tres contenedores	2026-11-10T02:31:14.8213907Z #8 8.918    ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 181.3/181.3 kB 441.1 MB/s eta 0:00:00
+contenedores	Construir y comprobar los tres contenedores	2026-11-10T02:31:14.8214468Z #8 8.980 Downloading requests-2.34.2-py3-none-any.whl (73 kB)
+contenedores	Construir y comprobar los tres contenedores	2026-11-10T02:31:14.9487895Z #8 8.982    ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 73.1/73.1 kB 303.6 MB/s eta 0:00:00
+contenedores	Construir y comprobar los tres contenedores	2026-11-10T02:31:14.9488547Z #8 9.044 Downloading typing_extensions-4.16.0-py3-none-any.whl (45 kB)
+contenedores	Construir y comprobar los tres contenedores	2026-11-10T02:31:14.9489218Z #8 9.046    ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 45.6/45.6 kB 343.3 MB/s eta 0:00:00
+contenedores	Construir y comprobar los tres contenedores	2026-11-10T02:31:14.9489725Z #8 9.108 Downloading certifi-2026.10.23-py3-none-any.whl (135 kB)
+contenedores	Construir y comprobar los tres contenedores	2026-11-10T02:31:15.0820579Z #8 9.110    ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 135.1/135.1 kB 360.6 MB/s eta 0:00:00
+contenedores	Construir y comprobar los tres contenedores	2026-11-10T02:31:15.0821695Z #8 9.175 Downloading cffi-2.1.1-cp311-cp311-manylinux2014_x86_64.manylinux_2_17_x86_64.whl (217 kB)
+contenedores	Construir y comprobar los tres contenedores	2026-11-10T02:31:15.0823237Z #8 9.178    ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 217.8/217.8 kB 221.2 MB/s eta 0:00:00
+contenedores	Construir y comprobar los tres contenedores	2026-11-10T02:31:15.0824312Z #8 9.241 Downloading charset_normalizer-3.5.2-cp311-cp311-manylinux2014_x86_64.manylinux_2_17_x86_64.manylinux_2_28_x86_64.whl (269 kB)
+contenedores	Construir y comprobar los tres contenedores	2026-11-10T02:31:15.2104929Z #8 9.243    ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 270.0/270.0 kB 379.2 MB/s eta 0:00:00
+contenedores	Construir y comprobar los tres contenedores	2026-11-10T02:31:15.2106198Z #8 9.306 Downloading idna-3.20-py3-none-any.whl (69 kB)
+contenedores	Construir y comprobar los tres contenedores	2026-11-10T02:31:15.2107080Z #8 9.307    ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 69.6/69.6 kB 330.7 MB/s eta 0:00:00
+contenedores	Construir y comprobar los tres contenedores	2026-11-10T02:31:15.2107805Z #8 9.369 Downloading pyasn1-0.6.5-py3-none-any.whl (84 kB)
+contenedores	Construir y comprobar los tres contenedores	2026-11-10T02:31:15.3389170Z #8 9.371    ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 84.8/84.8 kB 284.9 MB/s eta 0:00:00
+contenedores	Construir y comprobar los tres contenedores	2026-11-10T02:31:15.3410874Z #8 9.433 Downloading urllib3-2.8.0-py3-none-any.whl (135 kB)
+contenedores	Construir y comprobar los tres contenedores	2026-11-10T02:31:15.3429033Z #8 9.435    ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 135.7/135.7 kB 408.0 MB/s eta 0:00:00
+contenedores	Construir y comprobar los tres contenedores	2026-11-10T02:31:15.3429866Z #8 9.498 Downloading pycparser-3.12-py3-none-any.whl (62 kB)
+contenedores	Construir y comprobar los tres contenedores	2026-11-10T02:31:15.4633430Z #8 9.500    ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 62.6/62.6 kB 227.7 MB/s eta 0:00:00
+contenedores	Construir y comprobar los tres contenedores	2026-11-10T02:31:15.4636574Z #8 9.622 Installing collected packages: urllib3, typing-extensions, pycparser, pyasn1, protobuf, markupsafe, itsdangerous, idna, gunicorn, click, charset_normalizer, certifi, blinker, werkzeug, requests, pyasn1-modules, proto-plus, opentelemetry-api, jinja2, grpcio, googleapis-common-protos, cffi, grpcio-status, flask, cryptography, google-auth, google-api-core, google-cloud-core, google-cloud-firestore
+contenedores	Construir y comprobar los tres contenedores	2026-11-10T02:31:17.0782921Z #8 11.24 Successfully installed blinker-1.9.0 certifi-2026.10.23 cffi-2.1.1 charset_normalizer-3.5.2 click-8.5.1 cryptography-50.0.2 flask-3.1.3 google-api-core-2.44.0 google-auth-2.62.1 google-cloud-core-2.8.0 google-cloud-firestore-2.34.1 googleapis-common-protos-1.76.0 grpcio-1.85.1 grpcio-status-1.85.1 gunicorn-25.3.0 idna-3.20 itsdangerous-2.2.0 jinja2-3.1.6 markupsafe-3.0.4 opentelemetry-api-1.45.2 proto-plus-1.29.0 protobuf-7.36.2 pyasn1-0.6.5 pyasn1-modules-0.4.2 pycparser-3.12 requests-2.34.2 typing-extensions-4.16.0 urllib3-2.8.0 werkzeug-3.1.9
+contenedores	Construir y comprobar los tres contenedores	2026-11-10T02:31:17.2112228Z #8 11.24 WARNING: Running pip as the 'root' user can result in broken permissions and conflicting behaviour with the system package manager. It is recommended to use a virtual environment instead: https://pip.pypa.io/warnings/venv
+contenedores	Construir y comprobar los tres contenedores	2026-11-10T02:31:17.2114050Z #8 11.37 
+contenedores	Construir y comprobar los tres contenedores	2026-11-10T02:31:17.2114711Z #8 11.37 [notice] A new release of pip is available: 24.0 -> 26.3
+contenedores	Construir y comprobar los tres contenedores	2026-11-10T02:31:17.2115543Z #8 11.37 [notice] To update, run: pip install --upgrade pip
+contenedores	Construir y comprobar los tres contenedores	2026-11-10T02:31:18.7293889Z #8 DONE 12.9s
+contenedores	Construir y comprobar los tres contenedores	2026-11-10T02:31:18.9468662Z 
+contenedores	Construir y comprobar los tres contenedores	2026-11-10T02:31:18.9469830Z #9 [5/5] COPY main.py .
+contenedores	Construir y comprobar los tres contenedores	2026-11-10T02:31:18.9470336Z #9 DONE 0.1s
+contenedores	Construir y comprobar los tres contenedores	2026-11-10T02:31:18.9470649Z 
+contenedores	Construir y comprobar los tres contenedores	2026-11-10T02:31:18.9470925Z #10 exporting to image
+contenedores	Construir y comprobar los tres contenedores	2026-11-10T02:31:18.9471369Z #10 exporting layers
+contenedores	Construir y comprobar los tres contenedores	2026-11-10T02:31:21.3401829Z #10 exporting layers 2.5s done
+contenedores	Construir y comprobar los tres contenedores	2026-11-10T02:31:21.5140256Z #10 exporting manifest sha256:4b000f97fb2239161da35ce2a69fbbc1fef14042472a591711f434e4c7a5daa9 done
+contenedores	Construir y comprobar los tres contenedores	2026-11-10T02:31:21.5141269Z #10 exporting config sha256:44b974bc8d98445ab7c0c5d008759e8b11b0cc90808b689acf978da1291adcea done
+contenedores	Construir y comprobar los tres contenedores	2026-11-10T02:31:21.5142163Z #10 exporting attestation manifest sha256:5f0fd38701998d47b30b885f6d0654f9d9c0c47e1d01122139a6fa7232a7775a done
+contenedores	Construir y comprobar los tres contenedores	2026-11-10T02:31:21.5143069Z #10 exporting manifest list sha256:5661a34051160a4abbab1cfdc5df11f6a0a8b57c3fd41f455d272e6463e0a327 done
+contenedores	Construir y comprobar los tres contenedores	2026-11-10T02:31:21.5144473Z #10 naming to docker.io/library/nebula-serverless:f070ff67c466654537be3b1484880ac3d49444b7 done
+contenedores	Construir y comprobar los tres contenedores	2026-11-10T02:31:21.5145414Z #10 unpacking to docker.io/library/nebula-serverless:f070ff67c466654537be3b1484880ac3d49444b7
+contenedores	Construir y comprobar los tres contenedores	2026-11-10T02:31:22.1177192Z #10 unpacking to docker.io/library/nebula-serverless:f070ff67c466654537be3b1484880ac3d49444b7 0.8s done
+contenedores	Construir y comprobar los tres contenedores	2026-11-10T02:31:22.1703517Z #10 DONE 3.3s
+contenedores	Construir y comprobar los tres contenedores	2026-11-10T02:31:22.1704370Z 
+contenedores	Construir y comprobar los tres contenedores	2026-11-10T02:31:22.1705442Z  ^[[33m1 warning found (use docker --debug to expand):
+contenedores	Construir y comprobar los tres contenedores	2026-11-10T02:31:22.1706917Z ^[[0m - JSONArgsRecommended: JSON arguments recommended for CMD to prevent unintended behavior related to OS signals (line 7)
+contenedores	Construir y comprobar los tres contenedores	2026-11-10T02:31:22.4384682Z #0 building with "default" instance using docker driver
+contenedores	Construir y comprobar los tres contenedores	2026-11-10T02:31:22.4388872Z 
+contenedores	Construir y comprobar los tres contenedores	2026-11-10T02:31:22.4389377Z #1 [internal] load build definition from Dockerfile
+contenedores	Construir y comprobar los tres contenedores	2026-11-10T02:31:22.5445568Z #1 transferring dockerfile: 263B done
+contenedores	Construir y comprobar los tres contenedores	2026-11-10T02:31:22.5447848Z #1 DONE 0.0s
+contenedores	Construir y comprobar los tres contenedores	2026-11-10T02:31:22.5448019Z 
+contenedores	Construir y comprobar los tres contenedores	2026-11-10T02:31:22.5448246Z #2 [internal] load metadata for docker.io/library/python:3.11-slim
+contenedores	Construir y comprobar los tres contenedores	2026-11-10T02:31:22.5448683Z #2 DONE 0.1s
+contenedores	Construir y comprobar los tres contenedores	2026-11-10T02:31:22.5448815Z 
+contenedores	Construir y comprobar los tres contenedores	2026-11-10T02:31:22.5448953Z #3 [internal] load .dockerignore
+contenedores	Construir y comprobar los tres contenedores	2026-11-10T02:31:22.5449232Z #3 transferring context:
+contenedores	Construir y comprobar los tres contenedores	2026-11-10T02:31:22.7193587Z #3 transferring context: 2B done
+contenedores	Construir y comprobar los tres contenedores	2026-11-10T02:31:22.7193958Z #3 DONE 0.0s
+contenedores	Construir y comprobar los tres contenedores	2026-11-10T02:31:22.7194201Z 
+contenedores	Construir y comprobar los tres contenedores	2026-11-10T02:31:22.7194543Z #4 [internal] load build context
+contenedores	Construir y comprobar los tres contenedores	2026-11-10T02:31:22.7194945Z #4 transferring context: 2.23kB done
+contenedores	Construir y comprobar los tres contenedores	2026-11-10T02:31:22.7195426Z #4 DONE 0.0s
+contenedores	Construir y comprobar los tres contenedores	2026-11-10T02:31:22.7195587Z 
+contenedores	Construir y comprobar los tres contenedores	2026-11-10T02:31:22.7195983Z #5 [1/5] FROM docker.io/library/python:3.11-slim@sha256:07d4824036af339fa1b6ef769cc99d9c10a141769538b52b3b597c84f7a7b535
+contenedores	Construir y comprobar los tres contenedores	2026-11-10T02:31:22.7196842Z #5 resolve docker.io/library/python:3.11-slim@sha256:07d4824036af339fa1b6ef769cc99d9c10a141769538b52b3b597c84f7a7b535 0.0s done
+contenedores	Construir y comprobar los tres contenedores	2026-11-10T02:31:22.7197440Z #5 DONE 0.0s
+contenedores	Construir y comprobar los tres contenedores	2026-11-10T02:31:22.7197559Z 
+contenedores	Construir y comprobar los tres contenedores	2026-11-10T02:31:22.7197670Z #6 [2/5] WORKDIR /app
+contenedores	Construir y comprobar los tres contenedores	2026-11-10T02:31:22.7197909Z #6 CACHED
+contenedores	Construir y comprobar los tres contenedores	2026-11-10T02:31:22.7198021Z 
+contenedores	Construir y comprobar los tres contenedores	2026-11-10T02:31:22.7198135Z #7 [3/5] COPY requirements.txt .
+contenedores	Construir y comprobar los tres contenedores	2026-11-10T02:31:23.5583753Z #7 DONE 1.0s
+contenedores	Construir y comprobar los tres contenedores	2026-11-10T02:31:23.7098817Z 
+contenedores	Construir y comprobar los tres contenedores	2026-11-10T02:31:23.7106421Z #8 [4/5] RUN pip install --no-cache-dir -r requirements.txt
+contenedores	Construir y comprobar los tres contenedores	2026-11-10T02:31:25.0175425Z #8 1.458 Collecting flask==3.1.3 (from -r requirements.txt (line 1))
+contenedores	Construir y comprobar los tres contenedores	2026-11-10T02:31:25.2111492Z #8 1.651   Downloading flask-3.1.3-py3-none-any.whl.metadata (3.2 kB)
+contenedores	Construir y comprobar los tres contenedores	2026-11-10T02:31:25.3742476Z #8 1.751 Collecting gunicorn==25.3.0 (from -r requirements.txt (line 2))
+contenedores	Construir y comprobar los tres contenedores	2026-11-10T02:31:25.3743187Z #8 1.815   Downloading gunicorn-25.3.0-py3-none-any.whl.metadata (5.5 kB)
+contenedores	Construir y comprobar los tres contenedores	2026-11-10T02:31:25.4824410Z #8 1.923 Collecting requests==2.34.2 (from -r requirements.txt (line 3))
+contenedores	Construir y comprobar los tres contenedores	2026-11-10T02:31:25.6228259Z #8 1.985   Downloading requests-2.34.2-py3-none-any.whl.metadata (4.8 kB)
+contenedores	Construir y comprobar los tres contenedores	2026-11-10T02:31:25.6229024Z #8 2.063 Collecting blinker>=1.9.0 (from flask==3.1.3->-r requirements.txt (line 1))
+contenedores	Construir y comprobar los tres contenedores	2026-11-10T02:31:25.7696362Z #8 2.125   Downloading blinker-1.9.0-py3-none-any.whl.metadata (1.6 kB)
+contenedores	Construir y comprobar los tres contenedores	2026-11-10T02:31:25.7697480Z #8 2.210 Collecting click>=8.1.3 (from flask==3.1.3->-r requirements.txt (line 1))
+contenedores	Construir y comprobar los tres contenedores	2026-11-10T02:31:25.9041038Z #8 2.272   Downloading click-8.5.1-py3-none-any.whl.metadata (2.6 kB)
+contenedores	Construir y comprobar los tres contenedores	2026-11-10T02:31:25.9042402Z #8 2.345 Collecting itsdangerous>=2.2.0 (from flask==3.1.3->-r requirements.txt (line 1))
+contenedores	Construir y comprobar los tres contenedores	2026-11-10T02:31:26.0463344Z #8 2.407   Downloading itsdangerous-2.2.0-py3-none-any.whl.metadata (1.9 kB)
+contenedores	Construir y comprobar los tres contenedores	2026-11-10T02:31:26.0464476Z #8 2.487 Collecting jinja2>=3.1.2 (from flask==3.1.3->-r requirements.txt (line 1))
+contenedores	Construir y comprobar los tres contenedores	2026-11-10T02:31:26.2583948Z #8 2.549   Downloading jinja2-3.1.6-py3-none-any.whl.metadata (2.9 kB)
+contenedores	Construir y comprobar los tres contenedores	2026-11-10T02:31:26.2882335Z #8 2.729 Collecting markupsafe>=2.1.1 (from flask==3.1.3->-r requirements.txt (line 1))
+contenedores	Construir y comprobar los tres contenedores	2026-11-10T02:31:26.4362548Z #8 2.791   Downloading markupsafe-3.0.4-cp311-cp311-manylinux2014_x86_64.manylinux_2_17_x86_64.manylinux_2_28_x86_64.whl.metadata (2.7 kB)
+contenedores	Construir y comprobar los tres contenedores	2026-11-10T02:31:26.4364136Z #8 2.877 Collecting werkzeug>=3.1.0 (from flask==3.1.3->-r requirements.txt (line 1))
+contenedores	Construir y comprobar los tres contenedores	2026-11-10T02:31:26.6571618Z #8 2.938   Downloading werkzeug-3.1.9-py3-none-any.whl.metadata (4.1 kB)
+contenedores	Construir y comprobar los tres contenedores	2026-11-10T02:31:26.6573486Z #8 2.947 Requirement already satisfied: packaging in /usr/local/lib/python3.11/site-packages (from gunicorn==25.3.0->-r requirements.txt (line 2)) (26.3)
+contenedores	Construir y comprobar los tres contenedores	2026-11-10T02:31:26.7411398Z #8 3.182 Collecting charset_normalizer<4,>=2 (from requests==2.34.2->-r requirements.txt (line 3))
+contenedores	Construir y comprobar los tres contenedores	2026-11-10T02:31:26.8657545Z #8 3.244   Downloading charset_normalizer-3.5.2-cp311-cp311-manylinux2014_x86_64.manylinux_2_17_x86_64.manylinux_2_28_x86_64.whl.metadata (46 kB)
+contenedores	Construir y comprobar los tres contenedores	2026-11-10T02:31:27.0031599Z #8 3.305      ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 46.4/46.4 kB 720.7 kB/s eta 0:00:00
+contenedores	Construir y comprobar los tres contenedores	2026-11-10T02:31:27.0032341Z #8 3.382 Collecting idna<4,>=2.5 (from requests==2.34.2->-r requirements.txt (line 3))
+contenedores	Construir y comprobar los tres contenedores	2026-11-10T02:31:27.0032953Z #8 3.444   Downloading idna-3.20-py3-none-any.whl.metadata (7.2 kB)
+contenedores	Construir y comprobar los tres contenedores	2026-11-10T02:31:27.1125794Z #8 3.553 Collecting urllib3<3,>=1.26 (from requests==2.34.2->-r requirements.txt (line 3))
+contenedores	Construir y comprobar los tres contenedores	2026-11-10T02:31:27.2546392Z #8 3.615   Downloading urllib3-2.8.0-py3-none-any.whl.metadata (7.4 kB)
+contenedores	Construir y comprobar los tres contenedores	2026-11-10T02:31:27.2547662Z #8 3.695 Collecting certifi>=2023.5.7 (from requests==2.34.2->-r requirements.txt (line 3))
+contenedores	Construir y comprobar los tres contenedores	2026-11-10T02:31:27.3997071Z #8 3.757   Downloading certifi-2026.10.23-py3-none-any.whl.metadata (2.5 kB)
+contenedores	Construir y comprobar los tres contenedores	2026-11-10T02:31:27.3997767Z #8 3.840 Downloading flask-3.1.3-py3-none-any.whl (103 kB)
+contenedores	Construir y comprobar los tres contenedores	2026-11-10T02:31:27.5244878Z #8 3.904    ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 103.4/103.4 kB 1.6 MB/s eta 0:00:00
+contenedores	Construir y comprobar los tres contenedores	2026-11-10T02:31:27.5246351Z #8 3.965 Downloading gunicorn-25.3.0-py3-none-any.whl (208 kB)
+contenedores	Construir y comprobar los tres contenedores	2026-11-10T02:31:27.6485703Z #8 4.027    ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 208.4/208.4 kB 3.3 MB/s eta 0:00:00
+contenedores	Construir y comprobar los tres contenedores	2026-11-10T02:31:27.6486547Z #8 4.089 Downloading requests-2.34.2-py3-none-any.whl (73 kB)
+contenedores	Construir y comprobar los tres contenedores	2026-11-10T02:31:27.7775920Z #8 4.093    ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 73.1/73.1 kB 21.0 MB/s eta 0:00:00
+contenedores	Construir y comprobar los tres contenedores	2026-11-10T02:31:27.7776578Z #8 4.156 Downloading blinker-1.9.0-py3-none-any.whl (8.5 kB)
+contenedores	Construir y comprobar los tres contenedores	2026-11-10T02:31:27.7777131Z #8 4.218 Downloading certifi-2026.10.23-py3-none-any.whl (135 kB)
+contenedores	Construir y comprobar los tres contenedores	2026-11-10T02:31:27.9301288Z #8 4.227    ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 135.1/135.1 kB 17.8 MB/s eta 0:00:00
+contenedores	Construir y comprobar los tres contenedores	2026-11-10T02:31:27.9303676Z #8 4.290 Downloading charset_normalizer-3.5.2-cp311-cp311-manylinux2014_x86_64.manylinux_2_17_x86_64.manylinux_2_28_x86_64.whl (269 kB)
+contenedores	Construir y comprobar los tres contenedores	2026-11-10T02:31:27.9304692Z #8 4.308    ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 270.0/270.0 kB 15.4 MB/s eta 0:00:00
+contenedores	Construir y comprobar los tres contenedores	2026-11-10T02:31:28.0644260Z #8 4.371 Downloading click-8.5.1-py3-none-any.whl (126 kB)
+contenedores	Construir y comprobar los tres contenedores	2026-11-10T02:31:28.0645346Z #8 4.377    ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 126.2/126.2 kB 23.1 MB/s eta 0:00:00
+contenedores	Construir y comprobar los tres contenedores	2026-11-10T02:31:28.0646168Z #8 4.439 Downloading idna-3.20-py3-none-any.whl (69 kB)
+contenedores	Construir y comprobar los tres contenedores	2026-11-10T02:31:28.0647146Z #8 4.443    ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 69.6/69.6 kB 37.3 MB/s eta 0:00:00
+contenedores	Construir y comprobar los tres contenedores	2026-11-10T02:31:28.0647691Z #8 4.505 Downloading itsdangerous-2.2.0-py3-none-any.whl (16 kB)
+contenedores	Construir y comprobar los tres contenedores	2026-11-10T02:31:28.1958309Z #8 4.568 Downloading jinja2-3.1.6-py3-none-any.whl (134 kB)
+contenedores	Construir y comprobar los tres contenedores	2026-11-10T02:31:28.1960290Z #8 4.574    ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 134.9/134.9 kB 25.7 MB/s eta 0:00:00
+contenedores	Construir y comprobar los tres contenedores	2026-11-10T02:31:28.1961333Z #8 4.636 Downloading markupsafe-3.0.4-cp311-cp311-manylinux2014_x86_64.manylinux_2_17_x86_64.manylinux_2_28_x86_64.whl (22 kB)
+contenedores	Construir y comprobar los tres contenedores	2026-11-10T02:31:28.3265886Z #8 4.698 Downloading urllib3-2.8.0-py3-none-any.whl (135 kB)
+contenedores	Construir y comprobar los tres contenedores	2026-11-10T02:31:28.3266835Z #8 4.705    ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 135.7/135.7 kB 25.0 MB/s eta 0:00:00
+contenedores	Construir y comprobar los tres contenedores	2026-11-10T02:31:28.3267380Z #8 4.767 Downloading werkzeug-3.1.9-py3-none-any.whl (228 kB)
+contenedores	Construir y comprobar los tres contenedores	2026-11-10T02:31:28.5502682Z #8 4.779    ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 228.7/228.7 kB 20.3 MB/s eta 0:00:00
+contenedores	Construir y comprobar los tres contenedores	2026-11-10T02:31:28.5503804Z #8 4.840 Installing collected packages: urllib3, markupsafe, itsdangerous, idna, gunicorn, click, charset_normalizer, certifi, blinker, werkzeug, requests, jinja2, flask
+contenedores	Construir y comprobar los tres contenedores	2026-11-10T02:31:28.9976231Z #8 5.438 Successfully installed blinker-1.9.0 certifi-2026.10.23 charset_normalizer-3.5.2 click-8.5.1 flask-3.1.3 gunicorn-25.3.0 idna-3.20 itsdangerous-2.2.0 jinja2-3.1.6 markupsafe-3.0.4 requests-2.34.2 urllib3-2.8.0 werkzeug-3.1.9
+contenedores	Construir y comprobar los tres contenedores	2026-11-10T02:31:29.1479824Z #8 5.438 WARNING: Running pip as the 'root' user can result in broken permissions and conflicting behaviour with the system package manager. It is recommended to use a virtual environment instead: https://pip.pypa.io/warnings/venv
+contenedores	Construir y comprobar los tres contenedores	2026-11-10T02:31:29.2456362Z #8 5.686 
+contenedores	Construir y comprobar los tres contenedores	2026-11-10T02:31:29.2456860Z #8 5.686 [notice] A new release of pip is available: 24.0 -> 26.3
+contenedores	Construir y comprobar los tres contenedores	2026-11-10T02:31:29.2457386Z #8 5.686 [notice] To update, run: pip install --upgrade pip
+contenedores	Construir y comprobar los tres contenedores	2026-11-10T02:31:29.7120921Z #8 DONE 6.2s
+contenedores	Construir y comprobar los tres contenedores	2026-11-10T02:31:29.8909706Z 
+contenedores	Construir y comprobar los tres contenedores	2026-11-10T02:31:29.8910283Z #9 [5/5] COPY main.py .
+contenedores	Construir y comprobar los tres contenedores	2026-11-10T02:31:29.8910639Z #9 DONE 0.0s
+contenedores	Construir y comprobar los tres contenedores	2026-11-10T02:31:29.8910789Z 
+contenedores	Construir y comprobar los tres contenedores	2026-11-10T02:31:29.8910895Z #10 exporting to image
+contenedores	Construir y comprobar los tres contenedores	2026-11-10T02:31:29.8911167Z #10 exporting layers
+contenedores	Construir y comprobar los tres contenedores	2026-11-10T02:31:30.5207466Z #10 exporting layers 0.8s done
+contenedores	Construir y comprobar los tres contenedores	2026-11-10T02:31:30.6921717Z #10 exporting manifest sha256:d35cbe5b77f6d3671793185c9d40877c17536df60167c20be1838b962e4965b5 done
+contenedores	Construir y comprobar los tres contenedores	2026-11-10T02:31:30.6922775Z #10 exporting config sha256:38a423e625e4442e491f6cb4b451aa31b47e3e75b92296df43a6ebbbf2bf92db done
+contenedores	Construir y comprobar los tres contenedores	2026-11-10T02:31:30.6923776Z #10 exporting attestation manifest sha256:ebc51d3ef07e4b73c74b1509a6e3702fe20281963ca29a9b9cc95a0e73a9fcb8 done
+contenedores	Construir y comprobar los tres contenedores	2026-11-10T02:31:30.6924745Z #10 exporting manifest list sha256:fb7d39dad99c9165aa4da823e0d555868524df26ddba8793c6b9ca7316866244 done
+contenedores	Construir y comprobar los tres contenedores	2026-11-10T02:31:30.6925776Z #10 naming to docker.io/library/nebula-matchmaker:f070ff67c466654537be3b1484880ac3d49444b7 done
+contenedores	Construir y comprobar los tres contenedores	2026-11-10T02:31:30.6926608Z #10 unpacking to docker.io/library/nebula-matchmaker:f070ff67c466654537be3b1484880ac3d49444b7
+contenedores	Construir y comprobar los tres contenedores	2026-11-10T02:31:30.7837126Z #10 unpacking to docker.io/library/nebula-matchmaker:f070ff67c466654537be3b1484880ac3d49444b7 0.2s done
+contenedores	Construir y comprobar los tres contenedores	2026-11-10T02:31:30.8332567Z #10 DONE 1.1s
+contenedores	Construir y comprobar los tres contenedores	2026-11-10T02:31:31.1825393Z e408a096616252e8cb230f0c1cabcc55e0673fc71b1f819221f3ef866e7c6fa0
+contenedores	Construir y comprobar los tres contenedores	2026-11-10T02:31:31.4527362Z c0f98dd9a6f813c8f2e2a3b5c16fb336bb1c2cbba75fefa704139c8fdee9cd25
+contenedores	Construir y comprobar los tres contenedores	2026-11-10T02:31:32.8873047Z WebSocket, ping, métricas y tabla de líderes: correcto
+contenedores	Construir y comprobar los tres contenedores	2026-11-10T02:31:32.9195469Z 2026-11-10 02:31:31,536 INFO server listening on 0.0.0.0:7654
+contenedores	Construir y comprobar los tres contenedores	2026-11-10T02:31:32.9197802Z 2026-11-10 02:31:31,536 INFO Servidor listo en 0.0.0.0:7654, máximo 10 jugadores
+contenedores	Construir y comprobar los tres contenedores	2026-11-10T02:31:32.9198305Z 2026-11-10 02:31:32,872 INFO connection open
+contenedores	Construir y comprobar los tres contenedores	2026-11-10T02:31:32.9198661Z 2026-11-10 02:31:32,873 INFO connection closed
+contenedores	Construir y comprobar los tres contenedores	2026-11-10T02:31:32.9341519Z [2026-11-10 02:31:31 +0000] [1] [INFO] Starting gunicorn 25.3.0
+contenedores	Construir y comprobar los tres contenedores	2026-11-10T02:31:32.9342035Z [2026-11-10 02:31:31 +0000] [1] [INFO] Listening at: http://0.0.0.0:8080 (1)
+contenedores	Construir y comprobar los tres contenedores	2026-11-10T02:31:32.9342394Z [2026-11-10 02:31:31 +0000] [1] [INFO] Using worker: gthread
+contenedores	Construir y comprobar los tres contenedores	2026-11-10T02:31:32.9342704Z [2026-11-10 02:31:31 +0000] [6] [INFO] Booting worker with pid: 6
+contenedores	Construir y comprobar los tres contenedores	2026-11-10T02:31:32.9343102Z [2026-11-10 02:31:31 +0000] [1] [ERROR] Control server error: [Errno 13] Permission denied: '/.gunicorn'
+contenedores	Conservar imágenes comprobadas para revisión	﻿2026-11-10T02:31:32.9400892Z ##[group]Run docker save "nebula-server:$GITHUB_SHA" "nebula-serverless:$GITHUB_SHA" \
+contenedores	Conservar imágenes comprobadas para revisión	2026-11-10T02:31:32.9401412Z ^[[36;1mdocker save "nebula-server:$GITHUB_SHA" "nebula-serverless:$GITHUB_SHA" \^[[0m
+contenedores	Conservar imágenes comprobadas para revisión	2026-11-10T02:31:32.9401991Z ^[[36;1m  "nebula-matchmaker:$GITHUB_SHA" | gzip > nebula-images.tar.gz^[[0m
+contenedores	Conservar imágenes comprobadas para revisión	2026-11-10T02:31:32.9447170Z shell: /usr/bin/bash -e {0}
+contenedores	Conservar imágenes comprobadas para revisión	2026-11-10T02:31:32.9447392Z env:
+contenedores	Conservar imágenes comprobadas para revisión	2026-11-10T02:31:32.9447620Z   pythonLocation: /opt/hostedtoolcache/Python/3.11.18/x64
+contenedores	Conservar imágenes comprobadas para revisión	2026-11-10T02:31:32.9447987Z   PKG_CONFIG_PATH: /opt/hostedtoolcache/Python/3.11.18/x64/lib/pkgconfig
+contenedores	Conservar imágenes comprobadas para revisión	2026-11-10T02:31:32.9448339Z   Python_ROOT_DIR: /opt/hostedtoolcache/Python/3.11.18/x64
+contenedores	Conservar imágenes comprobadas para revisión	2026-11-10T02:31:32.9448641Z   Python2_ROOT_DIR: /opt/hostedtoolcache/Python/3.11.18/x64
+contenedores	Conservar imágenes comprobadas para revisión	2026-11-10T02:31:32.9448947Z   Python3_ROOT_DIR: /opt/hostedtoolcache/Python/3.11.18/x64
+contenedores	Conservar imágenes comprobadas para revisión	2026-11-10T02:31:32.9449247Z   LD_LIBRARY_PATH: /opt/hostedtoolcache/Python/3.11.18/x64/lib
+contenedores	Conservar imágenes comprobadas para revisión	2026-11-10T02:31:32.9449512Z ##[endgroup]
+contenedores	Run actions/upload-artifact@v4	﻿2026-11-10T02:31:35.5690536Z ##[group]Run actions/upload-artifact@v4
+contenedores	Run actions/upload-artifact@v4	2026-11-10T02:31:35.5690792Z with:
+contenedores	Run actions/upload-artifact@v4	2026-11-10T02:31:35.5691020Z   name: contenedores-f070ff67c466654537be3b1484880ac3d49444b7
+contenedores	Run actions/upload-artifact@v4	2026-11-10T02:31:35.5691321Z   path: nebula-images.tar.gz
+contenedores	Run actions/upload-artifact@v4	2026-11-10T02:31:35.5691526Z   retention-days: 1
+contenedores	Run actions/upload-artifact@v4	2026-11-10T02:31:35.5691700Z   if-no-files-found: warn
+contenedores	Run actions/upload-artifact@v4	2026-11-10T02:31:35.5691891Z   compression-level: 6
+contenedores	Run actions/upload-artifact@v4	2026-11-10T02:31:35.5692066Z   overwrite: false
+contenedores	Run actions/upload-artifact@v4	2026-11-10T02:31:35.5692245Z   include-hidden-files: false
+contenedores	Run actions/upload-artifact@v4	2026-11-10T02:31:35.5692437Z env:
+contenedores	Run actions/upload-artifact@v4	2026-11-10T02:31:35.5692648Z   pythonLocation: /opt/hostedtoolcache/Python/3.11.18/x64
+contenedores	Run actions/upload-artifact@v4	2026-11-10T02:31:35.5692987Z   PKG_CONFIG_PATH: /opt/hostedtoolcache/Python/3.11.18/x64/lib/pkgconfig
+contenedores	Run actions/upload-artifact@v4	2026-11-10T02:31:35.5693320Z   Python_ROOT_DIR: /opt/hostedtoolcache/Python/3.11.18/x64
+contenedores	Run actions/upload-artifact@v4	2026-11-10T02:31:35.5693625Z   Python2_ROOT_DIR: /opt/hostedtoolcache/Python/3.11.18/x64
+contenedores	Run actions/upload-artifact@v4	2026-11-10T02:31:35.5693928Z   Python3_ROOT_DIR: /opt/hostedtoolcache/Python/3.11.18/x64
+contenedores	Run actions/upload-artifact@v4	2026-11-10T02:31:35.5694221Z   LD_LIBRARY_PATH: /opt/hostedtoolcache/Python/3.11.18/x64/lib
+contenedores	Run actions/upload-artifact@v4	2026-11-10T02:31:35.5694517Z ##[endgroup]
+contenedores	Run actions/upload-artifact@v4	2026-11-10T02:31:35.7133503Z (node:2802) [DEP0040] DeprecationWarning: The `punycode` module is deprecated. Please use a userland alternative instead.
+contenedores	Run actions/upload-artifact@v4	2026-11-10T02:31:35.7134675Z (Use `node --trace-deprecation ...` to show where the warning was created)
+contenedores	Run actions/upload-artifact@v4	2026-11-10T02:31:35.7214354Z With the provided path, there will be 1 file uploaded
+contenedores	Run actions/upload-artifact@v4	2026-11-10T02:31:35.7243502Z Artifact name is valid!
+contenedores	Run actions/upload-artifact@v4	2026-11-10T02:31:35.7244453Z Root directory input is valid!
+contenedores	Run actions/upload-artifact@v4	2026-11-10T02:31:35.9470844Z Beginning upload of artifact content to blob storage
+contenedores	Run actions/upload-artifact@v4	2026-11-10T02:31:36.1850505Z (node:2802) [DEP0169] DeprecationWarning: `url.parse()` behavior is not standardized and prone to errors that have security implications. Use the WHATWG URL API instead. CVEs are not issued for `url.parse()` vulnerabilities.
+contenedores	Run actions/upload-artifact@v4	2026-11-10T02:31:36.4512626Z Uploaded bytes 8388608
+contenedores	Run actions/upload-artifact@v4	2026-11-10T02:31:36.5591679Z Uploaded bytes 16777216
+contenedores	Run actions/upload-artifact@v4	2026-11-10T02:31:36.8052843Z Uploaded bytes 25165824
+contenedores	Run actions/upload-artifact@v4	2026-11-10T02:31:37.0106322Z Uploaded bytes 33554432
+contenedores	Run actions/upload-artifact@v4	2026-11-10T02:31:37.3489082Z Uploaded bytes 41943040
+contenedores	Run actions/upload-artifact@v4	2026-11-10T02:31:37.4336127Z Uploaded bytes 50331648
+contenedores	Run actions/upload-artifact@v4	2026-11-10T02:31:37.6385333Z Uploaded bytes 58720256
+contenedores	Run actions/upload-artifact@v4	2026-11-10T02:31:37.8845985Z Uploaded bytes 67108864
+contenedores	Run actions/upload-artifact@v4	2026-11-10T02:31:38.2947766Z Uploaded bytes 75497472
+contenedores	Run actions/upload-artifact@v4	2026-11-10T02:31:38.4737575Z Uploaded bytes 81690137
+contenedores	Run actions/upload-artifact@v4	2026-11-10T02:31:38.4891873Z Finished uploading artifact content to blob storage!
+contenedores	Run actions/upload-artifact@v4	2026-11-10T02:31:38.4894317Z SHA256 digest of uploaded artifact zip is 022c0ed425a76e336995d0dfdf97d8a3cade14a2e7002150913614c1002edcc9
+contenedores	Run actions/upload-artifact@v4	2026-11-10T02:31:38.4896601Z Finalizing artifact upload
+contenedores	Run actions/upload-artifact@v4	2026-11-10T02:31:38.8875966Z Artifact contenedores-f070ff67c466654537be3b1484880ac3d49444b7.zip successfully finalized. Artifact ID 13729394885
+contenedores	Run actions/upload-artifact@v4	2026-11-10T02:31:38.8892032Z Artifact contenedores-f070ff67c466654537be3b1484880ac3d49444b7 has been successfully uploaded! Final size is 81690137 bytes. Artifact ID is 13729394885
+contenedores	Run actions/upload-artifact@v4	2026-11-10T02:31:38.8893560Z Artifact download URL: https://github.com/Gustavomezz/nebula-arena-unidad3/actions/runs/42743200460/artifacts/13729394885
+contenedores	Post Run actions/setup-python@v5	﻿2026-11-10T02:31:38.9087846Z Post job cleanup.
+contenedores	Post Run actions/setup-python@v5	2026-11-10T02:31:39.0115156Z (node:2868) [DEP0040] DeprecationWarning: The `punycode` module is deprecated. Please use a userland alternative instead.
+contenedores	Post Run actions/setup-python@v5	2026-11-10T02:31:39.0116479Z (Use `node --trace-deprecation ...` to show where the warning was created)
+contenedores	Post Run actions/checkout@v4	﻿2026-11-10T02:31:39.0336829Z Post job cleanup.
+contenedores	Post Run actions/checkout@v4	2026-11-10T02:31:39.1169364Z [command]/usr/bin/git version
+contenedores	Post Run actions/checkout@v4	2026-11-10T02:31:39.1255802Z git version 2.56.0
+contenedores	Post Run actions/checkout@v4	2026-11-10T02:31:39.1320368Z Temporarily overriding HOME='/home/runner/work/_temp/530f34ce-37e2-49f7-9f6b-6d0202fa8ff1' before making global git config changes
+contenedores	Post Run actions/checkout@v4	2026-11-10T02:31:39.1321597Z Adding repository directory to the temporary git global config as a safe directory
+contenedores	Post Run actions/checkout@v4	2026-11-10T02:31:39.1322669Z [command]/usr/bin/git config --global --add safe.directory /home/runner/work/nebula-arena-unidad3/nebula-arena-unidad3
+contenedores	Post Run actions/checkout@v4	2026-11-10T02:31:39.1366625Z [command]/usr/bin/git config --local --name-only --get-regexp core\.sshCommand
+contenedores	Post Run actions/checkout@v4	2026-11-10T02:31:39.1448470Z [command]/usr/bin/git submodule foreach --recursive sh -c "git config --local --name-only --get-regexp 'core\.sshCommand' && git config --local --unset-all 'core.sshCommand' || :"
+contenedores	Post Run actions/checkout@v4	2026-11-10T02:31:39.1846382Z [command]/usr/bin/git config --local --name-only --get-regexp http\.https\:\/\/github\.com\/\.extraheader
+contenedores	Post Run actions/checkout@v4	2026-11-10T02:31:39.1898663Z http.https://github.com/.extraheader
+contenedores	Post Run actions/checkout@v4	2026-11-10T02:31:39.1916561Z [command]/usr/bin/git config --local --unset-all http.https://github.com/.extraheader
+contenedores	Post Run actions/checkout@v4	2026-11-10T02:31:39.2016649Z [command]/usr/bin/git submodule foreach --recursive sh -c "git config --local --name-only --get-regexp 'http\.https\:\/\/github\.com\/\.extraheader' && git config --local --unset-all 'http.https://github.com/.extraheader' || :"
+contenedores	Post Run actions/checkout@v4	2026-11-10T02:31:39.2536869Z [command]/usr/bin/git config --local --name-only --get-regexp ^includeIf\.gitdir:
+contenedores	Post Run actions/checkout@v4	2026-11-10T02:31:39.2596106Z [command]/usr/bin/git submodule foreach --recursive git config --local --show-origin --name-only --get-regexp remote.origin.url
+contenedores	Complete job	﻿2026-11-10T02:31:39.3145718Z Cleaning up orphan processes
+contenedores	Complete job	2026-11-10T02:31:39.3562264Z ##[warning]Node.js 20 is deprecated. The following actions target Node.js 20 but are being forced to run on Node.js 24: actions/checkout@v4, actions/setup-python@v5, actions/upload-artifact@v4. For more information see: https://github.blog/changelog/2025-09-19-deprecation-of-node-20-on-github-actions-runners/

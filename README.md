@@ -7,6 +7,21 @@ GitHub Actions, Prometheus, Grafana y una tabla de líderes en Cloud Run con Fir
 Los clientes de Locust simulan jugadores y espectadores. El video de prueba es un
 patrón HLS de 360p, como indica la práctica.
 
+## Estado de ejecución
+
+Las 21 pruebas automáticas, la validación de Terraform y la construcción y ejecución
+de los contenedores se comprobaron. La práctica 3.1 se ejecutó en Colab con CPU y T4,
+y se conservan el notebook, los JSON y el CSV de la calculadora oficial.
+
+La ejecución de GKE, Cloud Run y CDN está pendiente del acceso de Google Cloud.
+La consola exige que el propietario active la verificación en dos pasos. Por ello,
+todavía faltan la carga de nube, el plan real, las capturas de escalado y la auditoría
+de destrucción. `evidencias/estado_ejecucion.json` registra esta diferencia.
+
+Los PDF terminados están en `Documentos/`. Los borradores de las otras prácticas
+y del reporte se conservan fuera de esta carpeta de entregas, hasta completar las
+mediciones. La autoevaluación y la práctica 3.1 ya están revisadas.
+
 ## Archivos
 
 - `server/`: servidor para 10 jugadores, con actualización a 20 Hz y métricas.

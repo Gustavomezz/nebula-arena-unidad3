@@ -1,0 +1,28 @@
+{
+  "fecha": "2026-11-09T20:40:09.997816-06:00",
+  "estado": "pendiente_acceso_google_cloud",
+  "pruebas_locales": 21,
+  "terraform_validate": [
+    "infra",
+    "infra/bootstrap",
+    "infra/addons"
+  ],
+  "ci_pruebas_y_contenedores": "correcto",
+  "ci_despliegue_nube": "omitido",
+  "cpu_y_t4_colab": "ejecutados",
+  "recursos_gke_creados": false,
+  "motivo": "La consola exige activar la verificación en dos pasos de la cuenta del usuario.",
+  "pendiente": [
+    "habilitar acceso y facturación del proyecto nuevo",
+    "presupuesto y cuotas",
+    "terraform plan y revisión en PR",
+    "despliegue en GKE y Cloud Run",
+    "carga 1000 jugadores y 500 espectadores",
+    "medición de escalado y capacidad",
+    "capturas de Grafana, concurrencia y GameServers",
+    "destrucción de recursos con auditoría"
+  ],
+  "repositorio": "https://github.com/Gustavomezz/nebula-arena-unidad3",
+  "notebook_colab": "https://colab.research.google.com/drive/1-Skk-DTkjCaMUqsacK75J1u6Flt5hMhZ",
+  "presentacion_page_id": "page_a369c8b04f588191909b32b2d7741965"
+}
