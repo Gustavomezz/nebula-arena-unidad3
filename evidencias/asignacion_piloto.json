@@ -1,0 +1,66 @@
+{
+    "apiVersion": "allocation.agones.dev/v1",
+    "kind": "GameServerAllocation",
+    "metadata": {
+        "creationTimestamp": "2026-11-10T03:41:57Z",
+        "name": "nebula-fleet-cphb2-d2pzw",
+        "namespace": "default"
+    },
+    "spec": {
+        "metadata": {},
+        "multiClusterSetting": {
+            "policySelector": {}
+        },
+        "required": {},
+        "scheduling": "Packed",
+        "selectors": [
+            {
+                "gameServerState": "Ready",
+                "matchLabels": {
+                    "agones.dev/fleet": "nebula-fleet"
+                }
+            }
+        ]
+    },
+    "status": {
+        "address": "136.114.198.251",
+        "addresses": [
+            {
+                "address": "10.40.0.6",
+                "type": "InternalIP"
+            },
+            {
+                "address": "136.114.198.251",
+                "type": "ExternalIP"
+            },
+            {
+                "address": "gke-nebula-dev-game-pool-89caa13f-7dgf",
+                "type": "Hostname"
+            },
+            {
+                "address": "10.44.1.13",
+                "type": "PodIP"
+            }
+        ],
+        "gameServerName": "nebula-fleet-cphb2-d2pzw",
+        "metadata": {
+            "annotations": {
+                "agones.dev/last-allocated": "2026-11-10T03:41:57.196446966Z",
+                "agones.dev/sdk-version": "1.62.0"
+            },
+            "labels": {
+                "agones.dev/fleet": "nebula-fleet",
+                "agones.dev/gameserverset": "nebula-fleet-cphb2"
+            }
+        },
+        "nodeName": "gke-nebula-dev-game-pool-89caa13f-7dgf",
+        "ports": [
+            {
+                "name": "game",
+                "port": 7241
+            }
+        ],
+        "source": "local",
+        "state": "Allocated"
+    }
+}

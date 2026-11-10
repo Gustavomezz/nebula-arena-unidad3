@@ -1,0 +1,8 @@
+WARNING: 
+
+To increase the performance of the tunnel, consider installing NumPy. For instructions,
+please see https://cloud.google.com/iap/docs/using-tcp-forwarding#increasing_the_tcp_upload_bandwidth
+
+681ac02750fb57c543e3ecdec6bf69dca1459db789827841c1e02c2ae9aefeee
+NAMES             STATUS                  PORTS
+nebula-practica   Up Less than a second   0.0.0.0:7654->7654/tcp, :::7654->7654/tcp, 0.0.0.0:9100->9100/tcp, :::9100->9100/tcp

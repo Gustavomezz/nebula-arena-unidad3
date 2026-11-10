@@ -1,6 +1,6 @@
 {
   "fecha": "2026-11-09T21:10:11.817028-06:00",
-  "estado": "pendiente_facturacion_google_cloud",
+  "estado": "desplegado_pruebas_nube_en_curso",
   "pruebas_locales": 21,
   "terraform_validate": [
     "infra",
@@ -10,16 +10,14 @@
   "ci_pruebas_y_contenedores": "correcto",
   "ci_despliegue_nube": "omitido",
   "cpu_y_t4_colab": "ejecutados",
-  "recursos_gke_creados": false,
-  "motivo": "Acceso y verificación en dos pasos resueltos. Cuenta de facturación cerrada; la consola exige prepago mínimo de MXN 500. Proyecto nuevo sin facturación vinculada.",
+  "recursos_gke_creados": true,
+  "motivo": "GKE, Cloud Run y CDN desplegados; siguen las pruebas de carga y el cierre.",
   "pendiente": [
-    "activar facturación o usar un proyecto educativo con cuota disponible",
-    "presupuesto y cuotas",
-    "terraform plan y revisión en PR",
-    "despliegue en GKE y Cloud Run",
-    "carga 1000 jugadores y 500 espectadores",
-    "medición de escalado y capacidad",
-    "capturas de Grafana, concurrencia y GameServers",
+    "ajustar la reserva a la cuota disponible",
+    "rampa y pico de 1000 jugadores",
+    "medir HPA y escalado de nodos",
+    "carga de Cloud Run con 500 usuarios",
+    "capturas finales y documentos",
     "destrucción de recursos con auditoría"
   ],
   "repositorio": "https://github.com/Gustavomezz/nebula-arena-unidad3",
@@ -28,6 +26,7 @@
   "proyecto": "nebula-arena-ga-20261109",
   "proyecto_creado": true,
   "acceso_google_cloud": true,
-  "facturacion_habilitada": false,
-  "plan_bootstrap": "generado_sin_aplicar"
+  "facturacion_habilitada": true,
+  "plan_bootstrap": "aplicado",
+  "ci_publicacion_inicial": "correcto"
 }

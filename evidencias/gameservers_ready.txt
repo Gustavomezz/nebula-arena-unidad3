@@ -1,0 +1,4 @@
+NAME                       STATE   ADDRESS           PORT   NODE                                     AGE
+nebula-fleet-cphb2-d2pzw   Ready   136.114.198.251   7241   gke-nebula-dev-game-pool-89caa13f-7dgf   60s
+nebula-fleet-cphb2-j47zf   Ready   136.114.198.251   7680   gke-nebula-dev-game-pool-89caa13f-7dgf   60s
+nebula-fleet-cphb2-zkb7m   Ready   136.114.198.251   7218   gke-nebula-dev-game-pool-89caa13f-7dgf   60s
