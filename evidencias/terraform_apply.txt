@@ -1,0 +1,180 @@
+google_project_service.apis["iam.googleapis.com"]: Creating...
+google_project_service.apis["compute.googleapis.com"]: Creating...
+google_project_service.apis["cloudresourcemanager.googleapis.com"]: Creating...
+google_project_service.apis["artifactregistry.googleapis.com"]: Creating...
+google_project_service.apis["firestore.googleapis.com"]: Creating...
+google_project_service.apis["container.googleapis.com"]: Creating...
+google_project_service.apis["iamcredentials.googleapis.com"]: Creating...
+google_project_service.apis["sts.googleapis.com"]: Creating...
+google_project_service.apis["cloudasset.googleapis.com"]: Creating...
+google_storage_bucket.stream[0]: Creating...
+google_storage_bucket.stream[0]: Creation complete after 2s [id=nebula-arena-ga-20261109-nebula-stream]
+google_project_service.apis["run.googleapis.com"]: Creating...
+google_project_service.apis["compute.googleapis.com"]: Creation complete after 4s [id=nebula-arena-ga-20261109/compute.googleapis.com]
+google_project_service.apis["cloudresourcemanager.googleapis.com"]: Creation complete after 4s [id=nebula-arena-ga-20261109/cloudresourcemanager.googleapis.com]
+google_project_service.apis["artifactregistry.googleapis.com"]: Creation complete after 4s [id=nebula-arena-ga-20261109/artifactregistry.googleapis.com]
+google_project_service.apis["iam.googleapis.com"]: Creation complete after 4s [id=nebula-arena-ga-20261109/iam.googleapis.com]
+google_project_service.apis["iamcredentials.googleapis.com"]: Creation complete after 4s [id=nebula-arena-ga-20261109/iamcredentials.googleapis.com]
+google_project_service.apis["container.googleapis.com"]: Creation complete after 4s [id=nebula-arena-ga-20261109/container.googleapis.com]
+google_storage_bucket_iam_member.stream[0]: Creating...
+google_compute_backend_bucket.stream[0]: Creating...
+google_storage_bucket_iam_member.stream[0]: Creation complete after 4s [id=b/nebula-arena-ga-20261109-nebula-stream/roles/storage.objectViewer/allUsers]
+google_project_service.apis["sts.googleapis.com"]: Still creating... [00m10s elapsed]
+google_project_service.apis["firestore.googleapis.com"]: Still creating... [00m10s elapsed]
+google_project_service.apis["cloudasset.googleapis.com"]: Still creating... [00m10s elapsed]
+google_project_service.apis["run.googleapis.com"]: Still creating... [00m10s elapsed]
+google_compute_backend_bucket.stream[0]: Still creating... [00m10s elapsed]
+google_project_service.apis["firestore.googleapis.com"]: Still creating... [00m20s elapsed]
+google_project_service.apis["sts.googleapis.com"]: Still creating... [00m20s elapsed]
+google_project_service.apis["cloudasset.googleapis.com"]: Still creating... [00m20s elapsed]
+google_project_service.apis["run.googleapis.com"]: Still creating... [00m20s elapsed]
+google_project_service.apis["cloudasset.googleapis.com"]: Creation complete after 22s [id=nebula-arena-ga-20261109/cloudasset.googleapis.com]
+google_project_service.apis["sts.googleapis.com"]: Creation complete after 22s [id=nebula-arena-ga-20261109/sts.googleapis.com]
+google_project_service.apis["firestore.googleapis.com"]: Creation complete after 22s [id=nebula-arena-ga-20261109/firestore.googleapis.com]
+google_project_service.apis["run.googleapis.com"]: Creation complete after 20s [id=nebula-arena-ga-20261109/run.googleapis.com]
+google_compute_network.vpc: Creating...
+google_iam_workload_identity_pool.github: Creating...
+google_service_account.nodos: Creating...
+google_firestore_database.scores: Creating...
+google_service_account.leaderboard: Creating...
+google_service_account.deploy: Creating...
+google_artifact_registry_repository.imagenes: Creating...
+google_firestore_database.scores: Creation complete after 2s [id=projects/nebula-arena-ga-20261109/databases/(default)]
+google_compute_backend_bucket.stream[0]: Still creating... [00m20s elapsed]
+google_compute_backend_bucket.stream[0]: Creation complete after 22s [id=projects/nebula-arena-ga-20261109/global/backendBuckets/nebula-dev-stream]
+google_compute_url_map.stream[0]: Creating...
+google_compute_network.vpc: Still creating... [00m10s elapsed]
+google_service_account.deploy: Still creating... [00m10s elapsed]
+google_service_account.leaderboard: Still creating... [00m10s elapsed]
+google_iam_workload_identity_pool.github: Still creating... [00m10s elapsed]
+google_service_account.nodos: Still creating... [00m10s elapsed]
+google_artifact_registry_repository.imagenes: Still creating... [00m10s elapsed]
+google_iam_workload_identity_pool.github: Creation complete after 11s [id=projects/nebula-arena-ga-20261109/locations/global/workloadIdentityPools/nebula-github]
+google_iam_workload_identity_pool_provider.github: Creating...
+google_service_account.nodos: Creation complete after 13s [id=projects/nebula-arena-ga-20261109/serviceAccounts/nebula-dev-nodes@nebula-arena-ga-20261109.iam.gserviceaccount.com]
+google_project_iam_member.nodos["roles/logging.logWriter"]: Creating...
+google_project_iam_member.nodos["roles/monitoring.metricWriter"]: Creating...
+google_project_iam_member.nodos["roles/artifactregistry.reader"]: Creating...
+google_service_account.leaderboard: Creation complete after 13s [id=projects/nebula-arena-ga-20261109/serviceAccounts/nebula-dev-scores@nebula-arena-ga-20261109.iam.gserviceaccount.com]
+google_project_iam_member.scores: Creating...
+google_compute_url_map.stream[0]: Still creating... [00m10s elapsed]
+google_compute_url_map.stream[0]: Creation complete after 11s [id=projects/nebula-arena-ga-20261109/global/urlMaps/nebula-dev-cdn]
+google_compute_target_http_proxy.stream[0]: Creating...
+google_project_iam_member.nodos["roles/artifactregistry.reader"]: Creation complete after 7s [id=nebula-arena-ga-20261109/roles/artifactregistry.reader/serviceAccount:nebula-dev-nodes@nebula-arena-ga-20261109.iam.gserviceaccount.com]
+google_compute_network.vpc: Still creating... [00m20s elapsed]
+google_service_account.deploy: Still creating... [00m20s elapsed]
+google_artifact_registry_repository.imagenes: Still creating... [00m20s elapsed]
+google_project_iam_member.nodos["roles/logging.logWriter"]: Creation complete after 8s [id=nebula-arena-ga-20261109/roles/logging.logWriter/serviceAccount:nebula-dev-nodes@nebula-arena-ga-20261109.iam.gserviceaccount.com]
+google_project_iam_member.nodos["roles/monitoring.metricWriter"]: Creation complete after 8s [id=nebula-arena-ga-20261109/roles/monitoring.metricWriter/serviceAccount:nebula-dev-nodes@nebula-arena-ga-20261109.iam.gserviceaccount.com]
+google_project_iam_member.scores: Creation complete after 8s [id=nebula-arena-ga-20261109/roles/datastore.user/serviceAccount:nebula-dev-scores@nebula-arena-ga-20261109.iam.gserviceaccount.com]
+google_iam_workload_identity_pool_provider.github: Still creating... [00m10s elapsed]
+google_artifact_registry_repository.imagenes: Creation complete after 22s [id=projects/nebula-arena-ga-20261109/locations/us-central1/repositories/nebula]
+google_iam_workload_identity_pool_provider.github: Creation complete after 11s [id=projects/nebula-arena-ga-20261109/locations/global/workloadIdentityPools/nebula-github/providers/github]
+google_compute_network.vpc: Creation complete after 22s [id=projects/nebula-arena-ga-20261109/global/networks/nebula-dev-vpc]
+google_compute_firewall.ssh_iap: Creating...
+google_compute_subnetwork.juego: Creating...
+google_compute_target_http_proxy.stream[0]: Still creating... [00m10s elapsed]
+google_compute_target_http_proxy.stream[0]: Creation complete after 12s [id=projects/nebula-arena-ga-20261109/global/targetHttpProxies/nebula-dev-cdn]
+google_compute_global_forwarding_rule.stream[0]: Creating...
+google_service_account.deploy: Creation complete after 28s [id=projects/nebula-arena-ga-20261109/serviceAccounts/nebula-dev-github@nebula-arena-ga-20261109.iam.gserviceaccount.com]
+google_project_iam_member.deploy["roles/artifactregistry.writer"]: Creating...
+google_project_iam_member.deploy["roles/container.admin"]: Creating...
+google_service_account_iam_member.deploy_scores: Creating...
+google_service_account_iam_member.github: Creating...
+google_project_iam_member.deploy["roles/run.admin"]: Creating...
+google_service_account_iam_member.deploy_scores: Creation complete after 4s [id=projects/nebula-arena-ga-20261109/serviceAccounts/nebula-dev-scores@nebula-arena-ga-20261109.iam.gserviceaccount.com/roles/iam.serviceAccountUser/serviceAccount:nebula-dev-github@nebula-arena-ga-20261109.iam.gserviceaccount.com]
+google_service_account_iam_member.github: Creation complete after 4s [id=projects/nebula-arena-ga-20261109/serviceAccounts/nebula-dev-github@nebula-arena-ga-20261109.iam.gserviceaccount.com/roles/iam.workloadIdentityUser/principalSet://iam.googleapis.com/projects/913295964817/locations/global/workloadIdentityPools/nebula-github/attribute.repository/Gustavomezz/nebula-arena-unidad3]
+google_compute_subnetwork.juego: Still creating... [00m10s elapsed]
+google_compute_firewall.ssh_iap: Still creating... [00m10s elapsed]
+google_compute_firewall.ssh_iap: Creation complete after 12s [id=projects/nebula-arena-ga-20261109/global/firewalls/nebula-dev-ssh-iap]
+google_project_iam_member.deploy["roles/container.admin"]: Creation complete after 7s [id=nebula-arena-ga-20261109/roles/container.admin/serviceAccount:nebula-dev-github@nebula-arena-ga-20261109.iam.gserviceaccount.com]
+google_project_iam_member.deploy["roles/artifactregistry.writer"]: Creation complete after 8s [id=nebula-arena-ga-20261109/roles/artifactregistry.writer/serviceAccount:nebula-dev-github@nebula-arena-ga-20261109.iam.gserviceaccount.com]
+google_project_iam_member.deploy["roles/run.admin"]: Creation complete after 8s [id=nebula-arena-ga-20261109/roles/run.admin/serviceAccount:nebula-dev-github@nebula-arena-ga-20261109.iam.gserviceaccount.com]
+google_compute_global_forwarding_rule.stream[0]: Still creating... [00m10s elapsed]
+google_compute_subnetwork.juego: Still creating... [00m20s elapsed]
+google_compute_subnetwork.juego: Creation complete after 22s [id=projects/nebula-arena-ga-20261109/regions/us-central1/subnetworks/nebula-dev-subred]
+google_compute_firewall.juego: Creating...
+google_compute_instance.generador[0]: Creating...
+google_container_cluster.nebula: Creating...
+google_compute_global_forwarding_rule.stream[0]: Still creating... [00m20s elapsed]
+google_compute_global_forwarding_rule.stream[0]: Creation complete after 22s [id=projects/nebula-arena-ga-20261109/global/forwardingRules/nebula-dev-cdn]
+google_compute_firewall.juego: Still creating... [00m10s elapsed]
+google_compute_instance.generador[0]: Still creating... [00m10s elapsed]
+google_container_cluster.nebula: Still creating... [00m10s elapsed]
+google_compute_firewall.juego: Creation complete after 11s [id=projects/nebula-arena-ga-20261109/global/firewalls/nebula-dev-partidas]
+google_compute_instance.generador[0]: Still creating... [00m20s elapsed]
+google_container_cluster.nebula: Still creating... [00m20s elapsed]
+google_compute_instance.generador[0]: Creation complete after 28s [id=projects/nebula-arena-ga-20261109/zones/us-central1-a/instances/nebula-dev-locust]
+google_container_cluster.nebula: Still creating... [00m30s elapsed]
+google_container_cluster.nebula: Still creating... [00m40s elapsed]
+google_container_cluster.nebula: Still creating... [00m50s elapsed]
+google_container_cluster.nebula: Still creating... [01m00s elapsed]
+google_container_cluster.nebula: Still creating... [01m10s elapsed]
+google_container_cluster.nebula: Still creating... [01m20s elapsed]
+google_container_cluster.nebula: Still creating... [01m30s elapsed]
+google_container_cluster.nebula: Still creating... [01m40s elapsed]
+google_container_cluster.nebula: Still creating... [01m50s elapsed]
+google_container_cluster.nebula: Still creating... [02m00s elapsed]
+google_container_cluster.nebula: Still creating... [02m10s elapsed]
+google_container_cluster.nebula: Still creating... [02m20s elapsed]
+google_container_cluster.nebula: Still creating... [02m30s elapsed]
+google_container_cluster.nebula: Still creating... [02m40s elapsed]
+google_container_cluster.nebula: Still creating... [02m50s elapsed]
+google_container_cluster.nebula: Still creating... [03m00s elapsed]
+google_container_cluster.nebula: Still creating... [03m10s elapsed]
+google_container_cluster.nebula: Still creating... [03m20s elapsed]
+google_container_cluster.nebula: Still creating... [03m30s elapsed]
+google_container_cluster.nebula: Still creating... [03m40s elapsed]
+google_container_cluster.nebula: Still creating... [03m50s elapsed]
+google_container_cluster.nebula: Still creating... [04m00s elapsed]
+google_container_cluster.nebula: Still creating... [04m10s elapsed]
+google_container_cluster.nebula: Still creating... [04m20s elapsed]
+google_container_cluster.nebula: Still creating... [04m30s elapsed]
+google_container_cluster.nebula: Still creating... [04m40s elapsed]
+google_container_cluster.nebula: Still creating... [04m50s elapsed]
+google_container_cluster.nebula: Still creating... [05m00s elapsed]
+google_container_cluster.nebula: Still creating... [05m10s elapsed]
+google_container_cluster.nebula: Still creating... [05m20s elapsed]
+google_container_cluster.nebula: Still creating... [05m30s elapsed]
+google_container_cluster.nebula: Still creating... [05m40s elapsed]
+google_container_cluster.nebula: Still creating... [05m50s elapsed]
+google_container_cluster.nebula: Still creating... [06m00s elapsed]
+google_container_cluster.nebula: Still creating... [06m10s elapsed]
+google_container_cluster.nebula: Still creating... [06m20s elapsed]
+google_container_cluster.nebula: Still creating... [06m30s elapsed]
+google_container_cluster.nebula: Still creating... [06m40s elapsed]
+google_container_cluster.nebula: Still creating... [06m50s elapsed]
+google_container_cluster.nebula: Still creating... [07m00s elapsed]
+google_container_cluster.nebula: Still creating... [07m10s elapsed]
+google_container_cluster.nebula: Still creating... [07m20s elapsed]
+google_container_cluster.nebula: Still creating... [07m30s elapsed]
+google_container_cluster.nebula: Still creating... [07m40s elapsed]
+google_container_cluster.nebula: Still creating... [07m50s elapsed]
+google_container_cluster.nebula: Still creating... [08m00s elapsed]
+google_container_cluster.nebula: Still creating... [08m10s elapsed]
+google_container_cluster.nebula: Still creating... [08m20s elapsed]
+google_container_cluster.nebula: Still creating... [08m30s elapsed]
+google_container_cluster.nebula: Still creating... [08m40s elapsed]
+google_container_cluster.nebula: Creation complete after 8m47s [id=projects/nebula-arena-ga-20261109/locations/us-central1-a/clusters/nebula-dev]
+google_container_node_pool.juego: Creating...
+google_container_node_pool.juego: Still creating... [00m10s elapsed]
+google_container_node_pool.juego: Still creating... [00m20s elapsed]
+google_container_node_pool.juego: Still creating... [00m30s elapsed]
+google_container_node_pool.juego: Still creating... [00m40s elapsed]
+google_container_node_pool.juego: Still creating... [00m50s elapsed]
+google_container_node_pool.juego: Still creating... [01m00s elapsed]
+google_container_node_pool.juego: Still creating... [01m10s elapsed]
+google_container_node_pool.juego: Still creating... [01m20s elapsed]
+google_container_node_pool.juego: Creation complete after 1m22s [id=projects/nebula-arena-ga-20261109/locations/us-central1-a/clusters/nebula-dev/nodePools/game-pool]
+
+Apply complete! Resources: 39 added, 0 changed, 0 destroyed.
+
+Outputs:
+
+cluster = "nebula-dev"
+deploy_service_account = "nebula-dev-github@nebula-arena-ga-20261109.iam.gserviceaccount.com"
+generador = "nebula-dev-locust"
+registro = "us-central1-docker.pkg.dev/nebula-arena-ga-20261109/nebula"
+stream_bucket = "nebula-arena-ga-20261109-nebula-stream"
+stream_url = "http://34.110.167.87"
+wif_provider = "projects/913295964817/locations/global/workloadIdentityPools/nebula-github/providers/github"

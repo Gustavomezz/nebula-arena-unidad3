@@ -42,8 +42,10 @@ resource "helm_release" "agones" {
   timeout          = 900
   values = [yamlencode({
     agones = {
-      metrics   = { serviceMonitor = { enabled = true } }
-      allocator = { service = { serviceType = "ClusterIP" } }
+      metrics    = { serviceMonitor = { enabled = true } }
+      allocator  = { service = { serviceType = "ClusterIP" } }
+      controller = { persistentLogsSizeLimitMB = 100 }
+      extensions = { persistentLogsSizeLimitMB = 100 }
     }
   })]
   depends_on = [helm_release.monitoreo]

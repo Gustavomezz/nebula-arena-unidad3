@@ -1,0 +1,43 @@
+{
+  "timestamp": 1794282281.423958,
+  "consulta": "sum by(pod,container)(rate(container_cpu_usage_seconds_total{namespace=\"default\",container=\"nebula\"}[1m]))",
+  "resultado_prometheus": {
+    "status": "success",
+    "data": {
+      "resultType": "vector",
+      "result": [
+        {
+          "metric": {
+            "container": "nebula",
+            "pod": "nebula-fleet-cphb2-d2pzw"
+          },
+          "value": [
+            1794282281.391,
+            "0.028279513498896073"
+          ]
+        },
+        {
+          "metric": {
+            "container": "nebula",
+            "pod": "nebula-fleet-cphb2-zkb7m"
+          },
+          "value": [
+            1794282281.391,
+            "0.0038234387047031606"
+          ]
+        },
+        {
+          "metric": {
+            "container": "nebula",
+            "pod": "nebula-fleet-cphb2-j47zf"
+          },
+          "value": [
+            1794282281.391,
+            "0.003553872053872055"
+          ]
+        }
+      ]
+    }
+  },
+  "nota": "Medición durante o inmediatamente después de la sesión piloto de diez jugadores. La ventana de rate es un minuto."
+}

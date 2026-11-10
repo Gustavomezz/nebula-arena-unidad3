@@ -13,14 +13,23 @@ Las 21 pruebas automáticas, la validación de Terraform y la construcción y ej
 de los contenedores se comprobaron. La práctica 3.1 se ejecutó en Colab con CPU y T4,
 y se conservan el notebook, los JSON y el CSV de la calculadora oficial.
 
-El acceso a Google Cloud ya funciona y se creó el proyecto aislado
-`nebula-arena-ga-20261109`. Se generó el plan inicial del bucket de estado, sin
-aplicarlo. La única cuenta de facturación disponible está cerrada y Google exige
-un prepago mínimo de MXN 500 para activarla. El proyecto todavía no tiene
-facturación habilitada. GKE, Cloud Run, CDN, las pruebas de nube y la eliminación
-de esos recursos siguen pendientes. También se puede continuar en un proyecto
-con créditos educativos que proporcione la escuela.
-`evidencias/estado_ejecucion.json` registra el estado comprobado.
+El proyecto aislado `nebula-arena-ga-20261109` ya tiene facturación activa. Se
+aplicaron los planes de Terraform y se instalaron Agones, Prometheus y Grafana.
+Cloud Run guardó y consultó un resultado real en Firestore, y un reintento no
+duplicó los puntos. La CDN completó cinco minutos con 500 espectadores: 74,500
+solicitudes y cero fallos. Los CSV originales están en `evidencias/`.
+
+La sesión piloto de diez jugadores en GKE registró 1,170 RTT, p95 de 2 ms y cero
+fallos. El consumo de una partida rondó 28 milésimas de CPU en una ventana de un
+minuto. Por eso la reserva del contenedor se ajustó a 100m, conservando el límite
+de 500m. Google rechazó ampliar las 32 vCPU globales. El laboratorio usa hasta
+tres nodos n2-standard-8 y una generadora e2-standard-8, dentro de ese límite.
+Se puede reducir la flota inicial a un nodo antes de la prueba para observar su
+crecimiento. Esta reducción se hace cuando no quedan partidas en curso.
+
+Siguen pendientes la rampa y el pico de 1,000 jugadores, la prueba de HPA, la
+carga de Cloud Run, las capturas finales y la destrucción con auditoría. El estado
+se registra en `evidencias/estado_ejecucion.json`.
 
 Los PDF terminados están en `Documentos/`. Los borradores de las otras prácticas
 y del reporte se conservan fuera de esta carpeta de entregas, hasta completar las

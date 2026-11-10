@@ -1,0 +1,150 @@
+google_project_service.apis["compute.googleapis.com"]: Refreshing state... [id=nebula-arena-ga-20261109/compute.googleapis.com]
+google_project_service.apis["sts.googleapis.com"]: Refreshing state... [id=nebula-arena-ga-20261109/sts.googleapis.com]
+google_project_service.apis["cloudasset.googleapis.com"]: Refreshing state... [id=nebula-arena-ga-20261109/cloudasset.googleapis.com]
+google_project_service.apis["artifactregistry.googleapis.com"]: Refreshing state... [id=nebula-arena-ga-20261109/artifactregistry.googleapis.com]
+google_project_service.apis["run.googleapis.com"]: Refreshing state... [id=nebula-arena-ga-20261109/run.googleapis.com]
+google_project_service.apis["iam.googleapis.com"]: Refreshing state... [id=nebula-arena-ga-20261109/iam.googleapis.com]
+google_project_service.apis["iamcredentials.googleapis.com"]: Refreshing state... [id=nebula-arena-ga-20261109/iamcredentials.googleapis.com]
+google_project_service.apis["firestore.googleapis.com"]: Refreshing state... [id=nebula-arena-ga-20261109/firestore.googleapis.com]
+google_project_service.apis["container.googleapis.com"]: Refreshing state... [id=nebula-arena-ga-20261109/container.googleapis.com]
+google_storage_bucket.stream[0]: Refreshing state... [id=nebula-arena-ga-20261109-nebula-stream]
+google_project_service.apis["cloudresourcemanager.googleapis.com"]: Refreshing state... [id=nebula-arena-ga-20261109/cloudresourcemanager.googleapis.com]
+google_service_account.leaderboard: Refreshing state... [id=projects/nebula-arena-ga-20261109/serviceAccounts/nebula-dev-scores@nebula-arena-ga-20261109.iam.gserviceaccount.com]
+google_storage_bucket_iam_member.stream[0]: Refreshing state... [id=b/nebula-arena-ga-20261109-nebula-stream/roles/storage.objectViewer/allUsers]
+google_compute_backend_bucket.stream[0]: Refreshing state... [id=projects/nebula-arena-ga-20261109/global/backendBuckets/nebula-dev-stream]
+google_compute_network.vpc: Refreshing state... [id=projects/nebula-arena-ga-20261109/global/networks/nebula-dev-vpc]
+google_service_account.deploy: Refreshing state... [id=projects/nebula-arena-ga-20261109/serviceAccounts/nebula-dev-github@nebula-arena-ga-20261109.iam.gserviceaccount.com]
+google_iam_workload_identity_pool.github: Refreshing state... [id=projects/nebula-arena-ga-20261109/locations/global/workloadIdentityPools/nebula-github]
+google_firestore_database.scores: Refreshing state... [id=projects/nebula-arena-ga-20261109/databases/(default)]
+google_service_account.nodos: Refreshing state... [id=projects/nebula-arena-ga-20261109/serviceAccounts/nebula-dev-nodes@nebula-arena-ga-20261109.iam.gserviceaccount.com]
+google_artifact_registry_repository.imagenes: Refreshing state... [id=projects/nebula-arena-ga-20261109/locations/us-central1/repositories/nebula]
+google_compute_url_map.stream[0]: Refreshing state... [id=projects/nebula-arena-ga-20261109/global/urlMaps/nebula-dev-cdn]
+google_compute_firewall.ssh_iap: Refreshing state... [id=projects/nebula-arena-ga-20261109/global/firewalls/nebula-dev-ssh-iap]
+google_compute_subnetwork.juego: Refreshing state... [id=projects/nebula-arena-ga-20261109/regions/us-central1/subnetworks/nebula-dev-subred]
+google_project_iam_member.scores: Refreshing state... [id=nebula-arena-ga-20261109/roles/datastore.user/serviceAccount:nebula-dev-scores@nebula-arena-ga-20261109.iam.gserviceaccount.com]
+google_service_account_iam_member.deploy_scores: Refreshing state... [id=projects/nebula-arena-ga-20261109/serviceAccounts/nebula-dev-scores@nebula-arena-ga-20261109.iam.gserviceaccount.com/roles/iam.serviceAccountUser/serviceAccount:nebula-dev-github@nebula-arena-ga-20261109.iam.gserviceaccount.com]
+google_project_iam_member.nodos["roles/artifactregistry.reader"]: Refreshing state... [id=nebula-arena-ga-20261109/roles/artifactregistry.reader/serviceAccount:nebula-dev-nodes@nebula-arena-ga-20261109.iam.gserviceaccount.com]
+google_project_iam_member.nodos["roles/logging.logWriter"]: Refreshing state... [id=nebula-arena-ga-20261109/roles/logging.logWriter/serviceAccount:nebula-dev-nodes@nebula-arena-ga-20261109.iam.gserviceaccount.com]
+google_project_iam_member.nodos["roles/monitoring.metricWriter"]: Refreshing state... [id=nebula-arena-ga-20261109/roles/monitoring.metricWriter/serviceAccount:nebula-dev-nodes@nebula-arena-ga-20261109.iam.gserviceaccount.com]
+google_project_iam_member.deploy["roles/run.admin"]: Refreshing state... [id=nebula-arena-ga-20261109/roles/run.admin/serviceAccount:nebula-dev-github@nebula-arena-ga-20261109.iam.gserviceaccount.com]
+google_project_iam_member.deploy["roles/artifactregistry.writer"]: Refreshing state... [id=nebula-arena-ga-20261109/roles/artifactregistry.writer/serviceAccount:nebula-dev-github@nebula-arena-ga-20261109.iam.gserviceaccount.com]
+google_project_iam_member.deploy["roles/container.admin"]: Refreshing state... [id=nebula-arena-ga-20261109/roles/container.admin/serviceAccount:nebula-dev-github@nebula-arena-ga-20261109.iam.gserviceaccount.com]
+google_service_account_iam_member.github: Refreshing state... [id=projects/nebula-arena-ga-20261109/serviceAccounts/nebula-dev-github@nebula-arena-ga-20261109.iam.gserviceaccount.com/roles/iam.workloadIdentityUser/principalSet://iam.googleapis.com/projects/913295964817/locations/global/workloadIdentityPools/nebula-github/attribute.repository/Gustavomezz/nebula-arena-unidad3]
+google_iam_workload_identity_pool_provider.github: Refreshing state... [id=projects/nebula-arena-ga-20261109/locations/global/workloadIdentityPools/nebula-github/providers/github]
+google_compute_target_http_proxy.stream[0]: Refreshing state... [id=projects/nebula-arena-ga-20261109/global/targetHttpProxies/nebula-dev-cdn]
+google_compute_firewall.juego: Refreshing state... [id=projects/nebula-arena-ga-20261109/global/firewalls/nebula-dev-partidas]
+google_container_cluster.nebula: Refreshing state... [id=projects/nebula-arena-ga-20261109/locations/us-central1-a/clusters/nebula-dev]
+google_compute_instance.generador[0]: Refreshing state... [id=projects/nebula-arena-ga-20261109/zones/us-central1-a/instances/nebula-dev-locust]
+google_compute_global_forwarding_rule.stream[0]: Refreshing state... [id=projects/nebula-arena-ga-20261109/global/forwardingRules/nebula-dev-cdn]
+google_container_node_pool.juego: Refreshing state... [id=projects/nebula-arena-ga-20261109/locations/us-central1-a/clusters/nebula-dev/nodePools/game-pool]
+
+Terraform used the selected providers to generate the following execution
+plan. Resource actions are indicated with the following symbols:
+  + create
+
+Terraform will perform the following actions:
+
+  # google_cloud_run_v2_service.scores[0] will be created
+  + resource "google_cloud_run_v2_service" "scores" {
+      + conditions              = (known after apply)
+      + create_time             = (known after apply)
+      + creator                 = (known after apply)
+      + delete_time             = (known after apply)
+      + deletion_protection     = false
+      + effective_annotations   = (known after apply)
+      + effective_labels        = {
+          + "entorno"                    = "dev"
+          + "goog-terraform-provisioned" = "true"
+          + "proyecto"                   = "nebula-arena"
+          + "uso"                        = "laboratorio"
+        }
+      + etag                    = (known after apply)
+      + expire_time             = (known after apply)
+      + generation              = (known after apply)
+      + id                      = (known after apply)
+      + ingress                 = "INGRESS_TRAFFIC_ALL"
+      + labels                  = {
+          + "entorno"  = "dev"
+          + "proyecto" = "nebula-arena"
+          + "uso"      = "laboratorio"
+        }
+      + last_modifier           = (known after apply)
+      + latest_created_revision = (known after apply)
+      + latest_ready_revision   = (known after apply)
+      + launch_stage            = (known after apply)
+      + location                = "us-central1"
+      + name                    = "nebula-dev-leaderboard"
+      + observed_generation     = (known after apply)
+      + project                 = "nebula-arena-ga-20261109"
+      + reconciling             = (known after apply)
+      + terminal_condition      = (known after apply)
+      + terraform_labels        = {
+          + "entorno"                    = "dev"
+          + "goog-terraform-provisioned" = "true"
+          + "proyecto"                   = "nebula-arena"
+          + "uso"                        = "laboratorio"
+        }
+      + traffic_statuses        = (known after apply)
+      + uid                     = (known after apply)
+      + update_time             = (known after apply)
+      + uri                     = (known after apply)
+      + urls                    = (known after apply)
+
+      + template {
+          + max_instance_request_concurrency = 40
+          + service_account                  = "nebula-dev-scores@nebula-arena-ga-20261109.iam.gserviceaccount.com"
+          + timeout                          = (known after apply)
+
+          + containers {
+              + build_info = (known after apply)
+              + image      = "us-central1-docker.pkg.dev/nebula-arena-ga-20261109/nebula/nebula-serverless:3b19b25426055cc3bdb401a59be6a14a323e8697"
+
+              + ports {
+                  + container_port = 8080
+                  + name           = (known after apply)
+                }
+
+              + resources {
+                  + cpu_idle          = true
+                  + limits            = {
+                      + "cpu"    = "1"
+                      + "memory" = "512Mi"
+                    }
+                  + startup_cpu_boost = true
+                }
+
+              + startup_probe (known after apply)
+            }
+
+          + scaling {
+              + max_instance_count = 10
+              + min_instance_count = 0
+            }
+        }
+
+      + traffic (known after apply)
+    }
+
+  # google_cloud_run_v2_service_iam_member.publico[0] will be created
+  + resource "google_cloud_run_v2_service_iam_member" "publico" {
+      + etag     = (known after apply)
+      + id       = (known after apply)
+      + location = "us-central1"
+      + member   = "allUsers"
+      + name     = "nebula-dev-leaderboard"
+      + project  = (known after apply)
+      + role     = "roles/run.invoker"
+    }
+
+Plan: 2 to add, 0 to change, 0 to destroy.
+
+Changes to Outputs:
+  + leaderboard_url        = (known after apply)
+
+─────────────────────────────────────────────────────────────────────────────
+
+Saved the plan to:
+/Users/macbook/Documents/Tareas/tmp/nebula_unidad3/build/serverless.tfplan
+
+To perform exactly these actions, run the following command to apply:
+    terraform apply "/Users/macbook/Documents/Tareas/tmp/nebula_unidad3/build/serverless.tfplan"

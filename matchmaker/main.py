@@ -36,10 +36,16 @@ def allocate():
     response = requests.post(url, json=body, headers={"Authorization": f"Bearer {token}"},
                              verify=str(root / "ca.crt"), timeout=10)
     response.raise_for_status()
-    status = response.json()["status"]
+    return connection_info(response.json()["status"])
+
+
+def connection_info(status):
     if status["state"] != "Allocated":
         raise RuntimeError("sin servidores listos")
-    return {"url": f"ws://{status['address']}:{status['ports'][0]['port']}",
+    # La generadora está en la misma VPC y usa el firewall de la subred.
+    address = next((item["address"] for item in status.get("addresses", [])
+                    if item["type"] == "InternalIP"), status["address"])
+    return {"url": f"ws://{address}:{status['ports'][0]['port']}",
             "partida": status["gameServerName"]}
 
 

@@ -34,7 +34,7 @@ resource "google_container_node_pool" "juego" {
   name               = "game-pool"
   cluster            = google_container_cluster.nebula.id
   location           = var.zona
-  initial_node_count = var.nodos_minimos
+  initial_node_count = var.nodos_iniciales
   autoscaling {
     min_node_count = var.nodos_minimos
     max_node_count = var.nodos_maximos

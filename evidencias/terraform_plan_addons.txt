@@ -1,0 +1,124 @@
+data.google_client_config.actual: Reading...
+data.google_container_cluster.nebula: Reading...
+data.google_client_config.actual: Read complete after 1s [id=projects/nebula-arena-ga-20261109/regions//zones/]
+data.google_container_cluster.nebula: Read complete after 1s [id=projects/nebula-arena-ga-20261109/locations/us-central1-a/clusters/nebula-dev]
+
+Terraform used the selected providers to generate the following execution
+plan. Resource actions are indicated with the following symbols:
+  + create
+
+Terraform will perform the following actions:
+
+  # helm_release.agones will be created
+  + resource "helm_release" "agones" {
+      + atomic                     = false
+      + chart                      = "agones"
+      + cleanup_on_fail            = false
+      + create_namespace           = true
+      + dependency_update          = false
+      + disable_crd_hooks          = false
+      + disable_openapi_validation = false
+      + disable_webhooks           = false
+      + force_update               = false
+      + id                         = (known after apply)
+      + lint                       = false
+      + max_history                = 0
+      + metadata                   = (known after apply)
+      + name                       = "agones"
+      + namespace                  = "agones-system"
+      + pass_credentials           = false
+      + recreate_pods              = false
+      + render_subchart_notes      = true
+      + replace                    = false
+      + repository                 = "https://agones.dev/chart/stable"
+      + reset_values               = false
+      + reuse_values               = false
+      + set_wo                     = (write-only attribute)
+      + skip_crds                  = false
+      + status                     = "deployed"
+      + take_ownership             = false
+      + timeout                    = 900
+      + upgrade_install            = false
+      + values                     = [
+          + <<-EOT
+                "agones":
+                  "allocator":
+                    "service":
+                      "serviceType": "ClusterIP"
+                  "metrics":
+                    "serviceMonitor":
+                      "enabled": true
+            EOT,
+        ]
+      + verify                     = false
+      + version                    = "1.62.0"
+      + wait                       = true
+      + wait_for_jobs              = false
+    }
+
+  # helm_release.monitoreo will be created
+  + resource "helm_release" "monitoreo" {
+      + atomic                     = false
+      + chart                      = "kube-prometheus-stack"
+      + cleanup_on_fail            = false
+      + create_namespace           = true
+      + dependency_update          = false
+      + disable_crd_hooks          = false
+      + disable_openapi_validation = false
+      + disable_webhooks           = false
+      + force_update               = false
+      + id                         = (known after apply)
+      + lint                       = false
+      + max_history                = 0
+      + metadata                   = (known after apply)
+      + name                       = "monitoreo"
+      + namespace                  = "monitoring"
+      + pass_credentials           = false
+      + recreate_pods              = false
+      + render_subchart_notes      = true
+      + replace                    = false
+      + repository                 = "https://prometheus-community.github.io/helm-charts"
+      + reset_values               = false
+      + reuse_values               = false
+      + set_wo                     = (write-only attribute)
+      + skip_crds                  = false
+      + status                     = "deployed"
+      + take_ownership             = false
+      + timeout                    = 900
+      + upgrade_install            = false
+      + values                     = [
+          + <<-EOT
+                grafana:
+                  service: {type: ClusterIP}
+                  sidecar:
+                    dashboards:
+                      enabled: true
+                      searchNamespace: ALL
+                  persistence: {enabled: false}
+                prometheus:
+                  prometheusSpec:
+                    retention: 6h
+                    podMonitorSelectorNilUsesHelmValues: false
+                    serviceMonitorSelectorNilUsesHelmValues: false
+                    resources:
+                      requests: {cpu: 300m, memory: 768Mi}
+                      limits: {cpu: 1000m, memory: 1536Mi}
+                alertmanager:
+                  enabled: false
+            EOT,
+        ]
+      + verify                     = false
+      + version                    = "72.6.2"
+      + wait                       = true
+      + wait_for_jobs              = false
+    }
+
+Plan: 2 to add, 0 to change, 0 to destroy.
+
+─────────────────────────────────────────────────────────────────────────────
+
+Saved the plan to:
+/Users/macbook/Documents/Tareas/tmp/nebula_unidad3/build/addons.tfplan
+
+To perform exactly these actions, run the following command to apply:
+    terraform apply "/Users/macbook/Documents/Tareas/tmp/nebula_unidad3/build/addons.tfplan"

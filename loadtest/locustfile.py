@@ -126,6 +126,15 @@ class Espectador(HttpUser):
                 response.failure("segmento tardó más de 2 s, posible rebuffering")
 
 
+class Matchmaking(HttpUser):
+    """Carga breve del servicio sin reservar partidas vacías, para observar HPA."""
+    wait_time = constant_pacing(.05)
+
+    @task
+    def status(self):
+        self.client.get("/healthz", name="salud_matchmaking", timeout=15)
+
+
 class TablaLideres(HttpUser):
     wait_time = constant_pacing(.5)
 

@@ -1,0 +1,20 @@
+{
+  "url": "https://nebula-dev-leaderboard-iszgggb7qa-uc.a.run.app",
+  "primera_peticion_ms": 2563.558666035533,
+  "score_http": 201,
+  "score": {
+    "guardado": true
+  },
+  "reintento_http": 200,
+  "reintento": {
+    "guardado": false
+  },
+  "top_http": 200,
+  "top": [
+    {
+      "jugador": "prueba-nube",
+      "partidas": 1,
+      "puntos": 1250
+    }
+  ]
+}

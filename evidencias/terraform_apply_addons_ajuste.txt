@@ -1,0 +1,9 @@
+helm_release.agones: Modifying... [id=agones]
+helm_release.agones: Still modifying... [id=agones, 00m10s elapsed]
+helm_release.agones: Still modifying... [id=agones, 00m20s elapsed]
+helm_release.agones: Still modifying... [id=agones, 00m30s elapsed]
+helm_release.agones: Still modifying... [id=agones, 00m40s elapsed]
+helm_release.agones: Still modifying... [id=agones, 00m50s elapsed]
+helm_release.agones: Modifications complete after 57s [id=agones]
+
+Apply complete! Resources: 0 added, 1 changed, 0 destroyed.

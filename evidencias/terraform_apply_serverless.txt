@@ -1,0 +1,19 @@
+google_cloud_run_v2_service.scores[0]: Creating...
+google_cloud_run_v2_service.scores[0]: Still creating... [00m10s elapsed]
+google_cloud_run_v2_service.scores[0]: Still creating... [00m20s elapsed]
+google_cloud_run_v2_service.scores[0]: Creation complete after 23s [id=projects/nebula-arena-ga-20261109/locations/us-central1/services/nebula-dev-leaderboard]
+google_cloud_run_v2_service_iam_member.publico[0]: Creating...
+google_cloud_run_v2_service_iam_member.publico[0]: Creation complete after 4s [id=projects/nebula-arena-ga-20261109/locations/us-central1/services/nebula-dev-leaderboard/roles/run.invoker/allUsers]
+
+Apply complete! Resources: 2 added, 0 changed, 0 destroyed.
+
+Outputs:
+
+cluster = "nebula-dev"
+deploy_service_account = "nebula-dev-github@nebula-arena-ga-20261109.iam.gserviceaccount.com"
+generador = "nebula-dev-locust"
+leaderboard_url = "https://nebula-dev-leaderboard-iszgggb7qa-uc.a.run.app"
+registro = "us-central1-docker.pkg.dev/nebula-arena-ga-20261109/nebula"
+stream_bucket = "nebula-arena-ga-20261109-nebula-stream"
+stream_url = "http://34.110.167.87"
+wif_provider = "projects/913295964817/locations/global/workloadIdentityPools/nebula-github/providers/github"

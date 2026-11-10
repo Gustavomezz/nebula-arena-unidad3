@@ -1,0 +1,12 @@
+{
+  "url_cdn": "http://34.110.167.87",
+  "manifiesto_http": 200,
+  "segmentos": 150,
+  "segmento_bytes": 251732,
+  "segunda_respuesta_http": 200,
+  "cabeceras_segunda_respuesta": {
+    "Content-Type": "video/mp2t",
+    "Age": "0",
+    "Cache-Control": "public,max-age=0"
+  }
+}

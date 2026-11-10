@@ -1,0 +1,85 @@
+data.google_container_cluster.nebula: Reading...
+data.google_client_config.actual: Reading...
+data.google_client_config.actual: Read complete after 0s [id=projects/nebula-arena-ga-20261109/regions//zones/]
+data.google_container_cluster.nebula: Read complete after 1s [id=projects/nebula-arena-ga-20261109/locations/us-central1-a/clusters/nebula-dev]
+helm_release.monitoreo: Refreshing state... [id=monitoreo]
+helm_release.agones: Refreshing state... [id=agones]
+
+Terraform used the selected providers to generate the following execution
+plan. Resource actions are indicated with the following symbols:
+  ~ update in-place
+
+Terraform will perform the following actions:
+
+  # helm_release.agones will be updated in-place
+  ~ resource "helm_release" "agones" {
+      ~ id                         = "agones" -> (known after apply)
+      ~ metadata                   = {
+          ~ app_version    = "1.62.0" -> (known after apply)
+          ~ chart          = "agones" -> (known after apply)
+          ~ first_deployed = 1794281733 -> (known after apply)
+          ~ last_deployed  = 1794281733 -> (known after apply)
+          ~ name           = "agones" -> (known after apply)
+          ~ namespace      = "agones-system" -> (known after apply)
+          ~ notes          = <<-EOT
+                The Agones components have been installed in the namespace agones-system.
+                
+                You can get their status by running:
+                kubectl --namespace agones-system get pods -o wide
+                
+                Once ready you can create your first GameServer using our examples https://agones.dev/site/docs/getting-started/create-gameserver/ .
+                
+                Finally don't forget to explore our documentation and usage guides on how to develop and host dedicated game servers on top of Agones:
+                
+                 - Create a Game Server (https://agones.dev/site/docs/getting-started/create-gameserver/)
+                 - Integrating the Game Server SDK (https://agones.dev/site/docs/guides/client-sdks/)
+                 - GameServer Health Checking (https://agones.dev/site/docs/guides/health-checking/)
+                 - Accessing Agones via the Kubernetes API (https://agones.dev/site/docs/guides/access-api/)
+            EOT -> (known after apply)
+          ~ revision       = 1 -> (known after apply)
+          ~ values         = jsonencode(
+                {
+                  - agones = {
+                      - allocator = {
+                          - service = {
+                              - serviceType = "ClusterIP"
+                            }
+                        }
+                      - metrics   = {
+                          - serviceMonitor = {
+                              - enabled = true
+                            }
+                        }
+                    }
+                }
+            ) -> (known after apply)
+          ~ version        = "1.62.0" -> (known after apply)
+        } -> (known after apply)
+        name                       = "agones"
+      ~ values                     = [
+          ~ <<-EOT
+                "agones":
+                  "allocator":
+                    "service":
+                      "serviceType": "ClusterIP"
+              +   "controller":
+              +     "persistentLogsSizeLimitMB": 100
+              +   "extensions":
+              +     "persistentLogsSizeLimitMB": 100
+                  "metrics":
+                    "serviceMonitor":
+                      "enabled": true
+            EOT,
+        ]
+        # (29 unchanged attributes hidden)
+    }
+
+Plan: 0 to add, 1 to change, 0 to destroy.
+
+─────────────────────────────────────────────────────────────────────────────
+
+Saved the plan to:
+/Users/macbook/Documents/Tareas/tmp/nebula_unidad3/build/addons_ajuste.tfplan
+
+To perform exactly these actions, run the following command to apply:
+    terraform apply "/Users/macbook/Documents/Tareas/tmp/nebula_unidad3/build/addons_ajuste.tfplan"

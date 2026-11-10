@@ -1,0 +1,12 @@
+{
+  "region": "us-central1",
+  "limites_regionales": {
+    "CPUS": 200.0,
+    "IN_USE_ADDRESSES": 8.0,
+    "N2_CPUS": 200.0,
+    "E2_CPUS": 24.0
+  },
+  "vCPU_globales": 32,
+  "solicitud_global_64": "denegada",
+  "alternativa": "Medir el consumo del servidor antes de ajustar solicitudes de CPU y número inicial de nodos."
+}
