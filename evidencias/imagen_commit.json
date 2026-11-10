@@ -1,0 +1,9 @@
+{
+  "image_summary": {
+    "digest": "sha256:de15049507f787faf0e87e904e0f7255a6f9ec147e255ea0eee567ae8feef31a",
+    "fully_qualified_digest": "us-central1-docker.pkg.dev/nebula-arena-ga-20261109/nebula/nebula-server@sha256:de15049507f787faf0e87e904e0f7255a6f9ec147e255ea0eee567ae8feef31a",
+    "registry": "us-central1-docker.pkg.dev",
+    "repository": "nebula",
+    "slsa_build_level": "unknown"
+  }
+}

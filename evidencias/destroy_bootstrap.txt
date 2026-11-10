@@ -1,0 +1,56 @@
+[0m[1mgoogle_storage_bucket.estado: Refreshing state... [id=nebula-arena-ga-20261109-nebula-tfstate][0m
+
+Terraform used the selected providers to generate the following execution
+plan. Resource actions are indicated with the following symbols:
+  [31m-[0m destroy[0m
+
+Terraform will perform the following actions:
+
+[1m  # google_storage_bucket.estado[0m will be [1m[31mdestroyed[0m
+[0m  [31m-[0m[0m resource "google_storage_bucket" "estado" {
+      [31m-[0m[0m default_event_based_hold    = false [90m-> null[0m[0m
+      [31m-[0m[0m effective_labels            = {
+          [31m-[0m[0m "goog-terraform-provisioned" = "true"
+        } [90m-> null[0m[0m
+      [31m-[0m[0m enable_object_retention     = false [90m-> null[0m[0m
+      [31m-[0m[0m force_destroy               = true [90m-> null[0m[0m
+      [31m-[0m[0m id                          = "nebula-arena-ga-20261109-nebula-tfstate" [90m-> null[0m[0m
+      [31m-[0m[0m labels                      = {} [90m-> null[0m[0m
+      [31m-[0m[0m location                    = "US-CENTRAL1" [90m-> null[0m[0m
+      [31m-[0m[0m name                        = "nebula-arena-ga-20261109-nebula-tfstate" [90m-> null[0m[0m
+      [31m-[0m[0m project                     = "nebula-arena-ga-20261109" [90m-> null[0m[0m
+      [31m-[0m[0m project_number              = 913295964817 [90m-> null[0m[0m
+      [31m-[0m[0m public_access_prevention    = "enforced" [90m-> null[0m[0m
+      [31m-[0m[0m requester_pays              = false [90m-> null[0m[0m
+      [31m-[0m[0m self_link                   = "https://www.googleapis.com/storage/v1/b/nebula-arena-ga-20261109-nebula-tfstate" [90m-> null[0m[0m
+      [31m-[0m[0m storage_class               = "STANDARD" [90m-> null[0m[0m
+      [31m-[0m[0m terraform_labels            = {
+          [31m-[0m[0m "goog-terraform-provisioned" = "true"
+        } [90m-> null[0m[0m
+      [31m-[0m[0m time_created                = "2026-11-10T03:19:35.728Z" [90m-> null[0m[0m
+      [31m-[0m[0m uniform_bucket_level_access = true [90m-> null[0m[0m
+      [31m-[0m[0m updated                     = "2026-11-10T03:19:35.728Z" [90m-> null[0m[0m
+      [31m-[0m[0m url                         = "gs://nebula-arena-ga-20261109-nebula-tfstate" [90m-> null[0m[0m
+
+      [31m-[0m[0m hierarchical_namespace {
+          [31m-[0m[0m enabled = false [90m-> null[0m[0m
+        }
+
+      [31m-[0m[0m soft_delete_policy {
+          [31m-[0m[0m retention_duration_seconds = 0 [90m-> null[0m[0m
+            [90m# (1 unchanged attribute hidden)[0m[0m
+        }
+
+      [31m-[0m[0m versioning {
+          [31m-[0m[0m enabled = true [90m-> null[0m[0m
+        }
+    }
+
+[1mPlan:[0m [0m0 to add, 0 to change, 1 to destroy.
+
+Changes to Outputs:
+  [31m-[0m[0m bucket = "nebula-arena-ga-20261109-nebula-tfstate" [90m-> null[0m[0m
+[0m[1mgoogle_storage_bucket.estado: Destroying... [id=nebula-arena-ga-20261109-nebula-tfstate][0m[0m
+[0m[1mgoogle_storage_bucket.estado: Destruction complete after 3s[0m
+[0m[1m[32m
+Destroy complete! Resources: 1 destroyed.[0m

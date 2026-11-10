@@ -1,0 +1,32 @@
+{
+  "medicion_finalizada": true,
+  "inicio_carga_utc": "2026-11-10T05:29:05.706407+00:00",
+  "fin_carga_utc": "2026-11-10T05:34:28.137026+00:00",
+  "instancias_activas_max": 10,
+  "instancias_totales_max": 10,
+  "concurrencia_media_maxima_por_instancia": 40.0,
+  "nota_concurrencia": "Métrica container/max_request_concurrencies: distribución del máximo por instancia en cada minuto. La curva presenta la media de esos máximos, no una medición instantánea ni la suma de clientes Locust.",
+  "cero_antes_carga": false,
+  "arranques": [
+    {
+      "utc": "2026-11-10T05:33:00+00:00",
+      "revision": "nebula-dev-leaderboard-00004-lff",
+      "arranques": 1,
+      "media_ms": 567.161
+    },
+    {
+      "utc": "2026-11-10T05:31:00+00:00",
+      "revision": "nebula-dev-leaderboard-00004-lff",
+      "arranques": 2,
+      "media_ms": 649.9069999999999
+    },
+    {
+      "utc": "2026-11-10T05:30:00+00:00",
+      "revision": "nebula-dev-leaderboard-00004-lff",
+      "arranques": 8,
+      "media_ms": 737.5797499999999
+    }
+  ],
+  "segundos_facturables_intervalo": 2840.6,
+  "nota_arranque": "startup_latencies mide el inicio del contenedor. El p99 de Locust incluye la petición completa, red, cola e inicialización de Firestore. No equivalen a la misma métrica."
+}

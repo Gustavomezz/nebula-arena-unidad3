@@ -1,0 +1,2952 @@
+[2026-11-10 05:19:48,083] nebula-dev-locust/INFO/locust.main: Starting Locust 2.47.0
+[2026-11-10 05:19:48,126] nebula-dev-locust/INFO/locust.runners: nebula-dev-locust_f623b6abd7874af6aff17e0391acb274 (index 0) reported as ready. 1 workers connected.
+[2026-11-10 05:19:48,128] nebula-dev-locust/INFO/locust.runners: nebula-dev-locust_8d4a34b78355405b95c57cbcf017eeda (index 1) reported as ready. 2 workers connected.
+[2026-11-10 05:19:48,130] nebula-dev-locust/INFO/locust.runners: nebula-dev-locust_9521cd3d83f14b5787b3b2aca979ce8c (index 2) reported as ready. 3 workers connected.
+[2026-11-10 05:19:48,132] nebula-dev-locust/INFO/locust.runners: nebula-dev-locust_ecf57b3d39b840019b2320440b5bfc2d (index 3) reported as ready. 4 workers connected.
+[2026-11-10 05:19:48,300] nebula-dev-locust/INFO/locust.runners: nebula-dev-locust_73769b7066bc487abc27e848676631de (index 4) reported as ready. 5 workers connected.
+[2026-11-10 05:19:48,301] nebula-dev-locust/INFO/locust.runners: nebula-dev-locust_0bd5f852b55f4e28aceb1ccc1a4031c5 (index 5) reported as ready. 6 workers connected.
+[2026-11-10 05:19:48,305] nebula-dev-locust/INFO/locust.runners: nebula-dev-locust_ed60c7777983426cb592d9fac59ba638 (index 6) reported as ready. 7 workers connected.
+[2026-11-10 05:19:48,306] nebula-dev-locust/INFO/locust.runners: nebula-dev-locust_4538d40dd1394ab3a5783a75db8b16b1 (index 7) reported as ready. 8 workers connected.
+[2026-11-10 05:19:49,126] nebula-dev-locust/INFO/locust.main: Run time limit set to 300 seconds
+[2026-11-10 05:19:49,126] nebula-dev-locust/INFO/locust.runners: Sending spawn jobs of 1800 users at 20.00 spawn rate to 8 ready workers
+[2026-11-10 05:20:48,121] nebula-dev-locust/WARNING/root: CPU usage above 90%! This may constrain your throughput and may even give inconsistent response time measurements! See https://docs.locust.io/en/stable/running-distributed.html for how to distribute the load over multiple CPU cores or machines
+[2026-11-10 05:20:48,125] nebula-dev-locust/WARNING/root: CPU usage above 90%! This may constrain your throughput and may even give inconsistent response time measurements! See https://docs.locust.io/en/stable/running-distributed.html for how to distribute the load over multiple CPU cores or machines
+[2026-11-10 05:20:48,134] nebula-dev-locust/WARNING/root: CPU usage above 90%! This may constrain your throughput and may even give inconsistent response time measurements! See https://docs.locust.io/en/stable/running-distributed.html for how to distribute the load over multiple CPU cores or machines
+[2026-11-10 05:20:48,134] nebula-dev-locust/WARNING/root: CPU usage above 90%! This may constrain your throughput and may even give inconsistent response time measurements! See https://docs.locust.io/en/stable/running-distributed.html for how to distribute the load over multiple CPU cores or machines
+[2026-11-10 05:20:48,138] nebula-dev-locust/WARNING/root: CPU usage above 90%! This may constrain your throughput and may even give inconsistent response time measurements! See https://docs.locust.io/en/stable/running-distributed.html for how to distribute the load over multiple CPU cores or machines
+[2026-11-10 05:20:48,138] nebula-dev-locust/WARNING/root: CPU usage above 90%! This may constrain your throughput and may even give inconsistent response time measurements! See https://docs.locust.io/en/stable/running-distributed.html for how to distribute the load over multiple CPU cores or machines
+[2026-11-10 05:20:48,143] nebula-dev-locust/WARNING/root: CPU usage above 90%! This may constrain your throughput and may even give inconsistent response time measurements! See https://docs.locust.io/en/stable/running-distributed.html for how to distribute the load over multiple CPU cores or machines
+[2026-11-10 05:20:48,147] nebula-dev-locust/WARNING/root: CPU usage above 90%! This may constrain your throughput and may even give inconsistent response time measurements! See https://docs.locust.io/en/stable/running-distributed.html for how to distribute the load over multiple CPU cores or machines
+[2026-11-10 05:20:48,755] nebula-dev-locust/WARNING/locust.runners: Worker nebula-dev-locust_0bd5f852b55f4e28aceb1ccc1a4031c5 (index 5) exceeded cpu threshold (will only log this once per worker)
+[2026-11-10 05:20:48,761] nebula-dev-locust/WARNING/locust.runners: Worker nebula-dev-locust_ed60c7777983426cb592d9fac59ba638 (index 6) exceeded cpu threshold (will only log this once per worker)
+[2026-11-10 05:20:48,788] nebula-dev-locust/WARNING/locust.runners: Worker nebula-dev-locust_73769b7066bc487abc27e848676631de (index 4) exceeded cpu threshold (will only log this once per worker)
+[2026-11-10 05:20:48,819] nebula-dev-locust/WARNING/locust.runners: Worker nebula-dev-locust_f623b6abd7874af6aff17e0391acb274 (index 0) exceeded cpu threshold (will only log this once per worker)
+[2026-11-10 05:20:48,823] nebula-dev-locust/WARNING/locust.runners: Worker nebula-dev-locust_4538d40dd1394ab3a5783a75db8b16b1 (index 7) exceeded cpu threshold (will only log this once per worker)
+[2026-11-10 05:20:48,838] nebula-dev-locust/WARNING/locust.runners: Worker nebula-dev-locust_9521cd3d83f14b5787b3b2aca979ce8c (index 2) exceeded cpu threshold (will only log this once per worker)
+[2026-11-10 05:20:48,886] nebula-dev-locust/WARNING/locust.runners: Worker nebula-dev-locust_8d4a34b78355405b95c57cbcf017eeda (index 1) exceeded cpu threshold (will only log this once per worker)
+[2026-11-10 05:20:48,902] nebula-dev-locust/WARNING/locust.runners: Worker nebula-dev-locust_ecf57b3d39b840019b2320440b5bfc2d (index 3) exceeded cpu threshold (will only log this once per worker)
+[2026-11-10 05:21:18,361] nebula-dev-locust/INFO/locust.runners: All users spawned: {"Jugador": 1800} (1800 total users)
+[2026-11-10 05:22:50,244] nebula-dev-locust/ERROR/locust.user.users: 
+Traceback (most recent call last):
+  File "/home/gustavoa_menriquez_gmail_com/nebula/loadtest/locustfile.py", line 50, in on_start
+    raise TimeoutError("Agones no tuvo servidores listos en 180 s")
+TimeoutError: Agones no tuvo servidores listos en 180 s
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/home/gustavoa_menriquez_gmail_com/nebula/venv/lib/python3.11/site-packages/locust/user/users.py", line 166, in run
+    self.on_start()
+  File "/home/gustavoa_menriquez_gmail_com/nebula/loadtest/locustfile.py", line 64, in on_start
+    raise StopUser() from exc
+locust.exception.StopUser
+
+[2026-11-10 05:22:50,440] nebula-dev-locust/ERROR/locust.user.users: 
+Traceback (most recent call last):
+  File "/home/gustavoa_menriquez_gmail_com/nebula/loadtest/locustfile.py", line 50, in on_start
+    raise TimeoutError("Agones no tuvo servidores listos en 180 s")
+TimeoutError: Agones no tuvo servidores listos en 180 s
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/home/gustavoa_menriquez_gmail_com/nebula/venv/lib/python3.11/site-packages/locust/user/users.py", line 166, in run
+    self.on_start()
+  File "/home/gustavoa_menriquez_gmail_com/nebula/loadtest/locustfile.py", line 64, in on_start
+    raise StopUser() from exc
+locust.exception.StopUser
+
+[2026-11-10 05:22:50,885] nebula-dev-locust/ERROR/locust.user.users: 
+Traceback (most recent call last):
+  File "/home/gustavoa_menriquez_gmail_com/nebula/loadtest/locustfile.py", line 50, in on_start
+    raise TimeoutError("Agones no tuvo servidores listos en 180 s")
+TimeoutError: Agones no tuvo servidores listos en 180 s
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/home/gustavoa_menriquez_gmail_com/nebula/venv/lib/python3.11/site-packages/locust/user/users.py", line 166, in run
+    self.on_start()
+  File "/home/gustavoa_menriquez_gmail_com/nebula/loadtest/locustfile.py", line 64, in on_start
+    raise StopUser() from exc
+locust.exception.StopUser
+
+[2026-11-10 05:22:53,347] nebula-dev-locust/ERROR/locust.user.users: 
+Traceback (most recent call last):
+  File "/home/gustavoa_menriquez_gmail_com/nebula/loadtest/locustfile.py", line 50, in on_start
+    raise TimeoutError("Agones no tuvo servidores listos en 180 s")
+TimeoutError: Agones no tuvo servidores listos en 180 s
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/home/gustavoa_menriquez_gmail_com/nebula/venv/lib/python3.11/site-packages/locust/user/users.py", line 166, in run
+    self.on_start()
+  File "/home/gustavoa_menriquez_gmail_com/nebula/loadtest/locustfile.py", line 64, in on_start
+    raise StopUser() from exc
+locust.exception.StopUser
+
+[2026-11-10 05:22:54,331] nebula-dev-locust/ERROR/locust.user.users: 
+Traceback (most recent call last):
+  File "/home/gustavoa_menriquez_gmail_com/nebula/loadtest/locustfile.py", line 50, in on_start
+    raise TimeoutError("Agones no tuvo servidores listos en 180 s")
+TimeoutError: Agones no tuvo servidores listos en 180 s
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/home/gustavoa_menriquez_gmail_com/nebula/venv/lib/python3.11/site-packages/locust/user/users.py", line 166, in run
+    self.on_start()
+  File "/home/gustavoa_menriquez_gmail_com/nebula/loadtest/locustfile.py", line 64, in on_start
+    raise StopUser() from exc
+locust.exception.StopUser
+
+[2026-11-10 05:22:55,869] nebula-dev-locust/ERROR/locust.user.users: 
+Traceback (most recent call last):
+  File "/home/gustavoa_menriquez_gmail_com/nebula/loadtest/locustfile.py", line 50, in on_start
+    raise TimeoutError("Agones no tuvo servidores listos en 180 s")
+TimeoutError: Agones no tuvo servidores listos en 180 s
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/home/gustavoa_menriquez_gmail_com/nebula/venv/lib/python3.11/site-packages/locust/user/users.py", line 166, in run
+    self.on_start()
+  File "/home/gustavoa_menriquez_gmail_com/nebula/loadtest/locustfile.py", line 64, in on_start
+    raise StopUser() from exc
+locust.exception.StopUser
+
+[2026-11-10 05:22:58,082] nebula-dev-locust/ERROR/locust.user.users: 
+Traceback (most recent call last):
+  File "/home/gustavoa_menriquez_gmail_com/nebula/loadtest/locustfile.py", line 50, in on_start
+    raise TimeoutError("Agones no tuvo servidores listos en 180 s")
+TimeoutError: Agones no tuvo servidores listos en 180 s
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/home/gustavoa_menriquez_gmail_com/nebula/venv/lib/python3.11/site-packages/locust/user/users.py", line 166, in run
+    self.on_start()
+  File "/home/gustavoa_menriquez_gmail_com/nebula/loadtest/locustfile.py", line 64, in on_start
+    raise StopUser() from exc
+locust.exception.StopUser
+
+[2026-11-10 05:22:58,569] nebula-dev-locust/ERROR/locust.user.users: 
+Traceback (most recent call last):
+  File "/home/gustavoa_menriquez_gmail_com/nebula/loadtest/locustfile.py", line 50, in on_start
+    raise TimeoutError("Agones no tuvo servidores listos en 180 s")
+TimeoutError: Agones no tuvo servidores listos en 180 s
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/home/gustavoa_menriquez_gmail_com/nebula/venv/lib/python3.11/site-packages/locust/user/users.py", line 166, in run
+    self.on_start()
+  File "/home/gustavoa_menriquez_gmail_com/nebula/loadtest/locustfile.py", line 64, in on_start
+    raise StopUser() from exc
+locust.exception.StopUser
+
+[2026-11-10 05:22:59,342] nebula-dev-locust/ERROR/locust.user.users: 
+Traceback (most recent call last):
+  File "/home/gustavoa_menriquez_gmail_com/nebula/loadtest/locustfile.py", line 50, in on_start
+    raise TimeoutError("Agones no tuvo servidores listos en 180 s")
+TimeoutError: Agones no tuvo servidores listos en 180 s
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/home/gustavoa_menriquez_gmail_com/nebula/venv/lib/python3.11/site-packages/locust/user/users.py", line 166, in run
+    self.on_start()
+  File "/home/gustavoa_menriquez_gmail_com/nebula/loadtest/locustfile.py", line 64, in on_start
+    raise StopUser() from exc
+locust.exception.StopUser
+
+[2026-11-10 05:22:59,346] nebula-dev-locust/ERROR/locust.user.users: 
+Traceback (most recent call last):
+  File "/home/gustavoa_menriquez_gmail_com/nebula/loadtest/locustfile.py", line 50, in on_start
+    raise TimeoutError("Agones no tuvo servidores listos en 180 s")
+TimeoutError: Agones no tuvo servidores listos en 180 s
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/home/gustavoa_menriquez_gmail_com/nebula/venv/lib/python3.11/site-packages/locust/user/users.py", line 166, in run
+    self.on_start()
+  File "/home/gustavoa_menriquez_gmail_com/nebula/loadtest/locustfile.py", line 64, in on_start
+    raise StopUser() from exc
+locust.exception.StopUser
+
+[2026-11-10 05:22:59,366] nebula-dev-locust/ERROR/locust.user.users: 
+Traceback (most recent call last):
+  File "/home/gustavoa_menriquez_gmail_com/nebula/loadtest/locustfile.py", line 50, in on_start
+    raise TimeoutError("Agones no tuvo servidores listos en 180 s")
+TimeoutError: Agones no tuvo servidores listos en 180 s
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/home/gustavoa_menriquez_gmail_com/nebula/venv/lib/python3.11/site-packages/locust/user/users.py", line 166, in run
+    self.on_start()
+  File "/home/gustavoa_menriquez_gmail_com/nebula/loadtest/locustfile.py", line 64, in on_start
+    raise StopUser() from exc
+locust.exception.StopUser
+
+[2026-11-10 05:23:00,426] nebula-dev-locust/ERROR/locust.user.users: 
+Traceback (most recent call last):
+  File "/home/gustavoa_menriquez_gmail_com/nebula/loadtest/locustfile.py", line 50, in on_start
+    raise TimeoutError("Agones no tuvo servidores listos en 180 s")
+TimeoutError: Agones no tuvo servidores listos en 180 s
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/home/gustavoa_menriquez_gmail_com/nebula/venv/lib/python3.11/site-packages/locust/user/users.py", line 166, in run
+    self.on_start()
+  File "/home/gustavoa_menriquez_gmail_com/nebula/loadtest/locustfile.py", line 64, in on_start
+    raise StopUser() from exc
+locust.exception.StopUser
+
+[2026-11-10 05:23:03,617] nebula-dev-locust/ERROR/locust.user.users: 
+Traceback (most recent call last):
+  File "/home/gustavoa_menriquez_gmail_com/nebula/loadtest/locustfile.py", line 50, in on_start
+    raise TimeoutError("Agones no tuvo servidores listos en 180 s")
+TimeoutError: Agones no tuvo servidores listos en 180 s
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/home/gustavoa_menriquez_gmail_com/nebula/venv/lib/python3.11/site-packages/locust/user/users.py", line 166, in run
+    self.on_start()
+  File "/home/gustavoa_menriquez_gmail_com/nebula/loadtest/locustfile.py", line 64, in on_start
+    raise StopUser() from exc
+locust.exception.StopUser
+
+[2026-11-10 05:23:04,858] nebula-dev-locust/ERROR/locust.user.users: 
+Traceback (most recent call last):
+  File "/home/gustavoa_menriquez_gmail_com/nebula/loadtest/locustfile.py", line 50, in on_start
+    raise TimeoutError("Agones no tuvo servidores listos en 180 s")
+TimeoutError: Agones no tuvo servidores listos en 180 s
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/home/gustavoa_menriquez_gmail_com/nebula/venv/lib/python3.11/site-packages/locust/user/users.py", line 166, in run
+    self.on_start()
+  File "/home/gustavoa_menriquez_gmail_com/nebula/loadtest/locustfile.py", line 64, in on_start
+    raise StopUser() from exc
+locust.exception.StopUser
+
+[2026-11-10 05:23:05,315] nebula-dev-locust/ERROR/locust.user.users: 
+Traceback (most recent call last):
+  File "/home/gustavoa_menriquez_gmail_com/nebula/loadtest/locustfile.py", line 50, in on_start
+    raise TimeoutError("Agones no tuvo servidores listos en 180 s")
+TimeoutError: Agones no tuvo servidores listos en 180 s
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/home/gustavoa_menriquez_gmail_com/nebula/venv/lib/python3.11/site-packages/locust/user/users.py", line 166, in run
+    self.on_start()
+  File "/home/gustavoa_menriquez_gmail_com/nebula/loadtest/locustfile.py", line 64, in on_start
+    raise StopUser() from exc
+locust.exception.StopUser
+
+[2026-11-10 05:23:07,333] nebula-dev-locust/ERROR/locust.user.users: 
+Traceback (most recent call last):
+  File "/home/gustavoa_menriquez_gmail_com/nebula/loadtest/locustfile.py", line 50, in on_start
+    raise TimeoutError("Agones no tuvo servidores listos en 180 s")
+TimeoutError: Agones no tuvo servidores listos en 180 s
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/home/gustavoa_menriquez_gmail_com/nebula/venv/lib/python3.11/site-packages/locust/user/users.py", line 166, in run
+    self.on_start()
+  File "/home/gustavoa_menriquez_gmail_com/nebula/loadtest/locustfile.py", line 64, in on_start
+    raise StopUser() from exc
+locust.exception.StopUser
+
+[2026-11-10 05:23:07,433] nebula-dev-locust/ERROR/locust.user.users: 
+Traceback (most recent call last):
+  File "/home/gustavoa_menriquez_gmail_com/nebula/loadtest/locustfile.py", line 50, in on_start
+    raise TimeoutError("Agones no tuvo servidores listos en 180 s")
+TimeoutError: Agones no tuvo servidores listos en 180 s
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/home/gustavoa_menriquez_gmail_com/nebula/venv/lib/python3.11/site-packages/locust/user/users.py", line 166, in run
+    self.on_start()
+  File "/home/gustavoa_menriquez_gmail_com/nebula/loadtest/locustfile.py", line 64, in on_start
+    raise StopUser() from exc
+locust.exception.StopUser
+
+[2026-11-10 05:23:07,720] nebula-dev-locust/ERROR/locust.user.users: 
+Traceback (most recent call last):
+  File "/home/gustavoa_menriquez_gmail_com/nebula/loadtest/locustfile.py", line 50, in on_start
+    raise TimeoutError("Agones no tuvo servidores listos en 180 s")
+TimeoutError: Agones no tuvo servidores listos en 180 s
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/home/gustavoa_menriquez_gmail_com/nebula/venv/lib/python3.11/site-packages/locust/user/users.py", line 166, in run
+    self.on_start()
+  File "/home/gustavoa_menriquez_gmail_com/nebula/loadtest/locustfile.py", line 64, in on_start
+    raise StopUser() from exc
+locust.exception.StopUser
+
+[2026-11-10 05:23:09,408] nebula-dev-locust/ERROR/locust.user.users: 
+Traceback (most recent call last):
+  File "/home/gustavoa_menriquez_gmail_com/nebula/loadtest/locustfile.py", line 50, in on_start
+    raise TimeoutError("Agones no tuvo servidores listos en 180 s")
+TimeoutError: Agones no tuvo servidores listos en 180 s
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/home/gustavoa_menriquez_gmail_com/nebula/venv/lib/python3.11/site-packages/locust/user/users.py", line 166, in run
+    self.on_start()
+  File "/home/gustavoa_menriquez_gmail_com/nebula/loadtest/locustfile.py", line 64, in on_start
+    raise StopUser() from exc
+locust.exception.StopUser
+
+[2026-11-10 05:23:09,753] nebula-dev-locust/ERROR/locust.user.users: 
+Traceback (most recent call last):
+  File "/home/gustavoa_menriquez_gmail_com/nebula/loadtest/locustfile.py", line 50, in on_start
+    raise TimeoutError("Agones no tuvo servidores listos en 180 s")
+TimeoutError: Agones no tuvo servidores listos en 180 s
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/home/gustavoa_menriquez_gmail_com/nebula/venv/lib/python3.11/site-packages/locust/user/users.py", line 166, in run
+    self.on_start()
+  File "/home/gustavoa_menriquez_gmail_com/nebula/loadtest/locustfile.py", line 64, in on_start
+    raise StopUser() from exc
+locust.exception.StopUser
+
+[2026-11-10 05:23:10,750] nebula-dev-locust/ERROR/locust.user.users: 
+Traceback (most recent call last):
+  File "/home/gustavoa_menriquez_gmail_com/nebula/loadtest/locustfile.py", line 50, in on_start
+    raise TimeoutError("Agones no tuvo servidores listos en 180 s")
+TimeoutError: Agones no tuvo servidores listos en 180 s
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/home/gustavoa_menriquez_gmail_com/nebula/venv/lib/python3.11/site-packages/locust/user/users.py", line 166, in run
+    self.on_start()
+  File "/home/gustavoa_menriquez_gmail_com/nebula/loadtest/locustfile.py", line 64, in on_start
+    raise StopUser() from exc
+locust.exception.StopUser
+
+[2026-11-10 05:23:12,456] nebula-dev-locust/ERROR/locust.user.users: 
+Traceback (most recent call last):
+  File "/home/gustavoa_menriquez_gmail_com/nebula/loadtest/locustfile.py", line 50, in on_start
+    raise TimeoutError("Agones no tuvo servidores listos en 180 s")
+TimeoutError: Agones no tuvo servidores listos en 180 s
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/home/gustavoa_menriquez_gmail_com/nebula/venv/lib/python3.11/site-packages/locust/user/users.py", line 166, in run
+    self.on_start()
+  File "/home/gustavoa_menriquez_gmail_com/nebula/loadtest/locustfile.py", line 64, in on_start
+    raise StopUser() from exc
+locust.exception.StopUser
+
+[2026-11-10 05:23:12,540] nebula-dev-locust/ERROR/locust.user.users: 
+Traceback (most recent call last):
+  File "/home/gustavoa_menriquez_gmail_com/nebula/loadtest/locustfile.py", line 50, in on_start
+    raise TimeoutError("Agones no tuvo servidores listos en 180 s")
+TimeoutError: Agones no tuvo servidores listos en 180 s
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/home/gustavoa_menriquez_gmail_com/nebula/venv/lib/python3.11/site-packages/locust/user/users.py", line 166, in run
+    self.on_start()
+  File "/home/gustavoa_menriquez_gmail_com/nebula/loadtest/locustfile.py", line 64, in on_start
+    raise StopUser() from exc
+locust.exception.StopUser
+
+[2026-11-10 05:23:13,466] nebula-dev-locust/ERROR/locust.user.users: 
+Traceback (most recent call last):
+  File "/home/gustavoa_menriquez_gmail_com/nebula/loadtest/locustfile.py", line 50, in on_start
+    raise TimeoutError("Agones no tuvo servidores listos en 180 s")
+TimeoutError: Agones no tuvo servidores listos en 180 s
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/home/gustavoa_menriquez_gmail_com/nebula/venv/lib/python3.11/site-packages/locust/user/users.py", line 166, in run
+    self.on_start()
+  File "/home/gustavoa_menriquez_gmail_com/nebula/loadtest/locustfile.py", line 64, in on_start
+    raise StopUser() from exc
+locust.exception.StopUser
+
+[2026-11-10 05:23:14,298] nebula-dev-locust/ERROR/locust.user.users: 
+Traceback (most recent call last):
+  File "/home/gustavoa_menriquez_gmail_com/nebula/loadtest/locustfile.py", line 50, in on_start
+    raise TimeoutError("Agones no tuvo servidores listos en 180 s")
+TimeoutError: Agones no tuvo servidores listos en 180 s
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/home/gustavoa_menriquez_gmail_com/nebula/venv/lib/python3.11/site-packages/locust/user/users.py", line 166, in run
+    self.on_start()
+  File "/home/gustavoa_menriquez_gmail_com/nebula/loadtest/locustfile.py", line 64, in on_start
+    raise StopUser() from exc
+locust.exception.StopUser
+
+[2026-11-10 05:23:15,483] nebula-dev-locust/ERROR/locust.user.users: 
+Traceback (most recent call last):
+  File "/home/gustavoa_menriquez_gmail_com/nebula/loadtest/locustfile.py", line 50, in on_start
+    raise TimeoutError("Agones no tuvo servidores listos en 180 s")
+TimeoutError: Agones no tuvo servidores listos en 180 s
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/home/gustavoa_menriquez_gmail_com/nebula/venv/lib/python3.11/site-packages/locust/user/users.py", line 166, in run
+    self.on_start()
+  File "/home/gustavoa_menriquez_gmail_com/nebula/loadtest/locustfile.py", line 64, in on_start
+    raise StopUser() from exc
+locust.exception.StopUser
+
+[2026-11-10 05:23:16,877] nebula-dev-locust/ERROR/locust.user.users: 
+Traceback (most recent call last):
+  File "/home/gustavoa_menriquez_gmail_com/nebula/loadtest/locustfile.py", line 50, in on_start
+    raise TimeoutError("Agones no tuvo servidores listos en 180 s")
+TimeoutError: Agones no tuvo servidores listos en 180 s
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/home/gustavoa_menriquez_gmail_com/nebula/venv/lib/python3.11/site-packages/locust/user/users.py", line 166, in run
+    self.on_start()
+  File "/home/gustavoa_menriquez_gmail_com/nebula/loadtest/locustfile.py", line 64, in on_start
+    raise StopUser() from exc
+locust.exception.StopUser
+
+[2026-11-10 05:23:16,997] nebula-dev-locust/ERROR/locust.user.users: 
+Traceback (most recent call last):
+  File "/home/gustavoa_menriquez_gmail_com/nebula/loadtest/locustfile.py", line 50, in on_start
+    raise TimeoutError("Agones no tuvo servidores listos en 180 s")
+TimeoutError: Agones no tuvo servidores listos en 180 s
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/home/gustavoa_menriquez_gmail_com/nebula/venv/lib/python3.11/site-packages/locust/user/users.py", line 166, in run
+    self.on_start()
+  File "/home/gustavoa_menriquez_gmail_com/nebula/loadtest/locustfile.py", line 64, in on_start
+    raise StopUser() from exc
+locust.exception.StopUser
+
+[2026-11-10 05:23:18,151] nebula-dev-locust/ERROR/locust.user.users: 
+Traceback (most recent call last):
+  File "/home/gustavoa_menriquez_gmail_com/nebula/loadtest/locustfile.py", line 50, in on_start
+    raise TimeoutError("Agones no tuvo servidores listos en 180 s")
+TimeoutError: Agones no tuvo servidores listos en 180 s
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/home/gustavoa_menriquez_gmail_com/nebula/venv/lib/python3.11/site-packages/locust/user/users.py", line 166, in run
+    self.on_start()
+  File "/home/gustavoa_menriquez_gmail_com/nebula/loadtest/locustfile.py", line 64, in on_start
+    raise StopUser() from exc
+locust.exception.StopUser
+
+[2026-11-10 05:23:18,650] nebula-dev-locust/ERROR/locust.user.users: 
+Traceback (most recent call last):
+  File "/home/gustavoa_menriquez_gmail_com/nebula/loadtest/locustfile.py", line 50, in on_start
+    raise TimeoutError("Agones no tuvo servidores listos en 180 s")
+TimeoutError: Agones no tuvo servidores listos en 180 s
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/home/gustavoa_menriquez_gmail_com/nebula/venv/lib/python3.11/site-packages/locust/user/users.py", line 166, in run
+    self.on_start()
+  File "/home/gustavoa_menriquez_gmail_com/nebula/loadtest/locustfile.py", line 64, in on_start
+    raise StopUser() from exc
+locust.exception.StopUser
+
+[2026-11-10 05:23:18,851] nebula-dev-locust/ERROR/locust.user.users: 
+Traceback (most recent call last):
+  File "/home/gustavoa_menriquez_gmail_com/nebula/loadtest/locustfile.py", line 50, in on_start
+    raise TimeoutError("Agones no tuvo servidores listos en 180 s")
+TimeoutError: Agones no tuvo servidores listos en 180 s
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/home/gustavoa_menriquez_gmail_com/nebula/venv/lib/python3.11/site-packages/locust/user/users.py", line 166, in run
+    self.on_start()
+  File "/home/gustavoa_menriquez_gmail_com/nebula/loadtest/locustfile.py", line 64, in on_start
+    raise StopUser() from exc
+locust.exception.StopUser
+
+[2026-11-10 05:23:19,756] nebula-dev-locust/ERROR/locust.user.users: 
+Traceback (most recent call last):
+  File "/home/gustavoa_menriquez_gmail_com/nebula/loadtest/locustfile.py", line 50, in on_start
+    raise TimeoutError("Agones no tuvo servidores listos en 180 s")
+TimeoutError: Agones no tuvo servidores listos en 180 s
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/home/gustavoa_menriquez_gmail_com/nebula/venv/lib/python3.11/site-packages/locust/user/users.py", line 166, in run
+    self.on_start()
+  File "/home/gustavoa_menriquez_gmail_com/nebula/loadtest/locustfile.py", line 64, in on_start
+    raise StopUser() from exc
+locust.exception.StopUser
+
+[2026-11-10 05:23:20,392] nebula-dev-locust/ERROR/locust.user.users: 
+Traceback (most recent call last):
+  File "/home/gustavoa_menriquez_gmail_com/nebula/loadtest/locustfile.py", line 50, in on_start
+    raise TimeoutError("Agones no tuvo servidores listos en 180 s")
+TimeoutError: Agones no tuvo servidores listos en 180 s
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/home/gustavoa_menriquez_gmail_com/nebula/venv/lib/python3.11/site-packages/locust/user/users.py", line 166, in run
+    self.on_start()
+  File "/home/gustavoa_menriquez_gmail_com/nebula/loadtest/locustfile.py", line 64, in on_start
+    raise StopUser() from exc
+locust.exception.StopUser
+
+[2026-11-10 05:23:20,582] nebula-dev-locust/ERROR/locust.user.users: 
+Traceback (most recent call last):
+  File "/home/gustavoa_menriquez_gmail_com/nebula/loadtest/locustfile.py", line 50, in on_start
+    raise TimeoutError("Agones no tuvo servidores listos en 180 s")
+TimeoutError: Agones no tuvo servidores listos en 180 s
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/home/gustavoa_menriquez_gmail_com/nebula/venv/lib/python3.11/site-packages/locust/user/users.py", line 166, in run
+    self.on_start()
+  File "/home/gustavoa_menriquez_gmail_com/nebula/loadtest/locustfile.py", line 64, in on_start
+    raise StopUser() from exc
+locust.exception.StopUser
+
+[2026-11-10 05:23:21,705] nebula-dev-locust/ERROR/locust.user.users: 
+Traceback (most recent call last):
+  File "/home/gustavoa_menriquez_gmail_com/nebula/loadtest/locustfile.py", line 50, in on_start
+    raise TimeoutError("Agones no tuvo servidores listos en 180 s")
+TimeoutError: Agones no tuvo servidores listos en 180 s
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/home/gustavoa_menriquez_gmail_com/nebula/venv/lib/python3.11/site-packages/locust/user/users.py", line 166, in run
+    self.on_start()
+  File "/home/gustavoa_menriquez_gmail_com/nebula/loadtest/locustfile.py", line 64, in on_start
+    raise StopUser() from exc
+locust.exception.StopUser
+
+[2026-11-10 05:23:21,860] nebula-dev-locust/ERROR/locust.user.users: 
+Traceback (most recent call last):
+  File "/home/gustavoa_menriquez_gmail_com/nebula/loadtest/locustfile.py", line 50, in on_start
+    raise TimeoutError("Agones no tuvo servidores listos en 180 s")
+TimeoutError: Agones no tuvo servidores listos en 180 s
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/home/gustavoa_menriquez_gmail_com/nebula/venv/lib/python3.11/site-packages/locust/user/users.py", line 166, in run
+    self.on_start()
+  File "/home/gustavoa_menriquez_gmail_com/nebula/loadtest/locustfile.py", line 64, in on_start
+    raise StopUser() from exc
+locust.exception.StopUser
+
+[2026-11-10 05:23:22,498] nebula-dev-locust/ERROR/locust.user.users: 
+Traceback (most recent call last):
+  File "/home/gustavoa_menriquez_gmail_com/nebula/loadtest/locustfile.py", line 50, in on_start
+    raise TimeoutError("Agones no tuvo servidores listos en 180 s")
+TimeoutError: Agones no tuvo servidores listos en 180 s
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/home/gustavoa_menriquez_gmail_com/nebula/venv/lib/python3.11/site-packages/locust/user/users.py", line 166, in run
+    self.on_start()
+  File "/home/gustavoa_menriquez_gmail_com/nebula/loadtest/locustfile.py", line 64, in on_start
+    raise StopUser() from exc
+locust.exception.StopUser
+
+[2026-11-10 05:23:22,586] nebula-dev-locust/ERROR/locust.user.users: 
+Traceback (most recent call last):
+  File "/home/gustavoa_menriquez_gmail_com/nebula/loadtest/locustfile.py", line 50, in on_start
+    raise TimeoutError("Agones no tuvo servidores listos en 180 s")
+TimeoutError: Agones no tuvo servidores listos en 180 s
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/home/gustavoa_menriquez_gmail_com/nebula/venv/lib/python3.11/site-packages/locust/user/users.py", line 166, in run
+    self.on_start()
+  File "/home/gustavoa_menriquez_gmail_com/nebula/loadtest/locustfile.py", line 64, in on_start
+    raise StopUser() from exc
+locust.exception.StopUser
+
+[2026-11-10 05:23:22,621] nebula-dev-locust/ERROR/locust.user.users: 
+Traceback (most recent call last):
+  File "/home/gustavoa_menriquez_gmail_com/nebula/loadtest/locustfile.py", line 50, in on_start
+    raise TimeoutError("Agones no tuvo servidores listos en 180 s")
+TimeoutError: Agones no tuvo servidores listos en 180 s
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/home/gustavoa_menriquez_gmail_com/nebula/venv/lib/python3.11/site-packages/locust/user/users.py", line 166, in run
+    self.on_start()
+  File "/home/gustavoa_menriquez_gmail_com/nebula/loadtest/locustfile.py", line 64, in on_start
+    raise StopUser() from exc
+locust.exception.StopUser
+
+[2026-11-10 05:23:23,275] nebula-dev-locust/ERROR/locust.user.users: 
+Traceback (most recent call last):
+  File "/home/gustavoa_menriquez_gmail_com/nebula/loadtest/locustfile.py", line 50, in on_start
+    raise TimeoutError("Agones no tuvo servidores listos en 180 s")
+TimeoutError: Agones no tuvo servidores listos en 180 s
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/home/gustavoa_menriquez_gmail_com/nebula/venv/lib/python3.11/site-packages/locust/user/users.py", line 166, in run
+    self.on_start()
+  File "/home/gustavoa_menriquez_gmail_com/nebula/loadtest/locustfile.py", line 64, in on_start
+    raise StopUser() from exc
+locust.exception.StopUser
+
+[2026-11-10 05:23:23,596] nebula-dev-locust/ERROR/locust.user.users: 
+Traceback (most recent call last):
+  File "/home/gustavoa_menriquez_gmail_com/nebula/loadtest/locustfile.py", line 50, in on_start
+    raise TimeoutError("Agones no tuvo servidores listos en 180 s")
+TimeoutError: Agones no tuvo servidores listos en 180 s
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/home/gustavoa_menriquez_gmail_com/nebula/venv/lib/python3.11/site-packages/locust/user/users.py", line 166, in run
+    self.on_start()
+  File "/home/gustavoa_menriquez_gmail_com/nebula/loadtest/locustfile.py", line 64, in on_start
+    raise StopUser() from exc
+locust.exception.StopUser
+
+[2026-11-10 05:23:23,631] nebula-dev-locust/ERROR/locust.user.users: 
+Traceback (most recent call last):
+  File "/home/gustavoa_menriquez_gmail_com/nebula/loadtest/locustfile.py", line 50, in on_start
+    raise TimeoutError("Agones no tuvo servidores listos en 180 s")
+TimeoutError: Agones no tuvo servidores listos en 180 s
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/home/gustavoa_menriquez_gmail_com/nebula/venv/lib/python3.11/site-packages/locust/user/users.py", line 166, in run
+    self.on_start()
+  File "/home/gustavoa_menriquez_gmail_com/nebula/loadtest/locustfile.py", line 64, in on_start
+    raise StopUser() from exc
+locust.exception.StopUser
+
+[2026-11-10 05:23:24,617] nebula-dev-locust/ERROR/locust.user.users: 
+Traceback (most recent call last):
+  File "/home/gustavoa_menriquez_gmail_com/nebula/loadtest/locustfile.py", line 50, in on_start
+    raise TimeoutError("Agones no tuvo servidores listos en 180 s")
+TimeoutError: Agones no tuvo servidores listos en 180 s
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/home/gustavoa_menriquez_gmail_com/nebula/venv/lib/python3.11/site-packages/locust/user/users.py", line 166, in run
+    self.on_start()
+  File "/home/gustavoa_menriquez_gmail_com/nebula/loadtest/locustfile.py", line 64, in on_start
+    raise StopUser() from exc
+locust.exception.StopUser
+
+[2026-11-10 05:23:24,722] nebula-dev-locust/ERROR/locust.user.users: 
+Traceback (most recent call last):
+  File "/home/gustavoa_menriquez_gmail_com/nebula/loadtest/locustfile.py", line 50, in on_start
+    raise TimeoutError("Agones no tuvo servidores listos en 180 s")
+TimeoutError: Agones no tuvo servidores listos en 180 s
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/home/gustavoa_menriquez_gmail_com/nebula/venv/lib/python3.11/site-packages/locust/user/users.py", line 166, in run
+    self.on_start()
+  File "/home/gustavoa_menriquez_gmail_com/nebula/loadtest/locustfile.py", line 64, in on_start
+    raise StopUser() from exc
+locust.exception.StopUser
+
+[2026-11-10 05:23:24,909] nebula-dev-locust/ERROR/locust.user.users: 
+Traceback (most recent call last):
+  File "/home/gustavoa_menriquez_gmail_com/nebula/loadtest/locustfile.py", line 50, in on_start
+    raise TimeoutError("Agones no tuvo servidores listos en 180 s")
+TimeoutError: Agones no tuvo servidores listos en 180 s
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/home/gustavoa_menriquez_gmail_com/nebula/venv/lib/python3.11/site-packages/locust/user/users.py", line 166, in run
+    self.on_start()
+  File "/home/gustavoa_menriquez_gmail_com/nebula/loadtest/locustfile.py", line 64, in on_start
+    raise StopUser() from exc
+locust.exception.StopUser
+
+[2026-11-10 05:23:25,896] nebula-dev-locust/ERROR/locust.user.users: 
+Traceback (most recent call last):
+  File "/home/gustavoa_menriquez_gmail_com/nebula/loadtest/locustfile.py", line 50, in on_start
+    raise TimeoutError("Agones no tuvo servidores listos en 180 s")
+TimeoutError: Agones no tuvo servidores listos en 180 s
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/home/gustavoa_menriquez_gmail_com/nebula/venv/lib/python3.11/site-packages/locust/user/users.py", line 166, in run
+    self.on_start()
+  File "/home/gustavoa_menriquez_gmail_com/nebula/loadtest/locustfile.py", line 64, in on_start
+    raise StopUser() from exc
+locust.exception.StopUser
+
+[2026-11-10 05:23:25,974] nebula-dev-locust/ERROR/locust.user.users: 
+Traceback (most recent call last):
+  File "/home/gustavoa_menriquez_gmail_com/nebula/loadtest/locustfile.py", line 50, in on_start
+    raise TimeoutError("Agones no tuvo servidores listos en 180 s")
+TimeoutError: Agones no tuvo servidores listos en 180 s
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/home/gustavoa_menriquez_gmail_com/nebula/venv/lib/python3.11/site-packages/locust/user/users.py", line 166, in run
+    self.on_start()
+  File "/home/gustavoa_menriquez_gmail_com/nebula/loadtest/locustfile.py", line 64, in on_start
+    raise StopUser() from exc
+locust.exception.StopUser
+
+[2026-11-10 05:23:26,032] nebula-dev-locust/ERROR/locust.user.users: 
+Traceback (most recent call last):
+  File "/home/gustavoa_menriquez_gmail_com/nebula/loadtest/locustfile.py", line 50, in on_start
+    raise TimeoutError("Agones no tuvo servidores listos en 180 s")
+TimeoutError: Agones no tuvo servidores listos en 180 s
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/home/gustavoa_menriquez_gmail_com/nebula/venv/lib/python3.11/site-packages/locust/user/users.py", line 166, in run
+    self.on_start()
+  File "/home/gustavoa_menriquez_gmail_com/nebula/loadtest/locustfile.py", line 64, in on_start
+    raise StopUser() from exc
+locust.exception.StopUser
+
+[2026-11-10 05:23:26,940] nebula-dev-locust/ERROR/locust.user.users: 
+Traceback (most recent call last):
+  File "/home/gustavoa_menriquez_gmail_com/nebula/loadtest/locustfile.py", line 50, in on_start
+    raise TimeoutError("Agones no tuvo servidores listos en 180 s")
+TimeoutError: Agones no tuvo servidores listos en 180 s
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/home/gustavoa_menriquez_gmail_com/nebula/venv/lib/python3.11/site-packages/locust/user/users.py", line 166, in run
+    self.on_start()
+  File "/home/gustavoa_menriquez_gmail_com/nebula/loadtest/locustfile.py", line 64, in on_start
+    raise StopUser() from exc
+locust.exception.StopUser
+
+[2026-11-10 05:23:27,257] nebula-dev-locust/ERROR/locust.user.users: 
+Traceback (most recent call last):
+  File "/home/gustavoa_menriquez_gmail_com/nebula/loadtest/locustfile.py", line 50, in on_start
+    raise TimeoutError("Agones no tuvo servidores listos en 180 s")
+TimeoutError: Agones no tuvo servidores listos en 180 s
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/home/gustavoa_menriquez_gmail_com/nebula/venv/lib/python3.11/site-packages/locust/user/users.py", line 166, in run
+    self.on_start()
+  File "/home/gustavoa_menriquez_gmail_com/nebula/loadtest/locustfile.py", line 64, in on_start
+    raise StopUser() from exc
+locust.exception.StopUser
+
+[2026-11-10 05:23:27,356] nebula-dev-locust/ERROR/locust.user.users: 
+Traceback (most recent call last):
+  File "/home/gustavoa_menriquez_gmail_com/nebula/loadtest/locustfile.py", line 50, in on_start
+    raise TimeoutError("Agones no tuvo servidores listos en 180 s")
+TimeoutError: Agones no tuvo servidores listos en 180 s
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/home/gustavoa_menriquez_gmail_com/nebula/venv/lib/python3.11/site-packages/locust/user/users.py", line 166, in run
+    self.on_start()
+  File "/home/gustavoa_menriquez_gmail_com/nebula/loadtest/locustfile.py", line 64, in on_start
+    raise StopUser() from exc
+locust.exception.StopUser
+
+[2026-11-10 05:23:27,419] nebula-dev-locust/ERROR/locust.user.users: 
+Traceback (most recent call last):
+  File "/home/gustavoa_menriquez_gmail_com/nebula/loadtest/locustfile.py", line 50, in on_start
+    raise TimeoutError("Agones no tuvo servidores listos en 180 s")
+TimeoutError: Agones no tuvo servidores listos en 180 s
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/home/gustavoa_menriquez_gmail_com/nebula/venv/lib/python3.11/site-packages/locust/user/users.py", line 166, in run
+    self.on_start()
+  File "/home/gustavoa_menriquez_gmail_com/nebula/loadtest/locustfile.py", line 64, in on_start
+    raise StopUser() from exc
+locust.exception.StopUser
+
+[2026-11-10 05:23:27,493] nebula-dev-locust/ERROR/locust.user.users: 
+Traceback (most recent call last):
+  File "/home/gustavoa_menriquez_gmail_com/nebula/loadtest/locustfile.py", line 50, in on_start
+    raise TimeoutError("Agones no tuvo servidores listos en 180 s")
+TimeoutError: Agones no tuvo servidores listos en 180 s
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/home/gustavoa_menriquez_gmail_com/nebula/venv/lib/python3.11/site-packages/locust/user/users.py", line 166, in run
+    self.on_start()
+  File "/home/gustavoa_menriquez_gmail_com/nebula/loadtest/locustfile.py", line 64, in on_start
+    raise StopUser() from exc
+locust.exception.StopUser
+
+[2026-11-10 05:23:28,714] nebula-dev-locust/ERROR/locust.user.users: 
+Traceback (most recent call last):
+  File "/home/gustavoa_menriquez_gmail_com/nebula/loadtest/locustfile.py", line 50, in on_start
+    raise TimeoutError("Agones no tuvo servidores listos en 180 s")
+TimeoutError: Agones no tuvo servidores listos en 180 s
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/home/gustavoa_menriquez_gmail_com/nebula/venv/lib/python3.11/site-packages/locust/user/users.py", line 166, in run
+    self.on_start()
+  File "/home/gustavoa_menriquez_gmail_com/nebula/loadtest/locustfile.py", line 64, in on_start
+    raise StopUser() from exc
+locust.exception.StopUser
+
+[2026-11-10 05:23:30,286] nebula-dev-locust/ERROR/locust.user.users: 
+Traceback (most recent call last):
+  File "/home/gustavoa_menriquez_gmail_com/nebula/loadtest/locustfile.py", line 50, in on_start
+    raise TimeoutError("Agones no tuvo servidores listos en 180 s")
+TimeoutError: Agones no tuvo servidores listos en 180 s
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/home/gustavoa_menriquez_gmail_com/nebula/venv/lib/python3.11/site-packages/locust/user/users.py", line 166, in run
+    self.on_start()
+  File "/home/gustavoa_menriquez_gmail_com/nebula/loadtest/locustfile.py", line 64, in on_start
+    raise StopUser() from exc
+locust.exception.StopUser
+
+[2026-11-10 05:23:30,412] nebula-dev-locust/ERROR/locust.user.users: 
+Traceback (most recent call last):
+  File "/home/gustavoa_menriquez_gmail_com/nebula/loadtest/locustfile.py", line 50, in on_start
+    raise TimeoutError("Agones no tuvo servidores listos en 180 s")
+TimeoutError: Agones no tuvo servidores listos en 180 s
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/home/gustavoa_menriquez_gmail_com/nebula/venv/lib/python3.11/site-packages/locust/user/users.py", line 166, in run
+    self.on_start()
+  File "/home/gustavoa_menriquez_gmail_com/nebula/loadtest/locustfile.py", line 64, in on_start
+    raise StopUser() from exc
+locust.exception.StopUser
+
+[2026-11-10 05:23:30,554] nebula-dev-locust/ERROR/locust.user.users: 
+Traceback (most recent call last):
+  File "/home/gustavoa_menriquez_gmail_com/nebula/loadtest/locustfile.py", line 50, in on_start
+    raise TimeoutError("Agones no tuvo servidores listos en 180 s")
+TimeoutError: Agones no tuvo servidores listos en 180 s
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/home/gustavoa_menriquez_gmail_com/nebula/venv/lib/python3.11/site-packages/locust/user/users.py", line 166, in run
+    self.on_start()
+  File "/home/gustavoa_menriquez_gmail_com/nebula/loadtest/locustfile.py", line 64, in on_start
+    raise StopUser() from exc
+locust.exception.StopUser
+
+[2026-11-10 05:23:31,032] nebula-dev-locust/ERROR/locust.user.users: 
+Traceback (most recent call last):
+  File "/home/gustavoa_menriquez_gmail_com/nebula/loadtest/locustfile.py", line 50, in on_start
+    raise TimeoutError("Agones no tuvo servidores listos en 180 s")
+TimeoutError: Agones no tuvo servidores listos en 180 s
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/home/gustavoa_menriquez_gmail_com/nebula/venv/lib/python3.11/site-packages/locust/user/users.py", line 166, in run
+    self.on_start()
+  File "/home/gustavoa_menriquez_gmail_com/nebula/loadtest/locustfile.py", line 64, in on_start
+    raise StopUser() from exc
+locust.exception.StopUser
+
+[2026-11-10 05:23:31,529] nebula-dev-locust/ERROR/locust.user.users: 
+Traceback (most recent call last):
+  File "/home/gustavoa_menriquez_gmail_com/nebula/loadtest/locustfile.py", line 50, in on_start
+    raise TimeoutError("Agones no tuvo servidores listos en 180 s")
+TimeoutError: Agones no tuvo servidores listos en 180 s
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/home/gustavoa_menriquez_gmail_com/nebula/venv/lib/python3.11/site-packages/locust/user/users.py", line 166, in run
+    self.on_start()
+  File "/home/gustavoa_menriquez_gmail_com/nebula/loadtest/locustfile.py", line 64, in on_start
+    raise StopUser() from exc
+locust.exception.StopUser
+
+[2026-11-10 05:23:31,633] nebula-dev-locust/ERROR/locust.user.users: 
+Traceback (most recent call last):
+  File "/home/gustavoa_menriquez_gmail_com/nebula/loadtest/locustfile.py", line 50, in on_start
+    raise TimeoutError("Agones no tuvo servidores listos en 180 s")
+TimeoutError: Agones no tuvo servidores listos en 180 s
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/home/gustavoa_menriquez_gmail_com/nebula/venv/lib/python3.11/site-packages/locust/user/users.py", line 166, in run
+    self.on_start()
+  File "/home/gustavoa_menriquez_gmail_com/nebula/loadtest/locustfile.py", line 64, in on_start
+    raise StopUser() from exc
+locust.exception.StopUser
+
+[2026-11-10 05:23:33,292] nebula-dev-locust/ERROR/locust.user.users: 
+Traceback (most recent call last):
+  File "/home/gustavoa_menriquez_gmail_com/nebula/loadtest/locustfile.py", line 50, in on_start
+    raise TimeoutError("Agones no tuvo servidores listos en 180 s")
+TimeoutError: Agones no tuvo servidores listos en 180 s
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/home/gustavoa_menriquez_gmail_com/nebula/venv/lib/python3.11/site-packages/locust/user/users.py", line 166, in run
+    self.on_start()
+  File "/home/gustavoa_menriquez_gmail_com/nebula/loadtest/locustfile.py", line 64, in on_start
+    raise StopUser() from exc
+locust.exception.StopUser
+
+[2026-11-10 05:23:33,352] nebula-dev-locust/ERROR/locust.user.users: 
+Traceback (most recent call last):
+  File "/home/gustavoa_menriquez_gmail_com/nebula/loadtest/locustfile.py", line 50, in on_start
+    raise TimeoutError("Agones no tuvo servidores listos en 180 s")
+TimeoutError: Agones no tuvo servidores listos en 180 s
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/home/gustavoa_menriquez_gmail_com/nebula/venv/lib/python3.11/site-packages/locust/user/users.py", line 166, in run
+    self.on_start()
+  File "/home/gustavoa_menriquez_gmail_com/nebula/loadtest/locustfile.py", line 64, in on_start
+    raise StopUser() from exc
+locust.exception.StopUser
+
+[2026-11-10 05:23:34,160] nebula-dev-locust/ERROR/locust.user.users: 
+Traceback (most recent call last):
+  File "/home/gustavoa_menriquez_gmail_com/nebula/loadtest/locustfile.py", line 50, in on_start
+    raise TimeoutError("Agones no tuvo servidores listos en 180 s")
+TimeoutError: Agones no tuvo servidores listos en 180 s
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/home/gustavoa_menriquez_gmail_com/nebula/venv/lib/python3.11/site-packages/locust/user/users.py", line 166, in run
+    self.on_start()
+  File "/home/gustavoa_menriquez_gmail_com/nebula/loadtest/locustfile.py", line 64, in on_start
+    raise StopUser() from exc
+locust.exception.StopUser
+
+[2026-11-10 05:23:34,296] nebula-dev-locust/ERROR/locust.user.users: 
+Traceback (most recent call last):
+  File "/home/gustavoa_menriquez_gmail_com/nebula/loadtest/locustfile.py", line 50, in on_start
+    raise TimeoutError("Agones no tuvo servidores listos en 180 s")
+TimeoutError: Agones no tuvo servidores listos en 180 s
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/home/gustavoa_menriquez_gmail_com/nebula/venv/lib/python3.11/site-packages/locust/user/users.py", line 166, in run
+    self.on_start()
+  File "/home/gustavoa_menriquez_gmail_com/nebula/loadtest/locustfile.py", line 64, in on_start
+    raise StopUser() from exc
+locust.exception.StopUser
+
+[2026-11-10 05:23:34,494] nebula-dev-locust/ERROR/locust.user.users: 
+Traceback (most recent call last):
+  File "/home/gustavoa_menriquez_gmail_com/nebula/loadtest/locustfile.py", line 50, in on_start
+    raise TimeoutError("Agones no tuvo servidores listos en 180 s")
+TimeoutError: Agones no tuvo servidores listos en 180 s
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/home/gustavoa_menriquez_gmail_com/nebula/venv/lib/python3.11/site-packages/locust/user/users.py", line 166, in run
+    self.on_start()
+  File "/home/gustavoa_menriquez_gmail_com/nebula/loadtest/locustfile.py", line 64, in on_start
+    raise StopUser() from exc
+locust.exception.StopUser
+
+[2026-11-10 05:23:34,564] nebula-dev-locust/ERROR/locust.user.users: 
+Traceback (most recent call last):
+  File "/home/gustavoa_menriquez_gmail_com/nebula/loadtest/locustfile.py", line 50, in on_start
+    raise TimeoutError("Agones no tuvo servidores listos en 180 s")
+TimeoutError: Agones no tuvo servidores listos en 180 s
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/home/gustavoa_menriquez_gmail_com/nebula/venv/lib/python3.11/site-packages/locust/user/users.py", line 166, in run
+    self.on_start()
+  File "/home/gustavoa_menriquez_gmail_com/nebula/loadtest/locustfile.py", line 64, in on_start
+    raise StopUser() from exc
+locust.exception.StopUser
+
+[2026-11-10 05:23:35,395] nebula-dev-locust/ERROR/locust.user.users: 
+Traceback (most recent call last):
+  File "/home/gustavoa_menriquez_gmail_com/nebula/loadtest/locustfile.py", line 50, in on_start
+    raise TimeoutError("Agones no tuvo servidores listos en 180 s")
+TimeoutError: Agones no tuvo servidores listos en 180 s
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/home/gustavoa_menriquez_gmail_com/nebula/venv/lib/python3.11/site-packages/locust/user/users.py", line 166, in run
+    self.on_start()
+  File "/home/gustavoa_menriquez_gmail_com/nebula/loadtest/locustfile.py", line 64, in on_start
+    raise StopUser() from exc
+locust.exception.StopUser
+
+[2026-11-10 05:23:35,520] nebula-dev-locust/ERROR/locust.user.users: 
+Traceback (most recent call last):
+  File "/home/gustavoa_menriquez_gmail_com/nebula/loadtest/locustfile.py", line 50, in on_start
+    raise TimeoutError("Agones no tuvo servidores listos en 180 s")
+TimeoutError: Agones no tuvo servidores listos en 180 s
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/home/gustavoa_menriquez_gmail_com/nebula/venv/lib/python3.11/site-packages/locust/user/users.py", line 166, in run
+    self.on_start()
+  File "/home/gustavoa_menriquez_gmail_com/nebula/loadtest/locustfile.py", line 64, in on_start
+    raise StopUser() from exc
+locust.exception.StopUser
+
+[2026-11-10 05:23:36,738] nebula-dev-locust/ERROR/locust.user.users: 
+Traceback (most recent call last):
+  File "/home/gustavoa_menriquez_gmail_com/nebula/loadtest/locustfile.py", line 50, in on_start
+    raise TimeoutError("Agones no tuvo servidores listos en 180 s")
+TimeoutError: Agones no tuvo servidores listos en 180 s
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/home/gustavoa_menriquez_gmail_com/nebula/venv/lib/python3.11/site-packages/locust/user/users.py", line 166, in run
+    self.on_start()
+  File "/home/gustavoa_menriquez_gmail_com/nebula/loadtest/locustfile.py", line 64, in on_start
+    raise StopUser() from exc
+locust.exception.StopUser
+
+[2026-11-10 05:23:36,834] nebula-dev-locust/ERROR/locust.user.users: 
+Traceback (most recent call last):
+  File "/home/gustavoa_menriquez_gmail_com/nebula/loadtest/locustfile.py", line 50, in on_start
+    raise TimeoutError("Agones no tuvo servidores listos en 180 s")
+TimeoutError: Agones no tuvo servidores listos en 180 s
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/home/gustavoa_menriquez_gmail_com/nebula/venv/lib/python3.11/site-packages/locust/user/users.py", line 166, in run
+    self.on_start()
+  File "/home/gustavoa_menriquez_gmail_com/nebula/loadtest/locustfile.py", line 64, in on_start
+    raise StopUser() from exc
+locust.exception.StopUser
+
+[2026-11-10 05:23:37,036] nebula-dev-locust/ERROR/locust.user.users: 
+Traceback (most recent call last):
+  File "/home/gustavoa_menriquez_gmail_com/nebula/loadtest/locustfile.py", line 50, in on_start
+    raise TimeoutError("Agones no tuvo servidores listos en 180 s")
+TimeoutError: Agones no tuvo servidores listos en 180 s
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/home/gustavoa_menriquez_gmail_com/nebula/venv/lib/python3.11/site-packages/locust/user/users.py", line 166, in run
+    self.on_start()
+  File "/home/gustavoa_menriquez_gmail_com/nebula/loadtest/locustfile.py", line 64, in on_start
+    raise StopUser() from exc
+locust.exception.StopUser
+
+[2026-11-10 05:23:37,202] nebula-dev-locust/ERROR/locust.user.users: 
+Traceback (most recent call last):
+  File "/home/gustavoa_menriquez_gmail_com/nebula/loadtest/locustfile.py", line 50, in on_start
+    raise TimeoutError("Agones no tuvo servidores listos en 180 s")
+TimeoutError: Agones no tuvo servidores listos en 180 s
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/home/gustavoa_menriquez_gmail_com/nebula/venv/lib/python3.11/site-packages/locust/user/users.py", line 166, in run
+    self.on_start()
+  File "/home/gustavoa_menriquez_gmail_com/nebula/loadtest/locustfile.py", line 64, in on_start
+    raise StopUser() from exc
+locust.exception.StopUser
+
+[2026-11-10 05:23:37,204] nebula-dev-locust/ERROR/locust.user.users: 
+Traceback (most recent call last):
+  File "/home/gustavoa_menriquez_gmail_com/nebula/loadtest/locustfile.py", line 50, in on_start
+    raise TimeoutError("Agones no tuvo servidores listos en 180 s")
+TimeoutError: Agones no tuvo servidores listos en 180 s
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/home/gustavoa_menriquez_gmail_com/nebula/venv/lib/python3.11/site-packages/locust/user/users.py", line 166, in run
+    self.on_start()
+  File "/home/gustavoa_menriquez_gmail_com/nebula/loadtest/locustfile.py", line 64, in on_start
+    raise StopUser() from exc
+locust.exception.StopUser
+
+[2026-11-10 05:23:37,440] nebula-dev-locust/ERROR/locust.user.users: 
+Traceback (most recent call last):
+  File "/home/gustavoa_menriquez_gmail_com/nebula/loadtest/locustfile.py", line 50, in on_start
+    raise TimeoutError("Agones no tuvo servidores listos en 180 s")
+TimeoutError: Agones no tuvo servidores listos en 180 s
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/home/gustavoa_menriquez_gmail_com/nebula/venv/lib/python3.11/site-packages/locust/user/users.py", line 166, in run
+    self.on_start()
+  File "/home/gustavoa_menriquez_gmail_com/nebula/loadtest/locustfile.py", line 64, in on_start
+    raise StopUser() from exc
+locust.exception.StopUser
+
+[2026-11-10 05:23:37,641] nebula-dev-locust/ERROR/locust.user.users: 
+Traceback (most recent call last):
+  File "/home/gustavoa_menriquez_gmail_com/nebula/loadtest/locustfile.py", line 50, in on_start
+    raise TimeoutError("Agones no tuvo servidores listos en 180 s")
+TimeoutError: Agones no tuvo servidores listos en 180 s
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/home/gustavoa_menriquez_gmail_com/nebula/venv/lib/python3.11/site-packages/locust/user/users.py", line 166, in run
+    self.on_start()
+  File "/home/gustavoa_menriquez_gmail_com/nebula/loadtest/locustfile.py", line 64, in on_start
+    raise StopUser() from exc
+locust.exception.StopUser
+
+[2026-11-10 05:23:37,761] nebula-dev-locust/ERROR/locust.user.users: 
+Traceback (most recent call last):
+  File "/home/gustavoa_menriquez_gmail_com/nebula/loadtest/locustfile.py", line 50, in on_start
+    raise TimeoutError("Agones no tuvo servidores listos en 180 s")
+TimeoutError: Agones no tuvo servidores listos en 180 s
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/home/gustavoa_menriquez_gmail_com/nebula/venv/lib/python3.11/site-packages/locust/user/users.py", line 166, in run
+    self.on_start()
+  File "/home/gustavoa_menriquez_gmail_com/nebula/loadtest/locustfile.py", line 64, in on_start
+    raise StopUser() from exc
+locust.exception.StopUser
+
+[2026-11-10 05:23:38,090] nebula-dev-locust/ERROR/locust.user.users: 
+Traceback (most recent call last):
+  File "/home/gustavoa_menriquez_gmail_com/nebula/loadtest/locustfile.py", line 50, in on_start
+    raise TimeoutError("Agones no tuvo servidores listos en 180 s")
+TimeoutError: Agones no tuvo servidores listos en 180 s
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/home/gustavoa_menriquez_gmail_com/nebula/venv/lib/python3.11/site-packages/locust/user/users.py", line 166, in run
+    self.on_start()
+  File "/home/gustavoa_menriquez_gmail_com/nebula/loadtest/locustfile.py", line 64, in on_start
+    raise StopUser() from exc
+locust.exception.StopUser
+
+[2026-11-10 05:23:38,353] nebula-dev-locust/ERROR/locust.user.users: 
+Traceback (most recent call last):
+  File "/home/gustavoa_menriquez_gmail_com/nebula/loadtest/locustfile.py", line 50, in on_start
+    raise TimeoutError("Agones no tuvo servidores listos en 180 s")
+TimeoutError: Agones no tuvo servidores listos en 180 s
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/home/gustavoa_menriquez_gmail_com/nebula/venv/lib/python3.11/site-packages/locust/user/users.py", line 166, in run
+    self.on_start()
+  File "/home/gustavoa_menriquez_gmail_com/nebula/loadtest/locustfile.py", line 64, in on_start
+    raise StopUser() from exc
+locust.exception.StopUser
+
+[2026-11-10 05:23:38,518] nebula-dev-locust/ERROR/locust.user.users: 
+Traceback (most recent call last):
+  File "/home/gustavoa_menriquez_gmail_com/nebula/loadtest/locustfile.py", line 50, in on_start
+    raise TimeoutError("Agones no tuvo servidores listos en 180 s")
+TimeoutError: Agones no tuvo servidores listos en 180 s
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/home/gustavoa_menriquez_gmail_com/nebula/venv/lib/python3.11/site-packages/locust/user/users.py", line 166, in run
+    self.on_start()
+  File "/home/gustavoa_menriquez_gmail_com/nebula/loadtest/locustfile.py", line 64, in on_start
+    raise StopUser() from exc
+locust.exception.StopUser
+
+[2026-11-10 05:23:38,598] nebula-dev-locust/ERROR/locust.user.users: 
+Traceback (most recent call last):
+  File "/home/gustavoa_menriquez_gmail_com/nebula/loadtest/locustfile.py", line 50, in on_start
+    raise TimeoutError("Agones no tuvo servidores listos en 180 s")
+TimeoutError: Agones no tuvo servidores listos en 180 s
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/home/gustavoa_menriquez_gmail_com/nebula/venv/lib/python3.11/site-packages/locust/user/users.py", line 166, in run
+    self.on_start()
+  File "/home/gustavoa_menriquez_gmail_com/nebula/loadtest/locustfile.py", line 64, in on_start
+    raise StopUser() from exc
+locust.exception.StopUser
+
+[2026-11-10 05:23:39,534] nebula-dev-locust/ERROR/locust.user.users: 
+Traceback (most recent call last):
+  File "/home/gustavoa_menriquez_gmail_com/nebula/loadtest/locustfile.py", line 50, in on_start
+    raise TimeoutError("Agones no tuvo servidores listos en 180 s")
+TimeoutError: Agones no tuvo servidores listos en 180 s
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/home/gustavoa_menriquez_gmail_com/nebula/venv/lib/python3.11/site-packages/locust/user/users.py", line 166, in run
+    self.on_start()
+  File "/home/gustavoa_menriquez_gmail_com/nebula/loadtest/locustfile.py", line 64, in on_start
+    raise StopUser() from exc
+locust.exception.StopUser
+
+[2026-11-10 05:23:39,750] nebula-dev-locust/ERROR/locust.user.users: 
+Traceback (most recent call last):
+  File "/home/gustavoa_menriquez_gmail_com/nebula/loadtest/locustfile.py", line 50, in on_start
+    raise TimeoutError("Agones no tuvo servidores listos en 180 s")
+TimeoutError: Agones no tuvo servidores listos en 180 s
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/home/gustavoa_menriquez_gmail_com/nebula/venv/lib/python3.11/site-packages/locust/user/users.py", line 166, in run
+    self.on_start()
+  File "/home/gustavoa_menriquez_gmail_com/nebula/loadtest/locustfile.py", line 64, in on_start
+    raise StopUser() from exc
+locust.exception.StopUser
+
+[2026-11-10 05:23:40,087] nebula-dev-locust/ERROR/locust.user.users: 
+Traceback (most recent call last):
+  File "/home/gustavoa_menriquez_gmail_com/nebula/loadtest/locustfile.py", line 50, in on_start
+    raise TimeoutError("Agones no tuvo servidores listos en 180 s")
+TimeoutError: Agones no tuvo servidores listos en 180 s
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/home/gustavoa_menriquez_gmail_com/nebula/venv/lib/python3.11/site-packages/locust/user/users.py", line 166, in run
+    self.on_start()
+  File "/home/gustavoa_menriquez_gmail_com/nebula/loadtest/locustfile.py", line 64, in on_start
+    raise StopUser() from exc
+locust.exception.StopUser
+
+[2026-11-10 05:23:40,599] nebula-dev-locust/ERROR/locust.user.users: 
+Traceback (most recent call last):
+  File "/home/gustavoa_menriquez_gmail_com/nebula/loadtest/locustfile.py", line 50, in on_start
+    raise TimeoutError("Agones no tuvo servidores listos en 180 s")
+TimeoutError: Agones no tuvo servidores listos en 180 s
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/home/gustavoa_menriquez_gmail_com/nebula/venv/lib/python3.11/site-packages/locust/user/users.py", line 166, in run
+    self.on_start()
+  File "/home/gustavoa_menriquez_gmail_com/nebula/loadtest/locustfile.py", line 64, in on_start
+    raise StopUser() from exc
+locust.exception.StopUser
+
+[2026-11-10 05:23:41,070] nebula-dev-locust/ERROR/locust.user.users: 
+Traceback (most recent call last):
+  File "/home/gustavoa_menriquez_gmail_com/nebula/loadtest/locustfile.py", line 50, in on_start
+    raise TimeoutError("Agones no tuvo servidores listos en 180 s")
+TimeoutError: Agones no tuvo servidores listos en 180 s
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/home/gustavoa_menriquez_gmail_com/nebula/venv/lib/python3.11/site-packages/locust/user/users.py", line 166, in run
+    self.on_start()
+  File "/home/gustavoa_menriquez_gmail_com/nebula/loadtest/locustfile.py", line 64, in on_start
+    raise StopUser() from exc
+locust.exception.StopUser
+
+[2026-11-10 05:23:41,556] nebula-dev-locust/ERROR/locust.user.users: 
+Traceback (most recent call last):
+  File "/home/gustavoa_menriquez_gmail_com/nebula/loadtest/locustfile.py", line 50, in on_start
+    raise TimeoutError("Agones no tuvo servidores listos en 180 s")
+TimeoutError: Agones no tuvo servidores listos en 180 s
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/home/gustavoa_menriquez_gmail_com/nebula/venv/lib/python3.11/site-packages/locust/user/users.py", line 166, in run
+    self.on_start()
+  File "/home/gustavoa_menriquez_gmail_com/nebula/loadtest/locustfile.py", line 64, in on_start
+    raise StopUser() from exc
+locust.exception.StopUser
+
+[2026-11-10 05:23:41,813] nebula-dev-locust/ERROR/locust.user.users: 
+Traceback (most recent call last):
+  File "/home/gustavoa_menriquez_gmail_com/nebula/loadtest/locustfile.py", line 50, in on_start
+    raise TimeoutError("Agones no tuvo servidores listos en 180 s")
+TimeoutError: Agones no tuvo servidores listos en 180 s
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/home/gustavoa_menriquez_gmail_com/nebula/venv/lib/python3.11/site-packages/locust/user/users.py", line 166, in run
+    self.on_start()
+  File "/home/gustavoa_menriquez_gmail_com/nebula/loadtest/locustfile.py", line 64, in on_start
+    raise StopUser() from exc
+locust.exception.StopUser
+
+[2026-11-10 05:23:42,032] nebula-dev-locust/ERROR/locust.user.users: 
+Traceback (most recent call last):
+  File "/home/gustavoa_menriquez_gmail_com/nebula/loadtest/locustfile.py", line 50, in on_start
+    raise TimeoutError("Agones no tuvo servidores listos en 180 s")
+TimeoutError: Agones no tuvo servidores listos en 180 s
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/home/gustavoa_menriquez_gmail_com/nebula/venv/lib/python3.11/site-packages/locust/user/users.py", line 166, in run
+    self.on_start()
+  File "/home/gustavoa_menriquez_gmail_com/nebula/loadtest/locustfile.py", line 64, in on_start
+    raise StopUser() from exc
+locust.exception.StopUser
+
+[2026-11-10 05:23:42,732] nebula-dev-locust/ERROR/locust.user.users: 
+Traceback (most recent call last):
+  File "/home/gustavoa_menriquez_gmail_com/nebula/loadtest/locustfile.py", line 50, in on_start
+    raise TimeoutError("Agones no tuvo servidores listos en 180 s")
+TimeoutError: Agones no tuvo servidores listos en 180 s
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/home/gustavoa_menriquez_gmail_com/nebula/venv/lib/python3.11/site-packages/locust/user/users.py", line 166, in run
+    self.on_start()
+  File "/home/gustavoa_menriquez_gmail_com/nebula/loadtest/locustfile.py", line 64, in on_start
+    raise StopUser() from exc
+locust.exception.StopUser
+
+[2026-11-10 05:23:43,829] nebula-dev-locust/ERROR/locust.user.users: 
+Traceback (most recent call last):
+  File "/home/gustavoa_menriquez_gmail_com/nebula/loadtest/locustfile.py", line 50, in on_start
+    raise TimeoutError("Agones no tuvo servidores listos en 180 s")
+TimeoutError: Agones no tuvo servidores listos en 180 s
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/home/gustavoa_menriquez_gmail_com/nebula/venv/lib/python3.11/site-packages/locust/user/users.py", line 166, in run
+    self.on_start()
+  File "/home/gustavoa_menriquez_gmail_com/nebula/loadtest/locustfile.py", line 64, in on_start
+    raise StopUser() from exc
+locust.exception.StopUser
+
+[2026-11-10 05:23:44,040] nebula-dev-locust/ERROR/locust.user.users: 
+Traceback (most recent call last):
+  File "/home/gustavoa_menriquez_gmail_com/nebula/loadtest/locustfile.py", line 50, in on_start
+    raise TimeoutError("Agones no tuvo servidores listos en 180 s")
+TimeoutError: Agones no tuvo servidores listos en 180 s
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/home/gustavoa_menriquez_gmail_com/nebula/venv/lib/python3.11/site-packages/locust/user/users.py", line 166, in run
+    self.on_start()
+  File "/home/gustavoa_menriquez_gmail_com/nebula/loadtest/locustfile.py", line 64, in on_start
+    raise StopUser() from exc
+locust.exception.StopUser
+
+[2026-11-10 05:23:44,658] nebula-dev-locust/ERROR/locust.user.users: 
+Traceback (most recent call last):
+  File "/home/gustavoa_menriquez_gmail_com/nebula/loadtest/locustfile.py", line 50, in on_start
+    raise TimeoutError("Agones no tuvo servidores listos en 180 s")
+TimeoutError: Agones no tuvo servidores listos en 180 s
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/home/gustavoa_menriquez_gmail_com/nebula/venv/lib/python3.11/site-packages/locust/user/users.py", line 166, in run
+    self.on_start()
+  File "/home/gustavoa_menriquez_gmail_com/nebula/loadtest/locustfile.py", line 64, in on_start
+    raise StopUser() from exc
+locust.exception.StopUser
+
+[2026-11-10 05:23:45,043] nebula-dev-locust/ERROR/locust.user.users: 
+Traceback (most recent call last):
+  File "/home/gustavoa_menriquez_gmail_com/nebula/loadtest/locustfile.py", line 50, in on_start
+    raise TimeoutError("Agones no tuvo servidores listos en 180 s")
+TimeoutError: Agones no tuvo servidores listos en 180 s
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/home/gustavoa_menriquez_gmail_com/nebula/venv/lib/python3.11/site-packages/locust/user/users.py", line 166, in run
+    self.on_start()
+  File "/home/gustavoa_menriquez_gmail_com/nebula/loadtest/locustfile.py", line 64, in on_start
+    raise StopUser() from exc
+locust.exception.StopUser
+
+[2026-11-10 05:23:45,317] nebula-dev-locust/ERROR/locust.user.users: 
+Traceback (most recent call last):
+  File "/home/gustavoa_menriquez_gmail_com/nebula/loadtest/locustfile.py", line 50, in on_start
+    raise TimeoutError("Agones no tuvo servidores listos en 180 s")
+TimeoutError: Agones no tuvo servidores listos en 180 s
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/home/gustavoa_menriquez_gmail_com/nebula/venv/lib/python3.11/site-packages/locust/user/users.py", line 166, in run
+    self.on_start()
+  File "/home/gustavoa_menriquez_gmail_com/nebula/loadtest/locustfile.py", line 64, in on_start
+    raise StopUser() from exc
+locust.exception.StopUser
+
+[2026-11-10 05:23:45,404] nebula-dev-locust/ERROR/locust.user.users: 
+Traceback (most recent call last):
+  File "/home/gustavoa_menriquez_gmail_com/nebula/loadtest/locustfile.py", line 50, in on_start
+    raise TimeoutError("Agones no tuvo servidores listos en 180 s")
+TimeoutError: Agones no tuvo servidores listos en 180 s
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/home/gustavoa_menriquez_gmail_com/nebula/venv/lib/python3.11/site-packages/locust/user/users.py", line 166, in run
+    self.on_start()
+  File "/home/gustavoa_menriquez_gmail_com/nebula/loadtest/locustfile.py", line 64, in on_start
+    raise StopUser() from exc
+locust.exception.StopUser
+
+[2026-11-10 05:23:45,455] nebula-dev-locust/ERROR/locust.user.users: 
+Traceback (most recent call last):
+  File "/home/gustavoa_menriquez_gmail_com/nebula/loadtest/locustfile.py", line 50, in on_start
+    raise TimeoutError("Agones no tuvo servidores listos en 180 s")
+TimeoutError: Agones no tuvo servidores listos en 180 s
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/home/gustavoa_menriquez_gmail_com/nebula/venv/lib/python3.11/site-packages/locust/user/users.py", line 166, in run
+    self.on_start()
+  File "/home/gustavoa_menriquez_gmail_com/nebula/loadtest/locustfile.py", line 64, in on_start
+    raise StopUser() from exc
+locust.exception.StopUser
+
+[2026-11-10 05:23:45,708] nebula-dev-locust/ERROR/locust.user.users: 
+Traceback (most recent call last):
+  File "/home/gustavoa_menriquez_gmail_com/nebula/loadtest/locustfile.py", line 50, in on_start
+    raise TimeoutError("Agones no tuvo servidores listos en 180 s")
+TimeoutError: Agones no tuvo servidores listos en 180 s
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/home/gustavoa_menriquez_gmail_com/nebula/venv/lib/python3.11/site-packages/locust/user/users.py", line 166, in run
+    self.on_start()
+  File "/home/gustavoa_menriquez_gmail_com/nebula/loadtest/locustfile.py", line 64, in on_start
+    raise StopUser() from exc
+locust.exception.StopUser
+
+[2026-11-10 05:23:45,808] nebula-dev-locust/ERROR/locust.user.users: 
+Traceback (most recent call last):
+  File "/home/gustavoa_menriquez_gmail_com/nebula/loadtest/locustfile.py", line 50, in on_start
+    raise TimeoutError("Agones no tuvo servidores listos en 180 s")
+TimeoutError: Agones no tuvo servidores listos en 180 s
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/home/gustavoa_menriquez_gmail_com/nebula/venv/lib/python3.11/site-packages/locust/user/users.py", line 166, in run
+    self.on_start()
+  File "/home/gustavoa_menriquez_gmail_com/nebula/loadtest/locustfile.py", line 64, in on_start
+    raise StopUser() from exc
+locust.exception.StopUser
+
+[2026-11-10 05:23:46,559] nebula-dev-locust/ERROR/locust.user.users: 
+Traceback (most recent call last):
+  File "/home/gustavoa_menriquez_gmail_com/nebula/loadtest/locustfile.py", line 50, in on_start
+    raise TimeoutError("Agones no tuvo servidores listos en 180 s")
+TimeoutError: Agones no tuvo servidores listos en 180 s
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/home/gustavoa_menriquez_gmail_com/nebula/venv/lib/python3.11/site-packages/locust/user/users.py", line 166, in run
+    self.on_start()
+  File "/home/gustavoa_menriquez_gmail_com/nebula/loadtest/locustfile.py", line 64, in on_start
+    raise StopUser() from exc
+locust.exception.StopUser
+
+[2026-11-10 05:23:46,608] nebula-dev-locust/ERROR/locust.user.users: 
+Traceback (most recent call last):
+  File "/home/gustavoa_menriquez_gmail_com/nebula/loadtest/locustfile.py", line 50, in on_start
+    raise TimeoutError("Agones no tuvo servidores listos en 180 s")
+TimeoutError: Agones no tuvo servidores listos en 180 s
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/home/gustavoa_menriquez_gmail_com/nebula/venv/lib/python3.11/site-packages/locust/user/users.py", line 166, in run
+    self.on_start()
+  File "/home/gustavoa_menriquez_gmail_com/nebula/loadtest/locustfile.py", line 64, in on_start
+    raise StopUser() from exc
+locust.exception.StopUser
+
+[2026-11-10 05:23:46,903] nebula-dev-locust/ERROR/locust.user.users: 
+Traceback (most recent call last):
+  File "/home/gustavoa_menriquez_gmail_com/nebula/loadtest/locustfile.py", line 50, in on_start
+    raise TimeoutError("Agones no tuvo servidores listos en 180 s")
+TimeoutError: Agones no tuvo servidores listos en 180 s
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/home/gustavoa_menriquez_gmail_com/nebula/venv/lib/python3.11/site-packages/locust/user/users.py", line 166, in run
+    self.on_start()
+  File "/home/gustavoa_menriquez_gmail_com/nebula/loadtest/locustfile.py", line 64, in on_start
+    raise StopUser() from exc
+locust.exception.StopUser
+
+[2026-11-10 05:23:47,119] nebula-dev-locust/ERROR/locust.user.users: 
+Traceback (most recent call last):
+  File "/home/gustavoa_menriquez_gmail_com/nebula/loadtest/locustfile.py", line 50, in on_start
+    raise TimeoutError("Agones no tuvo servidores listos en 180 s")
+TimeoutError: Agones no tuvo servidores listos en 180 s
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/home/gustavoa_menriquez_gmail_com/nebula/venv/lib/python3.11/site-packages/locust/user/users.py", line 166, in run
+    self.on_start()
+  File "/home/gustavoa_menriquez_gmail_com/nebula/loadtest/locustfile.py", line 64, in on_start
+    raise StopUser() from exc
+locust.exception.StopUser
+
+[2026-11-10 05:23:47,543] nebula-dev-locust/ERROR/locust.user.users: 
+Traceback (most recent call last):
+  File "/home/gustavoa_menriquez_gmail_com/nebula/loadtest/locustfile.py", line 50, in on_start
+    raise TimeoutError("Agones no tuvo servidores listos en 180 s")
+TimeoutError: Agones no tuvo servidores listos en 180 s
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/home/gustavoa_menriquez_gmail_com/nebula/venv/lib/python3.11/site-packages/locust/user/users.py", line 166, in run
+    self.on_start()
+  File "/home/gustavoa_menriquez_gmail_com/nebula/loadtest/locustfile.py", line 64, in on_start
+    raise StopUser() from exc
+locust.exception.StopUser
+
+[2026-11-10 05:23:47,568] nebula-dev-locust/ERROR/locust.user.users: 
+Traceback (most recent call last):
+  File "/home/gustavoa_menriquez_gmail_com/nebula/loadtest/locustfile.py", line 50, in on_start
+    raise TimeoutError("Agones no tuvo servidores listos en 180 s")
+TimeoutError: Agones no tuvo servidores listos en 180 s
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/home/gustavoa_menriquez_gmail_com/nebula/venv/lib/python3.11/site-packages/locust/user/users.py", line 166, in run
+    self.on_start()
+  File "/home/gustavoa_menriquez_gmail_com/nebula/loadtest/locustfile.py", line 64, in on_start
+    raise StopUser() from exc
+locust.exception.StopUser
+
+[2026-11-10 05:23:48,351] nebula-dev-locust/ERROR/locust.user.users: 
+Traceback (most recent call last):
+  File "/home/gustavoa_menriquez_gmail_com/nebula/loadtest/locustfile.py", line 50, in on_start
+    raise TimeoutError("Agones no tuvo servidores listos en 180 s")
+TimeoutError: Agones no tuvo servidores listos en 180 s
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/home/gustavoa_menriquez_gmail_com/nebula/venv/lib/python3.11/site-packages/locust/user/users.py", line 166, in run
+    self.on_start()
+  File "/home/gustavoa_menriquez_gmail_com/nebula/loadtest/locustfile.py", line 64, in on_start
+    raise StopUser() from exc
+locust.exception.StopUser
+
+[2026-11-10 05:23:48,433] nebula-dev-locust/ERROR/locust.user.users: 
+Traceback (most recent call last):
+  File "/home/gustavoa_menriquez_gmail_com/nebula/loadtest/locustfile.py", line 50, in on_start
+    raise TimeoutError("Agones no tuvo servidores listos en 180 s")
+TimeoutError: Agones no tuvo servidores listos en 180 s
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/home/gustavoa_menriquez_gmail_com/nebula/venv/lib/python3.11/site-packages/locust/user/users.py", line 166, in run
+    self.on_start()
+  File "/home/gustavoa_menriquez_gmail_com/nebula/loadtest/locustfile.py", line 64, in on_start
+    raise StopUser() from exc
+locust.exception.StopUser
+
+[2026-11-10 05:23:48,560] nebula-dev-locust/ERROR/locust.user.users: 
+Traceback (most recent call last):
+  File "/home/gustavoa_menriquez_gmail_com/nebula/loadtest/locustfile.py", line 50, in on_start
+    raise TimeoutError("Agones no tuvo servidores listos en 180 s")
+TimeoutError: Agones no tuvo servidores listos en 180 s
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/home/gustavoa_menriquez_gmail_com/nebula/venv/lib/python3.11/site-packages/locust/user/users.py", line 166, in run
+    self.on_start()
+  File "/home/gustavoa_menriquez_gmail_com/nebula/loadtest/locustfile.py", line 64, in on_start
+    raise StopUser() from exc
+locust.exception.StopUser
+
+[2026-11-10 05:23:48,684] nebula-dev-locust/ERROR/locust.user.users: 
+Traceback (most recent call last):
+  File "/home/gustavoa_menriquez_gmail_com/nebula/loadtest/locustfile.py", line 50, in on_start
+    raise TimeoutError("Agones no tuvo servidores listos en 180 s")
+TimeoutError: Agones no tuvo servidores listos en 180 s
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/home/gustavoa_menriquez_gmail_com/nebula/venv/lib/python3.11/site-packages/locust/user/users.py", line 166, in run
+    self.on_start()
+  File "/home/gustavoa_menriquez_gmail_com/nebula/loadtest/locustfile.py", line 64, in on_start
+    raise StopUser() from exc
+locust.exception.StopUser
+
+[2026-11-10 05:23:49,288] nebula-dev-locust/ERROR/locust.user.users: 
+Traceback (most recent call last):
+  File "/home/gustavoa_menriquez_gmail_com/nebula/loadtest/locustfile.py", line 50, in on_start
+    raise TimeoutError("Agones no tuvo servidores listos en 180 s")
+TimeoutError: Agones no tuvo servidores listos en 180 s
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/home/gustavoa_menriquez_gmail_com/nebula/venv/lib/python3.11/site-packages/locust/user/users.py", line 166, in run
+    self.on_start()
+  File "/home/gustavoa_menriquez_gmail_com/nebula/loadtest/locustfile.py", line 64, in on_start
+    raise StopUser() from exc
+locust.exception.StopUser
+
+[2026-11-10 05:23:49,665] nebula-dev-locust/ERROR/locust.user.users: 
+Traceback (most recent call last):
+  File "/home/gustavoa_menriquez_gmail_com/nebula/loadtest/locustfile.py", line 50, in on_start
+    raise TimeoutError("Agones no tuvo servidores listos en 180 s")
+TimeoutError: Agones no tuvo servidores listos en 180 s
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/home/gustavoa_menriquez_gmail_com/nebula/venv/lib/python3.11/site-packages/locust/user/users.py", line 166, in run
+    self.on_start()
+  File "/home/gustavoa_menriquez_gmail_com/nebula/loadtest/locustfile.py", line 64, in on_start
+    raise StopUser() from exc
+locust.exception.StopUser
+
+[2026-11-10 05:23:49,667] nebula-dev-locust/ERROR/locust.user.users: 
+Traceback (most recent call last):
+  File "/home/gustavoa_menriquez_gmail_com/nebula/loadtest/locustfile.py", line 50, in on_start
+    raise TimeoutError("Agones no tuvo servidores listos en 180 s")
+TimeoutError: Agones no tuvo servidores listos en 180 s
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/home/gustavoa_menriquez_gmail_com/nebula/venv/lib/python3.11/site-packages/locust/user/users.py", line 166, in run
+    self.on_start()
+  File "/home/gustavoa_menriquez_gmail_com/nebula/loadtest/locustfile.py", line 64, in on_start
+    raise StopUser() from exc
+locust.exception.StopUser
+
+[2026-11-10 05:23:50,329] nebula-dev-locust/ERROR/locust.user.users: 
+Traceback (most recent call last):
+  File "/home/gustavoa_menriquez_gmail_com/nebula/loadtest/locustfile.py", line 50, in on_start
+    raise TimeoutError("Agones no tuvo servidores listos en 180 s")
+TimeoutError: Agones no tuvo servidores listos en 180 s
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/home/gustavoa_menriquez_gmail_com/nebula/venv/lib/python3.11/site-packages/locust/user/users.py", line 166, in run
+    self.on_start()
+  File "/home/gustavoa_menriquez_gmail_com/nebula/loadtest/locustfile.py", line 64, in on_start
+    raise StopUser() from exc
+locust.exception.StopUser
+
+[2026-11-10 05:23:50,502] nebula-dev-locust/ERROR/locust.user.users: 
+Traceback (most recent call last):
+  File "/home/gustavoa_menriquez_gmail_com/nebula/loadtest/locustfile.py", line 50, in on_start
+    raise TimeoutError("Agones no tuvo servidores listos en 180 s")
+TimeoutError: Agones no tuvo servidores listos en 180 s
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/home/gustavoa_menriquez_gmail_com/nebula/venv/lib/python3.11/site-packages/locust/user/users.py", line 166, in run
+    self.on_start()
+  File "/home/gustavoa_menriquez_gmail_com/nebula/loadtest/locustfile.py", line 64, in on_start
+    raise StopUser() from exc
+locust.exception.StopUser
+
+[2026-11-10 05:23:51,203] nebula-dev-locust/ERROR/locust.user.users: 
+Traceback (most recent call last):
+  File "/home/gustavoa_menriquez_gmail_com/nebula/loadtest/locustfile.py", line 50, in on_start
+    raise TimeoutError("Agones no tuvo servidores listos en 180 s")
+TimeoutError: Agones no tuvo servidores listos en 180 s
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/home/gustavoa_menriquez_gmail_com/nebula/venv/lib/python3.11/site-packages/locust/user/users.py", line 166, in run
+    self.on_start()
+  File "/home/gustavoa_menriquez_gmail_com/nebula/loadtest/locustfile.py", line 64, in on_start
+    raise StopUser() from exc
+locust.exception.StopUser
+
+[2026-11-10 05:23:53,035] nebula-dev-locust/ERROR/locust.user.users: 
+Traceback (most recent call last):
+  File "/home/gustavoa_menriquez_gmail_com/nebula/loadtest/locustfile.py", line 50, in on_start
+    raise TimeoutError("Agones no tuvo servidores listos en 180 s")
+TimeoutError: Agones no tuvo servidores listos en 180 s
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/home/gustavoa_menriquez_gmail_com/nebula/venv/lib/python3.11/site-packages/locust/user/users.py", line 166, in run
+    self.on_start()
+  File "/home/gustavoa_menriquez_gmail_com/nebula/loadtest/locustfile.py", line 64, in on_start
+    raise StopUser() from exc
+locust.exception.StopUser
+
+[2026-11-10 05:23:53,039] nebula-dev-locust/ERROR/locust.user.users: 
+Traceback (most recent call last):
+  File "/home/gustavoa_menriquez_gmail_com/nebula/loadtest/locustfile.py", line 50, in on_start
+    raise TimeoutError("Agones no tuvo servidores listos en 180 s")
+TimeoutError: Agones no tuvo servidores listos en 180 s
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/home/gustavoa_menriquez_gmail_com/nebula/venv/lib/python3.11/site-packages/locust/user/users.py", line 166, in run
+    self.on_start()
+  File "/home/gustavoa_menriquez_gmail_com/nebula/loadtest/locustfile.py", line 64, in on_start
+    raise StopUser() from exc
+locust.exception.StopUser
+
+[2026-11-10 05:23:53,054] nebula-dev-locust/ERROR/locust.user.users: 
+Traceback (most recent call last):
+  File "/home/gustavoa_menriquez_gmail_com/nebula/loadtest/locustfile.py", line 50, in on_start
+    raise TimeoutError("Agones no tuvo servidores listos en 180 s")
+TimeoutError: Agones no tuvo servidores listos en 180 s
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/home/gustavoa_menriquez_gmail_com/nebula/venv/lib/python3.11/site-packages/locust/user/users.py", line 166, in run
+    self.on_start()
+  File "/home/gustavoa_menriquez_gmail_com/nebula/loadtest/locustfile.py", line 64, in on_start
+    raise StopUser() from exc
+locust.exception.StopUser
+
+[2026-11-10 05:23:53,456] nebula-dev-locust/ERROR/locust.user.users: 
+Traceback (most recent call last):
+  File "/home/gustavoa_menriquez_gmail_com/nebula/loadtest/locustfile.py", line 50, in on_start
+    raise TimeoutError("Agones no tuvo servidores listos en 180 s")
+TimeoutError: Agones no tuvo servidores listos en 180 s
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/home/gustavoa_menriquez_gmail_com/nebula/venv/lib/python3.11/site-packages/locust/user/users.py", line 166, in run
+    self.on_start()
+  File "/home/gustavoa_menriquez_gmail_com/nebula/loadtest/locustfile.py", line 64, in on_start
+    raise StopUser() from exc
+locust.exception.StopUser
+
+[2026-11-10 05:23:53,855] nebula-dev-locust/ERROR/locust.user.users: 
+Traceback (most recent call last):
+  File "/home/gustavoa_menriquez_gmail_com/nebula/loadtest/locustfile.py", line 50, in on_start
+    raise TimeoutError("Agones no tuvo servidores listos en 180 s")
+TimeoutError: Agones no tuvo servidores listos en 180 s
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/home/gustavoa_menriquez_gmail_com/nebula/venv/lib/python3.11/site-packages/locust/user/users.py", line 166, in run
+    self.on_start()
+  File "/home/gustavoa_menriquez_gmail_com/nebula/loadtest/locustfile.py", line 64, in on_start
+    raise StopUser() from exc
+locust.exception.StopUser
+
+[2026-11-10 05:23:53,899] nebula-dev-locust/ERROR/locust.user.users: 
+Traceback (most recent call last):
+  File "/home/gustavoa_menriquez_gmail_com/nebula/loadtest/locustfile.py", line 50, in on_start
+    raise TimeoutError("Agones no tuvo servidores listos en 180 s")
+TimeoutError: Agones no tuvo servidores listos en 180 s
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/home/gustavoa_menriquez_gmail_com/nebula/venv/lib/python3.11/site-packages/locust/user/users.py", line 166, in run
+    self.on_start()
+  File "/home/gustavoa_menriquez_gmail_com/nebula/loadtest/locustfile.py", line 64, in on_start
+    raise StopUser() from exc
+locust.exception.StopUser
+
+[2026-11-10 05:23:53,970] nebula-dev-locust/ERROR/locust.user.users: 
+Traceback (most recent call last):
+  File "/home/gustavoa_menriquez_gmail_com/nebula/loadtest/locustfile.py", line 50, in on_start
+    raise TimeoutError("Agones no tuvo servidores listos en 180 s")
+TimeoutError: Agones no tuvo servidores listos en 180 s
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/home/gustavoa_menriquez_gmail_com/nebula/venv/lib/python3.11/site-packages/locust/user/users.py", line 166, in run
+    self.on_start()
+  File "/home/gustavoa_menriquez_gmail_com/nebula/loadtest/locustfile.py", line 64, in on_start
+    raise StopUser() from exc
+locust.exception.StopUser
+
+[2026-11-10 05:23:55,061] nebula-dev-locust/ERROR/locust.user.users: 
+Traceback (most recent call last):
+  File "/home/gustavoa_menriquez_gmail_com/nebula/loadtest/locustfile.py", line 50, in on_start
+    raise TimeoutError("Agones no tuvo servidores listos en 180 s")
+TimeoutError: Agones no tuvo servidores listos en 180 s
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/home/gustavoa_menriquez_gmail_com/nebula/venv/lib/python3.11/site-packages/locust/user/users.py", line 166, in run
+    self.on_start()
+  File "/home/gustavoa_menriquez_gmail_com/nebula/loadtest/locustfile.py", line 64, in on_start
+    raise StopUser() from exc
+locust.exception.StopUser
+
+[2026-11-10 05:23:55,201] nebula-dev-locust/ERROR/locust.user.users: 
+Traceback (most recent call last):
+  File "/home/gustavoa_menriquez_gmail_com/nebula/loadtest/locustfile.py", line 50, in on_start
+    raise TimeoutError("Agones no tuvo servidores listos en 180 s")
+TimeoutError: Agones no tuvo servidores listos en 180 s
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/home/gustavoa_menriquez_gmail_com/nebula/venv/lib/python3.11/site-packages/locust/user/users.py", line 166, in run
+    self.on_start()
+  File "/home/gustavoa_menriquez_gmail_com/nebula/loadtest/locustfile.py", line 64, in on_start
+    raise StopUser() from exc
+locust.exception.StopUser
+
+[2026-11-10 05:23:55,317] nebula-dev-locust/ERROR/locust.user.users: 
+Traceback (most recent call last):
+  File "/home/gustavoa_menriquez_gmail_com/nebula/loadtest/locustfile.py", line 50, in on_start
+    raise TimeoutError("Agones no tuvo servidores listos en 180 s")
+TimeoutError: Agones no tuvo servidores listos en 180 s
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/home/gustavoa_menriquez_gmail_com/nebula/venv/lib/python3.11/site-packages/locust/user/users.py", line 166, in run
+    self.on_start()
+  File "/home/gustavoa_menriquez_gmail_com/nebula/loadtest/locustfile.py", line 64, in on_start
+    raise StopUser() from exc
+locust.exception.StopUser
+
+[2026-11-10 05:23:55,476] nebula-dev-locust/ERROR/locust.user.users: 
+Traceback (most recent call last):
+  File "/home/gustavoa_menriquez_gmail_com/nebula/loadtest/locustfile.py", line 50, in on_start
+    raise TimeoutError("Agones no tuvo servidores listos en 180 s")
+TimeoutError: Agones no tuvo servidores listos en 180 s
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/home/gustavoa_menriquez_gmail_com/nebula/venv/lib/python3.11/site-packages/locust/user/users.py", line 166, in run
+    self.on_start()
+  File "/home/gustavoa_menriquez_gmail_com/nebula/loadtest/locustfile.py", line 64, in on_start
+    raise StopUser() from exc
+locust.exception.StopUser
+
+[2026-11-10 05:23:55,649] nebula-dev-locust/ERROR/locust.user.users: 
+Traceback (most recent call last):
+  File "/home/gustavoa_menriquez_gmail_com/nebula/loadtest/locustfile.py", line 50, in on_start
+    raise TimeoutError("Agones no tuvo servidores listos en 180 s")
+TimeoutError: Agones no tuvo servidores listos en 180 s
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/home/gustavoa_menriquez_gmail_com/nebula/venv/lib/python3.11/site-packages/locust/user/users.py", line 166, in run
+    self.on_start()
+  File "/home/gustavoa_menriquez_gmail_com/nebula/loadtest/locustfile.py", line 64, in on_start
+    raise StopUser() from exc
+locust.exception.StopUser
+
+[2026-11-10 05:23:56,295] nebula-dev-locust/ERROR/locust.user.users: 
+Traceback (most recent call last):
+  File "/home/gustavoa_menriquez_gmail_com/nebula/loadtest/locustfile.py", line 50, in on_start
+    raise TimeoutError("Agones no tuvo servidores listos en 180 s")
+TimeoutError: Agones no tuvo servidores listos en 180 s
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/home/gustavoa_menriquez_gmail_com/nebula/venv/lib/python3.11/site-packages/locust/user/users.py", line 166, in run
+    self.on_start()
+  File "/home/gustavoa_menriquez_gmail_com/nebula/loadtest/locustfile.py", line 64, in on_start
+    raise StopUser() from exc
+locust.exception.StopUser
+
+[2026-11-10 05:23:56,315] nebula-dev-locust/ERROR/locust.user.users: 
+Traceback (most recent call last):
+  File "/home/gustavoa_menriquez_gmail_com/nebula/loadtest/locustfile.py", line 50, in on_start
+    raise TimeoutError("Agones no tuvo servidores listos en 180 s")
+TimeoutError: Agones no tuvo servidores listos en 180 s
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/home/gustavoa_menriquez_gmail_com/nebula/venv/lib/python3.11/site-packages/locust/user/users.py", line 166, in run
+    self.on_start()
+  File "/home/gustavoa_menriquez_gmail_com/nebula/loadtest/locustfile.py", line 64, in on_start
+    raise StopUser() from exc
+locust.exception.StopUser
+
+[2026-11-10 05:23:56,735] nebula-dev-locust/ERROR/locust.user.users: 
+Traceback (most recent call last):
+  File "/home/gustavoa_menriquez_gmail_com/nebula/loadtest/locustfile.py", line 50, in on_start
+    raise TimeoutError("Agones no tuvo servidores listos en 180 s")
+TimeoutError: Agones no tuvo servidores listos en 180 s
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/home/gustavoa_menriquez_gmail_com/nebula/venv/lib/python3.11/site-packages/locust/user/users.py", line 166, in run
+    self.on_start()
+  File "/home/gustavoa_menriquez_gmail_com/nebula/loadtest/locustfile.py", line 64, in on_start
+    raise StopUser() from exc
+locust.exception.StopUser
+
+[2026-11-10 05:23:56,795] nebula-dev-locust/ERROR/locust.user.users: 
+Traceback (most recent call last):
+  File "/home/gustavoa_menriquez_gmail_com/nebula/loadtest/locustfile.py", line 50, in on_start
+    raise TimeoutError("Agones no tuvo servidores listos en 180 s")
+TimeoutError: Agones no tuvo servidores listos en 180 s
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/home/gustavoa_menriquez_gmail_com/nebula/venv/lib/python3.11/site-packages/locust/user/users.py", line 166, in run
+    self.on_start()
+  File "/home/gustavoa_menriquez_gmail_com/nebula/loadtest/locustfile.py", line 64, in on_start
+    raise StopUser() from exc
+locust.exception.StopUser
+
+[2026-11-10 05:23:57,139] nebula-dev-locust/ERROR/locust.user.users: 
+Traceback (most recent call last):
+  File "/home/gustavoa_menriquez_gmail_com/nebula/loadtest/locustfile.py", line 50, in on_start
+    raise TimeoutError("Agones no tuvo servidores listos en 180 s")
+TimeoutError: Agones no tuvo servidores listos en 180 s
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/home/gustavoa_menriquez_gmail_com/nebula/venv/lib/python3.11/site-packages/locust/user/users.py", line 166, in run
+    self.on_start()
+  File "/home/gustavoa_menriquez_gmail_com/nebula/loadtest/locustfile.py", line 64, in on_start
+    raise StopUser() from exc
+locust.exception.StopUser
+
+[2026-11-10 05:23:58,291] nebula-dev-locust/ERROR/locust.user.users: 
+Traceback (most recent call last):
+  File "/home/gustavoa_menriquez_gmail_com/nebula/loadtest/locustfile.py", line 50, in on_start
+    raise TimeoutError("Agones no tuvo servidores listos en 180 s")
+TimeoutError: Agones no tuvo servidores listos en 180 s
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/home/gustavoa_menriquez_gmail_com/nebula/venv/lib/python3.11/site-packages/locust/user/users.py", line 166, in run
+    self.on_start()
+  File "/home/gustavoa_menriquez_gmail_com/nebula/loadtest/locustfile.py", line 64, in on_start
+    raise StopUser() from exc
+locust.exception.StopUser
+
+[2026-11-10 05:23:58,525] nebula-dev-locust/ERROR/locust.user.users: 
+Traceback (most recent call last):
+  File "/home/gustavoa_menriquez_gmail_com/nebula/loadtest/locustfile.py", line 50, in on_start
+    raise TimeoutError("Agones no tuvo servidores listos en 180 s")
+TimeoutError: Agones no tuvo servidores listos en 180 s
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/home/gustavoa_menriquez_gmail_com/nebula/venv/lib/python3.11/site-packages/locust/user/users.py", line 166, in run
+    self.on_start()
+  File "/home/gustavoa_menriquez_gmail_com/nebula/loadtest/locustfile.py", line 64, in on_start
+    raise StopUser() from exc
+locust.exception.StopUser
+
+[2026-11-10 05:23:59,238] nebula-dev-locust/ERROR/locust.user.users: 
+Traceback (most recent call last):
+  File "/home/gustavoa_menriquez_gmail_com/nebula/loadtest/locustfile.py", line 50, in on_start
+    raise TimeoutError("Agones no tuvo servidores listos en 180 s")
+TimeoutError: Agones no tuvo servidores listos en 180 s
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/home/gustavoa_menriquez_gmail_com/nebula/venv/lib/python3.11/site-packages/locust/user/users.py", line 166, in run
+    self.on_start()
+  File "/home/gustavoa_menriquez_gmail_com/nebula/loadtest/locustfile.py", line 64, in on_start
+    raise StopUser() from exc
+locust.exception.StopUser
+
+[2026-11-10 05:23:59,516] nebula-dev-locust/ERROR/locust.user.users: 
+Traceback (most recent call last):
+  File "/home/gustavoa_menriquez_gmail_com/nebula/loadtest/locustfile.py", line 50, in on_start
+    raise TimeoutError("Agones no tuvo servidores listos en 180 s")
+TimeoutError: Agones no tuvo servidores listos en 180 s
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/home/gustavoa_menriquez_gmail_com/nebula/venv/lib/python3.11/site-packages/locust/user/users.py", line 166, in run
+    self.on_start()
+  File "/home/gustavoa_menriquez_gmail_com/nebula/loadtest/locustfile.py", line 64, in on_start
+    raise StopUser() from exc
+locust.exception.StopUser
+
+[2026-11-10 05:23:59,782] nebula-dev-locust/ERROR/locust.user.users: 
+Traceback (most recent call last):
+  File "/home/gustavoa_menriquez_gmail_com/nebula/loadtest/locustfile.py", line 50, in on_start
+    raise TimeoutError("Agones no tuvo servidores listos en 180 s")
+TimeoutError: Agones no tuvo servidores listos en 180 s
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/home/gustavoa_menriquez_gmail_com/nebula/venv/lib/python3.11/site-packages/locust/user/users.py", line 166, in run
+    self.on_start()
+  File "/home/gustavoa_menriquez_gmail_com/nebula/loadtest/locustfile.py", line 64, in on_start
+    raise StopUser() from exc
+locust.exception.StopUser
+
+[2026-11-10 05:24:00,042] nebula-dev-locust/ERROR/locust.user.users: 
+Traceback (most recent call last):
+  File "/home/gustavoa_menriquez_gmail_com/nebula/loadtest/locustfile.py", line 50, in on_start
+    raise TimeoutError("Agones no tuvo servidores listos en 180 s")
+TimeoutError: Agones no tuvo servidores listos en 180 s
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/home/gustavoa_menriquez_gmail_com/nebula/venv/lib/python3.11/site-packages/locust/user/users.py", line 166, in run
+    self.on_start()
+  File "/home/gustavoa_menriquez_gmail_com/nebula/loadtest/locustfile.py", line 64, in on_start
+    raise StopUser() from exc
+locust.exception.StopUser
+
+[2026-11-10 05:24:00,063] nebula-dev-locust/ERROR/locust.user.users: 
+Traceback (most recent call last):
+  File "/home/gustavoa_menriquez_gmail_com/nebula/loadtest/locustfile.py", line 50, in on_start
+    raise TimeoutError("Agones no tuvo servidores listos en 180 s")
+TimeoutError: Agones no tuvo servidores listos en 180 s
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/home/gustavoa_menriquez_gmail_com/nebula/venv/lib/python3.11/site-packages/locust/user/users.py", line 166, in run
+    self.on_start()
+  File "/home/gustavoa_menriquez_gmail_com/nebula/loadtest/locustfile.py", line 64, in on_start
+    raise StopUser() from exc
+locust.exception.StopUser
+
+[2026-11-10 05:24:00,957] nebula-dev-locust/ERROR/locust.user.users: 
+Traceback (most recent call last):
+  File "/home/gustavoa_menriquez_gmail_com/nebula/loadtest/locustfile.py", line 50, in on_start
+    raise TimeoutError("Agones no tuvo servidores listos en 180 s")
+TimeoutError: Agones no tuvo servidores listos en 180 s
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/home/gustavoa_menriquez_gmail_com/nebula/venv/lib/python3.11/site-packages/locust/user/users.py", line 166, in run
+    self.on_start()
+  File "/home/gustavoa_menriquez_gmail_com/nebula/loadtest/locustfile.py", line 64, in on_start
+    raise StopUser() from exc
+locust.exception.StopUser
+
+[2026-11-10 05:24:01,422] nebula-dev-locust/ERROR/locust.user.users: 
+Traceback (most recent call last):
+  File "/home/gustavoa_menriquez_gmail_com/nebula/loadtest/locustfile.py", line 50, in on_start
+    raise TimeoutError("Agones no tuvo servidores listos en 180 s")
+TimeoutError: Agones no tuvo servidores listos en 180 s
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/home/gustavoa_menriquez_gmail_com/nebula/venv/lib/python3.11/site-packages/locust/user/users.py", line 166, in run
+    self.on_start()
+  File "/home/gustavoa_menriquez_gmail_com/nebula/loadtest/locustfile.py", line 64, in on_start
+    raise StopUser() from exc
+locust.exception.StopUser
+
+[2026-11-10 05:24:01,566] nebula-dev-locust/ERROR/locust.user.users: 
+Traceback (most recent call last):
+  File "/home/gustavoa_menriquez_gmail_com/nebula/loadtest/locustfile.py", line 50, in on_start
+    raise TimeoutError("Agones no tuvo servidores listos en 180 s")
+TimeoutError: Agones no tuvo servidores listos en 180 s
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/home/gustavoa_menriquez_gmail_com/nebula/venv/lib/python3.11/site-packages/locust/user/users.py", line 166, in run
+    self.on_start()
+  File "/home/gustavoa_menriquez_gmail_com/nebula/loadtest/locustfile.py", line 64, in on_start
+    raise StopUser() from exc
+locust.exception.StopUser
+
+[2026-11-10 05:24:01,621] nebula-dev-locust/ERROR/locust.user.users: 
+Traceback (most recent call last):
+  File "/home/gustavoa_menriquez_gmail_com/nebula/loadtest/locustfile.py", line 50, in on_start
+    raise TimeoutError("Agones no tuvo servidores listos en 180 s")
+TimeoutError: Agones no tuvo servidores listos en 180 s
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/home/gustavoa_menriquez_gmail_com/nebula/venv/lib/python3.11/site-packages/locust/user/users.py", line 166, in run
+    self.on_start()
+  File "/home/gustavoa_menriquez_gmail_com/nebula/loadtest/locustfile.py", line 64, in on_start
+    raise StopUser() from exc
+locust.exception.StopUser
+
+[2026-11-10 05:24:02,861] nebula-dev-locust/ERROR/locust.user.users: 
+Traceback (most recent call last):
+  File "/home/gustavoa_menriquez_gmail_com/nebula/loadtest/locustfile.py", line 50, in on_start
+    raise TimeoutError("Agones no tuvo servidores listos en 180 s")
+TimeoutError: Agones no tuvo servidores listos en 180 s
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/home/gustavoa_menriquez_gmail_com/nebula/venv/lib/python3.11/site-packages/locust/user/users.py", line 166, in run
+    self.on_start()
+  File "/home/gustavoa_menriquez_gmail_com/nebula/loadtest/locustfile.py", line 64, in on_start
+    raise StopUser() from exc
+locust.exception.StopUser
+
+[2026-11-10 05:24:04,115] nebula-dev-locust/ERROR/locust.user.users: 
+Traceback (most recent call last):
+  File "/home/gustavoa_menriquez_gmail_com/nebula/loadtest/locustfile.py", line 50, in on_start
+    raise TimeoutError("Agones no tuvo servidores listos en 180 s")
+TimeoutError: Agones no tuvo servidores listos en 180 s
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/home/gustavoa_menriquez_gmail_com/nebula/venv/lib/python3.11/site-packages/locust/user/users.py", line 166, in run
+    self.on_start()
+  File "/home/gustavoa_menriquez_gmail_com/nebula/loadtest/locustfile.py", line 64, in on_start
+    raise StopUser() from exc
+locust.exception.StopUser
+
+[2026-11-10 05:24:04,545] nebula-dev-locust/ERROR/locust.user.users: 
+Traceback (most recent call last):
+  File "/home/gustavoa_menriquez_gmail_com/nebula/loadtest/locustfile.py", line 50, in on_start
+    raise TimeoutError("Agones no tuvo servidores listos en 180 s")
+TimeoutError: Agones no tuvo servidores listos en 180 s
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/home/gustavoa_menriquez_gmail_com/nebula/venv/lib/python3.11/site-packages/locust/user/users.py", line 166, in run
+    self.on_start()
+  File "/home/gustavoa_menriquez_gmail_com/nebula/loadtest/locustfile.py", line 64, in on_start
+    raise StopUser() from exc
+locust.exception.StopUser
+
+[2026-11-10 05:24:04,636] nebula-dev-locust/ERROR/locust.user.users: 
+Traceback (most recent call last):
+  File "/home/gustavoa_menriquez_gmail_com/nebula/loadtest/locustfile.py", line 50, in on_start
+    raise TimeoutError("Agones no tuvo servidores listos en 180 s")
+TimeoutError: Agones no tuvo servidores listos en 180 s
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/home/gustavoa_menriquez_gmail_com/nebula/venv/lib/python3.11/site-packages/locust/user/users.py", line 166, in run
+    self.on_start()
+  File "/home/gustavoa_menriquez_gmail_com/nebula/loadtest/locustfile.py", line 64, in on_start
+    raise StopUser() from exc
+locust.exception.StopUser
+
+[2026-11-10 05:24:04,923] nebula-dev-locust/ERROR/locust.user.users: 
+Traceback (most recent call last):
+  File "/home/gustavoa_menriquez_gmail_com/nebula/loadtest/locustfile.py", line 50, in on_start
+    raise TimeoutError("Agones no tuvo servidores listos en 180 s")
+TimeoutError: Agones no tuvo servidores listos en 180 s
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/home/gustavoa_menriquez_gmail_com/nebula/venv/lib/python3.11/site-packages/locust/user/users.py", line 166, in run
+    self.on_start()
+  File "/home/gustavoa_menriquez_gmail_com/nebula/loadtest/locustfile.py", line 64, in on_start
+    raise StopUser() from exc
+locust.exception.StopUser
+
+[2026-11-10 05:24:05,044] nebula-dev-locust/ERROR/locust.user.users: 
+Traceback (most recent call last):
+  File "/home/gustavoa_menriquez_gmail_com/nebula/loadtest/locustfile.py", line 50, in on_start
+    raise TimeoutError("Agones no tuvo servidores listos en 180 s")
+TimeoutError: Agones no tuvo servidores listos en 180 s
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/home/gustavoa_menriquez_gmail_com/nebula/venv/lib/python3.11/site-packages/locust/user/users.py", line 166, in run
+    self.on_start()
+  File "/home/gustavoa_menriquez_gmail_com/nebula/loadtest/locustfile.py", line 64, in on_start
+    raise StopUser() from exc
+locust.exception.StopUser
+
+[2026-11-10 05:24:05,059] nebula-dev-locust/ERROR/locust.user.users: 
+Traceback (most recent call last):
+  File "/home/gustavoa_menriquez_gmail_com/nebula/loadtest/locustfile.py", line 50, in on_start
+    raise TimeoutError("Agones no tuvo servidores listos en 180 s")
+TimeoutError: Agones no tuvo servidores listos en 180 s
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/home/gustavoa_menriquez_gmail_com/nebula/venv/lib/python3.11/site-packages/locust/user/users.py", line 166, in run
+    self.on_start()
+  File "/home/gustavoa_menriquez_gmail_com/nebula/loadtest/locustfile.py", line 64, in on_start
+    raise StopUser() from exc
+locust.exception.StopUser
+
+[2026-11-10 05:24:05,604] nebula-dev-locust/ERROR/locust.user.users: 
+Traceback (most recent call last):
+  File "/home/gustavoa_menriquez_gmail_com/nebula/loadtest/locustfile.py", line 50, in on_start
+    raise TimeoutError("Agones no tuvo servidores listos en 180 s")
+TimeoutError: Agones no tuvo servidores listos en 180 s
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/home/gustavoa_menriquez_gmail_com/nebula/venv/lib/python3.11/site-packages/locust/user/users.py", line 166, in run
+    self.on_start()
+  File "/home/gustavoa_menriquez_gmail_com/nebula/loadtest/locustfile.py", line 64, in on_start
+    raise StopUser() from exc
+locust.exception.StopUser
+
+[2026-11-10 05:24:06,126] nebula-dev-locust/ERROR/locust.user.users: 
+Traceback (most recent call last):
+  File "/home/gustavoa_menriquez_gmail_com/nebula/loadtest/locustfile.py", line 50, in on_start
+    raise TimeoutError("Agones no tuvo servidores listos en 180 s")
+TimeoutError: Agones no tuvo servidores listos en 180 s
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/home/gustavoa_menriquez_gmail_com/nebula/venv/lib/python3.11/site-packages/locust/user/users.py", line 166, in run
+    self.on_start()
+  File "/home/gustavoa_menriquez_gmail_com/nebula/loadtest/locustfile.py", line 64, in on_start
+    raise StopUser() from exc
+locust.exception.StopUser
+
+[2026-11-10 05:24:06,952] nebula-dev-locust/ERROR/locust.user.users: 
+Traceback (most recent call last):
+  File "/home/gustavoa_menriquez_gmail_com/nebula/loadtest/locustfile.py", line 50, in on_start
+    raise TimeoutError("Agones no tuvo servidores listos en 180 s")
+TimeoutError: Agones no tuvo servidores listos en 180 s
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/home/gustavoa_menriquez_gmail_com/nebula/venv/lib/python3.11/site-packages/locust/user/users.py", line 166, in run
+    self.on_start()
+  File "/home/gustavoa_menriquez_gmail_com/nebula/loadtest/locustfile.py", line 64, in on_start
+    raise StopUser() from exc
+locust.exception.StopUser
+
+[2026-11-10 05:24:07,034] nebula-dev-locust/ERROR/locust.user.users: 
+Traceback (most recent call last):
+  File "/home/gustavoa_menriquez_gmail_com/nebula/loadtest/locustfile.py", line 50, in on_start
+    raise TimeoutError("Agones no tuvo servidores listos en 180 s")
+TimeoutError: Agones no tuvo servidores listos en 180 s
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/home/gustavoa_menriquez_gmail_com/nebula/venv/lib/python3.11/site-packages/locust/user/users.py", line 166, in run
+    self.on_start()
+  File "/home/gustavoa_menriquez_gmail_com/nebula/loadtest/locustfile.py", line 64, in on_start
+    raise StopUser() from exc
+locust.exception.StopUser
+
+[2026-11-10 05:24:07,382] nebula-dev-locust/ERROR/locust.user.users: 
+Traceback (most recent call last):
+  File "/home/gustavoa_menriquez_gmail_com/nebula/loadtest/locustfile.py", line 50, in on_start
+    raise TimeoutError("Agones no tuvo servidores listos en 180 s")
+TimeoutError: Agones no tuvo servidores listos en 180 s
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/home/gustavoa_menriquez_gmail_com/nebula/venv/lib/python3.11/site-packages/locust/user/users.py", line 166, in run
+    self.on_start()
+  File "/home/gustavoa_menriquez_gmail_com/nebula/loadtest/locustfile.py", line 64, in on_start
+    raise StopUser() from exc
+locust.exception.StopUser
+
+[2026-11-10 05:24:07,808] nebula-dev-locust/ERROR/locust.user.users: 
+Traceback (most recent call last):
+  File "/home/gustavoa_menriquez_gmail_com/nebula/loadtest/locustfile.py", line 50, in on_start
+    raise TimeoutError("Agones no tuvo servidores listos en 180 s")
+TimeoutError: Agones no tuvo servidores listos en 180 s
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/home/gustavoa_menriquez_gmail_com/nebula/venv/lib/python3.11/site-packages/locust/user/users.py", line 166, in run
+    self.on_start()
+  File "/home/gustavoa_menriquez_gmail_com/nebula/loadtest/locustfile.py", line 64, in on_start
+    raise StopUser() from exc
+locust.exception.StopUser
+
+[2026-11-10 05:24:07,897] nebula-dev-locust/ERROR/locust.user.users: 
+Traceback (most recent call last):
+  File "/home/gustavoa_menriquez_gmail_com/nebula/loadtest/locustfile.py", line 50, in on_start
+    raise TimeoutError("Agones no tuvo servidores listos en 180 s")
+TimeoutError: Agones no tuvo servidores listos en 180 s
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/home/gustavoa_menriquez_gmail_com/nebula/venv/lib/python3.11/site-packages/locust/user/users.py", line 166, in run
+    self.on_start()
+  File "/home/gustavoa_menriquez_gmail_com/nebula/loadtest/locustfile.py", line 64, in on_start
+    raise StopUser() from exc
+locust.exception.StopUser
+
+[2026-11-10 05:24:07,946] nebula-dev-locust/ERROR/locust.user.users: 
+Traceback (most recent call last):
+  File "/home/gustavoa_menriquez_gmail_com/nebula/loadtest/locustfile.py", line 50, in on_start
+    raise TimeoutError("Agones no tuvo servidores listos en 180 s")
+TimeoutError: Agones no tuvo servidores listos en 180 s
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/home/gustavoa_menriquez_gmail_com/nebula/venv/lib/python3.11/site-packages/locust/user/users.py", line 166, in run
+    self.on_start()
+  File "/home/gustavoa_menriquez_gmail_com/nebula/loadtest/locustfile.py", line 64, in on_start
+    raise StopUser() from exc
+locust.exception.StopUser
+
+[2026-11-10 05:24:08,610] nebula-dev-locust/ERROR/locust.user.users: 
+Traceback (most recent call last):
+  File "/home/gustavoa_menriquez_gmail_com/nebula/loadtest/locustfile.py", line 50, in on_start
+    raise TimeoutError("Agones no tuvo servidores listos en 180 s")
+TimeoutError: Agones no tuvo servidores listos en 180 s
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/home/gustavoa_menriquez_gmail_com/nebula/venv/lib/python3.11/site-packages/locust/user/users.py", line 166, in run
+    self.on_start()
+  File "/home/gustavoa_menriquez_gmail_com/nebula/loadtest/locustfile.py", line 64, in on_start
+    raise StopUser() from exc
+locust.exception.StopUser
+
+[2026-11-10 05:24:08,871] nebula-dev-locust/ERROR/locust.user.users: 
+Traceback (most recent call last):
+  File "/home/gustavoa_menriquez_gmail_com/nebula/loadtest/locustfile.py", line 50, in on_start
+    raise TimeoutError("Agones no tuvo servidores listos en 180 s")
+TimeoutError: Agones no tuvo servidores listos en 180 s
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/home/gustavoa_menriquez_gmail_com/nebula/venv/lib/python3.11/site-packages/locust/user/users.py", line 166, in run
+    self.on_start()
+  File "/home/gustavoa_menriquez_gmail_com/nebula/loadtest/locustfile.py", line 64, in on_start
+    raise StopUser() from exc
+locust.exception.StopUser
+
+[2026-11-10 05:24:09,122] nebula-dev-locust/ERROR/locust.user.users: 
+Traceback (most recent call last):
+  File "/home/gustavoa_menriquez_gmail_com/nebula/loadtest/locustfile.py", line 50, in on_start
+    raise TimeoutError("Agones no tuvo servidores listos en 180 s")
+TimeoutError: Agones no tuvo servidores listos en 180 s
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/home/gustavoa_menriquez_gmail_com/nebula/venv/lib/python3.11/site-packages/locust/user/users.py", line 166, in run
+    self.on_start()
+  File "/home/gustavoa_menriquez_gmail_com/nebula/loadtest/locustfile.py", line 64, in on_start
+    raise StopUser() from exc
+locust.exception.StopUser
+
+[2026-11-10 05:24:09,225] nebula-dev-locust/ERROR/locust.user.users: 
+Traceback (most recent call last):
+  File "/home/gustavoa_menriquez_gmail_com/nebula/loadtest/locustfile.py", line 50, in on_start
+    raise TimeoutError("Agones no tuvo servidores listos en 180 s")
+TimeoutError: Agones no tuvo servidores listos en 180 s
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/home/gustavoa_menriquez_gmail_com/nebula/venv/lib/python3.11/site-packages/locust/user/users.py", line 166, in run
+    self.on_start()
+  File "/home/gustavoa_menriquez_gmail_com/nebula/loadtest/locustfile.py", line 64, in on_start
+    raise StopUser() from exc
+locust.exception.StopUser
+
+[2026-11-10 05:24:10,724] nebula-dev-locust/ERROR/locust.user.users: 
+Traceback (most recent call last):
+  File "/home/gustavoa_menriquez_gmail_com/nebula/loadtest/locustfile.py", line 50, in on_start
+    raise TimeoutError("Agones no tuvo servidores listos en 180 s")
+TimeoutError: Agones no tuvo servidores listos en 180 s
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/home/gustavoa_menriquez_gmail_com/nebula/venv/lib/python3.11/site-packages/locust/user/users.py", line 166, in run
+    self.on_start()
+  File "/home/gustavoa_menriquez_gmail_com/nebula/loadtest/locustfile.py", line 64, in on_start
+    raise StopUser() from exc
+locust.exception.StopUser
+
+[2026-11-10 05:24:10,762] nebula-dev-locust/ERROR/locust.user.users: 
+Traceback (most recent call last):
+  File "/home/gustavoa_menriquez_gmail_com/nebula/loadtest/locustfile.py", line 50, in on_start
+    raise TimeoutError("Agones no tuvo servidores listos en 180 s")
+TimeoutError: Agones no tuvo servidores listos en 180 s
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/home/gustavoa_menriquez_gmail_com/nebula/venv/lib/python3.11/site-packages/locust/user/users.py", line 166, in run
+    self.on_start()
+  File "/home/gustavoa_menriquez_gmail_com/nebula/loadtest/locustfile.py", line 64, in on_start
+    raise StopUser() from exc
+locust.exception.StopUser
+
+[2026-11-10 05:24:11,433] nebula-dev-locust/ERROR/locust.user.users: 
+Traceback (most recent call last):
+  File "/home/gustavoa_menriquez_gmail_com/nebula/loadtest/locustfile.py", line 50, in on_start
+    raise TimeoutError("Agones no tuvo servidores listos en 180 s")
+TimeoutError: Agones no tuvo servidores listos en 180 s
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/home/gustavoa_menriquez_gmail_com/nebula/venv/lib/python3.11/site-packages/locust/user/users.py", line 166, in run
+    self.on_start()
+  File "/home/gustavoa_menriquez_gmail_com/nebula/loadtest/locustfile.py", line 64, in on_start
+    raise StopUser() from exc
+locust.exception.StopUser
+
+[2026-11-10 05:24:11,610] nebula-dev-locust/ERROR/locust.user.users: 
+Traceback (most recent call last):
+  File "/home/gustavoa_menriquez_gmail_com/nebula/loadtest/locustfile.py", line 50, in on_start
+    raise TimeoutError("Agones no tuvo servidores listos en 180 s")
+TimeoutError: Agones no tuvo servidores listos en 180 s
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/home/gustavoa_menriquez_gmail_com/nebula/venv/lib/python3.11/site-packages/locust/user/users.py", line 166, in run
+    self.on_start()
+  File "/home/gustavoa_menriquez_gmail_com/nebula/loadtest/locustfile.py", line 64, in on_start
+    raise StopUser() from exc
+locust.exception.StopUser
+
+[2026-11-10 05:24:11,761] nebula-dev-locust/ERROR/locust.user.users: 
+Traceback (most recent call last):
+  File "/home/gustavoa_menriquez_gmail_com/nebula/loadtest/locustfile.py", line 50, in on_start
+    raise TimeoutError("Agones no tuvo servidores listos en 180 s")
+TimeoutError: Agones no tuvo servidores listos en 180 s
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/home/gustavoa_menriquez_gmail_com/nebula/venv/lib/python3.11/site-packages/locust/user/users.py", line 166, in run
+    self.on_start()
+  File "/home/gustavoa_menriquez_gmail_com/nebula/loadtest/locustfile.py", line 64, in on_start
+    raise StopUser() from exc
+locust.exception.StopUser
+
+[2026-11-10 05:24:12,422] nebula-dev-locust/ERROR/locust.user.users: 
+Traceback (most recent call last):
+  File "/home/gustavoa_menriquez_gmail_com/nebula/loadtest/locustfile.py", line 50, in on_start
+    raise TimeoutError("Agones no tuvo servidores listos en 180 s")
+TimeoutError: Agones no tuvo servidores listos en 180 s
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/home/gustavoa_menriquez_gmail_com/nebula/venv/lib/python3.11/site-packages/locust/user/users.py", line 166, in run
+    self.on_start()
+  File "/home/gustavoa_menriquez_gmail_com/nebula/loadtest/locustfile.py", line 64, in on_start
+    raise StopUser() from exc
+locust.exception.StopUser
+
+[2026-11-10 05:24:12,994] nebula-dev-locust/ERROR/locust.user.users: 
+Traceback (most recent call last):
+  File "/home/gustavoa_menriquez_gmail_com/nebula/loadtest/locustfile.py", line 50, in on_start
+    raise TimeoutError("Agones no tuvo servidores listos en 180 s")
+TimeoutError: Agones no tuvo servidores listos en 180 s
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/home/gustavoa_menriquez_gmail_com/nebula/venv/lib/python3.11/site-packages/locust/user/users.py", line 166, in run
+    self.on_start()
+  File "/home/gustavoa_menriquez_gmail_com/nebula/loadtest/locustfile.py", line 64, in on_start
+    raise StopUser() from exc
+locust.exception.StopUser
+
+[2026-11-10 05:24:13,071] nebula-dev-locust/ERROR/locust.user.users: 
+Traceback (most recent call last):
+  File "/home/gustavoa_menriquez_gmail_com/nebula/loadtest/locustfile.py", line 50, in on_start
+    raise TimeoutError("Agones no tuvo servidores listos en 180 s")
+TimeoutError: Agones no tuvo servidores listos en 180 s
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/home/gustavoa_menriquez_gmail_com/nebula/venv/lib/python3.11/site-packages/locust/user/users.py", line 166, in run
+    self.on_start()
+  File "/home/gustavoa_menriquez_gmail_com/nebula/loadtest/locustfile.py", line 64, in on_start
+    raise StopUser() from exc
+locust.exception.StopUser
+
+[2026-11-10 05:24:13,072] nebula-dev-locust/ERROR/locust.user.users: 
+Traceback (most recent call last):
+  File "/home/gustavoa_menriquez_gmail_com/nebula/loadtest/locustfile.py", line 50, in on_start
+    raise TimeoutError("Agones no tuvo servidores listos en 180 s")
+TimeoutError: Agones no tuvo servidores listos en 180 s
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/home/gustavoa_menriquez_gmail_com/nebula/venv/lib/python3.11/site-packages/locust/user/users.py", line 166, in run
+    self.on_start()
+  File "/home/gustavoa_menriquez_gmail_com/nebula/loadtest/locustfile.py", line 64, in on_start
+    raise StopUser() from exc
+locust.exception.StopUser
+
+[2026-11-10 05:24:13,217] nebula-dev-locust/ERROR/locust.user.users: 
+Traceback (most recent call last):
+  File "/home/gustavoa_menriquez_gmail_com/nebula/loadtest/locustfile.py", line 50, in on_start
+    raise TimeoutError("Agones no tuvo servidores listos en 180 s")
+TimeoutError: Agones no tuvo servidores listos en 180 s
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/home/gustavoa_menriquez_gmail_com/nebula/venv/lib/python3.11/site-packages/locust/user/users.py", line 166, in run
+    self.on_start()
+  File "/home/gustavoa_menriquez_gmail_com/nebula/loadtest/locustfile.py", line 64, in on_start
+    raise StopUser() from exc
+locust.exception.StopUser
+
+[2026-11-10 05:24:14,057] nebula-dev-locust/ERROR/locust.user.users: 
+Traceback (most recent call last):
+  File "/home/gustavoa_menriquez_gmail_com/nebula/loadtest/locustfile.py", line 50, in on_start
+    raise TimeoutError("Agones no tuvo servidores listos en 180 s")
+TimeoutError: Agones no tuvo servidores listos en 180 s
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/home/gustavoa_menriquez_gmail_com/nebula/venv/lib/python3.11/site-packages/locust/user/users.py", line 166, in run
+    self.on_start()
+  File "/home/gustavoa_menriquez_gmail_com/nebula/loadtest/locustfile.py", line 64, in on_start
+    raise StopUser() from exc
+locust.exception.StopUser
+
+[2026-11-10 05:24:14,061] nebula-dev-locust/ERROR/locust.user.users: 
+Traceback (most recent call last):
+  File "/home/gustavoa_menriquez_gmail_com/nebula/loadtest/locustfile.py", line 50, in on_start
+    raise TimeoutError("Agones no tuvo servidores listos en 180 s")
+TimeoutError: Agones no tuvo servidores listos en 180 s
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/home/gustavoa_menriquez_gmail_com/nebula/venv/lib/python3.11/site-packages/locust/user/users.py", line 166, in run
+    self.on_start()
+  File "/home/gustavoa_menriquez_gmail_com/nebula/loadtest/locustfile.py", line 64, in on_start
+    raise StopUser() from exc
+locust.exception.StopUser
+
+[2026-11-10 05:24:14,296] nebula-dev-locust/ERROR/locust.user.users: 
+Traceback (most recent call last):
+  File "/home/gustavoa_menriquez_gmail_com/nebula/loadtest/locustfile.py", line 50, in on_start
+    raise TimeoutError("Agones no tuvo servidores listos en 180 s")
+TimeoutError: Agones no tuvo servidores listos en 180 s
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/home/gustavoa_menriquez_gmail_com/nebula/venv/lib/python3.11/site-packages/locust/user/users.py", line 166, in run
+    self.on_start()
+  File "/home/gustavoa_menriquez_gmail_com/nebula/loadtest/locustfile.py", line 64, in on_start
+    raise StopUser() from exc
+locust.exception.StopUser
+
+[2026-11-10 05:24:14,348] nebula-dev-locust/ERROR/locust.user.users: 
+Traceback (most recent call last):
+  File "/home/gustavoa_menriquez_gmail_com/nebula/loadtest/locustfile.py", line 50, in on_start
+    raise TimeoutError("Agones no tuvo servidores listos en 180 s")
+TimeoutError: Agones no tuvo servidores listos en 180 s
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/home/gustavoa_menriquez_gmail_com/nebula/venv/lib/python3.11/site-packages/locust/user/users.py", line 166, in run
+    self.on_start()
+  File "/home/gustavoa_menriquez_gmail_com/nebula/loadtest/locustfile.py", line 64, in on_start
+    raise StopUser() from exc
+locust.exception.StopUser
+
+[2026-11-10 05:24:14,481] nebula-dev-locust/ERROR/locust.user.users: 
+Traceback (most recent call last):
+  File "/home/gustavoa_menriquez_gmail_com/nebula/loadtest/locustfile.py", line 50, in on_start
+    raise TimeoutError("Agones no tuvo servidores listos en 180 s")
+TimeoutError: Agones no tuvo servidores listos en 180 s
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/home/gustavoa_menriquez_gmail_com/nebula/venv/lib/python3.11/site-packages/locust/user/users.py", line 166, in run
+    self.on_start()
+  File "/home/gustavoa_menriquez_gmail_com/nebula/loadtest/locustfile.py", line 64, in on_start
+    raise StopUser() from exc
+locust.exception.StopUser
+
+[2026-11-10 05:24:14,933] nebula-dev-locust/ERROR/locust.user.users: 
+Traceback (most recent call last):
+  File "/home/gustavoa_menriquez_gmail_com/nebula/loadtest/locustfile.py", line 50, in on_start
+    raise TimeoutError("Agones no tuvo servidores listos en 180 s")
+TimeoutError: Agones no tuvo servidores listos en 180 s
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/home/gustavoa_menriquez_gmail_com/nebula/venv/lib/python3.11/site-packages/locust/user/users.py", line 166, in run
+    self.on_start()
+  File "/home/gustavoa_menriquez_gmail_com/nebula/loadtest/locustfile.py", line 64, in on_start
+    raise StopUser() from exc
+locust.exception.StopUser
+
+[2026-11-10 05:24:15,241] nebula-dev-locust/ERROR/locust.user.users: 
+Traceback (most recent call last):
+  File "/home/gustavoa_menriquez_gmail_com/nebula/loadtest/locustfile.py", line 50, in on_start
+    raise TimeoutError("Agones no tuvo servidores listos en 180 s")
+TimeoutError: Agones no tuvo servidores listos en 180 s
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/home/gustavoa_menriquez_gmail_com/nebula/venv/lib/python3.11/site-packages/locust/user/users.py", line 166, in run
+    self.on_start()
+  File "/home/gustavoa_menriquez_gmail_com/nebula/loadtest/locustfile.py", line 64, in on_start
+    raise StopUser() from exc
+locust.exception.StopUser
+
+[2026-11-10 05:24:15,820] nebula-dev-locust/ERROR/locust.user.users: 
+Traceback (most recent call last):
+  File "/home/gustavoa_menriquez_gmail_com/nebula/loadtest/locustfile.py", line 50, in on_start
+    raise TimeoutError("Agones no tuvo servidores listos en 180 s")
+TimeoutError: Agones no tuvo servidores listos en 180 s
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/home/gustavoa_menriquez_gmail_com/nebula/venv/lib/python3.11/site-packages/locust/user/users.py", line 166, in run
+    self.on_start()
+  File "/home/gustavoa_menriquez_gmail_com/nebula/loadtest/locustfile.py", line 64, in on_start
+    raise StopUser() from exc
+locust.exception.StopUser
+
+[2026-11-10 05:24:15,926] nebula-dev-locust/ERROR/locust.user.users: 
+Traceback (most recent call last):
+  File "/home/gustavoa_menriquez_gmail_com/nebula/loadtest/locustfile.py", line 50, in on_start
+    raise TimeoutError("Agones no tuvo servidores listos en 180 s")
+TimeoutError: Agones no tuvo servidores listos en 180 s
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/home/gustavoa_menriquez_gmail_com/nebula/venv/lib/python3.11/site-packages/locust/user/users.py", line 166, in run
+    self.on_start()
+  File "/home/gustavoa_menriquez_gmail_com/nebula/loadtest/locustfile.py", line 64, in on_start
+    raise StopUser() from exc
+locust.exception.StopUser
+
+[2026-11-10 05:24:16,023] nebula-dev-locust/ERROR/locust.user.users: 
+Traceback (most recent call last):
+  File "/home/gustavoa_menriquez_gmail_com/nebula/loadtest/locustfile.py", line 50, in on_start
+    raise TimeoutError("Agones no tuvo servidores listos en 180 s")
+TimeoutError: Agones no tuvo servidores listos en 180 s
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/home/gustavoa_menriquez_gmail_com/nebula/venv/lib/python3.11/site-packages/locust/user/users.py", line 166, in run
+    self.on_start()
+  File "/home/gustavoa_menriquez_gmail_com/nebula/loadtest/locustfile.py", line 64, in on_start
+    raise StopUser() from exc
+locust.exception.StopUser
+
+[2026-11-10 05:24:16,463] nebula-dev-locust/ERROR/locust.user.users: 
+Traceback (most recent call last):
+  File "/home/gustavoa_menriquez_gmail_com/nebula/loadtest/locustfile.py", line 50, in on_start
+    raise TimeoutError("Agones no tuvo servidores listos en 180 s")
+TimeoutError: Agones no tuvo servidores listos en 180 s
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/home/gustavoa_menriquez_gmail_com/nebula/venv/lib/python3.11/site-packages/locust/user/users.py", line 166, in run
+    self.on_start()
+  File "/home/gustavoa_menriquez_gmail_com/nebula/loadtest/locustfile.py", line 64, in on_start
+    raise StopUser() from exc
+locust.exception.StopUser
+
+[2026-11-10 05:24:16,792] nebula-dev-locust/ERROR/locust.user.users: 
+Traceback (most recent call last):
+  File "/home/gustavoa_menriquez_gmail_com/nebula/loadtest/locustfile.py", line 50, in on_start
+    raise TimeoutError("Agones no tuvo servidores listos en 180 s")
+TimeoutError: Agones no tuvo servidores listos en 180 s
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/home/gustavoa_menriquez_gmail_com/nebula/venv/lib/python3.11/site-packages/locust/user/users.py", line 166, in run
+    self.on_start()
+  File "/home/gustavoa_menriquez_gmail_com/nebula/loadtest/locustfile.py", line 64, in on_start
+    raise StopUser() from exc
+locust.exception.StopUser
+
+[2026-11-10 05:24:16,974] nebula-dev-locust/ERROR/locust.user.users: 
+Traceback (most recent call last):
+  File "/home/gustavoa_menriquez_gmail_com/nebula/loadtest/locustfile.py", line 50, in on_start
+    raise TimeoutError("Agones no tuvo servidores listos en 180 s")
+TimeoutError: Agones no tuvo servidores listos en 180 s
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/home/gustavoa_menriquez_gmail_com/nebula/venv/lib/python3.11/site-packages/locust/user/users.py", line 166, in run
+    self.on_start()
+  File "/home/gustavoa_menriquez_gmail_com/nebula/loadtest/locustfile.py", line 64, in on_start
+    raise StopUser() from exc
+locust.exception.StopUser
+
+[2026-11-10 05:24:17,914] nebula-dev-locust/ERROR/locust.user.users: 
+Traceback (most recent call last):
+  File "/home/gustavoa_menriquez_gmail_com/nebula/loadtest/locustfile.py", line 50, in on_start
+    raise TimeoutError("Agones no tuvo servidores listos en 180 s")
+TimeoutError: Agones no tuvo servidores listos en 180 s
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/home/gustavoa_menriquez_gmail_com/nebula/venv/lib/python3.11/site-packages/locust/user/users.py", line 166, in run
+    self.on_start()
+  File "/home/gustavoa_menriquez_gmail_com/nebula/loadtest/locustfile.py", line 64, in on_start
+    raise StopUser() from exc
+locust.exception.StopUser
+
+[2026-11-10 05:24:18,423] nebula-dev-locust/ERROR/locust.user.users: 
+Traceback (most recent call last):
+  File "/home/gustavoa_menriquez_gmail_com/nebula/loadtest/locustfile.py", line 50, in on_start
+    raise TimeoutError("Agones no tuvo servidores listos en 180 s")
+TimeoutError: Agones no tuvo servidores listos en 180 s
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/home/gustavoa_menriquez_gmail_com/nebula/venv/lib/python3.11/site-packages/locust/user/users.py", line 166, in run
+    self.on_start()
+  File "/home/gustavoa_menriquez_gmail_com/nebula/loadtest/locustfile.py", line 64, in on_start
+    raise StopUser() from exc
+locust.exception.StopUser
+
+[2026-11-10 05:24:18,694] nebula-dev-locust/ERROR/locust.user.users: 
+Traceback (most recent call last):
+  File "/home/gustavoa_menriquez_gmail_com/nebula/loadtest/locustfile.py", line 50, in on_start
+    raise TimeoutError("Agones no tuvo servidores listos en 180 s")
+TimeoutError: Agones no tuvo servidores listos en 180 s
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/home/gustavoa_menriquez_gmail_com/nebula/venv/lib/python3.11/site-packages/locust/user/users.py", line 166, in run
+    self.on_start()
+  File "/home/gustavoa_menriquez_gmail_com/nebula/loadtest/locustfile.py", line 64, in on_start
+    raise StopUser() from exc
+locust.exception.StopUser
+
+[2026-11-10 05:24:18,802] nebula-dev-locust/ERROR/locust.user.users: 
+Traceback (most recent call last):
+  File "/home/gustavoa_menriquez_gmail_com/nebula/loadtest/locustfile.py", line 50, in on_start
+    raise TimeoutError("Agones no tuvo servidores listos en 180 s")
+TimeoutError: Agones no tuvo servidores listos en 180 s
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/home/gustavoa_menriquez_gmail_com/nebula/venv/lib/python3.11/site-packages/locust/user/users.py", line 166, in run
+    self.on_start()
+  File "/home/gustavoa_menriquez_gmail_com/nebula/loadtest/locustfile.py", line 64, in on_start
+    raise StopUser() from exc
+locust.exception.StopUser
+
+[2026-11-10 05:24:19,052] nebula-dev-locust/ERROR/locust.user.users: 
+Traceback (most recent call last):
+  File "/home/gustavoa_menriquez_gmail_com/nebula/loadtest/locustfile.py", line 50, in on_start
+    raise TimeoutError("Agones no tuvo servidores listos en 180 s")
+TimeoutError: Agones no tuvo servidores listos en 180 s
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/home/gustavoa_menriquez_gmail_com/nebula/venv/lib/python3.11/site-packages/locust/user/users.py", line 166, in run
+    self.on_start()
+  File "/home/gustavoa_menriquez_gmail_com/nebula/loadtest/locustfile.py", line 64, in on_start
+    raise StopUser() from exc
+locust.exception.StopUser
+
+[2026-11-10 05:24:19,261] nebula-dev-locust/ERROR/locust.user.users: 
+Traceback (most recent call last):
+  File "/home/gustavoa_menriquez_gmail_com/nebula/loadtest/locustfile.py", line 50, in on_start
+    raise TimeoutError("Agones no tuvo servidores listos en 180 s")
+TimeoutError: Agones no tuvo servidores listos en 180 s
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/home/gustavoa_menriquez_gmail_com/nebula/venv/lib/python3.11/site-packages/locust/user/users.py", line 166, in run
+    self.on_start()
+  File "/home/gustavoa_menriquez_gmail_com/nebula/loadtest/locustfile.py", line 64, in on_start
+    raise StopUser() from exc
+locust.exception.StopUser
+
+[2026-11-10 05:24:49,126] nebula-dev-locust/INFO/locust.main: --run-time limit reached, shutting down
+[2026-11-10 05:24:49,129] nebula-dev-locust/INFO/locust.runners: Got quit message from master, shutting down...
+[2026-11-10 05:24:49,129] nebula-dev-locust/INFO/locust.runners: Got quit message from master, shutting down...
+[2026-11-10 05:24:49,129] nebula-dev-locust/INFO/locust.runners: Got quit message from master, shutting down...
+[2026-11-10 05:24:49,130] nebula-dev-locust/INFO/locust.runners: Got quit message from master, shutting down...
+[2026-11-10 05:24:49,132] nebula-dev-locust/INFO/locust.runners: Got quit message from master, shutting down...
+[2026-11-10 05:24:49,133] nebula-dev-locust/INFO/locust.runners: Got quit message from master, shutting down...
+[2026-11-10 05:24:49,134] nebula-dev-locust/INFO/locust.runners: Got quit message from master, shutting down...
+[2026-11-10 05:24:49,140] nebula-dev-locust/INFO/locust.runners: Got quit message from master, shutting down...
+[2026-11-10 05:24:49,316] nebula-dev-locust/WARNING/locust.runners: CPU usage was too high at some point during the test! See https://docs.locust.io/en/stable/running-distributed.html for how to distribute the load over multiple CPU cores or machines
+[2026-11-10 05:24:49,317] nebula-dev-locust/INFO/locust.main: Shutting down (exit code 0)
+[2026-11-10 05:24:49,317] nebula-dev-locust/INFO/locust.runners: Worker 'nebula-dev-locust_9521cd3d83f14b5787b3b2aca979ce8c' (index 2) quit. 0 workers ready.
+[2026-11-10 05:24:49,320] nebula-dev-locust/WARNING/locust.runners: CPU usage was too high at some point during the test! See https://docs.locust.io/en/stable/running-distributed.html for how to distribute the load over multiple CPU cores or machines
+[2026-11-10 05:24:49,322] nebula-dev-locust/INFO/locust.main: Shutting down (exit code 0)
+[2026-11-10 05:24:49,322] nebula-dev-locust/INFO/locust.runners: Worker 'nebula-dev-locust_f623b6abd7874af6aff17e0391acb274' (index 0) quit. 0 workers ready.
+[2026-11-10 05:24:49,330] nebula-dev-locust/WARNING/locust.runners: CPU usage was too high at some point during the test! See https://docs.locust.io/en/stable/running-distributed.html for how to distribute the load over multiple CPU cores or machines
+[2026-11-10 05:24:49,331] nebula-dev-locust/INFO/locust.main: Shutting down (exit code 0)
+[2026-11-10 05:24:49,331] nebula-dev-locust/INFO/locust.runners: Worker 'nebula-dev-locust_ed60c7777983426cb592d9fac59ba638' (index 6) quit. 0 workers ready.
+[2026-11-10 05:24:49,333] nebula-dev-locust/WARNING/locust.runners: CPU usage was too high at some point during the test! See https://docs.locust.io/en/stable/running-distributed.html for how to distribute the load over multiple CPU cores or machines
+[2026-11-10 05:24:49,334] nebula-dev-locust/INFO/locust.main: Shutting down (exit code 0)
+[2026-11-10 05:24:49,334] nebula-dev-locust/INFO/locust.runners: Worker 'nebula-dev-locust_4538d40dd1394ab3a5783a75db8b16b1' (index 7) quit. 0 workers ready.
+[2026-11-10 05:24:49,337] nebula-dev-locust/WARNING/locust.runners: CPU usage was too high at some point during the test! See https://docs.locust.io/en/stable/running-distributed.html for how to distribute the load over multiple CPU cores or machines
+[2026-11-10 05:24:49,337] nebula-dev-locust/WARNING/locust.runners: CPU usage was too high at some point during the test! See https://docs.locust.io/en/stable/running-distributed.html for how to distribute the load over multiple CPU cores or machines
+[2026-11-10 05:24:49,338] nebula-dev-locust/INFO/locust.main: Shutting down (exit code 0)
+[2026-11-10 05:24:49,338] nebula-dev-locust/INFO/locust.main: Shutting down (exit code 0)
+[2026-11-10 05:24:49,338] nebula-dev-locust/INFO/locust.runners: Worker 'nebula-dev-locust_8d4a34b78355405b95c57cbcf017eeda' (index 1) quit. 0 workers ready.
+[2026-11-10 05:24:49,339] nebula-dev-locust/INFO/locust.runners: Worker 'nebula-dev-locust_ecf57b3d39b840019b2320440b5bfc2d' (index 3) quit. 0 workers ready.
+[2026-11-10 05:24:49,348] nebula-dev-locust/WARNING/locust.runners: CPU usage was too high at some point during the test! See https://docs.locust.io/en/stable/running-distributed.html for how to distribute the load over multiple CPU cores or machines
+[2026-11-10 05:24:49,349] nebula-dev-locust/WARNING/locust.runners: CPU usage was too high at some point during the test! See https://docs.locust.io/en/stable/running-distributed.html for how to distribute the load over multiple CPU cores or machines
+[2026-11-10 05:24:49,349] nebula-dev-locust/INFO/locust.runners: Worker 'nebula-dev-locust_0bd5f852b55f4e28aceb1ccc1a4031c5' (index 5) quit. 0 workers ready.
+[2026-11-10 05:24:49,349] nebula-dev-locust/INFO/locust.main: Shutting down (exit code 0)
+[2026-11-10 05:24:49,350] nebula-dev-locust/INFO/locust.main: Shutting down (exit code 0)
+[2026-11-10 05:24:49,350] nebula-dev-locust/INFO/locust.runners: Worker 'nebula-dev-locust_73769b7066bc487abc27e848676631de' (index 4) quit. 0 workers ready.
+[2026-11-10 05:24:49,350] nebula-dev-locust/INFO/locust.runners: The last worker quit, stopping test.
+[2026-11-10 05:24:50,130] nebula-dev-locust/INFO/locust.main: Shutting down (exit code 1)
+Type     Name                                                                          # reqs      # fails |    Avg     Min     Max    Med |   req/s  failures/s
+--------|----------------------------------------------------------------------------|-------|-------------|-------|-------|-------|-------|--------|-----------
+HTTP     asignacion                                                                     93498 91888(98.28%) |    186       2    4371     93 |  311.60      306.23
+WS       conexion                                                                        1800  190(10.56%) |  62649       8  181612  52000 |    6.00        0.63
+WS       rtt                                                                           309411     0(0.00%) |     16       0     785      5 | 1031.16        0.00
+--------|----------------------------------------------------------------------------|-------|-------------|-------|-------|-------|-------|--------|-----------
+         Aggregated                                                                    404709 92078(22.75%) |    334       0  181612      6 | 1348.75      306.86
+
+Response time percentiles (approximated)
+Type     Name                                                                                  50%    66%    75%    80%    90%    95%    98%    99%  99.9% 99.99%   100% # reqs
+--------|--------------------------------------------------------------------------------|--------|------|------|------|------|------|------|------|------|------|------|------
+HTTP     asignacion                                                                             93    200    260    310    470    630    930   1200   3000   3800   4400  93498
+WS       conexion                                                                            52000  70000  83000  95000 180000 181000 181000 181000 182000 182000 182000   1800
+WS       rtt                                                                                     5      7      8      9     23     86    170    240    480    600    790 309411
+--------|--------------------------------------------------------------------------------|--------|------|------|------|------|------|------|------|------|------|------|------
+         Aggregated                                                                              6      9     16     39    190    330    560    840  89000 181000 182000 404709
+
+Error report
+# occurrences      Error                                                                                               
+------------------|---------------------------------------------------------------------------------------------------------------------------------------------
+82478              HTTP asignacion: HTTPError('HTTP 503')                                                              
+9410               HTTP asignacion: ConnectionError(MaxRetryError('HTTPConnectionPool(host=\'10.40.0.8\', port=80): Max retries exceeded with url: /join (Caused by NewConnectionError("HTTPConnection(host=\'10.40.0.8\', port=80): Failed to establish a new connection: [Errno 99] Cannot assign requested address"))'))
+190                WS conexion: TimeoutError('Agones no tuvo servidores listos en 180 s')                              
+------------------|---------------------------------------------------------------------------------------------------------------------------------------------
+
+Traceback (most recent call last):
+  File "src/gevent/greenlet.py", line 912, in gevent._gevent_cgreenlet.Greenlet.run
+  File "/home/gustavoa_menriquez_gmail_com/nebula/venv/lib/python3.11/site-packages/locust/stats.py", line 1170, in stats_writer
+    self.requests_csv_filehandle.seek(requests_csv_data_start)
+ValueError: I/O operation on closed file.
+2026-11-10T05:24:50Z <Greenlet at 0x7f1b901947c0: <bound method StatsCSVFileWriter.stats_writer of <locust.stats.StatsCSVFileWriter object at 0x7f1b90cd6890>>> failed with ValueError
+
+[2026-11-10 05:24:50,718] nebula-dev-locust/CRITICAL/locust.main: Unhandled exception in greenlet: <Greenlet at 0x7f1b901947c0: <bound method StatsCSVFileWriter.stats_writer of <locust.stats.StatsCSVFileWriter object at 0x7f1b90cd6890>>>
+Traceback (most recent call last):
+  File "src/gevent/greenlet.py", line 912, in gevent._gevent_cgreenlet.Greenlet.run
+  File "/home/gustavoa_menriquez_gmail_com/nebula/venv/lib/python3.11/site-packages/locust/stats.py", line 1170, in stats_writer
+    self.requests_csv_filehandle.seek(requests_csv_data_start)
+    ^^^^^^^^^^^^^^^^^
+ValueError: I/O operation on closed file.

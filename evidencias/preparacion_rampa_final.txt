@@ -1,0 +1,31 @@
+fleetautoscaler.autoscaling.agones.dev "nebula-autoscaler" deleted from default namespace
+fleet.agones.dev/nebula-fleet scaled
+gameserver.agones.dev/nebula-fleet-z47g2-lw9df condition met
+gameserver.agones.dev/nebula-fleet-z47g2-plzpk condition met
+gameserver.agones.dev/nebula-fleet-z47g2-q7h5v condition met
+Resizing nebula-dev...
+........................................................................................................................................................................................................................................................................................................................................................................................................................................................................................done.
+Updated [https://container.googleapis.com/v1/projects/nebula-arena-ga-20261109/zones/us-central1-a/clusters/nebula-dev].
+fleet.agones.dev/nebula-fleet scaled
+fleetautoscaler.autoscaling.agones.dev/nebula-autoscaler created
+deployment.apps/matchmaker restarted
+Waiting for deployment "matchmaker" rollout to finish: 1 out of 2 new replicas have been updated...
+Waiting for deployment "matchmaker" rollout to finish: 1 out of 2 new replicas have been updated...
+Waiting for deployment "matchmaker" rollout to finish: 1 out of 2 new replicas have been updated...
+Waiting for deployment "matchmaker" rollout to finish: 1 old replicas are pending termination...
+Waiting for deployment "matchmaker" rollout to finish: 1 old replicas are pending termination...
+Waiting for deployment "matchmaker" rollout to finish: 1 old replicas are pending termination...
+deployment "matchmaker" successfully rolled out
+gameserver.agones.dev/nebula-fleet-z47g2-2bndw condition met
+gameserver.agones.dev/nebula-fleet-z47g2-fjps8 condition met
+gameserver.agones.dev/nebula-fleet-z47g2-w79vk condition met
+NAME                            SCHEDULING   DESIRED   CURRENT   ALLOCATED   READY   AGE
+fleet.agones.dev/nebula-fleet   Packed       3         3         0           3       62m
+
+NAME                                             STATE   ADDRESS         PORT   NODE                                     AGE
+gameserver.agones.dev/nebula-fleet-z47g2-2bndw   Ready   34.10.141.166   7214   gke-nebula-dev-game-pool-89caa13f-5j59   28s
+gameserver.agones.dev/nebula-fleet-z47g2-fjps8   Ready   34.10.141.166   7314   gke-nebula-dev-game-pool-89caa13f-5j59   28s
+gameserver.agones.dev/nebula-fleet-z47g2-w79vk   Ready   34.10.141.166   7011   gke-nebula-dev-game-pool-89caa13f-5j59   28s
+
+NAME                                          STATUS   ROLES    AGE   VERSION
+node/gke-nebula-dev-game-pool-89caa13f-5j59   Ready    <none>   69m   v1.36.4-gke.2377000

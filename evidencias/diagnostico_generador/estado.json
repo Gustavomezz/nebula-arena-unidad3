@@ -1,0 +1,6 @@
+{
+  "estado": "interrumpida_para_optimizar_generador",
+  "motivo": "El generador alcanzó aproximadamente 97% de CPU y el RTT p95 del periodo superó 80 ms. No se puede atribuir ese cruce al máximo del clúster.",
+  "correccion": "wsaccel 0.6.7 y skip_utf8_validation; los mensajes se siguen decodificando como JSON.",
+  "fuente": "https://websocket-client.readthedocs.io/en/latest/faq.html"
+}

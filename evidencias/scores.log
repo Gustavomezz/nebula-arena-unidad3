@@ -1,0 +1,54 @@
+[2026-11-10 05:29:09,216] nebula-dev-locust/INFO/locust.main: Starting Locust 2.47.0
+[2026-11-10 05:29:09,251] nebula-dev-locust/INFO/locust.runners: nebula-dev-locust_669b78fd349c4e9c98f8252e1905c5e7 (index 0) reported as ready. 1 workers connected.
+[2026-11-10 05:29:09,252] nebula-dev-locust/INFO/locust.runners: nebula-dev-locust_a88ae8a45d964f8db132dcdcac9715b1 (index 1) reported as ready. 2 workers connected.
+[2026-11-10 05:29:09,252] nebula-dev-locust/INFO/locust.runners: nebula-dev-locust_0f7fd00cbf3147638b876ed82ccbdea7 (index 2) reported as ready. 3 workers connected.
+[2026-11-10 05:29:09,254] nebula-dev-locust/INFO/locust.runners: nebula-dev-locust_7f698c8a5fa24425b84330805895dba3 (index 3) reported as ready. 4 workers connected.
+[2026-11-10 05:29:09,425] nebula-dev-locust/INFO/locust.runners: nebula-dev-locust_988acd7ccdb04486bad60d2ae775b4e5 (index 4) reported as ready. 5 workers connected.
+[2026-11-10 05:29:09,427] nebula-dev-locust/INFO/locust.runners: nebula-dev-locust_cfa75972c25e4f348ee1abec2caf5bd2 (index 5) reported as ready. 6 workers connected.
+[2026-11-10 05:29:09,428] nebula-dev-locust/INFO/locust.runners: nebula-dev-locust_3445412e251e42f69632042e6153d36f (index 6) reported as ready. 7 workers connected.
+[2026-11-10 05:29:09,430] nebula-dev-locust/INFO/locust.runners: nebula-dev-locust_cfd3bf2df53f446ea8170e9730f1dd54 (index 7) reported as ready. 8 workers connected.
+[2026-11-10 05:29:10,249] nebula-dev-locust/INFO/locust.main: Run time limit set to 300 seconds
+[2026-11-10 05:29:10,249] nebula-dev-locust/INFO/locust.runners: Sending spawn jobs of 500 users at 50.00 spawn rate to 8 ready workers
+[2026-11-10 05:29:19,387] nebula-dev-locust/INFO/locust.runners: All users spawned: {"TablaLideres": 500} (500 total users)
+[2026-11-10 05:34:10,249] nebula-dev-locust/INFO/locust.main: --run-time limit reached, shutting down
+[2026-11-10 05:34:10,250] nebula-dev-locust/INFO/locust.runners: Got quit message from master, shutting down...
+[2026-11-10 05:34:10,250] nebula-dev-locust/INFO/locust.runners: Got quit message from master, shutting down...
+[2026-11-10 05:34:10,250] nebula-dev-locust/INFO/locust.runners: Got quit message from master, shutting down...
+[2026-11-10 05:34:10,250] nebula-dev-locust/INFO/locust.runners: Got quit message from master, shutting down...
+[2026-11-10 05:34:10,250] nebula-dev-locust/INFO/locust.runners: Got quit message from master, shutting down...
+[2026-11-10 05:34:10,250] nebula-dev-locust/INFO/locust.runners: Got quit message from master, shutting down...
+[2026-11-10 05:34:10,250] nebula-dev-locust/INFO/locust.runners: Got quit message from master, shutting down...
+[2026-11-10 05:34:10,264] nebula-dev-locust/INFO/locust.runners: Got quit message from master, shutting down...
+[2026-11-10 05:34:10,293] nebula-dev-locust/INFO/locust.main: Shutting down (exit code 0)
+[2026-11-10 05:34:10,293] nebula-dev-locust/INFO/locust.runners: Worker 'nebula-dev-locust_0f7fd00cbf3147638b876ed82ccbdea7' (index 2) quit. 0 workers ready.
+[2026-11-10 05:34:10,302] nebula-dev-locust/INFO/locust.main: Shutting down (exit code 0)
+[2026-11-10 05:34:10,302] nebula-dev-locust/INFO/locust.runners: Worker 'nebula-dev-locust_988acd7ccdb04486bad60d2ae775b4e5' (index 4) quit. 0 workers ready.
+[2026-11-10 05:34:10,303] nebula-dev-locust/INFO/locust.main: Shutting down (exit code 0)
+[2026-11-10 05:34:10,303] nebula-dev-locust/INFO/locust.runners: Worker 'nebula-dev-locust_669b78fd349c4e9c98f8252e1905c5e7' (index 0) quit. 0 workers ready.
+[2026-11-10 05:34:10,304] nebula-dev-locust/INFO/locust.runners: Worker 'nebula-dev-locust_cfa75972c25e4f348ee1abec2caf5bd2' (index 5) quit. 0 workers ready.
+[2026-11-10 05:34:10,304] nebula-dev-locust/INFO/locust.main: Shutting down (exit code 0)
+[2026-11-10 05:34:10,305] nebula-dev-locust/INFO/locust.main: Shutting down (exit code 0)
+[2026-11-10 05:34:10,305] nebula-dev-locust/INFO/locust.runners: Worker 'nebula-dev-locust_3445412e251e42f69632042e6153d36f' (index 6) quit. 0 workers ready.
+[2026-11-10 05:34:10,307] nebula-dev-locust/INFO/locust.runners: Worker 'nebula-dev-locust_cfd3bf2df53f446ea8170e9730f1dd54' (index 7) quit. 0 workers ready.
+[2026-11-10 05:34:10,307] nebula-dev-locust/INFO/locust.main: Shutting down (exit code 0)
+[2026-11-10 05:34:10,316] nebula-dev-locust/INFO/locust.main: Shutting down (exit code 0)
+[2026-11-10 05:34:10,316] nebula-dev-locust/INFO/locust.runners: Worker 'nebula-dev-locust_7f698c8a5fa24425b84330805895dba3' (index 3) quit. 0 workers ready.
+[2026-11-10 05:34:10,320] nebula-dev-locust/INFO/locust.main: Shutting down (exit code 0)
+[2026-11-10 05:34:10,320] nebula-dev-locust/INFO/locust.runners: Worker 'nebula-dev-locust_a88ae8a45d964f8db132dcdcac9715b1' (index 1) quit. 0 workers ready.
+[2026-11-10 05:34:10,320] nebula-dev-locust/INFO/locust.runners: The last worker quit, stopping test.
+[2026-11-10 05:34:11,252] nebula-dev-locust/INFO/locust.main: Shutting down (exit code 0)
+Type     Name                                                                          # reqs      # fails |    Avg     Min     Max    Med |   req/s  failures/s
+--------|----------------------------------------------------------------------------|-------|-------------|-------|-------|-------|-------|--------|-----------
+POST     score                                                                          33904     0(0.00%) |    637      37    7871    210 |  112.99        0.00
+GET      top                                                                           135295     0(0.00%) |    617      20    8040    190 |  450.90        0.00
+--------|----------------------------------------------------------------------------|-------|-------------|-------|-------|-------|-------|--------|-----------
+         Aggregated                                                                    169199     0(0.00%) |    621      20    8040    200 |  563.89        0.00
+
+Response time percentiles (approximated)
+Type     Name                                                                                  50%    66%    75%    80%    90%    95%    98%    99%  99.9% 99.99%   100% # reqs
+--------|--------------------------------------------------------------------------------|--------|------|------|------|------|------|------|------|------|------|------|------
+POST     score                                                                                 210    370    670   1100   2100   2700   3300   3700   6000   7100   7900  33904
+GET      top                                                                                   190    360    660   1100   2100   2700   3200   3700   5900   7600   8000 135295
+--------|--------------------------------------------------------------------------------|--------|------|------|------|------|------|------|------|------|------|------|------
+         Aggregated                                                                            200    360    660   1100   2100   2700   3300   3700   5900   7500   8000 169199
+

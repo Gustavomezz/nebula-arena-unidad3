@@ -1,0 +1,1548 @@
+[0m[1mgoogle_project_service.apis["run.googleapis.com"]: Refreshing state... [id=nebula-arena-ga-20261109/run.googleapis.com][0m
+[0m[1mgoogle_project_service.apis["cloudresourcemanager.googleapis.com"]: Refreshing state... [id=nebula-arena-ga-20261109/cloudresourcemanager.googleapis.com][0m
+[0m[1mgoogle_project_service.apis["container.googleapis.com"]: Refreshing state... [id=nebula-arena-ga-20261109/container.googleapis.com][0m
+[0m[1mgoogle_project_service.apis["iam.googleapis.com"]: Refreshing state... [id=nebula-arena-ga-20261109/iam.googleapis.com][0m
+[0m[1mgoogle_project_service.apis["artifactregistry.googleapis.com"]: Refreshing state... [id=nebula-arena-ga-20261109/artifactregistry.googleapis.com][0m
+[0m[1mgoogle_project_service.apis["compute.googleapis.com"]: Refreshing state... [id=nebula-arena-ga-20261109/compute.googleapis.com][0m
+[0m[1mgoogle_project_service.apis["iamcredentials.googleapis.com"]: Refreshing state... [id=nebula-arena-ga-20261109/iamcredentials.googleapis.com][0m
+[0m[1mgoogle_project_service.apis["sts.googleapis.com"]: Refreshing state... [id=nebula-arena-ga-20261109/sts.googleapis.com][0m
+[0m[1mgoogle_project_service.apis["cloudasset.googleapis.com"]: Refreshing state... [id=nebula-arena-ga-20261109/cloudasset.googleapis.com][0m
+[0m[1mgoogle_storage_bucket.stream[0]: Refreshing state... [id=nebula-arena-ga-20261109-nebula-stream][0m
+[0m[1mgoogle_project_service.apis["firestore.googleapis.com"]: Refreshing state... [id=nebula-arena-ga-20261109/firestore.googleapis.com][0m
+[0m[1mgoogle_storage_bucket_iam_member.stream[0]: Refreshing state... [id=b/nebula-arena-ga-20261109-nebula-stream/roles/storage.objectViewer/allUsers][0m
+[0m[1mgoogle_compute_backend_bucket.stream[0]: Refreshing state... [id=projects/nebula-arena-ga-20261109/global/backendBuckets/nebula-dev-stream][0m
+[0m[1mgoogle_iam_workload_identity_pool.github: Refreshing state... [id=projects/nebula-arena-ga-20261109/locations/global/workloadIdentityPools/nebula-github][0m
+[0m[1mgoogle_compute_network.vpc: Refreshing state... [id=projects/nebula-arena-ga-20261109/global/networks/nebula-dev-vpc][0m
+[0m[1mgoogle_service_account.leaderboard: Refreshing state... [id=projects/nebula-arena-ga-20261109/serviceAccounts/nebula-dev-scores@nebula-arena-ga-20261109.iam.gserviceaccount.com][0m
+[0m[1mgoogle_service_account.deploy: Refreshing state... [id=projects/nebula-arena-ga-20261109/serviceAccounts/nebula-dev-github@nebula-arena-ga-20261109.iam.gserviceaccount.com][0m
+[0m[1mgoogle_firestore_database.scores: Refreshing state... [id=projects/nebula-arena-ga-20261109/databases/(default)][0m
+[0m[1mgoogle_service_account.nodos: Refreshing state... [id=projects/nebula-arena-ga-20261109/serviceAccounts/nebula-dev-nodes@nebula-arena-ga-20261109.iam.gserviceaccount.com][0m
+[0m[1mgoogle_artifact_registry_repository.imagenes: Refreshing state... [id=projects/nebula-arena-ga-20261109/locations/us-central1/repositories/nebula][0m
+[0m[1mgoogle_compute_subnetwork.juego: Refreshing state... [id=projects/nebula-arena-ga-20261109/regions/us-central1/subnetworks/nebula-dev-subred][0m
+[0m[1mgoogle_compute_firewall.ssh_iap: Refreshing state... [id=projects/nebula-arena-ga-20261109/global/firewalls/nebula-dev-ssh-iap][0m
+[0m[1mgoogle_compute_url_map.stream[0]: Refreshing state... [id=projects/nebula-arena-ga-20261109/global/urlMaps/nebula-dev-cdn][0m
+[0m[1mgoogle_project_iam_member.deploy["roles/container.admin"]: Refreshing state... [id=nebula-arena-ga-20261109/roles/container.admin/serviceAccount:nebula-dev-github@nebula-arena-ga-20261109.iam.gserviceaccount.com][0m
+[0m[1mgoogle_project_iam_member.deploy["roles/artifactregistry.writer"]: Refreshing state... [id=nebula-arena-ga-20261109/roles/artifactregistry.writer/serviceAccount:nebula-dev-github@nebula-arena-ga-20261109.iam.gserviceaccount.com][0m
+[0m[1mgoogle_project_iam_member.deploy["roles/run.admin"]: Refreshing state... [id=nebula-arena-ga-20261109/roles/run.admin/serviceAccount:nebula-dev-github@nebula-arena-ga-20261109.iam.gserviceaccount.com][0m
+[0m[1mgoogle_project_iam_member.scores: Refreshing state... [id=nebula-arena-ga-20261109/roles/datastore.user/serviceAccount:nebula-dev-scores@nebula-arena-ga-20261109.iam.gserviceaccount.com][0m
+[0m[1mgoogle_service_account_iam_member.deploy_scores: Refreshing state... [id=projects/nebula-arena-ga-20261109/serviceAccounts/nebula-dev-scores@nebula-arena-ga-20261109.iam.gserviceaccount.com/roles/iam.serviceAccountUser/serviceAccount:nebula-dev-github@nebula-arena-ga-20261109.iam.gserviceaccount.com][0m
+[0m[1mgoogle_project_iam_member.nodos["roles/logging.logWriter"]: Refreshing state... [id=nebula-arena-ga-20261109/roles/logging.logWriter/serviceAccount:nebula-dev-nodes@nebula-arena-ga-20261109.iam.gserviceaccount.com][0m
+[0m[1mgoogle_project_iam_member.nodos["roles/artifactregistry.reader"]: Refreshing state... [id=nebula-arena-ga-20261109/roles/artifactregistry.reader/serviceAccount:nebula-dev-nodes@nebula-arena-ga-20261109.iam.gserviceaccount.com][0m
+[0m[1mgoogle_project_iam_member.nodos["roles/monitoring.metricWriter"]: Refreshing state... [id=nebula-arena-ga-20261109/roles/monitoring.metricWriter/serviceAccount:nebula-dev-nodes@nebula-arena-ga-20261109.iam.gserviceaccount.com][0m
+[0m[1mgoogle_iam_workload_identity_pool_provider.github: Refreshing state... [id=projects/nebula-arena-ga-20261109/locations/global/workloadIdentityPools/nebula-github/providers/github][0m
+[0m[1mgoogle_service_account_iam_member.github: Refreshing state... [id=projects/nebula-arena-ga-20261109/serviceAccounts/nebula-dev-github@nebula-arena-ga-20261109.iam.gserviceaccount.com/roles/iam.workloadIdentityUser/principalSet://iam.googleapis.com/projects/913295964817/locations/global/workloadIdentityPools/nebula-github/attribute.repository/Gustavomezz/nebula-arena-unidad3][0m
+[0m[1mgoogle_container_cluster.nebula: Refreshing state... [id=projects/nebula-arena-ga-20261109/locations/us-central1-a/clusters/nebula-dev][0m
+[0m[1mgoogle_compute_firewall.juego: Refreshing state... [id=projects/nebula-arena-ga-20261109/global/firewalls/nebula-dev-partidas][0m
+[0m[1mgoogle_compute_instance.generador[0]: Refreshing state... [id=projects/nebula-arena-ga-20261109/zones/us-central1-a/instances/nebula-dev-locust][0m
+[0m[1mgoogle_compute_target_http_proxy.stream[0]: Refreshing state... [id=projects/nebula-arena-ga-20261109/global/targetHttpProxies/nebula-dev-cdn][0m
+[0m[1mgoogle_compute_global_forwarding_rule.stream[0]: Refreshing state... [id=projects/nebula-arena-ga-20261109/global/forwardingRules/nebula-dev-cdn][0m
+[0m[1mgoogle_cloud_run_v2_service.scores[0]: Refreshing state... [id=projects/nebula-arena-ga-20261109/locations/us-central1/services/nebula-dev-leaderboard][0m
+[0m[1mgoogle_cloud_run_v2_service_iam_member.publico[0]: Refreshing state... [id=projects/nebula-arena-ga-20261109/locations/us-central1/services/nebula-dev-leaderboard/roles/run.invoker/allUsers][0m
+[0m[1mgoogle_container_node_pool.juego: Refreshing state... [id=projects/nebula-arena-ga-20261109/locations/us-central1-a/clusters/nebula-dev/nodePools/game-pool][0m
+
+Terraform used the selected providers to generate the following execution
+plan. Resource actions are indicated with the following symbols:
+  [31m-[0m destroy[0m
+
+Terraform will perform the following actions:
+
+[1m  # google_artifact_registry_repository.imagenes[0m will be [1m[31mdestroyed[0m
+[0m  [31m-[0m[0m resource "google_artifact_registry_repository" "imagenes" {
+      [31m-[0m[0m cleanup_policy_dry_run = false [90m-> null[0m[0m
+      [31m-[0m[0m create_time            = "2026-11-10T03:23:09.898762Z" [90m-> null[0m[0m
+      [31m-[0m[0m effective_labels       = {
+          [31m-[0m[0m "entorno"                    = "dev"
+          [31m-[0m[0m "goog-terraform-provisioned" = "true"
+          [31m-[0m[0m "proyecto"                   = "nebula-arena"
+          [31m-[0m[0m "uso"                        = "laboratorio"
+        } [90m-> null[0m[0m
+      [31m-[0m[0m format                 = "DOCKER" [90m-> null[0m[0m
+      [31m-[0m[0m id                     = "projects/nebula-arena-ga-20261109/locations/us-central1/repositories/nebula" [90m-> null[0m[0m
+      [31m-[0m[0m labels                 = {
+          [31m-[0m[0m "entorno"  = "dev"
+          [31m-[0m[0m "proyecto" = "nebula-arena"
+          [31m-[0m[0m "uso"      = "laboratorio"
+        } [90m-> null[0m[0m
+      [31m-[0m[0m location               = "us-central1" [90m-> null[0m[0m
+      [31m-[0m[0m mode                   = "STANDARD_REPOSITORY" [90m-> null[0m[0m
+      [31m-[0m[0m name                   = "nebula" [90m-> null[0m[0m
+      [31m-[0m[0m project                = "nebula-arena-ga-20261109" [90m-> null[0m[0m
+      [31m-[0m[0m repository_id          = "nebula" [90m-> null[0m[0m
+      [31m-[0m[0m terraform_labels       = {
+          [31m-[0m[0m "entorno"                    = "dev"
+          [31m-[0m[0m "goog-terraform-provisioned" = "true"
+          [31m-[0m[0m "proyecto"                   = "nebula-arena"
+          [31m-[0m[0m "uso"                        = "laboratorio"
+        } [90m-> null[0m[0m
+      [31m-[0m[0m update_time            = "2026-11-10T05:37:05.606640Z" [90m-> null[0m[0m
+        [90m# (2 unchanged attributes hidden)[0m[0m
+
+      [31m-[0m[0m vulnerability_scanning_config {
+          [31m-[0m[0m enablement_state        = "SCANNING_DISABLED" [90m-> null[0m[0m
+          [31m-[0m[0m enablement_state_reason = "API containerscanning.googleapis.com is not enabled." [90m-> null[0m[0m
+            [90m# (1 unchanged attribute hidden)[0m[0m
+        }
+    }
+
+[1m  # google_cloud_run_v2_service.scores[0][0m will be [1m[31mdestroyed[0m
+[0m  [31m-[0m[0m resource "google_cloud_run_v2_service" "scores" {
+      [31m-[0m[0m annotations             = {} [90m-> null[0m[0m
+      [31m-[0m[0m client                  = "gcloud" [90m-> null[0m[0m
+      [31m-[0m[0m client_version          = "591.0.0" [90m-> null[0m[0m
+      [31m-[0m[0m conditions              = [
+          [31m-[0m[0m {
+              [31m-[0m[0m last_transition_time = "2026-11-10T05:37:29.274495Z"
+              [31m-[0m[0m state                = "CONDITION_SUCCEEDED"
+              [31m-[0m[0m type                 = "RoutesReady"
+                [90m# (5 unchanged attributes hidden)[0m[0m
+            },
+          [31m-[0m[0m {
+              [31m-[0m[0m last_transition_time = "2026-11-10T05:37:23.747618Z"
+              [31m-[0m[0m state                = "CONDITION_SUCCEEDED"
+              [31m-[0m[0m type                 = "ConfigurationsReady"
+                [90m# (5 unchanged attributes hidden)[0m[0m
+            },
+        ] [90m-> null[0m[0m
+      [31m-[0m[0m create_time             = "2026-11-10T03:36:28.988763Z" [90m-> null[0m[0m
+      [31m-[0m[0m creator                 = "gustavoa.menriquez@gmail.com" [90m-> null[0m[0m
+      [31m-[0m[0m custom_audiences        = [] [90m-> null[0m[0m
+      [31m-[0m[0m deletion_protection     = false [90m-> null[0m[0m
+      [31m-[0m[0m effective_annotations   = {} [90m-> null[0m[0m
+      [31m-[0m[0m effective_labels        = {
+          [31m-[0m[0m "entorno"                    = "dev"
+          [31m-[0m[0m "goog-terraform-provisioned" = "true"
+          [31m-[0m[0m "proyecto"                   = "nebula-arena"
+          [31m-[0m[0m "uso"                        = "laboratorio"
+        } [90m-> null[0m[0m
+      [31m-[0m[0m etag                    = "\"CI7bytcGEPjNmGg/cHJvamVjdHMvbmVidWxhLWFyZW5hLWdhLTIwMjYxMTA5L2xvY2F0aW9ucy91cy1jZW50cmFsMS9zZXJ2aWNlcy9uZWJ1bGEtZGV2LWxlYWRlcmJvYXJk\"" [90m-> null[0m[0m
+      [31m-[0m[0m generation              = "5" [90m-> null[0m[0m
+      [31m-[0m[0m id                      = "projects/nebula-arena-ga-20261109/locations/us-central1/services/nebula-dev-leaderboard" [90m-> null[0m[0m
+      [31m-[0m[0m ingress                 = "INGRESS_TRAFFIC_ALL" [90m-> null[0m[0m
+      [31m-[0m[0m invoker_iam_disabled    = false [90m-> null[0m[0m
+      [31m-[0m[0m labels                  = {
+          [31m-[0m[0m "entorno"  = "dev"
+          [31m-[0m[0m "proyecto" = "nebula-arena"
+          [31m-[0m[0m "uso"      = "laboratorio"
+        } [90m-> null[0m[0m
+      [31m-[0m[0m last_modifier           = "nebula-dev-github@nebula-arena-ga-20261109.iam.gserviceaccount.com" [90m-> null[0m[0m
+      [31m-[0m[0m latest_created_revision = "projects/nebula-arena-ga-20261109/locations/us-central1/services/nebula-dev-leaderboard/revisions/nebula-dev-leaderboard-00005-qlw" [90m-> null[0m[0m
+      [31m-[0m[0m latest_ready_revision   = "projects/nebula-arena-ga-20261109/locations/us-central1/services/nebula-dev-leaderboard/revisions/nebula-dev-leaderboard-00005-qlw" [90m-> null[0m[0m
+      [31m-[0m[0m launch_stage            = "GA" [90m-> null[0m[0m
+      [31m-[0m[0m location                = "us-central1" [90m-> null[0m[0m
+      [31m-[0m[0m name                    = "nebula-dev-leaderboard" [90m-> null[0m[0m
+      [31m-[0m[0m observed_generation     = "5" [90m-> null[0m[0m
+      [31m-[0m[0m project                 = "nebula-arena-ga-20261109" [90m-> null[0m[0m
+      [31m-[0m[0m reconciling             = false [90m-> null[0m[0m
+      [31m-[0m[0m terminal_condition      = [
+          [31m-[0m[0m {
+              [31m-[0m[0m last_transition_time = "2026-11-10T05:37:29.310875Z"
+              [31m-[0m[0m state                = "CONDITION_SUCCEEDED"
+              [31m-[0m[0m type                 = "Ready"
+                [90m# (5 unchanged attributes hidden)[0m[0m
+            },
+        ] [90m-> null[0m[0m
+      [31m-[0m[0m terraform_labels        = {
+          [31m-[0m[0m "entorno"                    = "dev"
+          [31m-[0m[0m "goog-terraform-provisioned" = "true"
+          [31m-[0m[0m "proyecto"                   = "nebula-arena"
+          [31m-[0m[0m "uso"                        = "laboratorio"
+        } [90m-> null[0m[0m
+      [31m-[0m[0m traffic_statuses        = [
+          [31m-[0m[0m {
+              [31m-[0m[0m percent  = 100
+              [31m-[0m[0m revision = "nebula-dev-leaderboard-00005-qlw"
+              [31m-[0m[0m type     = "TRAFFIC_TARGET_ALLOCATION_TYPE_LATEST"
+                [90m# (2 unchanged attributes hidden)[0m[0m
+            },
+        ] [90m-> null[0m[0m
+      [31m-[0m[0m uid                     = "f28bc896-3b93-41c6-a84b-45d545d535b7" [90m-> null[0m[0m
+      [31m-[0m[0m update_time             = "2026-11-10T05:37:18.218507Z" [90m-> null[0m[0m
+      [31m-[0m[0m uri                     = "https://nebula-dev-leaderboard-iszgggb7qa-uc.a.run.app" [90m-> null[0m[0m
+      [31m-[0m[0m urls                    = [
+          [31m-[0m[0m "https://nebula-dev-leaderboard-913295964817.us-central1.run.app",
+          [31m-[0m[0m "https://nebula-dev-leaderboard-iszgggb7qa-uc.a.run.app",
+        ] [90m-> null[0m[0m
+        [90m# (3 unchanged attributes hidden)[0m[0m
+
+      [31m-[0m[0m scaling {
+          [31m-[0m[0m manual_instance_count = 0 [90m-> null[0m[0m
+          [31m-[0m[0m min_instance_count    = 0 [90m-> null[0m[0m
+            [90m# (1 unchanged attribute hidden)[0m[0m
+        }
+
+      [31m-[0m[0m template {
+          [31m-[0m[0m annotations                      = {} [90m-> null[0m[0m
+          [31m-[0m[0m gpu_zonal_redundancy_disabled    = false [90m-> null[0m[0m
+          [31m-[0m[0m labels                           = {} [90m-> null[0m[0m
+          [31m-[0m[0m max_instance_request_concurrency = 40 [90m-> null[0m[0m
+          [31m-[0m[0m service_account                  = "nebula-dev-scores@nebula-arena-ga-20261109.iam.gserviceaccount.com" [90m-> null[0m[0m
+          [31m-[0m[0m session_affinity                 = false [90m-> null[0m[0m
+          [31m-[0m[0m timeout                          = "300s" [90m-> null[0m[0m
+            [90m# (3 unchanged attributes hidden)[0m[0m
+
+          [31m-[0m[0m containers {
+              [31m-[0m[0m args           = [] [90m-> null[0m[0m
+              [31m-[0m[0m build_info     = [] [90m-> null[0m[0m
+              [31m-[0m[0m command        = [] [90m-> null[0m[0m
+              [31m-[0m[0m depends_on     = [] [90m-> null[0m[0m
+              [31m-[0m[0m image          = "us-central1-docker.pkg.dev/nebula-arena-ga-20261109/nebula/nebula-serverless:c589c72567365f1a558c920c6fe539cb6c7e89ce" [90m-> null[0m[0m
+                name           = [90mnull[0m[0m
+                [90m# (2 unchanged attributes hidden)[0m[0m
+
+              [31m-[0m[0m ports {
+                  [31m-[0m[0m container_port = 8080 [90m-> null[0m[0m
+                  [31m-[0m[0m name           = "http1" [90m-> null[0m[0m
+                }
+
+              [31m-[0m[0m resources {
+                  [31m-[0m[0m cpu_idle          = true [90m-> null[0m[0m
+                  [31m-[0m[0m limits            = {
+                      [31m-[0m[0m "cpu"    = "1"
+                      [31m-[0m[0m "memory" = "512Mi"
+                    } [90m-> null[0m[0m
+                  [31m-[0m[0m startup_cpu_boost = true [90m-> null[0m[0m
+                }
+
+              [31m-[0m[0m startup_probe {
+                  [31m-[0m[0m failure_threshold     = 1 [90m-> null[0m[0m
+                  [31m-[0m[0m initial_delay_seconds = 0 [90m-> null[0m[0m
+                  [31m-[0m[0m period_seconds        = 240 [90m-> null[0m[0m
+                  [31m-[0m[0m timeout_seconds       = 240 [90m-> null[0m[0m
+
+                  [31m-[0m[0m tcp_socket {
+                      [31m-[0m[0m port = 8080 [90m-> null[0m[0m
+                    }
+                }
+            }
+
+          [31m-[0m[0m scaling {
+              [31m-[0m[0m max_instance_count = 10 [90m-> null[0m[0m
+              [31m-[0m[0m min_instance_count = 0 [90m-> null[0m[0m
+            }
+        }
+
+      [31m-[0m[0m traffic {
+          [31m-[0m[0m percent  = 100 [90m-> null[0m[0m
+          [31m-[0m[0m type     = "TRAFFIC_TARGET_ALLOCATION_TYPE_LATEST" [90m-> null[0m[0m
+            [90m# (2 unchanged attributes hidden)[0m[0m
+        }
+    }
+
+[1m  # google_cloud_run_v2_service_iam_member.publico[0][0m will be [1m[31mdestroyed[0m
+[0m  [31m-[0m[0m resource "google_cloud_run_v2_service_iam_member" "publico" {
+      [31m-[0m[0m etag     = "BwZf48n7m/I=" [90m-> null[0m[0m
+      [31m-[0m[0m id       = "projects/nebula-arena-ga-20261109/locations/us-central1/services/nebula-dev-leaderboard/roles/run.invoker/allUsers" [90m-> null[0m[0m
+      [31m-[0m[0m location = "us-central1" [90m-> null[0m[0m
+      [31m-[0m[0m member   = "allUsers" [90m-> null[0m[0m
+      [31m-[0m[0m name     = "projects/nebula-arena-ga-20261109/locations/us-central1/services/nebula-dev-leaderboard" [90m-> null[0m[0m
+      [31m-[0m[0m project  = "nebula-arena-ga-20261109" [90m-> null[0m[0m
+      [31m-[0m[0m role     = "roles/run.invoker" [90m-> null[0m[0m
+    }
+
+[1m  # google_compute_backend_bucket.stream[0][0m will be [1m[31mdestroyed[0m
+[0m  [31m-[0m[0m resource "google_compute_backend_bucket" "stream" {
+      [31m-[0m[0m bucket_name             = "nebula-arena-ga-20261109-nebula-stream" [90m-> null[0m[0m
+      [31m-[0m[0m creation_timestamp      = "2026-11-09T19:22:40.243-08:00" [90m-> null[0m[0m
+      [31m-[0m[0m custom_response_headers = [] [90m-> null[0m[0m
+      [31m-[0m[0m enable_cdn              = true [90m-> null[0m[0m
+      [31m-[0m[0m id                      = "projects/nebula-arena-ga-20261109/global/backendBuckets/nebula-dev-stream" [90m-> null[0m[0m
+      [31m-[0m[0m name                    = "nebula-dev-stream" [90m-> null[0m[0m
+      [31m-[0m[0m project                 = "nebula-arena-ga-20261109" [90m-> null[0m[0m
+      [31m-[0m[0m self_link               = "https://www.googleapis.com/compute/v1/projects/nebula-arena-ga-20261109/global/backendBuckets/nebula-dev-stream" [90m-> null[0m[0m
+        [90m# (4 unchanged attributes hidden)[0m[0m
+
+      [31m-[0m[0m cdn_policy {
+          [31m-[0m[0m cache_mode                   = "CACHE_ALL_STATIC" [90m-> null[0m[0m
+          [31m-[0m[0m client_ttl                   = 0 [90m-> null[0m[0m
+          [31m-[0m[0m default_ttl                  = 3600 [90m-> null[0m[0m
+          [31m-[0m[0m max_ttl                      = 86400 [90m-> null[0m[0m
+          [31m-[0m[0m negative_caching             = false [90m-> null[0m[0m
+          [31m-[0m[0m request_coalescing           = false [90m-> null[0m[0m
+          [31m-[0m[0m serve_while_stale            = 0 [90m-> null[0m[0m
+          [31m-[0m[0m signed_url_cache_max_age_sec = 0 [90m-> null[0m[0m
+        }
+    }
+
+[1m  # google_compute_firewall.juego[0m will be [1m[31mdestroyed[0m
+[0m  [31m-[0m[0m resource "google_compute_firewall" "juego" {
+      [31m-[0m[0m creation_timestamp      = "2026-11-09T19:23:42.808-08:00" [90m-> null[0m[0m
+      [31m-[0m[0m destination_ranges      = [] [90m-> null[0m[0m
+      [31m-[0m[0m direction               = "INGRESS" [90m-> null[0m[0m
+      [31m-[0m[0m disabled                = false [90m-> null[0m[0m
+      [31m-[0m[0m id                      = "projects/nebula-arena-ga-20261109/global/firewalls/nebula-dev-partidas" [90m-> null[0m[0m
+      [31m-[0m[0m name                    = "nebula-dev-partidas" [90m-> null[0m[0m
+      [31m-[0m[0m network                 = "https://www.googleapis.com/compute/v1/projects/nebula-arena-ga-20261109/global/networks/nebula-dev-vpc" [90m-> null[0m[0m
+      [31m-[0m[0m priority                = 1000 [90m-> null[0m[0m
+      [31m-[0m[0m project                 = "nebula-arena-ga-20261109" [90m-> null[0m[0m
+      [31m-[0m[0m self_link               = "https://www.googleapis.com/compute/v1/projects/nebula-arena-ga-20261109/global/firewalls/nebula-dev-partidas" [90m-> null[0m[0m
+      [31m-[0m[0m source_ranges           = [
+          [31m-[0m[0m "10.40.0.0/20",
+        ] [90m-> null[0m[0m
+      [31m-[0m[0m source_service_accounts = [] [90m-> null[0m[0m
+      [31m-[0m[0m source_tags             = [] [90m-> null[0m[0m
+      [31m-[0m[0m target_service_accounts = [] [90m-> null[0m[0m
+      [31m-[0m[0m target_tags             = [
+          [31m-[0m[0m "nebula-game",
+        ] [90m-> null[0m[0m
+        [90m# (1 unchanged attribute hidden)[0m[0m
+
+      [31m-[0m[0m allow {
+          [31m-[0m[0m ports    = [
+              [31m-[0m[0m "7000-8000",
+            ] [90m-> null[0m[0m
+          [31m-[0m[0m protocol = "tcp" [90m-> null[0m[0m
+        }
+    }
+
+[1m  # google_compute_firewall.ssh_iap[0m will be [1m[31mdestroyed[0m
+[0m  [31m-[0m[0m resource "google_compute_firewall" "ssh_iap" {
+      [31m-[0m[0m creation_timestamp      = "2026-11-09T19:23:20.612-08:00" [90m-> null[0m[0m
+      [31m-[0m[0m destination_ranges      = [] [90m-> null[0m[0m
+      [31m-[0m[0m direction               = "INGRESS" [90m-> null[0m[0m
+      [31m-[0m[0m disabled                = false [90m-> null[0m[0m
+      [31m-[0m[0m id                      = "projects/nebula-arena-ga-20261109/global/firewalls/nebula-dev-ssh-iap" [90m-> null[0m[0m
+      [31m-[0m[0m name                    = "nebula-dev-ssh-iap" [90m-> null[0m[0m
+      [31m-[0m[0m network                 = "https://www.googleapis.com/compute/v1/projects/nebula-arena-ga-20261109/global/networks/nebula-dev-vpc" [90m-> null[0m[0m
+      [31m-[0m[0m priority                = 1000 [90m-> null[0m[0m
+      [31m-[0m[0m project                 = "nebula-arena-ga-20261109" [90m-> null[0m[0m
+      [31m-[0m[0m self_link               = "https://www.googleapis.com/compute/v1/projects/nebula-arena-ga-20261109/global/firewalls/nebula-dev-ssh-iap" [90m-> null[0m[0m
+      [31m-[0m[0m source_ranges           = [
+          [31m-[0m[0m "35.235.240.0/20",
+        ] [90m-> null[0m[0m
+      [31m-[0m[0m source_service_accounts = [] [90m-> null[0m[0m
+      [31m-[0m[0m source_tags             = [] [90m-> null[0m[0m
+      [31m-[0m[0m target_service_accounts = [] [90m-> null[0m[0m
+      [31m-[0m[0m target_tags             = [
+          [31m-[0m[0m "nebula-loadgen",
+        ] [90m-> null[0m[0m
+        [90m# (1 unchanged attribute hidden)[0m[0m
+
+      [31m-[0m[0m allow {
+          [31m-[0m[0m ports    = [
+              [31m-[0m[0m "22",
+            ] [90m-> null[0m[0m
+          [31m-[0m[0m protocol = "tcp" [90m-> null[0m[0m
+        }
+    }
+
+[1m  # google_compute_global_forwarding_rule.stream[0][0m will be [1m[31mdestroyed[0m
+[0m  [31m-[0m[0m resource "google_compute_global_forwarding_rule" "stream" {
+      [31m-[0m[0m effective_labels                                             = {} [90m-> null[0m[0m
+      [31m-[0m[0m external_managed_backend_bucket_migration_testing_percentage = 0 [90m-> null[0m[0m
+      [31m-[0m[0m forwarding_rule_id                                           = 2379436220294836419 [90m-> null[0m[0m
+      [31m-[0m[0m id                                                           = "projects/nebula-arena-ga-20261109/global/forwardingRules/nebula-dev-cdn" [90m-> null[0m[0m
+      [31m-[0m[0m ip_address                                                   = "34.110.167.87" [90m-> null[0m[0m
+      [31m-[0m[0m ip_protocol                                                  = "TCP" [90m-> null[0m[0m
+      [31m-[0m[0m label_fingerprint                                            = "42WmSpB8rSM=" [90m-> null[0m[0m
+      [31m-[0m[0m labels                                                       = {} [90m-> null[0m[0m
+      [31m-[0m[0m load_balancing_scheme                                        = "EXTERNAL" [90m-> null[0m[0m
+      [31m-[0m[0m name                                                         = "nebula-dev-cdn" [90m-> null[0m[0m
+      [31m-[0m[0m network_tier                                                 = "PREMIUM" [90m-> null[0m[0m
+      [31m-[0m[0m port_range                                                   = "80-80" [90m-> null[0m[0m
+      [31m-[0m[0m project                                                      = "nebula-arena-ga-20261109" [90m-> null[0m[0m
+      [31m-[0m[0m self_link                                                    = "https://www.googleapis.com/compute/v1/projects/nebula-arena-ga-20261109/global/forwardingRules/nebula-dev-cdn" [90m-> null[0m[0m
+      [31m-[0m[0m source_ip_ranges                                             = [] [90m-> null[0m[0m
+      [31m-[0m[0m target                                                       = "https://www.googleapis.com/compute/v1/projects/nebula-arena-ga-20261109/global/targetHttpProxies/nebula-dev-cdn" [90m-> null[0m[0m
+      [31m-[0m[0m terraform_labels                                             = {} [90m-> null[0m[0m
+        [90m# (8 unchanged attributes hidden)[0m[0m
+    }
+
+[1m  # google_compute_instance.generador[0][0m will be [1m[31mdestroyed[0m
+[0m  [31m-[0m[0m resource "google_compute_instance" "generador" {
+      [31m-[0m[0m can_ip_forward             = false [90m-> null[0m[0m
+      [31m-[0m[0m cpu_platform               = "AMD Rome" [90m-> null[0m[0m
+      [31m-[0m[0m creation_timestamp         = "2026-11-09T19:23:44.299-08:00" [90m-> null[0m[0m
+      [31m-[0m[0m current_status             = "RUNNING" [90m-> null[0m[0m
+      [31m-[0m[0m deletion_protection        = false [90m-> null[0m[0m
+      [31m-[0m[0m effective_labels           = {
+          [31m-[0m[0m "entorno"                    = "dev"
+          [31m-[0m[0m "goog-terraform-provisioned" = "true"
+          [31m-[0m[0m "proyecto"                   = "nebula-arena"
+          [31m-[0m[0m "uso"                        = "laboratorio"
+        } [90m-> null[0m[0m
+      [31m-[0m[0m enable_display             = false [90m-> null[0m[0m
+      [31m-[0m[0m id                         = "projects/nebula-arena-ga-20261109/zones/us-central1-a/instances/nebula-dev-locust" [90m-> null[0m[0m
+      [31m-[0m[0m instance_id                = "2889002633624760495" [90m-> null[0m[0m
+      [31m-[0m[0m label_fingerprint          = "eyq5Z9baKyc=" [90m-> null[0m[0m
+      [31m-[0m[0m labels                     = {
+          [31m-[0m[0m "entorno"  = "dev"
+          [31m-[0m[0m "proyecto" = "nebula-arena"
+          [31m-[0m[0m "uso"      = "laboratorio"
+        } [90m-> null[0m[0m
+      [31m-[0m[0m machine_type               = "e2-standard-8" [90m-> null[0m[0m
+      [31m-[0m[0m metadata                   = {
+          [31m-[0m[0m "enable-oslogin" = "TRUE"
+        } [90m-> null[0m[0m
+      [31m-[0m[0m metadata_fingerprint       = "1PhY48DUsyU=" [90m-> null[0m[0m
+      [31m-[0m[0m metadata_startup_script    = <<-EOT
+            #!/bin/bash
+            apt-get update
+            apt-get install -y python3-venv python3-pip git
+        EOT [90m-> null[0m[0m
+      [31m-[0m[0m name                       = "nebula-dev-locust" [90m-> null[0m[0m
+      [31m-[0m[0m project                    = "nebula-arena-ga-20261109" [90m-> null[0m[0m
+      [31m-[0m[0m resource_policies          = [] [90m-> null[0m[0m
+      [31m-[0m[0m self_link                  = "https://www.googleapis.com/compute/v1/projects/nebula-arena-ga-20261109/zones/us-central1-a/instances/nebula-dev-locust" [90m-> null[0m[0m
+      [31m-[0m[0m tags                       = [
+          [31m-[0m[0m "nebula-loadgen",
+        ] [90m-> null[0m[0m
+      [31m-[0m[0m tags_fingerprint           = "tVOXBWkM-2o=" [90m-> null[0m[0m
+      [31m-[0m[0m terraform_labels           = {
+          [31m-[0m[0m "entorno"                    = "dev"
+          [31m-[0m[0m "goog-terraform-provisioned" = "true"
+          [31m-[0m[0m "proyecto"                   = "nebula-arena"
+          [31m-[0m[0m "uso"                        = "laboratorio"
+        } [90m-> null[0m[0m
+      [31m-[0m[0m zone                       = "us-central1-a" [90m-> null[0m[0m
+        [90m# (4 unchanged attributes hidden)[0m[0m
+
+      [31m-[0m[0m boot_disk {
+          [31m-[0m[0m auto_delete                     = true [90m-> null[0m[0m
+          [31m-[0m[0m device_name                     = "persistent-disk-0" [90m-> null[0m[0m
+          [31m-[0m[0m force_attach                    = false [90m-> null[0m[0m
+          [31m-[0m[0m guest_os_features               = [
+              [31m-[0m[0m "UEFI_COMPATIBLE",
+              [31m-[0m[0m "VIRTIO_SCSI_MULTIQUEUE",
+              [31m-[0m[0m "GVNIC",
+              [31m-[0m[0m "SEV_CAPABLE",
+              [31m-[0m[0m "SEV_LIVE_MIGRATABLE_V2",
+              [31m-[0m[0m "SUSPEND_SAFE_FPR",
+            ] [90m-> null[0m[0m
+          [31m-[0m[0m mode                            = "READ_WRITE" [90m-> null[0m[0m
+          [31m-[0m[0m source                          = "https://www.googleapis.com/compute/v1/projects/nebula-arena-ga-20261109/zones/us-central1-a/disks/nebula-dev-locust" [90m-> null[0m[0m
+            [90m# (6 unchanged attributes hidden)[0m[0m
+
+          [31m-[0m[0m initialize_params {
+              [31m-[0m[0m architecture                = "X86_64" [90m-> null[0m[0m
+              [31m-[0m[0m enable_confidential_compute = false [90m-> null[0m[0m
+              [31m-[0m[0m image                       = "https://www.googleapis.com/compute/v1/projects/debian-cloud/global/images/debian-12-bookworm-v20261109" [90m-> null[0m[0m
+              [31m-[0m[0m labels                      = {} [90m-> null[0m[0m
+              [31m-[0m[0m provisioned_iops            = 0 [90m-> null[0m[0m
+              [31m-[0m[0m provisioned_throughput      = 0 [90m-> null[0m[0m
+              [31m-[0m[0m resource_manager_tags       = {} [90m-> null[0m[0m
+              [31m-[0m[0m resource_policies           = [] [90m-> null[0m[0m
+              [31m-[0m[0m size                        = 20 [90m-> null[0m[0m
+              [31m-[0m[0m type                        = "pd-standard" [90m-> null[0m[0m
+                [90m# (2 unchanged attributes hidden)[0m[0m
+            }
+        }
+
+      [31m-[0m[0m network_interface {
+          [31m-[0m[0m internal_ipv6_prefix_length = 0 [90m-> null[0m[0m
+          [31m-[0m[0m name                        = "nic0" [90m-> null[0m[0m
+          [31m-[0m[0m network                     = "https://www.googleapis.com/compute/v1/projects/nebula-arena-ga-20261109/global/networks/nebula-dev-vpc" [90m-> null[0m[0m
+          [31m-[0m[0m network_ip                  = "10.40.0.2" [90m-> null[0m[0m
+          [31m-[0m[0m queue_count                 = 0 [90m-> null[0m[0m
+          [31m-[0m[0m stack_type                  = "IPV4_ONLY" [90m-> null[0m[0m
+          [31m-[0m[0m subnetwork                  = "https://www.googleapis.com/compute/v1/projects/nebula-arena-ga-20261109/regions/us-central1/subnetworks/nebula-dev-subred" [90m-> null[0m[0m
+          [31m-[0m[0m subnetwork_project          = "nebula-arena-ga-20261109" [90m-> null[0m[0m
+            [90m# (4 unchanged attributes hidden)[0m[0m
+
+          [31m-[0m[0m access_config {
+              [31m-[0m[0m nat_ip                 = "34.172.30.48" [90m-> null[0m[0m
+              [31m-[0m[0m network_tier           = "PREMIUM" [90m-> null[0m[0m
+                [90m# (1 unchanged attribute hidden)[0m[0m
+            }
+        }
+
+      [31m-[0m[0m scheduling {
+          [31m-[0m[0m automatic_restart           = true [90m-> null[0m[0m
+          [31m-[0m[0m availability_domain         = 0 [90m-> null[0m[0m
+          [31m-[0m[0m min_node_cpus               = 0 [90m-> null[0m[0m
+          [31m-[0m[0m on_host_maintenance         = "MIGRATE" [90m-> null[0m[0m
+          [31m-[0m[0m preemptible                 = false [90m-> null[0m[0m
+          [31m-[0m[0m provisioning_model          = "STANDARD" [90m-> null[0m[0m
+            [90m# (2 unchanged attributes hidden)[0m[0m
+        }
+
+      [31m-[0m[0m shielded_instance_config {
+          [31m-[0m[0m enable_integrity_monitoring = true [90m-> null[0m[0m
+          [31m-[0m[0m enable_secure_boot          = false [90m-> null[0m[0m
+          [31m-[0m[0m enable_vtpm                 = true [90m-> null[0m[0m
+        }
+    }
+
+[1m  # google_compute_network.vpc[0m will be [1m[31mdestroyed[0m
+[0m  [31m-[0m[0m resource "google_compute_network" "vpc" {
+      [31m-[0m[0m auto_create_subnetworks                   = false [90m-> null[0m[0m
+      [31m-[0m[0m bgp_always_compare_med                    = false [90m-> null[0m[0m
+      [31m-[0m[0m bgp_best_path_selection_mode              = "LEGACY" [90m-> null[0m[0m
+      [31m-[0m[0m delete_default_routes_on_create           = false [90m-> null[0m[0m
+      [31m-[0m[0m enable_ula_internal_ipv6                  = false [90m-> null[0m[0m
+      [31m-[0m[0m id                                        = "projects/nebula-arena-ga-20261109/global/networks/nebula-dev-vpc" [90m-> null[0m[0m
+      [31m-[0m[0m mtu                                       = 0 [90m-> null[0m[0m
+      [31m-[0m[0m name                                      = "nebula-dev-vpc" [90m-> null[0m[0m
+      [31m-[0m[0m network_firewall_policy_enforcement_order = "AFTER_CLASSIC_FIREWALL" [90m-> null[0m[0m
+      [31m-[0m[0m network_id                                = "2032543965338611965" [90m-> null[0m[0m
+      [31m-[0m[0m numeric_id                                = "2032543965338611965" [90m-> null[0m[0m
+      [31m-[0m[0m project                                   = "nebula-arena-ga-20261109" [90m-> null[0m[0m
+      [31m-[0m[0m routing_mode                              = "REGIONAL" [90m-> null[0m[0m
+      [31m-[0m[0m self_link                                 = "https://www.googleapis.com/compute/v1/projects/nebula-arena-ga-20261109/global/networks/nebula-dev-vpc" [90m-> null[0m[0m
+        [90m# (5 unchanged attributes hidden)[0m[0m
+    }
+
+[1m  # google_compute_subnetwork.juego[0m will be [1m[31mdestroyed[0m
+[0m  [31m-[0m[0m resource "google_compute_subnetwork" "juego" {
+      [31m-[0m[0m creation_timestamp         = "2026-11-09T19:23:21.211-08:00" [90m-> null[0m[0m
+      [31m-[0m[0m enable_flow_logs           = false [90m-> null[0m[0m
+      [31m-[0m[0m gateway_address            = "10.40.0.1" [90m-> null[0m[0m
+      [31m-[0m[0m id                         = "projects/nebula-arena-ga-20261109/regions/us-central1/subnetworks/nebula-dev-subred" [90m-> null[0m[0m
+      [31m-[0m[0m ip_cidr_range              = "10.40.0.0/20" [90m-> null[0m[0m
+      [31m-[0m[0m name                       = "nebula-dev-subred" [90m-> null[0m[0m
+      [31m-[0m[0m network                    = "https://www.googleapis.com/compute/v1/projects/nebula-arena-ga-20261109/global/networks/nebula-dev-vpc" [90m-> null[0m[0m
+      [31m-[0m[0m private_ip_google_access   = true [90m-> null[0m[0m
+      [31m-[0m[0m private_ipv6_google_access = "DISABLE_GOOGLE_ACCESS" [90m-> null[0m[0m
+      [31m-[0m[0m project                    = "nebula-arena-ga-20261109" [90m-> null[0m[0m
+      [31m-[0m[0m purpose                    = "PRIVATE" [90m-> null[0m[0m
+      [31m-[0m[0m region                     = "us-central1" [90m-> null[0m[0m
+      [31m-[0m[0m self_link                  = "https://www.googleapis.com/compute/v1/projects/nebula-arena-ga-20261109/regions/us-central1/subnetworks/nebula-dev-subred" [90m-> null[0m[0m
+      [31m-[0m[0m stack_type                 = "IPV4_ONLY" [90m-> null[0m[0m
+      [31m-[0m[0m subnetwork_id              = 5069271330363224262 [90m-> null[0m[0m
+        [90m# (9 unchanged attributes hidden)[0m[0m
+
+      [31m-[0m[0m secondary_ip_range {
+          [31m-[0m[0m ip_cidr_range           = "10.44.0.0/16" [90m-> null[0m[0m
+          [31m-[0m[0m range_name              = "pods" [90m-> null[0m[0m
+            [90m# (1 unchanged attribute hidden)[0m[0m
+        }
+      [31m-[0m[0m secondary_ip_range {
+          [31m-[0m[0m ip_cidr_range           = "10.45.0.0/20" [90m-> null[0m[0m
+          [31m-[0m[0m range_name              = "services" [90m-> null[0m[0m
+            [90m# (1 unchanged attribute hidden)[0m[0m
+        }
+    }
+
+[1m  # google_compute_target_http_proxy.stream[0][0m will be [1m[31mdestroyed[0m
+[0m  [31m-[0m[0m resource "google_compute_target_http_proxy" "stream" {
+      [31m-[0m[0m creation_timestamp          = "2026-11-09T19:23:13.529-08:00" [90m-> null[0m[0m
+      [31m-[0m[0m fingerprint                 = "Fg5JRvkLmsA=" [90m-> null[0m[0m
+      [31m-[0m[0m http_keep_alive_timeout_sec = 0 [90m-> null[0m[0m
+      [31m-[0m[0m id                          = "projects/nebula-arena-ga-20261109/global/targetHttpProxies/nebula-dev-cdn" [90m-> null[0m[0m
+      [31m-[0m[0m name                        = "nebula-dev-cdn" [90m-> null[0m[0m
+      [31m-[0m[0m project                     = "nebula-arena-ga-20261109" [90m-> null[0m[0m
+      [31m-[0m[0m proxy_bind                  = false [90m-> null[0m[0m
+      [31m-[0m[0m proxy_id                    = 8497719293538939086 [90m-> null[0m[0m
+      [31m-[0m[0m self_link                   = "https://www.googleapis.com/compute/v1/projects/nebula-arena-ga-20261109/global/targetHttpProxies/nebula-dev-cdn" [90m-> null[0m[0m
+      [31m-[0m[0m url_map                     = "https://www.googleapis.com/compute/v1/projects/nebula-arena-ga-20261109/global/urlMaps/nebula-dev-cdn" [90m-> null[0m[0m
+        [90m# (1 unchanged attribute hidden)[0m[0m
+    }
+
+[1m  # google_compute_url_map.stream[0][0m will be [1m[31mdestroyed[0m
+[0m  [31m-[0m[0m resource "google_compute_url_map" "stream" {
+      [31m-[0m[0m creation_timestamp = "2026-11-09T19:23:01.978-08:00" [90m-> null[0m[0m
+      [31m-[0m[0m default_service    = "https://www.googleapis.com/compute/v1/projects/nebula-arena-ga-20261109/global/backendBuckets/nebula-dev-stream" [90m-> null[0m[0m
+      [31m-[0m[0m fingerprint        = "BCsZOG_Uv68=" [90m-> null[0m[0m
+      [31m-[0m[0m id                 = "projects/nebula-arena-ga-20261109/global/urlMaps/nebula-dev-cdn" [90m-> null[0m[0m
+      [31m-[0m[0m map_id             = 2430442298419392762 [90m-> null[0m[0m
+      [31m-[0m[0m name               = "nebula-dev-cdn" [90m-> null[0m[0m
+      [31m-[0m[0m project            = "nebula-arena-ga-20261109" [90m-> null[0m[0m
+      [31m-[0m[0m self_link          = "https://www.googleapis.com/compute/v1/projects/nebula-arena-ga-20261109/global/urlMaps/nebula-dev-cdn" [90m-> null[0m[0m
+        [90m# (1 unchanged attribute hidden)[0m[0m
+    }
+
+[1m  # google_container_cluster.nebula[0m will be [1m[31mdestroyed[0m
+[0m  [31m-[0m[0m resource "google_container_cluster" "nebula" {
+      [31m-[0m[0m cluster_ipv4_cidr                        = "10.44.0.0/16" [90m-> null[0m[0m
+      [31m-[0m[0m default_max_pods_per_node                = 110 [90m-> null[0m[0m
+      [31m-[0m[0m deletion_protection                      = false [90m-> null[0m[0m
+      [31m-[0m[0m disable_l4_lb_firewall_reconciliation    = false [90m-> null[0m[0m
+      [31m-[0m[0m effective_labels                         = {
+          [31m-[0m[0m "entorno"                    = "dev"
+          [31m-[0m[0m "goog-terraform-provisioned" = "true"
+          [31m-[0m[0m "proyecto"                   = "nebula-arena"
+          [31m-[0m[0m "uso"                        = "laboratorio"
+        } [90m-> null[0m[0m
+      [31m-[0m[0m enable_autopilot                         = false [90m-> null[0m[0m
+      [31m-[0m[0m enable_cilium_clusterwide_network_policy = false [90m-> null[0m[0m
+      [31m-[0m[0m enable_fqdn_network_policy               = false [90m-> null[0m[0m
+      [31m-[0m[0m enable_intranode_visibility              = false [90m-> null[0m[0m
+      [31m-[0m[0m enable_kubernetes_alpha                  = false [90m-> null[0m[0m
+      [31m-[0m[0m enable_l4_ilb_subsetting                 = false [90m-> null[0m[0m
+      [31m-[0m[0m enable_legacy_abac                       = false [90m-> null[0m[0m
+      [31m-[0m[0m enable_multi_networking                  = false [90m-> null[0m[0m
+      [31m-[0m[0m enable_shielded_nodes                    = true [90m-> null[0m[0m
+      [31m-[0m[0m enable_tpu                               = false [90m-> null[0m[0m
+      [31m-[0m[0m endpoint                                 = "35.192.3.235" [90m-> null[0m[0m
+      [31m-[0m[0m id                                       = "projects/nebula-arena-ga-20261109/locations/us-central1-a/clusters/nebula-dev" [90m-> null[0m[0m
+      [31m-[0m[0m initial_node_count                       = 1 [90m-> null[0m[0m
+      [31m-[0m[0m label_fingerprint                        = "486cd3d7" [90m-> null[0m[0m
+      [31m-[0m[0m location                                 = "us-central1-a" [90m-> null[0m[0m
+      [31m-[0m[0m logging_service                          = "logging.googleapis.com/kubernetes" [90m-> null[0m[0m
+      [31m-[0m[0m master_version                           = "1.36.4-gke.2377000" [90m-> null[0m[0m
+      [31m-[0m[0m monitoring_service                       = "monitoring.googleapis.com/kubernetes" [90m-> null[0m[0m
+      [31m-[0m[0m name                                     = "nebula-dev" [90m-> null[0m[0m
+      [31m-[0m[0m network                                  = "projects/nebula-arena-ga-20261109/global/networks/nebula-dev-vpc" [90m-> null[0m[0m
+      [31m-[0m[0m networking_mode                          = "VPC_NATIVE" [90m-> null[0m[0m
+      [31m-[0m[0m node_locations                           = [] [90m-> null[0m[0m
+      [31m-[0m[0m node_version                             = "1.36.4-gke.2377000" [90m-> null[0m[0m
+      [31m-[0m[0m project                                  = "nebula-arena-ga-20261109" [90m-> null[0m[0m
+      [31m-[0m[0m remove_default_node_pool                 = true [90m-> null[0m[0m
+      [31m-[0m[0m resource_labels                          = {
+          [31m-[0m[0m "entorno"  = "dev"
+          [31m-[0m[0m "proyecto" = "nebula-arena"
+          [31m-[0m[0m "uso"      = "laboratorio"
+        } [90m-> null[0m[0m
+      [31m-[0m[0m self_link                                = "https://container.googleapis.com/v1/projects/nebula-arena-ga-20261109/zones/us-central1-a/clusters/nebula-dev" [90m-> null[0m[0m
+      [31m-[0m[0m services_ipv4_cidr                       = "10.45.0.0/20" [90m-> null[0m[0m
+      [31m-[0m[0m subnetwork                               = "projects/nebula-arena-ga-20261109/regions/us-central1/subnetworks/nebula-dev-subred" [90m-> null[0m[0m
+      [31m-[0m[0m terraform_labels                         = {
+          [31m-[0m[0m "entorno"                    = "dev"
+          [31m-[0m[0m "goog-terraform-provisioned" = "true"
+          [31m-[0m[0m "proyecto"                   = "nebula-arena"
+          [31m-[0m[0m "uso"                        = "laboratorio"
+        } [90m-> null[0m[0m
+        [90m# (5 unchanged attributes hidden)[0m[0m
+
+      [31m-[0m[0m addons_config {
+          [31m-[0m[0m dns_cache_config {
+              [31m-[0m[0m enabled = true [90m-> null[0m[0m
+            }
+          [31m-[0m[0m gce_persistent_disk_csi_driver_config {
+              [31m-[0m[0m enabled = true [90m-> null[0m[0m
+            }
+          [31m-[0m[0m gcp_filestore_csi_driver_config {
+              [31m-[0m[0m enabled = true [90m-> null[0m[0m
+            }
+          [31m-[0m[0m network_policy_config {
+              [31m-[0m[0m disabled = true [90m-> null[0m[0m
+            }
+        }
+
+      [31m-[0m[0m anonymous_authentication_config {
+          [31m-[0m[0m mode = "LIMITED" [90m-> null[0m[0m
+        }
+
+      [31m-[0m[0m binary_authorization {
+          [31m-[0m[0m enabled         = false [90m-> null[0m[0m
+            [90m# (1 unchanged attribute hidden)[0m[0m
+        }
+
+      [31m-[0m[0m cluster_autoscaling {
+          [31m-[0m[0m auto_provisioning_locations = [] [90m-> null[0m[0m
+          [31m-[0m[0m autoscaling_profile         = "BALANCED" [90m-> null[0m[0m
+          [31m-[0m[0m enabled                     = false [90m-> null[0m[0m
+        }
+
+      [31m-[0m[0m control_plane_endpoints_config {
+          [31m-[0m[0m dns_endpoint_config {
+              [31m-[0m[0m allow_external_traffic = false [90m-> null[0m[0m
+              [31m-[0m[0m endpoint               = "gke-69284ea7b28f4f8a95992e44fdd20bca4b5c-913295964817.us-central1-a.gke.goog" [90m-> null[0m[0m
+            }
+          [31m-[0m[0m ip_endpoints_config {
+              [31m-[0m[0m enabled = true [90m-> null[0m[0m
+            }
+        }
+
+      [31m-[0m[0m database_encryption {
+          [31m-[0m[0m state    = "DECRYPTED" [90m-> null[0m[0m
+            [90m# (1 unchanged attribute hidden)[0m[0m
+        }
+
+      [31m-[0m[0m default_snat_status {
+          [31m-[0m[0m disabled = false [90m-> null[0m[0m
+        }
+
+      [31m-[0m[0m enterprise_config {
+          [31m-[0m[0m cluster_tier = "STANDARD" [90m-> null[0m[0m
+            [90m# (1 unchanged attribute hidden)[0m[0m
+        }
+
+      [31m-[0m[0m ip_allocation_policy {
+          [31m-[0m[0m cluster_ipv4_cidr_block       = "10.44.0.0/16" [90m-> null[0m[0m
+          [31m-[0m[0m cluster_secondary_range_name  = "pods" [90m-> null[0m[0m
+          [31m-[0m[0m services_ipv4_cidr_block      = "10.45.0.0/20" [90m-> null[0m[0m
+          [31m-[0m[0m services_secondary_range_name = "services" [90m-> null[0m[0m
+          [31m-[0m[0m stack_type                    = "IPV4" [90m-> null[0m[0m
+
+          [31m-[0m[0m pod_cidr_overprovision_config {
+              [31m-[0m[0m disabled = false [90m-> null[0m[0m
+            }
+        }
+
+      [31m-[0m[0m logging_config {
+          [31m-[0m[0m enable_components = [
+              [31m-[0m[0m "SYSTEM_COMPONENTS",
+              [31m-[0m[0m "WORKLOADS",
+            ] [90m-> null[0m[0m
+        }
+
+      [31m-[0m[0m master_auth {
+          [31m-[0m[0m cluster_ca_certificate = "LS0tLS1CRUdJTiBDRVJUSUZJQ0FURS0tLS0tCk1JSUVMVENDQXBXZ0F3SUJBZ0lSQVBGREhHSDFpWUYvazBuQU1JeHpvaDR3RFFZSktvWklodmNOQVFFTEJRQXcKTHpFdE1Dc0dBMVVFQXhNa01tWTRZekF6TkdVdE1qQmxPQzAwTWpBd0xXSTVOVEV0WmpoaVlqazJPR1kyT0dJMgpNQ0FYRFRJMk1URXhNREF5TWpNMU1Gb1lEekl3TlRZeE1UQXlNRE15TXpVd1dqQXZNUzB3S3dZRFZRUURFeVF5ClpqaGpNRE0wWlMweU1HVTRMVFF5TURBdFlqazFNUzFtT0dKaU9UWTRaalk0WWpZd2dnR2lNQTBHQ1NxR1NJYjMKRFFFQkFRVUFBNElCandBd2dnR0tBb0lCZ1FEQ3pWNUNBNE15NUlRNDA1bXFaUGVueEhHcFVhc09HUjl0aG9nZQpSRS9GRUJsK2FKQ3lPZXEzSDZDRW81Q05FcDBLbmR6T1Zxb0RiWDBueEh4YUZ6WVdSREFqK0h0clRVNS9nWXRtCnQ5UTJzS2ppcjkyN2hlNThYdzUvU0tEcGtwTUFtY29oTHMvUUJMY2RFSjZUQzhENlNPakxmSjR0cnZjd1VYeWsKdFhkQUM2S2hjcHBndk9iZjNsMm9NejVadjk1TzF4UnZvZWpXQ001a2w2KzQ2NVNDaTV4Vy9OdURVRFlxUTdRdgpLQ3hRK3RtbE1ETG1KNmllM1djSVlhT1ppSHk5ZkpISUNsd0ZQbFBoeHZjWnF4K0dtdUhhWUZpS2UyenV6cXNyCmMwbWNPVko0ZXYreC9UZ0loZEVLbG44VWpIUVZWUmVjc25hMHpyY09pWHBpd3BRNmNuV1BvOGZIN3I0VkNIZTQKQ2ZPMTVUanFpVWxETXptejBaY09HSHE3NGxYeFc3Q00vZTNZa0c4aWhMMzE1L1FySG8xR1c0d3ZwanhxbHlYWQpHZlVSbk90OHloTUpBcTB3NTJpR3RKeEpIUjNPV3pvMVR6MCtUQlFWWDRFSFMyODBBWlZFYkdXNmlOYkVWemt4CktCV1gydE9WZmN5TENINTAzYjRMM2pUNVpQc0NBd0VBQWFOQ01FQXdEZ1lEVlIwUEFRSC9CQVFEQWdJRU1BOEcKQTFVZEV3RUIvd1FGTUFNQkFmOHdIUVlEVlIwT0JCWUVGRitPcTNkOXRQUzNBLzNnRlBKR1lQNkcxbWx3TUEwRwpDU3FHU0liM0RRRUJDd1VBQTRJQmdRQVQvT3A5YTVDZ1V6dDR6VU9KSkFIWWhXeXgvMnZGSDEyMGhKMGRGajIvCmNzaUM0LzhjeU9WeWFucm1RVHU5dlQ4VXl3NU9MaUtodWYwRVhJZE4vaEhkQU5QWjZxTnN0NkF5Z01jVC9XZ08KRXQ5Y0VxU1psRGpiYllXdTJ6VmdqSTA1YzBmbjBMeGU3VXg2UERMcGdNeC9OU0hMSk9tVGpMVFZic2FyVllSRwpEMmF6KzlMNGE4b24wV1VLZXJEV3FLY0IrVHRpNm1UNThqR0lsaHQ1cE81TEttQWpIeWlJM1M3UTZjdmxRZEQyCmE2bmEzakxjM1FCNW1TVGJ1aW9idW5YOTBLV21YM3RrTVgxbGd4VDNKejl0TDVnTzNMUy9xdGdsNno1emthZU4KOStUT0RRWGJtMUxHcmtCZ0JXeUcxSGJreFljanlNb1JIOXRTZmtIMGxtSzU3NW84Q09ieDZWcVQycThnVlFVbgovL2p2Ukg5bi9XWDdyME5JUTE5YVVzeTZhQ1lGMFhSblNIcndnSitjd1lCMkxpSVBqd092aEt0bWVkK0FOL1daCjNJejVhMFZLOGlKRlQ1Zm0xYlUvd2Mzb050M0FQL05jSjViMVRZdTU2bWtERlBrZWxsd1RyQ2lpODcvaHAzVXoKY28yVi9IenFDN0NoQ21reXdPVTlIVFU9Ci0tLS0tRU5EIENFUlRJRklDQVRFLS0tLS0K" [90m-> null[0m[0m
+            [90m# (2 unchanged attributes hidden)[0m[0m
+
+          [31m-[0m[0m client_certificate_config {
+              [31m-[0m[0m issue_client_certificate = false [90m-> null[0m[0m
+            }
+        }
+
+      [31m-[0m[0m monitoring_config {
+          [31m-[0m[0m enable_components = [
+              [31m-[0m[0m "SYSTEM_COMPONENTS",
+              [31m-[0m[0m "STORAGE",
+              [31m-[0m[0m "HPA",
+              [31m-[0m[0m "POD",
+              [31m-[0m[0m "DAEMONSET",
+              [31m-[0m[0m "DEPLOYMENT",
+              [31m-[0m[0m "STATEFULSET",
+              [31m-[0m[0m "CADVISOR",
+              [31m-[0m[0m "KUBELET",
+              [31m-[0m[0m "DCGM",
+              [31m-[0m[0m "JOBSET",
+            ] [90m-> null[0m[0m
+
+          [31m-[0m[0m advanced_datapath_observability_config {
+              [31m-[0m[0m enable_metrics = false [90m-> null[0m[0m
+              [31m-[0m[0m enable_relay   = false [90m-> null[0m[0m
+            }
+
+          [31m-[0m[0m managed_prometheus {
+              [31m-[0m[0m enabled = true [90m-> null[0m[0m
+            }
+        }
+
+      [31m-[0m[0m network_policy {
+          [31m-[0m[0m enabled  = false [90m-> null[0m[0m
+          [31m-[0m[0m provider = "PROVIDER_UNSPECIFIED" [90m-> null[0m[0m
+        }
+
+      [31m-[0m[0m node_config {
+          [31m-[0m[0m disk_size_gb                = 30 [90m-> null[0m[0m
+          [31m-[0m[0m disk_type                   = "pd-standard" [90m-> null[0m[0m
+          [31m-[0m[0m effective_taints            = [] [90m-> null[0m[0m
+          [31m-[0m[0m enable_confidential_storage = false [90m-> null[0m[0m
+          [31m-[0m[0m flex_start                  = false [90m-> null[0m[0m
+          [31m-[0m[0m image_type                  = "COS_CONTAINERD" [90m-> null[0m[0m
+          [31m-[0m[0m labels                      = {
+              [31m-[0m[0m "rol" = "juego"
+            } [90m-> null[0m[0m
+          [31m-[0m[0m local_ssd_count             = 0 [90m-> null[0m[0m
+          [31m-[0m[0m logging_variant             = "DEFAULT" [90m-> null[0m[0m
+          [31m-[0m[0m machine_type                = "n2-standard-8" [90m-> null[0m[0m
+          [31m-[0m[0m metadata                    = {
+              [31m-[0m[0m "disable-legacy-endpoints" = "true"
+            } [90m-> null[0m[0m
+          [31m-[0m[0m oauth_scopes                = [
+              [31m-[0m[0m "https://www.googleapis.com/auth/cloud-platform",
+            ] [90m-> null[0m[0m
+          [31m-[0m[0m preemptible                 = false [90m-> null[0m[0m
+          [31m-[0m[0m resource_labels             = {
+              [31m-[0m[0m "goog-gke-node-pool-provisioning-model" = "on-demand"
+            } [90m-> null[0m[0m
+          [31m-[0m[0m resource_manager_tags       = {} [90m-> null[0m[0m
+          [31m-[0m[0m service_account             = "nebula-dev-nodes@nebula-arena-ga-20261109.iam.gserviceaccount.com" [90m-> null[0m[0m
+          [31m-[0m[0m spot                        = false [90m-> null[0m[0m
+          [31m-[0m[0m storage_pools               = [] [90m-> null[0m[0m
+          [31m-[0m[0m tags                        = [
+              [31m-[0m[0m "nebula-game",
+            ] [90m-> null[0m[0m
+            [90m# (5 unchanged attributes hidden)[0m[0m
+
+          [31m-[0m[0m boot_disk {
+              [31m-[0m[0m disk_type              = "pd-standard" [90m-> null[0m[0m
+              [31m-[0m[0m provisioned_iops       = 0 [90m-> null[0m[0m
+              [31m-[0m[0m provisioned_throughput = 0 [90m-> null[0m[0m
+              [31m-[0m[0m size_gb                = 30 [90m-> null[0m[0m
+            }
+
+          [31m-[0m[0m kubelet_config {
+              [31m-[0m[0m allowed_unsafe_sysctls                 = [] [90m-> null[0m[0m
+              [31m-[0m[0m container_log_max_files                = 0 [90m-> null[0m[0m
+              [31m-[0m[0m cpu_cfs_quota                          = false [90m-> null[0m[0m
+              [31m-[0m[0m eviction_max_pod_grace_period_seconds  = 0 [90m-> null[0m[0m
+              [31m-[0m[0m image_gc_high_threshold_percent        = 0 [90m-> null[0m[0m
+              [31m-[0m[0m image_gc_low_threshold_percent         = 0 [90m-> null[0m[0m
+              [31m-[0m[0m insecure_kubelet_readonly_port_enabled = "FALSE" [90m-> null[0m[0m
+              [31m-[0m[0m max_parallel_image_pulls               = 2 [90m-> null[0m[0m
+              [31m-[0m[0m pod_pids_limit                         = 0 [90m-> null[0m[0m
+              [31m-[0m[0m single_process_oom_kill                = false [90m-> null[0m[0m
+                [90m# (5 unchanged attributes hidden)[0m[0m
+            }
+
+          [31m-[0m[0m shielded_instance_config {
+              [31m-[0m[0m enable_integrity_monitoring = true [90m-> null[0m[0m
+              [31m-[0m[0m enable_secure_boot          = false [90m-> null[0m[0m
+            }
+
+          [31m-[0m[0m windows_node_config {
+                [90m# (1 unchanged attribute hidden)[0m[0m
+            }
+
+          [31m-[0m[0m workload_metadata_config {
+              [31m-[0m[0m mode = "GKE_METADATA" [90m-> null[0m[0m
+            }
+        }
+
+      [31m-[0m[0m node_pool {
+          [31m-[0m[0m initial_node_count          = 1 [90m-> null[0m[0m
+          [31m-[0m[0m instance_group_urls         = [
+              [31m-[0m[0m "https://www.googleapis.com/compute/v1/projects/nebula-arena-ga-20261109/zones/us-central1-a/instanceGroupManagers/gke-nebula-dev-game-pool-89caa13f-grp",
+            ] [90m-> null[0m[0m
+          [31m-[0m[0m managed_instance_group_urls = [
+              [31m-[0m[0m "https://www.googleapis.com/compute/v1/projects/nebula-arena-ga-20261109/zones/us-central1-a/instanceGroups/gke-nebula-dev-game-pool-89caa13f-grp",
+            ] [90m-> null[0m[0m
+          [31m-[0m[0m max_pods_per_node           = 110 [90m-> null[0m[0m
+          [31m-[0m[0m name                        = "game-pool" [90m-> null[0m[0m
+          [31m-[0m[0m node_count                  = 2 [90m-> null[0m[0m
+          [31m-[0m[0m node_locations              = [
+              [31m-[0m[0m "us-central1-a",
+            ] [90m-> null[0m[0m
+          [31m-[0m[0m version                     = "1.36.4-gke.2377000" [90m-> null[0m[0m
+            [90m# (1 unchanged attribute hidden)[0m[0m
+
+          [31m-[0m[0m autoscaling {
+              [31m-[0m[0m location_policy      = "BALANCED" [90m-> null[0m[0m
+              [31m-[0m[0m max_node_count       = 3 [90m-> null[0m[0m
+              [31m-[0m[0m min_node_count       = 1 [90m-> null[0m[0m
+              [31m-[0m[0m total_max_node_count = 0 [90m-> null[0m[0m
+              [31m-[0m[0m total_min_node_count = 0 [90m-> null[0m[0m
+            }
+
+          [31m-[0m[0m management {
+              [31m-[0m[0m auto_repair  = true [90m-> null[0m[0m
+              [31m-[0m[0m auto_upgrade = true [90m-> null[0m[0m
+            }
+
+          [31m-[0m[0m network_config {
+              [31m-[0m[0m create_pod_range     = false [90m-> null[0m[0m
+              [31m-[0m[0m enable_private_nodes = false [90m-> null[0m[0m
+              [31m-[0m[0m pod_ipv4_cidr_block  = "10.44.0.0/16" [90m-> null[0m[0m
+              [31m-[0m[0m pod_range            = "pods" [90m-> null[0m[0m
+              [31m-[0m[0m subnetwork           = "projects/nebula-arena-ga-20261109/regions/us-central1/subnetworks/nebula-dev-subred" [90m-> null[0m[0m
+            }
+
+          [31m-[0m[0m node_config {
+              [31m-[0m[0m disk_size_gb                = 30 [90m-> null[0m[0m
+              [31m-[0m[0m disk_type                   = "pd-standard" [90m-> null[0m[0m
+              [31m-[0m[0m effective_taints            = [] [90m-> null[0m[0m
+              [31m-[0m[0m enable_confidential_storage = false [90m-> null[0m[0m
+              [31m-[0m[0m flex_start                  = false [90m-> null[0m[0m
+              [31m-[0m[0m image_type                  = "COS_CONTAINERD" [90m-> null[0m[0m
+              [31m-[0m[0m labels                      = {
+                  [31m-[0m[0m "rol" = "juego"
+                } [90m-> null[0m[0m
+              [31m-[0m[0m local_ssd_count             = 0 [90m-> null[0m[0m
+              [31m-[0m[0m logging_variant             = "DEFAULT" [90m-> null[0m[0m
+              [31m-[0m[0m machine_type                = "n2-standard-8" [90m-> null[0m[0m
+              [31m-[0m[0m metadata                    = {
+                  [31m-[0m[0m "disable-legacy-endpoints" = "true"
+                } [90m-> null[0m[0m
+              [31m-[0m[0m oauth_scopes                = [
+                  [31m-[0m[0m "https://www.googleapis.com/auth/cloud-platform",
+                ] [90m-> null[0m[0m
+              [31m-[0m[0m preemptible                 = false [90m-> null[0m[0m
+              [31m-[0m[0m resource_labels             = {
+                  [31m-[0m[0m "goog-gke-node-pool-provisioning-model" = "on-demand"
+                } [90m-> null[0m[0m
+              [31m-[0m[0m resource_manager_tags       = {} [90m-> null[0m[0m
+              [31m-[0m[0m service_account             = "nebula-dev-nodes@nebula-arena-ga-20261109.iam.gserviceaccount.com" [90m-> null[0m[0m
+              [31m-[0m[0m spot                        = false [90m-> null[0m[0m
+              [31m-[0m[0m storage_pools               = [] [90m-> null[0m[0m
+              [31m-[0m[0m tags                        = [
+                  [31m-[0m[0m "nebula-game",
+                ] [90m-> null[0m[0m
+                [90m# (5 unchanged attributes hidden)[0m[0m
+
+              [31m-[0m[0m boot_disk {
+                  [31m-[0m[0m disk_type              = "pd-standard" [90m-> null[0m[0m
+                  [31m-[0m[0m provisioned_iops       = 0 [90m-> null[0m[0m
+                  [31m-[0m[0m provisioned_throughput = 0 [90m-> null[0m[0m
+                  [31m-[0m[0m size_gb                = 30 [90m-> null[0m[0m
+                }
+
+              [31m-[0m[0m kubelet_config {
+                  [31m-[0m[0m allowed_unsafe_sysctls                 = [] [90m-> null[0m[0m
+                  [31m-[0m[0m container_log_max_files                = 0 [90m-> null[0m[0m
+                  [31m-[0m[0m cpu_cfs_quota                          = false [90m-> null[0m[0m
+                  [31m-[0m[0m eviction_max_pod_grace_period_seconds  = 0 [90m-> null[0m[0m
+                  [31m-[0m[0m image_gc_high_threshold_percent        = 0 [90m-> null[0m[0m
+                  [31m-[0m[0m image_gc_low_threshold_percent         = 0 [90m-> null[0m[0m
+                  [31m-[0m[0m insecure_kubelet_readonly_port_enabled = "FALSE" [90m-> null[0m[0m
+                  [31m-[0m[0m max_parallel_image_pulls               = 2 [90m-> null[0m[0m
+                  [31m-[0m[0m pod_pids_limit                         = 0 [90m-> null[0m[0m
+                  [31m-[0m[0m single_process_oom_kill                = false [90m-> null[0m[0m
+                    [90m# (5 unchanged attributes hidden)[0m[0m
+                }
+
+              [31m-[0m[0m shielded_instance_config {
+                  [31m-[0m[0m enable_integrity_monitoring = true [90m-> null[0m[0m
+                  [31m-[0m[0m enable_secure_boot          = false [90m-> null[0m[0m
+                }
+
+              [31m-[0m[0m windows_node_config {
+                    [90m# (1 unchanged attribute hidden)[0m[0m
+                }
+
+              [31m-[0m[0m workload_metadata_config {
+                  [31m-[0m[0m mode = "GKE_METADATA" [90m-> null[0m[0m
+                }
+            }
+
+          [31m-[0m[0m upgrade_settings {
+              [31m-[0m[0m max_surge       = 1 [90m-> null[0m[0m
+              [31m-[0m[0m max_unavailable = 0 [90m-> null[0m[0m
+              [31m-[0m[0m strategy        = "SURGE" [90m-> null[0m[0m
+            }
+        }
+
+      [31m-[0m[0m node_pool_auto_config {
+          [31m-[0m[0m resource_manager_tags = {} [90m-> null[0m[0m
+
+          [31m-[0m[0m node_kubelet_config {
+              [31m-[0m[0m insecure_kubelet_readonly_port_enabled = "FALSE" [90m-> null[0m[0m
+            }
+        }
+
+      [31m-[0m[0m node_pool_defaults {
+          [31m-[0m[0m node_config_defaults {
+              [31m-[0m[0m insecure_kubelet_readonly_port_enabled = "FALSE" [90m-> null[0m[0m
+              [31m-[0m[0m logging_variant                        = "DEFAULT" [90m-> null[0m[0m
+            }
+        }
+
+      [31m-[0m[0m notification_config {
+          [31m-[0m[0m pubsub {
+              [31m-[0m[0m enabled = false [90m-> null[0m[0m
+                [90m# (1 unchanged attribute hidden)[0m[0m
+            }
+        }
+
+      [31m-[0m[0m pod_autoscaling {
+          [31m-[0m[0m hpa_profile = "PERFORMANCE" [90m-> null[0m[0m
+        }
+
+      [31m-[0m[0m private_cluster_config {
+          [31m-[0m[0m enable_private_endpoint     = false [90m-> null[0m[0m
+          [31m-[0m[0m enable_private_nodes        = false [90m-> null[0m[0m
+          [31m-[0m[0m private_endpoint            = "10.40.0.3" [90m-> null[0m[0m
+          [31m-[0m[0m public_endpoint             = "35.192.3.235" [90m-> null[0m[0m
+            [90m# (3 unchanged attributes hidden)[0m[0m
+
+          [31m-[0m[0m master_global_access_config {
+              [31m-[0m[0m enabled = false [90m-> null[0m[0m
+            }
+        }
+
+      [31m-[0m[0m rbac_binding_config {
+          [31m-[0m[0m enable_insecure_binding_system_authenticated   = true [90m-> null[0m[0m
+          [31m-[0m[0m enable_insecure_binding_system_unauthenticated = true [90m-> null[0m[0m
+        }
+
+      [31m-[0m[0m release_channel {
+          [31m-[0m[0m channel = "REGULAR" [90m-> null[0m[0m
+        }
+
+      [31m-[0m[0m secret_manager_config {
+          [31m-[0m[0m enabled = false [90m-> null[0m[0m
+        }
+
+      [31m-[0m[0m security_posture_config {
+          [31m-[0m[0m mode               = "BASIC" [90m-> null[0m[0m
+          [31m-[0m[0m vulnerability_mode = "VULNERABILITY_MODE_UNSPECIFIED" [90m-> null[0m[0m
+        }
+
+      [31m-[0m[0m service_external_ips_config {
+          [31m-[0m[0m enabled = false [90m-> null[0m[0m
+        }
+
+      [31m-[0m[0m workload_identity_config {
+          [31m-[0m[0m workload_pool = "nebula-arena-ga-20261109.svc.id.goog" [90m-> null[0m[0m
+        }
+    }
+
+[1m  # google_container_node_pool.juego[0m will be [1m[31mdestroyed[0m
+[0m  [31m-[0m[0m resource "google_container_node_pool" "juego" {
+      [31m-[0m[0m cluster                     = "projects/nebula-arena-ga-20261109/locations/us-central1-a/clusters/nebula-dev" [90m-> null[0m[0m
+      [31m-[0m[0m id                          = "projects/nebula-arena-ga-20261109/locations/us-central1-a/clusters/nebula-dev/nodePools/game-pool" [90m-> null[0m[0m
+      [31m-[0m[0m initial_node_count          = 1 [90m-> null[0m[0m
+      [31m-[0m[0m instance_group_urls         = [
+          [31m-[0m[0m "https://www.googleapis.com/compute/v1/projects/nebula-arena-ga-20261109/zones/us-central1-a/instanceGroupManagers/gke-nebula-dev-game-pool-89caa13f-grp",
+        ] [90m-> null[0m[0m
+      [31m-[0m[0m location                    = "us-central1-a" [90m-> null[0m[0m
+      [31m-[0m[0m managed_instance_group_urls = [
+          [31m-[0m[0m "https://www.googleapis.com/compute/v1/projects/nebula-arena-ga-20261109/zones/us-central1-a/instanceGroups/gke-nebula-dev-game-pool-89caa13f-grp",
+        ] [90m-> null[0m[0m
+      [31m-[0m[0m max_pods_per_node           = 110 [90m-> null[0m[0m
+      [31m-[0m[0m name                        = "game-pool" [90m-> null[0m[0m
+      [31m-[0m[0m node_count                  = 2 [90m-> null[0m[0m
+      [31m-[0m[0m node_locations              = [
+          [31m-[0m[0m "us-central1-a",
+        ] [90m-> null[0m[0m
+      [31m-[0m[0m project                     = "nebula-arena-ga-20261109" [90m-> null[0m[0m
+      [31m-[0m[0m version                     = "1.36.4-gke.2377000" [90m-> null[0m[0m
+        [90m# (1 unchanged attribute hidden)[0m[0m
+
+      [31m-[0m[0m autoscaling {
+          [31m-[0m[0m location_policy      = "BALANCED" [90m-> null[0m[0m
+          [31m-[0m[0m max_node_count       = 3 [90m-> null[0m[0m
+          [31m-[0m[0m min_node_count       = 1 [90m-> null[0m[0m
+          [31m-[0m[0m total_max_node_count = 0 [90m-> null[0m[0m
+          [31m-[0m[0m total_min_node_count = 0 [90m-> null[0m[0m
+        }
+
+      [31m-[0m[0m management {
+          [31m-[0m[0m auto_repair  = true [90m-> null[0m[0m
+          [31m-[0m[0m auto_upgrade = true [90m-> null[0m[0m
+        }
+
+      [31m-[0m[0m network_config {
+          [31m-[0m[0m create_pod_range     = false [90m-> null[0m[0m
+          [31m-[0m[0m enable_private_nodes = false [90m-> null[0m[0m
+          [31m-[0m[0m pod_ipv4_cidr_block  = "10.44.0.0/16" [90m-> null[0m[0m
+          [31m-[0m[0m pod_range            = "pods" [90m-> null[0m[0m
+          [31m-[0m[0m subnetwork           = "projects/nebula-arena-ga-20261109/regions/us-central1/subnetworks/nebula-dev-subred" [90m-> null[0m[0m
+        }
+
+      [31m-[0m[0m node_config {
+          [31m-[0m[0m disk_size_gb                = 30 [90m-> null[0m[0m
+          [31m-[0m[0m disk_type                   = "pd-standard" [90m-> null[0m[0m
+          [31m-[0m[0m effective_taints            = [] [90m-> null[0m[0m
+          [31m-[0m[0m enable_confidential_storage = false [90m-> null[0m[0m
+          [31m-[0m[0m flex_start                  = false [90m-> null[0m[0m
+          [31m-[0m[0m image_type                  = "COS_CONTAINERD" [90m-> null[0m[0m
+          [31m-[0m[0m labels                      = {
+              [31m-[0m[0m "rol" = "juego"
+            } [90m-> null[0m[0m
+          [31m-[0m[0m local_ssd_count             = 0 [90m-> null[0m[0m
+          [31m-[0m[0m logging_variant             = "DEFAULT" [90m-> null[0m[0m
+          [31m-[0m[0m machine_type                = "n2-standard-8" [90m-> null[0m[0m
+          [31m-[0m[0m metadata                    = {
+              [31m-[0m[0m "disable-legacy-endpoints" = "true"
+            } [90m-> null[0m[0m
+          [31m-[0m[0m oauth_scopes                = [
+              [31m-[0m[0m "https://www.googleapis.com/auth/cloud-platform",
+            ] [90m-> null[0m[0m
+          [31m-[0m[0m preemptible                 = false [90m-> null[0m[0m
+          [31m-[0m[0m resource_labels             = {
+              [31m-[0m[0m "goog-gke-node-pool-provisioning-model" = "on-demand"
+            } [90m-> null[0m[0m
+          [31m-[0m[0m resource_manager_tags       = {} [90m-> null[0m[0m
+          [31m-[0m[0m service_account             = "nebula-dev-nodes@nebula-arena-ga-20261109.iam.gserviceaccount.com" [90m-> null[0m[0m
+          [31m-[0m[0m spot                        = false [90m-> null[0m[0m
+          [31m-[0m[0m storage_pools               = [] [90m-> null[0m[0m
+          [31m-[0m[0m tags                        = [
+              [31m-[0m[0m "nebula-game",
+            ] [90m-> null[0m[0m
+            [90m# (5 unchanged attributes hidden)[0m[0m
+
+          [31m-[0m[0m boot_disk {
+              [31m-[0m[0m disk_type              = "pd-standard" [90m-> null[0m[0m
+              [31m-[0m[0m provisioned_iops       = 0 [90m-> null[0m[0m
+              [31m-[0m[0m provisioned_throughput = 0 [90m-> null[0m[0m
+              [31m-[0m[0m size_gb                = 30 [90m-> null[0m[0m
+            }
+
+          [31m-[0m[0m kubelet_config {
+              [31m-[0m[0m allowed_unsafe_sysctls                 = [] [90m-> null[0m[0m
+              [31m-[0m[0m container_log_max_files                = 0 [90m-> null[0m[0m
+              [31m-[0m[0m cpu_cfs_quota                          = false [90m-> null[0m[0m
+              [31m-[0m[0m eviction_max_pod_grace_period_seconds  = 0 [90m-> null[0m[0m
+              [31m-[0m[0m image_gc_high_threshold_percent        = 0 [90m-> null[0m[0m
+              [31m-[0m[0m image_gc_low_threshold_percent         = 0 [90m-> null[0m[0m
+              [31m-[0m[0m insecure_kubelet_readonly_port_enabled = "FALSE" [90m-> null[0m[0m
+              [31m-[0m[0m max_parallel_image_pulls               = 2 [90m-> null[0m[0m
+              [31m-[0m[0m pod_pids_limit                         = 0 [90m-> null[0m[0m
+              [31m-[0m[0m single_process_oom_kill                = false [90m-> null[0m[0m
+                [90m# (5 unchanged attributes hidden)[0m[0m
+            }
+
+          [31m-[0m[0m shielded_instance_config {
+              [31m-[0m[0m enable_integrity_monitoring = true [90m-> null[0m[0m
+              [31m-[0m[0m enable_secure_boot          = false [90m-> null[0m[0m
+            }
+
+          [31m-[0m[0m windows_node_config {
+                [90m# (1 unchanged attribute hidden)[0m[0m
+            }
+
+          [31m-[0m[0m workload_metadata_config {
+              [31m-[0m[0m mode = "GKE_METADATA" [90m-> null[0m[0m
+            }
+        }
+
+      [31m-[0m[0m upgrade_settings {
+          [31m-[0m[0m max_surge       = 1 [90m-> null[0m[0m
+          [31m-[0m[0m max_unavailable = 0 [90m-> null[0m[0m
+          [31m-[0m[0m strategy        = "SURGE" [90m-> null[0m[0m
+        }
+    }
+
+[1m  # google_firestore_database.scores[0m will be [1m[31mdestroyed[0m
+[0m  [31m-[0m[0m resource "google_firestore_database" "scores" {
+      [31m-[0m[0m app_engine_integration_mode       = "DISABLED" [90m-> null[0m[0m
+      [31m-[0m[0m concurrency_mode                  = "PESSIMISTIC" [90m-> null[0m[0m
+      [31m-[0m[0m database_edition                  = "STANDARD" [90m-> null[0m[0m
+      [31m-[0m[0m delete_protection_state           = "DELETE_PROTECTION_DISABLED" [90m-> null[0m[0m
+      [31m-[0m[0m deletion_policy                   = "DELETE" [90m-> null[0m[0m
+      [31m-[0m[0m earliest_version_time             = "2026-11-10T04:44:07.936772Z" [90m-> null[0m[0m
+      [31m-[0m[0m etag                              = "II7CrInZ/JcDMLLy4Om9/JcD" [90m-> null[0m[0m
+      [31m-[0m[0m id                                = "projects/nebula-arena-ga-20261109/databases/(default)" [90m-> null[0m[0m
+      [31m-[0m[0m location_id                       = "us-central1" [90m-> null[0m[0m
+      [31m-[0m[0m name                              = "(default)" [90m-> null[0m[0m
+      [31m-[0m[0m point_in_time_recovery_enablement = "POINT_IN_TIME_RECOVERY_DISABLED" [90m-> null[0m[0m
+      [31m-[0m[0m project                           = "nebula-arena-ga-20261109" [90m-> null[0m[0m
+      [31m-[0m[0m type                              = "FIRESTORE_NATIVE" [90m-> null[0m[0m
+      [31m-[0m[0m uid                               = "4a56fbb2-7cd6-48b0-87f6-13505508839d" [90m-> null[0m[0m
+      [31m-[0m[0m version_retention_period          = "3600s" [90m-> null[0m[0m
+        [90m# (3 unchanged attributes hidden)[0m[0m
+    }
+
+[1m  # google_iam_workload_identity_pool.github[0m will be [1m[31mdestroyed[0m
+[0m  [31m-[0m[0m resource "google_iam_workload_identity_pool" "github" {
+      [31m-[0m[0m disabled                  = false [90m-> null[0m[0m
+      [31m-[0m[0m display_name              = "GitHub Nebula Arena" [90m-> null[0m[0m
+      [31m-[0m[0m id                        = "projects/nebula-arena-ga-20261109/locations/global/workloadIdentityPools/nebula-github" [90m-> null[0m[0m
+      [31m-[0m[0m name                      = "projects/913295964817/locations/global/workloadIdentityPools/nebula-github" [90m-> null[0m[0m
+      [31m-[0m[0m project                   = "nebula-arena-ga-20261109" [90m-> null[0m[0m
+      [31m-[0m[0m state                     = "ACTIVE" [90m-> null[0m[0m
+      [31m-[0m[0m workload_identity_pool_id = "nebula-github" [90m-> null[0m[0m
+        [90m# (1 unchanged attribute hidden)[0m[0m
+    }
+
+[1m  # google_iam_workload_identity_pool_provider.github[0m will be [1m[31mdestroyed[0m
+[0m  [31m-[0m[0m resource "google_iam_workload_identity_pool_provider" "github" {
+      [31m-[0m[0m attribute_condition                = "assertion.repository == 'Gustavomezz/nebula-arena-unidad3' && assertion.ref == 'refs/heads/main'" [90m-> null[0m[0m
+      [31m-[0m[0m attribute_mapping                  = {
+          [31m-[0m[0m "attribute.repository" = "assertion.repository"
+          [31m-[0m[0m "google.subject"       = "assertion.sub"
+        } [90m-> null[0m[0m
+      [31m-[0m[0m disabled                           = false [90m-> null[0m[0m
+      [31m-[0m[0m id                                 = "projects/nebula-arena-ga-20261109/locations/global/workloadIdentityPools/nebula-github/providers/github" [90m-> null[0m[0m
+      [31m-[0m[0m name                               = "projects/913295964817/locations/global/workloadIdentityPools/nebula-github/providers/github" [90m-> null[0m[0m
+      [31m-[0m[0m project                            = "nebula-arena-ga-20261109" [90m-> null[0m[0m
+      [31m-[0m[0m state                              = "ACTIVE" [90m-> null[0m[0m
+      [31m-[0m[0m workload_identity_pool_id          = "nebula-github" [90m-> null[0m[0m
+      [31m-[0m[0m workload_identity_pool_provider_id = "github" [90m-> null[0m[0m
+        [90m# (2 unchanged attributes hidden)[0m[0m
+
+      [31m-[0m[0m oidc {
+          [31m-[0m[0m allowed_audiences = [] [90m-> null[0m[0m
+          [31m-[0m[0m issuer_uri        = "https://token.actions.githubusercontent.com" [90m-> null[0m[0m
+            [90m# (1 unchanged attribute hidden)[0m[0m
+        }
+    }
+
+[1m  # google_project_iam_member.deploy["roles/artifactregistry.writer"][0m will be [1m[31mdestroyed[0m
+[0m  [31m-[0m[0m resource "google_project_iam_member" "deploy" {
+      [31m-[0m[0m etag    = "BwZf45sZZaU=" [90m-> null[0m[0m
+      [31m-[0m[0m id      = "nebula-arena-ga-20261109/roles/artifactregistry.writer/serviceAccount:nebula-dev-github@nebula-arena-ga-20261109.iam.gserviceaccount.com" [90m-> null[0m[0m
+      [31m-[0m[0m member  = "serviceAccount:nebula-dev-github@nebula-arena-ga-20261109.iam.gserviceaccount.com" [90m-> null[0m[0m
+      [31m-[0m[0m project = "nebula-arena-ga-20261109" [90m-> null[0m[0m
+      [31m-[0m[0m role    = "roles/artifactregistry.writer" [90m-> null[0m[0m
+    }
+
+[1m  # google_project_iam_member.deploy["roles/container.admin"][0m will be [1m[31mdestroyed[0m
+[0m  [31m-[0m[0m resource "google_project_iam_member" "deploy" {
+      [31m-[0m[0m etag    = "BwZf45sZZaU=" [90m-> null[0m[0m
+      [31m-[0m[0m id      = "nebula-arena-ga-20261109/roles/container.admin/serviceAccount:nebula-dev-github@nebula-arena-ga-20261109.iam.gserviceaccount.com" [90m-> null[0m[0m
+      [31m-[0m[0m member  = "serviceAccount:nebula-dev-github@nebula-arena-ga-20261109.iam.gserviceaccount.com" [90m-> null[0m[0m
+      [31m-[0m[0m project = "nebula-arena-ga-20261109" [90m-> null[0m[0m
+      [31m-[0m[0m role    = "roles/container.admin" [90m-> null[0m[0m
+    }
+
+[1m  # google_project_iam_member.deploy["roles/run.admin"][0m will be [1m[31mdestroyed[0m
+[0m  [31m-[0m[0m resource "google_project_iam_member" "deploy" {
+      [31m-[0m[0m etag    = "BwZf45sZZaU=" [90m-> null[0m[0m
+      [31m-[0m[0m id      = "nebula-arena-ga-20261109/roles/run.admin/serviceAccount:nebula-dev-github@nebula-arena-ga-20261109.iam.gserviceaccount.com" [90m-> null[0m[0m
+      [31m-[0m[0m member  = "serviceAccount:nebula-dev-github@nebula-arena-ga-20261109.iam.gserviceaccount.com" [90m-> null[0m[0m
+      [31m-[0m[0m project = "nebula-arena-ga-20261109" [90m-> null[0m[0m
+      [31m-[0m[0m role    = "roles/run.admin" [90m-> null[0m[0m
+    }
+
+[1m  # google_project_iam_member.nodos["roles/artifactregistry.reader"][0m will be [1m[31mdestroyed[0m
+[0m  [31m-[0m[0m resource "google_project_iam_member" "nodos" {
+      [31m-[0m[0m etag    = "BwZf45sZZaU=" [90m-> null[0m[0m
+      [31m-[0m[0m id      = "nebula-arena-ga-20261109/roles/artifactregistry.reader/serviceAccount:nebula-dev-nodes@nebula-arena-ga-20261109.iam.gserviceaccount.com" [90m-> null[0m[0m
+      [31m-[0m[0m member  = "serviceAccount:nebula-dev-nodes@nebula-arena-ga-20261109.iam.gserviceaccount.com" [90m-> null[0m[0m
+      [31m-[0m[0m project = "nebula-arena-ga-20261109" [90m-> null[0m[0m
+      [31m-[0m[0m role    = "roles/artifactregistry.reader" [90m-> null[0m[0m
+    }
+
+[1m  # google_project_iam_member.nodos["roles/logging.logWriter"][0m will be [1m[31mdestroyed[0m
+[0m  [31m-[0m[0m resource "google_project_iam_member" "nodos" {
+      [31m-[0m[0m etag    = "BwZf45sZZaU=" [90m-> null[0m[0m
+      [31m-[0m[0m id      = "nebula-arena-ga-20261109/roles/logging.logWriter/serviceAccount:nebula-dev-nodes@nebula-arena-ga-20261109.iam.gserviceaccount.com" [90m-> null[0m[0m
+      [31m-[0m[0m member  = "serviceAccount:nebula-dev-nodes@nebula-arena-ga-20261109.iam.gserviceaccount.com" [90m-> null[0m[0m
+      [31m-[0m[0m project = "nebula-arena-ga-20261109" [90m-> null[0m[0m
+      [31m-[0m[0m role    = "roles/logging.logWriter" [90m-> null[0m[0m
+    }
+
+[1m  # google_project_iam_member.nodos["roles/monitoring.metricWriter"][0m will be [1m[31mdestroyed[0m
+[0m  [31m-[0m[0m resource "google_project_iam_member" "nodos" {
+      [31m-[0m[0m etag    = "BwZf45sZZaU=" [90m-> null[0m[0m
+      [31m-[0m[0m id      = "nebula-arena-ga-20261109/roles/monitoring.metricWriter/serviceAccount:nebula-dev-nodes@nebula-arena-ga-20261109.iam.gserviceaccount.com" [90m-> null[0m[0m
+      [31m-[0m[0m member  = "serviceAccount:nebula-dev-nodes@nebula-arena-ga-20261109.iam.gserviceaccount.com" [90m-> null[0m[0m
+      [31m-[0m[0m project = "nebula-arena-ga-20261109" [90m-> null[0m[0m
+      [31m-[0m[0m role    = "roles/monitoring.metricWriter" [90m-> null[0m[0m
+    }
+
+[1m  # google_project_iam_member.scores[0m will be [1m[31mdestroyed[0m
+[0m  [31m-[0m[0m resource "google_project_iam_member" "scores" {
+      [31m-[0m[0m etag    = "BwZf45sZZaU=" [90m-> null[0m[0m
+      [31m-[0m[0m id      = "nebula-arena-ga-20261109/roles/datastore.user/serviceAccount:nebula-dev-scores@nebula-arena-ga-20261109.iam.gserviceaccount.com" [90m-> null[0m[0m
+      [31m-[0m[0m member  = "serviceAccount:nebula-dev-scores@nebula-arena-ga-20261109.iam.gserviceaccount.com" [90m-> null[0m[0m
+      [31m-[0m[0m project = "nebula-arena-ga-20261109" [90m-> null[0m[0m
+      [31m-[0m[0m role    = "roles/datastore.user" [90m-> null[0m[0m
+    }
+
+[1m  # google_project_service.apis["artifactregistry.googleapis.com"][0m will be [1m[31mdestroyed[0m
+[0m  [31m-[0m[0m resource "google_project_service" "apis" {
+      [31m-[0m[0m disable_on_destroy = false [90m-> null[0m[0m
+      [31m-[0m[0m id                 = "nebula-arena-ga-20261109/artifactregistry.googleapis.com" [90m-> null[0m[0m
+      [31m-[0m[0m project            = "nebula-arena-ga-20261109" [90m-> null[0m[0m
+      [31m-[0m[0m service            = "artifactregistry.googleapis.com" [90m-> null[0m[0m
+    }
+
+[1m  # google_project_service.apis["cloudasset.googleapis.com"][0m will be [1m[31mdestroyed[0m
+[0m  [31m-[0m[0m resource "google_project_service" "apis" {
+      [31m-[0m[0m disable_on_destroy = false [90m-> null[0m[0m
+      [31m-[0m[0m id                 = "nebula-arena-ga-20261109/cloudasset.googleapis.com" [90m-> null[0m[0m
+      [31m-[0m[0m project            = "nebula-arena-ga-20261109" [90m-> null[0m[0m
+      [31m-[0m[0m service            = "cloudasset.googleapis.com" [90m-> null[0m[0m
+    }
+
+[1m  # google_project_service.apis["cloudresourcemanager.googleapis.com"][0m will be [1m[31mdestroyed[0m
+[0m  [31m-[0m[0m resource "google_project_service" "apis" {
+      [31m-[0m[0m disable_on_destroy = false [90m-> null[0m[0m
+      [31m-[0m[0m id                 = "nebula-arena-ga-20261109/cloudresourcemanager.googleapis.com" [90m-> null[0m[0m
+      [31m-[0m[0m project            = "nebula-arena-ga-20261109" [90m-> null[0m[0m
+      [31m-[0m[0m service            = "cloudresourcemanager.googleapis.com" [90m-> null[0m[0m
+    }
+
+[1m  # google_project_service.apis["compute.googleapis.com"][0m will be [1m[31mdestroyed[0m
+[0m  [31m-[0m[0m resource "google_project_service" "apis" {
+      [31m-[0m[0m disable_on_destroy = false [90m-> null[0m[0m
+      [31m-[0m[0m id                 = "nebula-arena-ga-20261109/compute.googleapis.com" [90m-> null[0m[0m
+      [31m-[0m[0m project            = "nebula-arena-ga-20261109" [90m-> null[0m[0m
+      [31m-[0m[0m service            = "compute.googleapis.com" [90m-> null[0m[0m
+    }
+
+[1m  # google_project_service.apis["container.googleapis.com"][0m will be [1m[31mdestroyed[0m
+[0m  [31m-[0m[0m resource "google_project_service" "apis" {
+      [31m-[0m[0m disable_on_destroy = false [90m-> null[0m[0m
+      [31m-[0m[0m id                 = "nebula-arena-ga-20261109/container.googleapis.com" [90m-> null[0m[0m
+      [31m-[0m[0m project            = "nebula-arena-ga-20261109" [90m-> null[0m[0m
+      [31m-[0m[0m service            = "container.googleapis.com" [90m-> null[0m[0m
+    }
+
+[1m  # google_project_service.apis["firestore.googleapis.com"][0m will be [1m[31mdestroyed[0m
+[0m  [31m-[0m[0m resource "google_project_service" "apis" {
+      [31m-[0m[0m disable_on_destroy = false [90m-> null[0m[0m
+      [31m-[0m[0m id                 = "nebula-arena-ga-20261109/firestore.googleapis.com" [90m-> null[0m[0m
+      [31m-[0m[0m project            = "nebula-arena-ga-20261109" [90m-> null[0m[0m
+      [31m-[0m[0m service            = "firestore.googleapis.com" [90m-> null[0m[0m
+    }
+
+[1m  # google_project_service.apis["iam.googleapis.com"][0m will be [1m[31mdestroyed[0m
+[0m  [31m-[0m[0m resource "google_project_service" "apis" {
+      [31m-[0m[0m disable_on_destroy = false [90m-> null[0m[0m
+      [31m-[0m[0m id                 = "nebula-arena-ga-20261109/iam.googleapis.com" [90m-> null[0m[0m
+      [31m-[0m[0m project            = "nebula-arena-ga-20261109" [90m-> null[0m[0m
+      [31m-[0m[0m service            = "iam.googleapis.com" [90m-> null[0m[0m
+    }
+
+[1m  # google_project_service.apis["iamcredentials.googleapis.com"][0m will be [1m[31mdestroyed[0m
+[0m  [31m-[0m[0m resource "google_project_service" "apis" {
+      [31m-[0m[0m disable_on_destroy = false [90m-> null[0m[0m
+      [31m-[0m[0m id                 = "nebula-arena-ga-20261109/iamcredentials.googleapis.com" [90m-> null[0m[0m
+      [31m-[0m[0m project            = "nebula-arena-ga-20261109" [90m-> null[0m[0m
+      [31m-[0m[0m service            = "iamcredentials.googleapis.com" [90m-> null[0m[0m
+    }
+
+[1m  # google_project_service.apis["run.googleapis.com"][0m will be [1m[31mdestroyed[0m
+[0m  [31m-[0m[0m resource "google_project_service" "apis" {
+      [31m-[0m[0m disable_on_destroy = false [90m-> null[0m[0m
+      [31m-[0m[0m id                 = "nebula-arena-ga-20261109/run.googleapis.com" [90m-> null[0m[0m
+      [31m-[0m[0m project            = "nebula-arena-ga-20261109" [90m-> null[0m[0m
+      [31m-[0m[0m service            = "run.googleapis.com" [90m-> null[0m[0m
+    }
+
+[1m  # google_project_service.apis["sts.googleapis.com"][0m will be [1m[31mdestroyed[0m
+[0m  [31m-[0m[0m resource "google_project_service" "apis" {
+      [31m-[0m[0m disable_on_destroy = false [90m-> null[0m[0m
+      [31m-[0m[0m id                 = "nebula-arena-ga-20261109/sts.googleapis.com" [90m-> null[0m[0m
+      [31m-[0m[0m project            = "nebula-arena-ga-20261109" [90m-> null[0m[0m
+      [31m-[0m[0m service            = "sts.googleapis.com" [90m-> null[0m[0m
+    }
+
+[1m  # google_service_account.deploy[0m will be [1m[31mdestroyed[0m
+[0m  [31m-[0m[0m resource "google_service_account" "deploy" {
+      [31m-[0m[0m account_id   = "nebula-dev-github" [90m-> null[0m[0m
+      [31m-[0m[0m disabled     = false [90m-> null[0m[0m
+      [31m-[0m[0m display_name = "Despliegue de Nebula Arena desde GitHub Actions" [90m-> null[0m[0m
+      [31m-[0m[0m email        = "nebula-dev-github@nebula-arena-ga-20261109.iam.gserviceaccount.com" [90m-> null[0m[0m
+      [31m-[0m[0m id           = "projects/nebula-arena-ga-20261109/serviceAccounts/nebula-dev-github@nebula-arena-ga-20261109.iam.gserviceaccount.com" [90m-> null[0m[0m
+      [31m-[0m[0m member       = "serviceAccount:nebula-dev-github@nebula-arena-ga-20261109.iam.gserviceaccount.com" [90m-> null[0m[0m
+      [31m-[0m[0m name         = "projects/nebula-arena-ga-20261109/serviceAccounts/nebula-dev-github@nebula-arena-ga-20261109.iam.gserviceaccount.com" [90m-> null[0m[0m
+      [31m-[0m[0m project      = "nebula-arena-ga-20261109" [90m-> null[0m[0m
+      [31m-[0m[0m unique_id    = "103399589416108140473" [90m-> null[0m[0m
+        [90m# (1 unchanged attribute hidden)[0m[0m
+    }
+
+[1m  # google_service_account.leaderboard[0m will be [1m[31mdestroyed[0m
+[0m  [31m-[0m[0m resource "google_service_account" "leaderboard" {
+      [31m-[0m[0m account_id   = "nebula-dev-scores" [90m-> null[0m[0m
+      [31m-[0m[0m disabled     = false [90m-> null[0m[0m
+      [31m-[0m[0m email        = "nebula-dev-scores@nebula-arena-ga-20261109.iam.gserviceaccount.com" [90m-> null[0m[0m
+      [31m-[0m[0m id           = "projects/nebula-arena-ga-20261109/serviceAccounts/nebula-dev-scores@nebula-arena-ga-20261109.iam.gserviceaccount.com" [90m-> null[0m[0m
+      [31m-[0m[0m member       = "serviceAccount:nebula-dev-scores@nebula-arena-ga-20261109.iam.gserviceaccount.com" [90m-> null[0m[0m
+      [31m-[0m[0m name         = "projects/nebula-arena-ga-20261109/serviceAccounts/nebula-dev-scores@nebula-arena-ga-20261109.iam.gserviceaccount.com" [90m-> null[0m[0m
+      [31m-[0m[0m project      = "nebula-arena-ga-20261109" [90m-> null[0m[0m
+      [31m-[0m[0m unique_id    = "114620053497333978622" [90m-> null[0m[0m
+        [90m# (2 unchanged attributes hidden)[0m[0m
+    }
+
+[1m  # google_service_account.nodos[0m will be [1m[31mdestroyed[0m
+[0m  [31m-[0m[0m resource "google_service_account" "nodos" {
+      [31m-[0m[0m account_id   = "nebula-dev-nodes" [90m-> null[0m[0m
+      [31m-[0m[0m disabled     = false [90m-> null[0m[0m
+      [31m-[0m[0m display_name = "Nodos de laboratorio Nebula Arena" [90m-> null[0m[0m
+      [31m-[0m[0m email        = "nebula-dev-nodes@nebula-arena-ga-20261109.iam.gserviceaccount.com" [90m-> null[0m[0m
+      [31m-[0m[0m id           = "projects/nebula-arena-ga-20261109/serviceAccounts/nebula-dev-nodes@nebula-arena-ga-20261109.iam.gserviceaccount.com" [90m-> null[0m[0m
+      [31m-[0m[0m member       = "serviceAccount:nebula-dev-nodes@nebula-arena-ga-20261109.iam.gserviceaccount.com" [90m-> null[0m[0m
+      [31m-[0m[0m name         = "projects/nebula-arena-ga-20261109/serviceAccounts/nebula-dev-nodes@nebula-arena-ga-20261109.iam.gserviceaccount.com" [90m-> null[0m[0m
+      [31m-[0m[0m project      = "nebula-arena-ga-20261109" [90m-> null[0m[0m
+      [31m-[0m[0m unique_id    = "117817154863259858117" [90m-> null[0m[0m
+        [90m# (1 unchanged attribute hidden)[0m[0m
+    }
+
+[1m  # google_service_account_iam_member.deploy_scores[0m will be [1m[31mdestroyed[0m
+[0m  [31m-[0m[0m resource "google_service_account_iam_member" "deploy_scores" {
+      [31m-[0m[0m etag               = "BwZf45n+toU=" [90m-> null[0m[0m
+      [31m-[0m[0m id                 = "projects/nebula-arena-ga-20261109/serviceAccounts/nebula-dev-scores@nebula-arena-ga-20261109.iam.gserviceaccount.com/roles/iam.serviceAccountUser/serviceAccount:nebula-dev-github@nebula-arena-ga-20261109.iam.gserviceaccount.com" [90m-> null[0m[0m
+      [31m-[0m[0m member             = "serviceAccount:nebula-dev-github@nebula-arena-ga-20261109.iam.gserviceaccount.com" [90m-> null[0m[0m
+      [31m-[0m[0m role               = "roles/iam.serviceAccountUser" [90m-> null[0m[0m
+      [31m-[0m[0m service_account_id = "projects/nebula-arena-ga-20261109/serviceAccounts/nebula-dev-scores@nebula-arena-ga-20261109.iam.gserviceaccount.com" [90m-> null[0m[0m
+    }
+
+[1m  # google_service_account_iam_member.github[0m will be [1m[31mdestroyed[0m
+[0m  [31m-[0m[0m resource "google_service_account_iam_member" "github" {
+      [31m-[0m[0m etag               = "BwZf45oAcHA=" [90m-> null[0m[0m
+      [31m-[0m[0m id                 = "projects/nebula-arena-ga-20261109/serviceAccounts/nebula-dev-github@nebula-arena-ga-20261109.iam.gserviceaccount.com/roles/iam.workloadIdentityUser/principalSet://iam.googleapis.com/projects/913295964817/locations/global/workloadIdentityPools/nebula-github/attribute.repository/Gustavomezz/nebula-arena-unidad3" [90m-> null[0m[0m
+      [31m-[0m[0m member             = "principalSet://iam.googleapis.com/projects/913295964817/locations/global/workloadIdentityPools/nebula-github/attribute.repository/Gustavomezz/nebula-arena-unidad3" [90m-> null[0m[0m
+      [31m-[0m[0m role               = "roles/iam.workloadIdentityUser" [90m-> null[0m[0m
+      [31m-[0m[0m service_account_id = "projects/nebula-arena-ga-20261109/serviceAccounts/nebula-dev-github@nebula-arena-ga-20261109.iam.gserviceaccount.com" [90m-> null[0m[0m
+    }
+
+[1m  # google_storage_bucket.stream[0][0m will be [1m[31mdestroyed[0m
+[0m  [31m-[0m[0m resource "google_storage_bucket" "stream" {
+      [31m-[0m[0m default_event_based_hold    = false [90m-> null[0m[0m
+      [31m-[0m[0m effective_labels            = {
+          [31m-[0m[0m "entorno"                    = "dev"
+          [31m-[0m[0m "goog-terraform-provisioned" = "true"
+          [31m-[0m[0m "proyecto"                   = "nebula-arena"
+          [31m-[0m[0m "uso"                        = "laboratorio"
+        } [90m-> null[0m[0m
+      [31m-[0m[0m enable_object_retention     = false [90m-> null[0m[0m
+      [31m-[0m[0m force_destroy               = true [90m-> null[0m[0m
+      [31m-[0m[0m id                          = "nebula-arena-ga-20261109-nebula-stream" [90m-> null[0m[0m
+      [31m-[0m[0m labels                      = {
+          [31m-[0m[0m "entorno"  = "dev"
+          [31m-[0m[0m "proyecto" = "nebula-arena"
+          [31m-[0m[0m "uso"      = "laboratorio"
+        } [90m-> null[0m[0m
+      [31m-[0m[0m location                    = "US-CENTRAL1" [90m-> null[0m[0m
+      [31m-[0m[0m name                        = "nebula-arena-ga-20261109-nebula-stream" [90m-> null[0m[0m
+      [31m-[0m[0m project                     = "nebula-arena-ga-20261109" [90m-> null[0m[0m
+      [31m-[0m[0m project_number              = 913295964817 [90m-> null[0m[0m
+      [31m-[0m[0m public_access_prevention    = "inherited" [90m-> null[0m[0m
+      [31m-[0m[0m requester_pays              = false [90m-> null[0m[0m
+      [31m-[0m[0m self_link                   = "https://www.googleapis.com/storage/v1/b/nebula-arena-ga-20261109-nebula-stream" [90m-> null[0m[0m
+      [31m-[0m[0m storage_class               = "STANDARD" [90m-> null[0m[0m
+      [31m-[0m[0m terraform_labels            = {
+          [31m-[0m[0m "entorno"                    = "dev"
+          [31m-[0m[0m "goog-terraform-provisioned" = "true"
+          [31m-[0m[0m "proyecto"                   = "nebula-arena"
+          [31m-[0m[0m "uso"                        = "laboratorio"
+        } [90m-> null[0m[0m
+      [31m-[0m[0m time_created                = "2026-11-10T03:22:37.062Z" [90m-> null[0m[0m
+      [31m-[0m[0m uniform_bucket_level_access = true [90m-> null[0m[0m
+      [31m-[0m[0m updated                     = "2026-11-10T03:22:40.556Z" [90m-> null[0m[0m
+      [31m-[0m[0m url                         = "gs://nebula-arena-ga-20261109-nebula-stream" [90m-> null[0m[0m
+
+      [31m-[0m[0m hierarchical_namespace {
+          [31m-[0m[0m enabled = false [90m-> null[0m[0m
+        }
+
+      [31m-[0m[0m soft_delete_policy {
+          [31m-[0m[0m retention_duration_seconds = 0 [90m-> null[0m[0m
+            [90m# (1 unchanged attribute hidden)[0m[0m
+        }
+    }
+
+[1m  # google_storage_bucket_iam_member.stream[0][0m will be [1m[31mdestroyed[0m
+[0m  [31m-[0m[0m resource "google_storage_bucket_iam_member" "stream" {
+      [31m-[0m[0m bucket = "b/nebula-arena-ga-20261109-nebula-stream" [90m-> null[0m[0m
+      [31m-[0m[0m etag   = "CAI=" [90m-> null[0m[0m
+      [31m-[0m[0m id     = "b/nebula-arena-ga-20261109-nebula-stream/roles/storage.objectViewer/allUsers" [90m-> null[0m[0m
+      [31m-[0m[0m member = "allUsers" [90m-> null[0m[0m
+      [31m-[0m[0m role   = "roles/storage.objectViewer" [90m-> null[0m[0m
+    }
+
+[1mPlan:[0m [0m0 to add, 0 to change, 41 to destroy.
+
+Changes to Outputs:
+  [31m-[0m[0m cluster                = "nebula-dev" [90m-> null[0m[0m
+  [31m-[0m[0m deploy_service_account = "nebula-dev-github@nebula-arena-ga-20261109.iam.gserviceaccount.com" [90m-> null[0m[0m
+  [31m-[0m[0m generador              = "nebula-dev-locust" [90m-> null[0m[0m
+  [31m-[0m[0m leaderboard_url        = "https://nebula-dev-leaderboard-iszgggb7qa-uc.a.run.app" [90m-> null[0m[0m
+  [31m-[0m[0m registro               = "us-central1-docker.pkg.dev/nebula-arena-ga-20261109/nebula" [90m-> null[0m[0m
+  [31m-[0m[0m stream_bucket          = "nebula-arena-ga-20261109-nebula-stream" [90m-> null[0m[0m
+  [31m-[0m[0m stream_url             = "http://34.110.167.87" [90m-> null[0m[0m
+  [31m-[0m[0m wif_provider           = "projects/913295964817/locations/global/workloadIdentityPools/nebula-github/providers/github" [90m-> null[0m[0m
+[0m[1mgoogle_service_account_iam_member.deploy_scores: Destroying... [id=projects/nebula-arena-ga-20261109/serviceAccounts/nebula-dev-scores@nebula-arena-ga-20261109.iam.gserviceaccount.com/roles/iam.serviceAccountUser/serviceAccount:nebula-dev-github@nebula-arena-ga-20261109.iam.gserviceaccount.com][0m[0m
+[0m[1mgoogle_project_iam_member.deploy["roles/run.admin"]: Destroying... [id=nebula-arena-ga-20261109/roles/run.admin/serviceAccount:nebula-dev-github@nebula-arena-ga-20261109.iam.gserviceaccount.com][0m[0m
+[0m[1mgoogle_project_iam_member.deploy["roles/container.admin"]: Destroying... [id=nebula-arena-ga-20261109/roles/container.admin/serviceAccount:nebula-dev-github@nebula-arena-ga-20261109.iam.gserviceaccount.com][0m[0m
+[0m[1mgoogle_iam_workload_identity_pool_provider.github: Destroying... [id=projects/nebula-arena-ga-20261109/locations/global/workloadIdentityPools/nebula-github/providers/github][0m[0m
+[0m[1mgoogle_storage_bucket_iam_member.stream[0]: Destroying... [id=b/nebula-arena-ga-20261109-nebula-stream/roles/storage.objectViewer/allUsers][0m[0m
+[0m[1mgoogle_compute_global_forwarding_rule.stream[0]: Destroying... [id=projects/nebula-arena-ga-20261109/global/forwardingRules/nebula-dev-cdn][0m[0m
+[0m[1mgoogle_service_account_iam_member.github: Destroying... [id=projects/nebula-arena-ga-20261109/serviceAccounts/nebula-dev-github@nebula-arena-ga-20261109.iam.gserviceaccount.com/roles/iam.workloadIdentityUser/principalSet://iam.googleapis.com/projects/913295964817/locations/global/workloadIdentityPools/nebula-github/attribute.repository/Gustavomezz/nebula-arena-unidad3][0m[0m
+[0m[1mgoogle_cloud_run_v2_service_iam_member.publico[0]: Destroying... [id=projects/nebula-arena-ga-20261109/locations/us-central1/services/nebula-dev-leaderboard/roles/run.invoker/allUsers][0m[0m
+[0m[1mgoogle_artifact_registry_repository.imagenes: Destroying... [id=projects/nebula-arena-ga-20261109/locations/us-central1/repositories/nebula][0m[0m
+[0m[1mgoogle_container_node_pool.juego: Destroying... [id=projects/nebula-arena-ga-20261109/locations/us-central1-a/clusters/nebula-dev/nodePools/game-pool][0m[0m
+[0m[1mgoogle_artifact_registry_repository.imagenes: Destruction complete after 0s[0m
+[0m[1mgoogle_project_iam_member.deploy["roles/artifactregistry.writer"]: Destroying... [id=nebula-arena-ga-20261109/roles/artifactregistry.writer/serviceAccount:nebula-dev-github@nebula-arena-ga-20261109.iam.gserviceaccount.com][0m[0m
+[0m[1mgoogle_service_account_iam_member.github: Destruction complete after 4s[0m
+[0m[1mgoogle_service_account_iam_member.deploy_scores: Destruction complete after 4s[0m
+[0m[1mgoogle_compute_instance.generador[0]: Destroying... [id=projects/nebula-arena-ga-20261109/zones/us-central1-a/instances/nebula-dev-locust][0m[0m
+[0m[1mgoogle_storage_bucket_iam_member.stream[0]: Destruction complete after 4s[0m
+[0m[1mgoogle_compute_firewall.juego: Destroying... [id=projects/nebula-arena-ga-20261109/global/firewalls/nebula-dev-partidas][0m[0m
+[0m[1mgoogle_compute_firewall.ssh_iap: Destroying... [id=projects/nebula-arena-ga-20261109/global/firewalls/nebula-dev-ssh-iap][0m[0m
+[0m[1mgoogle_cloud_run_v2_service_iam_member.publico[0]: Destruction complete after 5s[0m
+[0m[1mgoogle_cloud_run_v2_service.scores[0]: Destroying... [id=projects/nebula-arena-ga-20261109/locations/us-central1/services/nebula-dev-leaderboard][0m[0m
+[0m[1mgoogle_project_iam_member.deploy["roles/artifactregistry.writer"]: Destruction complete after 8s[0m
+[0m[1mgoogle_project_iam_member.deploy["roles/run.admin"]: Destruction complete after 8s[0m
+[0m[1mgoogle_project_iam_member.deploy["roles/container.admin"]: Destruction complete after 8s[0m
+[0m[1mgoogle_service_account.deploy: Destroying... [id=projects/nebula-arena-ga-20261109/serviceAccounts/nebula-dev-github@nebula-arena-ga-20261109.iam.gserviceaccount.com][0m[0m
+[0m[1mgoogle_service_account.deploy: Destruction complete after 0s[0m
+[0m[1mgoogle_compute_global_forwarding_rule.stream[0]: Still destroying... [id=projects/nebula-arena-ga-20261109/global/forwardingRules/nebula-dev-cdn, 00m10s elapsed][0m[0m
+[0m[1mgoogle_container_node_pool.juego: Still destroying... [id=projects/nebula-arena-ga-20261109/locat...lusters/nebula-dev/nodePools/game-pool, 00m10s elapsed][0m[0m
+[0m[1mgoogle_iam_workload_identity_pool_provider.github: Still destroying... [id=projects/nebula-arena-ga-20261109/locat...tyPools/nebula-github/providers/github, 00m10s elapsed][0m[0m
+[0m[1mgoogle_iam_workload_identity_pool_provider.github: Destruction complete after 10s[0m
+[0m[1mgoogle_iam_workload_identity_pool.github: Destroying... [id=projects/nebula-arena-ga-20261109/locations/global/workloadIdentityPools/nebula-github][0m[0m
+[0m[1mgoogle_compute_instance.generador[0]: Still destroying... [id=projects/nebula-arena-ga-20261109/zones...central1-a/instances/nebula-dev-locust, 00m10s elapsed][0m[0m
+[0m[1mgoogle_compute_firewall.ssh_iap: Still destroying... [id=projects/nebula-arena-ga-20261109/global/firewalls/nebula-dev-ssh-iap, 00m10s elapsed][0m[0m
+[0m[1mgoogle_compute_firewall.juego: Still destroying... [id=projects/nebula-arena-ga-20261109/global/firewalls/nebula-dev-partidas, 00m10s elapsed][0m[0m
+[0m[1mgoogle_compute_firewall.juego: Destruction complete after 11s[0m
+[0m[1mgoogle_compute_firewall.ssh_iap: Destruction complete after 11s[0m
+[0m[1mgoogle_cloud_run_v2_service.scores[0]: Still destroying... [id=projects/nebula-arena-ga-20261109/locat...ntral1/services/nebula-dev-leaderboard, 00m10s elapsed][0m[0m
+[0m[1mgoogle_cloud_run_v2_service.scores[0]: Destruction complete after 11s[0m
+[0m[1mgoogle_project_iam_member.scores: Destroying... [id=nebula-arena-ga-20261109/roles/datastore.user/serviceAccount:nebula-dev-scores@nebula-arena-ga-20261109.iam.gserviceaccount.com][0m[0m
+[0m[1mgoogle_firestore_database.scores: Destroying... [id=projects/nebula-arena-ga-20261109/databases/(default)][0m[0m
+[0m[1mgoogle_firestore_database.scores: Destruction complete after 1s[0m
+[0m[1mgoogle_container_node_pool.juego: Still destroying... [id=projects/nebula-arena-ga-20261109/locat...lusters/nebula-dev/nodePools/game-pool, 00m20s elapsed][0m[0m
+[0m[1mgoogle_compute_global_forwarding_rule.stream[0]: Still destroying... [id=projects/nebula-arena-ga-20261109/global/forwardingRules/nebula-dev-cdn, 00m20s elapsed][0m[0m
+[0m[1mgoogle_iam_workload_identity_pool.github: Still destroying... [id=projects/nebula-arena-ga-20261109/locat...al/workloadIdentityPools/nebula-github, 00m10s elapsed][0m[0m
+[0m[1mgoogle_iam_workload_identity_pool.github: Destruction complete after 11s[0m
+[0m[1mgoogle_compute_global_forwarding_rule.stream[0]: Destruction complete after 22s[0m
+[0m[1mgoogle_compute_target_http_proxy.stream[0]: Destroying... [id=projects/nebula-arena-ga-20261109/global/targetHttpProxies/nebula-dev-cdn][0m[0m
+[0m[1mgoogle_project_iam_member.scores: Destruction complete after 7s[0m
+[0m[1mgoogle_service_account.leaderboard: Destroying... [id=projects/nebula-arena-ga-20261109/serviceAccounts/nebula-dev-scores@nebula-arena-ga-20261109.iam.gserviceaccount.com][0m[0m
+[0m[1mgoogle_service_account.leaderboard: Destruction complete after 1s[0m
+[0m[1mgoogle_compute_instance.generador[0]: Still destroying... [id=projects/nebula-arena-ga-20261109/zones...central1-a/instances/nebula-dev-locust, 00m20s elapsed][0m[0m
+[0m[1mgoogle_container_node_pool.juego: Still destroying... [id=projects/nebula-arena-ga-20261109/locat...lusters/nebula-dev/nodePools/game-pool, 00m30s elapsed][0m[0m
+[0m[1mgoogle_compute_target_http_proxy.stream[0]: Still destroying... [id=projects/nebula-arena-ga-20261109/global/targetHttpProxies/nebula-dev-cdn, 00m10s elapsed][0m[0m
+[0m[1mgoogle_compute_target_http_proxy.stream[0]: Destruction complete after 10s[0m
+[0m[1mgoogle_compute_url_map.stream[0]: Destroying... [id=projects/nebula-arena-ga-20261109/global/urlMaps/nebula-dev-cdn][0m[0m
+[0m[1mgoogle_compute_instance.generador[0]: Still destroying... [id=projects/nebula-arena-ga-20261109/zones...central1-a/instances/nebula-dev-locust, 00m30s elapsed][0m[0m
+[0m[1mgoogle_container_node_pool.juego: Still destroying... [id=projects/nebula-arena-ga-20261109/locat...lusters/nebula-dev/nodePools/game-pool, 00m40s elapsed][0m[0m
+[0m[1mgoogle_compute_url_map.stream[0]: Still destroying... [id=projects/nebula-arena-ga-20261109/global/urlMaps/nebula-dev-cdn, 00m10s elapsed][0m[0m
+[0m[1mgoogle_compute_url_map.stream[0]: Destruction complete after 12s[0m
+[0m[1mgoogle_compute_backend_bucket.stream[0]: Destroying... [id=projects/nebula-arena-ga-20261109/global/backendBuckets/nebula-dev-stream][0m[0m
+[0m[1mgoogle_compute_instance.generador[0]: Still destroying... [id=projects/nebula-arena-ga-20261109/zones...central1-a/instances/nebula-dev-locust, 00m40s elapsed][0m[0m
+[0m[1mgoogle_container_node_pool.juego: Still destroying... [id=projects/nebula-arena-ga-20261109/locat...lusters/nebula-dev/nodePools/game-pool, 00m50s elapsed][0m[0m
+[0m[1mgoogle_compute_backend_bucket.stream[0]: Still destroying... [id=projects/nebula-arena-ga-20261109/global/backendBuckets/nebula-dev-stream, 00m10s elapsed][0m[0m
+[0m[1mgoogle_compute_instance.generador[0]: Still destroying... [id=projects/nebula-arena-ga-20261109/zones...central1-a/instances/nebula-dev-locust, 00m50s elapsed][0m[0m
+[0m[1mgoogle_compute_backend_bucket.stream[0]: Destruction complete after 11s[0m
+[0m[1mgoogle_storage_bucket.stream[0]: Destroying... [id=nebula-arena-ga-20261109-nebula-stream][0m[0m
+[0m[1mgoogle_compute_instance.generador[0]: Destruction complete after 52s[0m
+[0m[1mgoogle_storage_bucket.stream[0]: Destruction complete after 3s[0m
+[0m[1mgoogle_container_node_pool.juego: Still destroying... [id=projects/nebula-arena-ga-20261109/locat...lusters/nebula-dev/nodePools/game-pool, 01m00s elapsed][0m[0m
+[0m[1mgoogle_container_node_pool.juego: Still destroying... [id=projects/nebula-arena-ga-20261109/locat...lusters/nebula-dev/nodePools/game-pool, 01m10s elapsed][0m[0m
+[0m[1mgoogle_container_node_pool.juego: Still destroying... [id=projects/nebula-arena-ga-20261109/locat...lusters/nebula-dev/nodePools/game-pool, 01m20s elapsed][0m[0m
+[0m[1mgoogle_container_node_pool.juego: Still destroying... [id=projects/nebula-arena-ga-20261109/locat...lusters/nebula-dev/nodePools/game-pool, 01m30s elapsed][0m[0m
+[0m[1mgoogle_container_node_pool.juego: Still destroying... [id=projects/nebula-arena-ga-20261109/locat...lusters/nebula-dev/nodePools/game-pool, 01m40s elapsed][0m[0m
+[0m[1mgoogle_container_node_pool.juego: Still destroying... [id=projects/nebula-arena-ga-20261109/locat...lusters/nebula-dev/nodePools/game-pool, 01m50s elapsed][0m[0m
+[0m[1mgoogle_container_node_pool.juego: Still destroying... [id=projects/nebula-arena-ga-20261109/locat...lusters/nebula-dev/nodePools/game-pool, 02m00s elapsed][0m[0m
+[0m[1mgoogle_container_node_pool.juego: Still destroying... [id=projects/nebula-arena-ga-20261109/locat...lusters/nebula-dev/nodePools/game-pool, 02m10s elapsed][0m[0m
+[0m[1mgoogle_container_node_pool.juego: Still destroying... [id=projects/nebula-arena-ga-20261109/locat...lusters/nebula-dev/nodePools/game-pool, 02m20s elapsed][0m[0m
+[0m[1mgoogle_container_node_pool.juego: Still destroying... [id=projects/nebula-arena-ga-20261109/locat...lusters/nebula-dev/nodePools/game-pool, 02m30s elapsed][0m[0m
+[0m[1mgoogle_container_node_pool.juego: Still destroying... [id=projects/nebula-arena-ga-20261109/locat...lusters/nebula-dev/nodePools/game-pool, 02m40s elapsed][0m[0m
+[0m[1mgoogle_container_node_pool.juego: Still destroying... [id=projects/nebula-arena-ga-20261109/locat...lusters/nebula-dev/nodePools/game-pool, 02m50s elapsed][0m[0m
+[0m[1mgoogle_container_node_pool.juego: Still destroying... [id=projects/nebula-arena-ga-20261109/locat...lusters/nebula-dev/nodePools/game-pool, 03m00s elapsed][0m[0m
+[0m[1mgoogle_container_node_pool.juego: Still destroying... [id=projects/nebula-arena-ga-20261109/locat...lusters/nebula-dev/nodePools/game-pool, 03m10s elapsed][0m[0m
+[0m[1mgoogle_container_node_pool.juego: Still destroying... [id=projects/nebula-arena-ga-20261109/locat...lusters/nebula-dev/nodePools/game-pool, 03m20s elapsed][0m[0m
+[0m[1mgoogle_container_node_pool.juego: Still destroying... [id=projects/nebula-arena-ga-20261109/locat...lusters/nebula-dev/nodePools/game-pool, 03m30s elapsed][0m[0m
+[0m[1mgoogle_container_node_pool.juego: Still destroying... [id=projects/nebula-arena-ga-20261109/locat...lusters/nebula-dev/nodePools/game-pool, 03m40s elapsed][0m[0m
+[0m[1mgoogle_container_node_pool.juego: Still destroying... [id=projects/nebula-arena-ga-20261109/locat...lusters/nebula-dev/nodePools/game-pool, 03m50s elapsed][0m[0m
+[0m[1mgoogle_container_node_pool.juego: Still destroying... [id=projects/nebula-arena-ga-20261109/locat...lusters/nebula-dev/nodePools/game-pool, 04m00s elapsed][0m[0m
+[0m[1mgoogle_container_node_pool.juego: Still destroying... [id=projects/nebula-arena-ga-20261109/locat...lusters/nebula-dev/nodePools/game-pool, 04m10s elapsed][0m[0m
+[0m[1mgoogle_container_node_pool.juego: Destruction complete after 4m14s[0m
+[0m[1mgoogle_project_iam_member.nodos["roles/monitoring.metricWriter"]: Destroying... [id=nebula-arena-ga-20261109/roles/monitoring.metricWriter/serviceAccount:nebula-dev-nodes@nebula-arena-ga-20261109.iam.gserviceaccount.com][0m[0m
+[0m[1mgoogle_project_iam_member.nodos["roles/artifactregistry.reader"]: Destroying... [id=nebula-arena-ga-20261109/roles/artifactregistry.reader/serviceAccount:nebula-dev-nodes@nebula-arena-ga-20261109.iam.gserviceaccount.com][0m[0m
+[0m[1mgoogle_project_iam_member.nodos["roles/logging.logWriter"]: Destroying... [id=nebula-arena-ga-20261109/roles/logging.logWriter/serviceAccount:nebula-dev-nodes@nebula-arena-ga-20261109.iam.gserviceaccount.com][0m[0m
+[0m[1mgoogle_container_cluster.nebula: Destroying... [id=projects/nebula-arena-ga-20261109/locations/us-central1-a/clusters/nebula-dev][0m[0m
+[0m[1mgoogle_project_iam_member.nodos["roles/logging.logWriter"]: Destruction complete after 8s[0m
+[0m[1mgoogle_project_iam_member.nodos["roles/artifactregistry.reader"]: Destruction complete after 8s[0m
+[0m[1mgoogle_project_iam_member.nodos["roles/monitoring.metricWriter"]: Destruction complete after 9s[0m
+[0m[1mgoogle_service_account.nodos: Destroying... [id=projects/nebula-arena-ga-20261109/serviceAccounts/nebula-dev-nodes@nebula-arena-ga-20261109.iam.gserviceaccount.com][0m[0m
+[0m[1mgoogle_service_account.nodos: Destruction complete after 0s[0m
+[0m[1mgoogle_container_cluster.nebula: Still destroying... [id=projects/nebula-arena-ga-20261109/locations/us-central1-a/clusters/nebula-dev, 00m10s elapsed][0m[0m
+[0m[1mgoogle_container_cluster.nebula: Still destroying... [id=projects/nebula-arena-ga-20261109/locations/us-central1-a/clusters/nebula-dev, 00m20s elapsed][0m[0m
+[0m[1mgoogle_container_cluster.nebula: Still destroying... [id=projects/nebula-arena-ga-20261109/locations/us-central1-a/clusters/nebula-dev, 00m30s elapsed][0m[0m
+[0m[1mgoogle_container_cluster.nebula: Still destroying... [id=projects/nebula-arena-ga-20261109/locations/us-central1-a/clusters/nebula-dev, 00m40s elapsed][0m[0m
+[0m[1mgoogle_container_cluster.nebula: Still destroying... [id=projects/nebula-arena-ga-20261109/locations/us-central1-a/clusters/nebula-dev, 00m50s elapsed][0m[0m
+[0m[1mgoogle_container_cluster.nebula: Still destroying... [id=projects/nebula-arena-ga-20261109/locations/us-central1-a/clusters/nebula-dev, 01m00s elapsed][0m[0m
+[0m[1mgoogle_container_cluster.nebula: Still destroying... [id=projects/nebula-arena-ga-20261109/locations/us-central1-a/clusters/nebula-dev, 01m10s elapsed][0m[0m
+[0m[1mgoogle_container_cluster.nebula: Still destroying... [id=projects/nebula-arena-ga-20261109/locations/us-central1-a/clusters/nebula-dev, 01m20s elapsed][0m[0m
+[0m[1mgoogle_container_cluster.nebula: Still destroying... [id=projects/nebula-arena-ga-20261109/locations/us-central1-a/clusters/nebula-dev, 01m30s elapsed][0m[0m
+[0m[1mgoogle_container_cluster.nebula: Still destroying... [id=projects/nebula-arena-ga-20261109/locations/us-central1-a/clusters/nebula-dev, 01m40s elapsed][0m[0m
+[0m[1mgoogle_container_cluster.nebula: Still destroying... [id=projects/nebula-arena-ga-20261109/locations/us-central1-a/clusters/nebula-dev, 01m50s elapsed][0m[0m
+[0m[1mgoogle_container_cluster.nebula: Still destroying... [id=projects/nebula-arena-ga-20261109/locations/us-central1-a/clusters/nebula-dev, 02m00s elapsed][0m[0m
+[0m[1mgoogle_container_cluster.nebula: Still destroying... [id=projects/nebula-arena-ga-20261109/locations/us-central1-a/clusters/nebula-dev, 02m10s elapsed][0m[0m
+[0m[1mgoogle_container_cluster.nebula: Still destroying... [id=projects/nebula-arena-ga-20261109/locations/us-central1-a/clusters/nebula-dev, 02m20s elapsed][0m[0m
+[0m[1mgoogle_container_cluster.nebula: Still destroying... [id=projects/nebula-arena-ga-20261109/locations/us-central1-a/clusters/nebula-dev, 02m30s elapsed][0m[0m
+[0m[1mgoogle_container_cluster.nebula: Still destroying... [id=projects/nebula-arena-ga-20261109/locations/us-central1-a/clusters/nebula-dev, 02m40s elapsed][0m[0m
+[0m[1mgoogle_container_cluster.nebula: Still destroying... [id=projects/nebula-arena-ga-20261109/locations/us-central1-a/clusters/nebula-dev, 02m50s elapsed][0m[0m
+[0m[1mgoogle_container_cluster.nebula: Still destroying... [id=projects/nebula-arena-ga-20261109/locations/us-central1-a/clusters/nebula-dev, 03m00s elapsed][0m[0m
+[0m[1mgoogle_container_cluster.nebula: Still destroying... [id=projects/nebula-arena-ga-20261109/locations/us-central1-a/clusters/nebula-dev, 03m10s elapsed][0m[0m
+[0m[1mgoogle_container_cluster.nebula: Still destroying... [id=projects/nebula-arena-ga-20261109/locations/us-central1-a/clusters/nebula-dev, 03m20s elapsed][0m[0m
+[0m[1mgoogle_container_cluster.nebula: Still destroying... [id=projects/nebula-arena-ga-20261109/locations/us-central1-a/clusters/nebula-dev, 03m30s elapsed][0m[0m
+[0m[1mgoogle_container_cluster.nebula: Still destroying... [id=projects/nebula-arena-ga-20261109/locations/us-central1-a/clusters/nebula-dev, 03m40s elapsed][0m[0m
+[0m[1mgoogle_container_cluster.nebula: Still destroying... [id=projects/nebula-arena-ga-20261109/locations/us-central1-a/clusters/nebula-dev, 03m50s elapsed][0m[0m
+[0m[1mgoogle_container_cluster.nebula: Still destroying... [id=projects/nebula-arena-ga-20261109/locations/us-central1-a/clusters/nebula-dev, 04m00s elapsed][0m[0m
+[0m[1mgoogle_container_cluster.nebula: Still destroying... [id=projects/nebula-arena-ga-20261109/locations/us-central1-a/clusters/nebula-dev, 04m10s elapsed][0m[0m
+[0m[1mgoogle_container_cluster.nebula: Still destroying... [id=projects/nebula-arena-ga-20261109/locations/us-central1-a/clusters/nebula-dev, 04m20s elapsed][0m[0m
+[0m[1mgoogle_container_cluster.nebula: Still destroying... [id=projects/nebula-arena-ga-20261109/locations/us-central1-a/clusters/nebula-dev, 04m30s elapsed][0m[0m
+[0m[1mgoogle_container_cluster.nebula: Still destroying... [id=projects/nebula-arena-ga-20261109/locations/us-central1-a/clusters/nebula-dev, 04m40s elapsed][0m[0m
+[0m[1mgoogle_container_cluster.nebula: Still destroying... [id=projects/nebula-arena-ga-20261109/locations/us-central1-a/clusters/nebula-dev, 04m50s elapsed][0m[0m
+[0m[1mgoogle_container_cluster.nebula: Destruction complete after 4m54s[0m
+[0m[1mgoogle_compute_subnetwork.juego: Destroying... [id=projects/nebula-arena-ga-20261109/regions/us-central1/subnetworks/nebula-dev-subred][0m[0m
+[0m[1mgoogle_compute_subnetwork.juego: Still destroying... [id=projects/nebula-arena-ga-20261109/regio...central1/subnetworks/nebula-dev-subred, 00m10s elapsed][0m[0m
+[0m[1mgoogle_compute_subnetwork.juego: Still destroying... [id=projects/nebula-arena-ga-20261109/regio...central1/subnetworks/nebula-dev-subred, 00m20s elapsed][0m[0m
+[0m[1mgoogle_compute_subnetwork.juego: Destruction complete after 22s[0m
+[0m[1mgoogle_compute_network.vpc: Destroying... [id=projects/nebula-arena-ga-20261109/global/networks/nebula-dev-vpc][0m[0m
+[0m[1mgoogle_compute_network.vpc: Still destroying... [id=projects/nebula-arena-ga-20261109/global/networks/nebula-dev-vpc, 00m10s elapsed][0m[0m
+[0m[1mgoogle_compute_network.vpc: Still destroying... [id=projects/nebula-arena-ga-20261109/global/networks/nebula-dev-vpc, 00m20s elapsed][0m[0m
+[0m[1mgoogle_compute_network.vpc: Destruction complete after 22s[0m
+[0m[1mgoogle_project_service.apis["cloudasset.googleapis.com"]: Destroying... [id=nebula-arena-ga-20261109/cloudasset.googleapis.com][0m[0m
+[0m[1mgoogle_project_service.apis["compute.googleapis.com"]: Destroying... [id=nebula-arena-ga-20261109/compute.googleapis.com][0m[0m
+[0m[1mgoogle_project_service.apis["cloudresourcemanager.googleapis.com"]: Destroying... [id=nebula-arena-ga-20261109/cloudresourcemanager.googleapis.com][0m[0m
+[0m[1mgoogle_project_service.apis["sts.googleapis.com"]: Destroying... [id=nebula-arena-ga-20261109/sts.googleapis.com][0m[0m
+[0m[1mgoogle_project_service.apis["container.googleapis.com"]: Destroying... [id=nebula-arena-ga-20261109/container.googleapis.com][0m[0m
+[0m[1mgoogle_project_service.apis["iamcredentials.googleapis.com"]: Destroying... [id=nebula-arena-ga-20261109/iamcredentials.googleapis.com][0m[0m
+[0m[1mgoogle_project_service.apis["artifactregistry.googleapis.com"]: Destroying... [id=nebula-arena-ga-20261109/artifactregistry.googleapis.com][0m[0m
+[0m[1mgoogle_project_service.apis["run.googleapis.com"]: Destroying... [id=nebula-arena-ga-20261109/run.googleapis.com][0m[0m
+[0m[1mgoogle_project_service.apis["compute.googleapis.com"]: Destruction complete after 0s[0m
+[0m[1mgoogle_project_service.apis["iam.googleapis.com"]: Destroying... [id=nebula-arena-ga-20261109/iam.googleapis.com][0m[0m
+[0m[1mgoogle_project_service.apis["firestore.googleapis.com"]: Destroying... [id=nebula-arena-ga-20261109/firestore.googleapis.com][0m[0m
+[0m[1mgoogle_project_service.apis["cloudasset.googleapis.com"]: Destruction complete after 0s[0m
+[0m[1mgoogle_project_service.apis["firestore.googleapis.com"]: Destruction complete after 0s[0m
+[0m[1mgoogle_project_service.apis["container.googleapis.com"]: Destruction complete after 0s[0m
+[0m[1mgoogle_project_service.apis["sts.googleapis.com"]: Destruction complete after 0s[0m
+[0m[1mgoogle_project_service.apis["run.googleapis.com"]: Destruction complete after 0s[0m
+[0m[1mgoogle_project_service.apis["artifactregistry.googleapis.com"]: Destruction complete after 0s[0m
+[0m[1mgoogle_project_service.apis["cloudresourcemanager.googleapis.com"]: Destruction complete after 0s[0m
+[0m[1mgoogle_project_service.apis["iam.googleapis.com"]: Destruction complete after 0s[0m
+[0m[1mgoogle_project_service.apis["iamcredentials.googleapis.com"]: Destruction complete after 0s[0m
+[0m[1m[32m
+Destroy complete! Resources: 41 destroyed.[0m

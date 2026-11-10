@@ -1,0 +1,18 @@
+google_cloud_run_v2_service.scores[0]: Modifying... [id=projects/nebula-arena-ga-20261109/locations/us-central1/services/nebula-dev-leaderboard]
+google_container_node_pool.juego: Modifying... [id=projects/nebula-arena-ga-20261109/locations/us-central1-a/clusters/nebula-dev/nodePools/game-pool]
+google_cloud_run_v2_service.scores[0]: Modifications complete after 1s [id=projects/nebula-arena-ga-20261109/locations/us-central1/services/nebula-dev-leaderboard]
+google_container_node_pool.juego: Still modifying... [id=projects/nebula-arena-ga-20261109/locat...lusters/nebula-dev/nodePools/game-pool, 00m10s elapsed]
+google_container_node_pool.juego: Modifications complete after 12s [id=projects/nebula-arena-ga-20261109/locations/us-central1-a/clusters/nebula-dev/nodePools/game-pool]
+
+Apply complete! Resources: 0 added, 2 changed, 0 destroyed.
+
+Outputs:
+
+cluster = "nebula-dev"
+deploy_service_account = "nebula-dev-github@nebula-arena-ga-20261109.iam.gserviceaccount.com"
+generador = "nebula-dev-locust"
+leaderboard_url = "https://nebula-dev-leaderboard-iszgggb7qa-uc.a.run.app"
+registro = "us-central1-docker.pkg.dev/nebula-arena-ga-20261109/nebula"
+stream_bucket = "nebula-arena-ga-20261109-nebula-stream"
+stream_url = "http://34.110.167.87"
+wif_provider = "projects/913295964817/locations/global/workloadIdentityPools/nebula-github/providers/github"

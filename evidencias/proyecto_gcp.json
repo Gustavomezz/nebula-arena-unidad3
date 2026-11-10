@@ -4,7 +4,10 @@
   "name": "Nebula Arena Unidad 3",
   "createTime": "2026-11-10T03:07:21.761Z",
   "lifecycleState": "ACTIVE",
-  "billingEnabled": false,
+  "billingEnabled": true,
   "recursos_del_laboratorio_creados": false,
-  "observacion": "Solo se creó el proyecto. El plan inicial del bucket de estado se generó sin aplicar."
+  "observacion": "Proyecto conservado. Infraestructura, almacenamiento y red eliminados; ver cierre_verificado.json. La facturación no se modificó durante el cierre.",
+  "verificacion_utc": "2026-11-10T05:06:04.094349+00:00",
+  "recursos_del_laboratorio_eliminados": true,
+  "verificacion_recursos_utc": "2026-11-10T06:00:06.221629+00:00"
 }

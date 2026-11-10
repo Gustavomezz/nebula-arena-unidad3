@@ -1,0 +1,4 @@
+Method,Name,Error,Occurrences,First Seen,Last Seen
+HTTP,asignacion,"ConnectionError(MaxRetryError('HTTPConnectionPool(host=\'10.40.0.8\', port=80): Max retries exceeded with url: /join (Caused by NewConnectionError(""HTTPConnection(host=\'10.40.0.8\', port=80): Failed to establish a new connection: [Errno 99] Cannot assign requested address""))'))",9410,2026-11-10T05:20:50Z,2026-11-10T05:22:06Z
+WS,conexion,TimeoutError('Agones no tuvo servidores listos en 180 s'),190,2026-11-10T05:22:50Z,2026-11-10T05:24:19Z
+HTTP,asignacion,HTTPError('HTTP 503'),82478,2026-11-10T05:19:49Z,2026-11-10T05:24:18Z

@@ -1,0 +1,61 @@
+{
+  "inicio_utc": "2026-11-10T04:46:35.394456+00:00",
+  "fases": [
+    {
+      "nombre": "rampa",
+      "inicio_utc": "2026-11-10T04:46:36.247618+00:00",
+      "usuarios": 1000,
+      "entradas_s": 2,
+      "duracion_s": 1200,
+      "clase": "Jugador",
+      "estado": "medicion_finalizada",
+      "fin_utc": "2026-11-10T05:06:59.255780+00:00",
+      "locust_exitcode": 1
+    },
+    {
+      "nombre": "pico",
+      "inicio_utc": "2026-11-10T05:08:03.010569+00:00",
+      "usuarios": 1000,
+      "entradas_s": 50,
+      "duracion_s": 600,
+      "clase": "Jugador",
+      "estado": "medicion_finalizada",
+      "fin_utc": "2026-11-10T05:18:25.582197+00:00",
+      "locust_exitcode": 1
+    },
+    {
+      "nombre": "estres",
+      "inicio_utc": "2026-11-10T05:19:44.220214+00:00",
+      "usuarios": 1800,
+      "entradas_s": 20,
+      "duracion_s": 300,
+      "clase": "Jugador",
+      "estado": "medicion_finalizada",
+      "fin_utc": "2026-11-10T05:25:07.098476+00:00",
+      "locust_exitcode": 1
+    },
+    {
+      "nombre": "hpa",
+      "inicio_utc": "2026-11-10T05:25:35.004837+00:00",
+      "usuarios": 100,
+      "entradas_s": 25,
+      "duracion_s": 180,
+      "clase": "Matchmaking",
+      "estado": "medicion_finalizada",
+      "fin_utc": "2026-11-10T05:28:57.719900+00:00",
+      "locust_exitcode": 0
+    },
+    {
+      "nombre": "scores",
+      "inicio_utc": "2026-11-10T05:29:05.706407+00:00",
+      "usuarios": 500,
+      "entradas_s": 50,
+      "duracion_s": 300,
+      "clase": "TablaLideres",
+      "estado": "medicion_finalizada",
+      "fin_utc": "2026-11-10T05:34:28.137026+00:00",
+      "locust_exitcode": 0
+    }
+  ],
+  "fin_utc": "2026-11-10T05:34:35.803889+00:00"
+}

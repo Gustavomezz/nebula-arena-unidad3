@@ -1,0 +1,278 @@
+[0m[1mdata.google_client_config.actual: Reading...[0m[0m
+[0m[1mdata.google_container_cluster.nebula: Reading...[0m[0m
+[0m[1mdata.google_client_config.actual: Read complete after 0s [id=projects/nebula-arena-ga-20261109/regions//zones/][0m
+[0m[1mdata.google_container_cluster.nebula: Read complete after 1s [id=projects/nebula-arena-ga-20261109/locations/us-central1-a/clusters/nebula-dev][0m
+[0m[1mhelm_release.monitoreo: Refreshing state... [id=monitoreo][0m
+[0m[1mhelm_release.agones: Refreshing state... [id=agones][0m
+
+Terraform used the selected providers to generate the following execution
+plan. Resource actions are indicated with the following symbols:
+  [31m-[0m destroy[0m
+
+Terraform will perform the following actions:
+
+[1m  # helm_release.agones[0m will be [1m[31mdestroyed[0m
+[0m  [31m-[0m[0m resource "helm_release" "agones" {
+      [31m-[0m[0m atomic                     = false [90m-> null[0m[0m
+      [31m-[0m[0m chart                      = "agones" [90m-> null[0m[0m
+      [31m-[0m[0m cleanup_on_fail            = false [90m-> null[0m[0m
+      [31m-[0m[0m create_namespace           = true [90m-> null[0m[0m
+      [31m-[0m[0m dependency_update          = false [90m-> null[0m[0m
+      [31m-[0m[0m disable_crd_hooks          = false [90m-> null[0m[0m
+      [31m-[0m[0m disable_openapi_validation = false [90m-> null[0m[0m
+      [31m-[0m[0m disable_webhooks           = false [90m-> null[0m[0m
+      [31m-[0m[0m force_update               = false [90m-> null[0m[0m
+      [31m-[0m[0m id                         = "agones" [90m-> null[0m[0m
+      [31m-[0m[0m lint                       = false [90m-> null[0m[0m
+      [31m-[0m[0m max_history                = 0 [90m-> null[0m[0m
+      [31m-[0m[0m metadata                   = {
+          [31m-[0m[0m app_version    = "1.62.0" [90m-> null[0m[0m
+          [31m-[0m[0m chart          = "agones" [90m-> null[0m[0m
+          [31m-[0m[0m first_deployed = 1794281733 [90m-> null[0m[0m
+          [31m-[0m[0m last_deployed  = 1794282060 [90m-> null[0m[0m
+          [31m-[0m[0m name           = "agones" [90m-> null[0m[0m
+          [31m-[0m[0m namespace      = "agones-system" [90m-> null[0m[0m
+          [31m-[0m[0m notes          = <<-EOT
+                The Agones components have been installed in the namespace agones-system.
+                
+                You can get their status by running:
+                kubectl --namespace agones-system get pods -o wide
+                
+                Once ready you can create your first GameServer using our examples https://agones.dev/site/docs/getting-started/create-gameserver/ .
+                
+                Finally don't forget to explore our documentation and usage guides on how to develop and host dedicated game servers on top of Agones:
+                
+                 - Create a Game Server (https://agones.dev/site/docs/getting-started/create-gameserver/)
+                 - Integrating the Game Server SDK (https://agones.dev/site/docs/guides/client-sdks/)
+                 - GameServer Health Checking (https://agones.dev/site/docs/guides/health-checking/)
+                 - Accessing Agones via the Kubernetes API (https://agones.dev/site/docs/guides/access-api/)
+            EOT [90m-> null[0m[0m
+          [31m-[0m[0m revision       = 2 [90m-> null[0m[0m
+          [31m-[0m[0m values         = jsonencode(
+                {
+                  [31m-[0m[0m agones = {
+                      [31m-[0m[0m allocator  = {
+                          [31m-[0m[0m service = {
+                              [31m-[0m[0m serviceType = "ClusterIP"
+                            }
+                        }
+                      [31m-[0m[0m controller = {
+                          [31m-[0m[0m persistentLogsSizeLimitMB = 100
+                        }
+                      [31m-[0m[0m extensions = {
+                          [31m-[0m[0m persistentLogsSizeLimitMB = 100
+                        }
+                      [31m-[0m[0m metrics    = {
+                          [31m-[0m[0m serviceMonitor = {
+                              [31m-[0m[0m enabled = true
+                            }
+                        }
+                    }
+                }
+            ) [90m-> null[0m[0m
+          [31m-[0m[0m version        = "1.62.0" [90m-> null[0m[0m
+        } [90m-> null[0m[0m
+      [31m-[0m[0m name                       = "agones" [90m-> null[0m[0m
+      [31m-[0m[0m namespace                  = "agones-system" [90m-> null[0m[0m
+      [31m-[0m[0m pass_credentials           = false [90m-> null[0m[0m
+      [31m-[0m[0m recreate_pods              = false [90m-> null[0m[0m
+      [31m-[0m[0m render_subchart_notes      = true [90m-> null[0m[0m
+      [31m-[0m[0m replace                    = false [90m-> null[0m[0m
+      [31m-[0m[0m repository                 = "https://agones.dev/chart/stable" [90m-> null[0m[0m
+      [31m-[0m[0m reset_values               = false [90m-> null[0m[0m
+      [31m-[0m[0m reuse_values               = false [90m-> null[0m[0m
+      [31m-[0m[0m set_wo                     = (write-only attribute) [90m-> null[0m[0m
+      [31m-[0m[0m skip_crds                  = false [90m-> null[0m[0m
+      [31m-[0m[0m status                     = "deployed" [90m-> null[0m[0m
+      [31m-[0m[0m take_ownership             = false [90m-> null[0m[0m
+      [31m-[0m[0m timeout                    = 900 [90m-> null[0m[0m
+      [31m-[0m[0m upgrade_install            = false [90m-> null[0m[0m
+      [31m-[0m[0m values                     = [
+          [31m-[0m[0m <<-EOT
+                "agones":
+                  "allocator":
+                    "service":
+                      "serviceType": "ClusterIP"
+                  "controller":
+                    "persistentLogsSizeLimitMB": 100
+                  "extensions":
+                    "persistentLogsSizeLimitMB": 100
+                  "metrics":
+                    "serviceMonitor":
+                      "enabled": true
+            EOT,
+        ] [90m-> null[0m[0m
+      [31m-[0m[0m verify                     = false [90m-> null[0m[0m
+      [31m-[0m[0m version                    = "1.62.0" [90m-> null[0m[0m
+      [31m-[0m[0m wait                       = true [90m-> null[0m[0m
+      [31m-[0m[0m wait_for_jobs              = false [90m-> null[0m[0m
+    }
+
+[1m  # helm_release.monitoreo[0m will be [1m[31mdestroyed[0m
+[0m  [31m-[0m[0m resource "helm_release" "monitoreo" {
+      [31m-[0m[0m atomic                     = false [90m-> null[0m[0m
+      [31m-[0m[0m chart                      = "kube-prometheus-stack" [90m-> null[0m[0m
+      [31m-[0m[0m cleanup_on_fail            = false [90m-> null[0m[0m
+      [31m-[0m[0m create_namespace           = true [90m-> null[0m[0m
+      [31m-[0m[0m dependency_update          = false [90m-> null[0m[0m
+      [31m-[0m[0m disable_crd_hooks          = false [90m-> null[0m[0m
+      [31m-[0m[0m disable_openapi_validation = false [90m-> null[0m[0m
+      [31m-[0m[0m disable_webhooks           = false [90m-> null[0m[0m
+      [31m-[0m[0m force_update               = false [90m-> null[0m[0m
+      [31m-[0m[0m id                         = "monitoreo" [90m-> null[0m[0m
+      [31m-[0m[0m lint                       = false [90m-> null[0m[0m
+      [31m-[0m[0m max_history                = 0 [90m-> null[0m[0m
+      [31m-[0m[0m metadata                   = {
+          [31m-[0m[0m app_version    = "v0.82.2" [90m-> null[0m[0m
+          [31m-[0m[0m chart          = "kube-prometheus-stack" [90m-> null[0m[0m
+          [31m-[0m[0m first_deployed = 1794281579 [90m-> null[0m[0m
+          [31m-[0m[0m last_deployed  = 1794281579 [90m-> null[0m[0m
+          [31m-[0m[0m name           = "monitoreo" [90m-> null[0m[0m
+          [31m-[0m[0m namespace      = "monitoring" [90m-> null[0m[0m
+          [31m-[0m[0m notes          = <<-EOT
+                kube-state-metrics is a simple service that listens to the Kubernetes API server and generates metrics about the state of the objects.
+                The exposed metrics can be found here:
+                https://github.com/kubernetes/kube-state-metrics/blob/master/docs/README.md#exposed-metrics
+                
+                The metrics are exported on the HTTP endpoint /metrics on the listening port.
+                In your case, monitoreo-kube-state-metrics.monitoring.svc.cluster.local:8080/metrics
+                
+                They are served either as plaintext or protobuf depending on the Accept header.
+                They are designed to be consumed either by Prometheus itself or by a scraper that is compatible with scraping a Prometheus client endpoint.
+                
+                1. Get your 'admin' user password by running:
+                
+                   kubectl get secret --namespace monitoring monitoreo-grafana -o jsonpath="{.data.admin-password}" | base64 --decode ; echo
+                
+                
+                2. The Grafana server can be accessed via port 80 on the following DNS name from within your cluster:
+                
+                   monitoreo-grafana.monitoring.svc.cluster.local
+                
+                   Get the Grafana URL to visit by running these commands in the same shell:
+                     export POD_NAME=$(kubectl get pods --namespace monitoring -l "app.kubernetes.io/name=grafana,app.kubernetes.io/instance=monitoreo" -o jsonpath="{.items[0].metadata.name}")
+                     kubectl --namespace monitoring port-forward $POD_NAME 3000
+                
+                3. Login with the password from step 1 and the username: admin
+                #################################################################################
+                ######   WARNING: Persistence is disabled!!! You will lose your data when   #####
+                ######            the Grafana pod is terminated.                            #####
+                #################################################################################
+                
+                kube-prometheus-stack has been installed. Check its status by running:
+                  kubectl --namespace monitoring get pods -l "release=monitoreo"
+                
+                Get Grafana 'admin' user password by running:
+                
+                  kubectl --namespace monitoring get secrets monitoreo-grafana -o jsonpath="{.data.admin-password}" | base64 -d ; echo
+                
+                Access Grafana local instance:
+                
+                  export POD_NAME=$(kubectl --namespace monitoring get pod -l "app.kubernetes.io/name=grafana,app.kubernetes.io/instance=monitoreo" -oname)
+                  kubectl --namespace monitoring port-forward $POD_NAME 3000
+                
+                Visit https://github.com/prometheus-operator/kube-prometheus for instructions on how to create & configure Alertmanager and Prometheus instances using the Operator.
+                
+                1. Get the application URL by running these commands:
+                  export POD_NAME=$(kubectl get pods --namespace monitoring -l "app.kubernetes.io/name=prometheus-node-exporter,app.kubernetes.io/instance=monitoreo" -o jsonpath="{.items[0].metadata.name}")
+                  echo "Visit http://127.0.0.1:9100 to use your application"
+                  kubectl port-forward --namespace monitoring $POD_NAME 9100
+            EOT [90m-> null[0m[0m
+          [31m-[0m[0m revision       = 1 [90m-> null[0m[0m
+          [31m-[0m[0m values         = jsonencode(
+                {
+                  [31m-[0m[0m alertmanager = {
+                      [31m-[0m[0m enabled = false
+                    }
+                  [31m-[0m[0m grafana      = {
+                      [31m-[0m[0m persistence = {
+                          [31m-[0m[0m enabled = false
+                        }
+                      [31m-[0m[0m service     = {
+                          [31m-[0m[0m type = "ClusterIP"
+                        }
+                      [31m-[0m[0m sidecar     = {
+                          [31m-[0m[0m dashboards = {
+                              [31m-[0m[0m enabled         = true
+                              [31m-[0m[0m searchNamespace = "ALL"
+                            }
+                        }
+                    }
+                  [31m-[0m[0m prometheus   = {
+                      [31m-[0m[0m prometheusSpec = {
+                          [31m-[0m[0m podMonitorSelectorNilUsesHelmValues     = false
+                          [31m-[0m[0m resources                               = {
+                              [31m-[0m[0m limits   = {
+                                  [31m-[0m[0m cpu    = "1000m"
+                                  [31m-[0m[0m memory = "1536Mi"
+                                }
+                              [31m-[0m[0m requests = {
+                                  [31m-[0m[0m cpu    = "300m"
+                                  [31m-[0m[0m memory = "768Mi"
+                                }
+                            }
+                          [31m-[0m[0m retention                               = "6h"
+                          [31m-[0m[0m serviceMonitorSelectorNilUsesHelmValues = false
+                        }
+                    }
+                }
+            ) [90m-> null[0m[0m
+          [31m-[0m[0m version        = "72.6.2" [90m-> null[0m[0m
+        } [90m-> null[0m[0m
+      [31m-[0m[0m name                       = "monitoreo" [90m-> null[0m[0m
+      [31m-[0m[0m namespace                  = "monitoring" [90m-> null[0m[0m
+      [31m-[0m[0m pass_credentials           = false [90m-> null[0m[0m
+      [31m-[0m[0m recreate_pods              = false [90m-> null[0m[0m
+      [31m-[0m[0m render_subchart_notes      = true [90m-> null[0m[0m
+      [31m-[0m[0m replace                    = false [90m-> null[0m[0m
+      [31m-[0m[0m repository                 = "https://prometheus-community.github.io/helm-charts" [90m-> null[0m[0m
+      [31m-[0m[0m reset_values               = false [90m-> null[0m[0m
+      [31m-[0m[0m reuse_values               = false [90m-> null[0m[0m
+      [31m-[0m[0m set_wo                     = (write-only attribute) [90m-> null[0m[0m
+      [31m-[0m[0m skip_crds                  = false [90m-> null[0m[0m
+      [31m-[0m[0m status                     = "deployed" [90m-> null[0m[0m
+      [31m-[0m[0m take_ownership             = false [90m-> null[0m[0m
+      [31m-[0m[0m timeout                    = 900 [90m-> null[0m[0m
+      [31m-[0m[0m upgrade_install            = false [90m-> null[0m[0m
+      [31m-[0m[0m values                     = [
+          [31m-[0m[0m <<-EOT
+                grafana:
+                  service: {type: ClusterIP}
+                  sidecar:
+                    dashboards:
+                      enabled: true
+                      searchNamespace: ALL
+                  persistence: {enabled: false}
+                prometheus:
+                  prometheusSpec:
+                    retention: 6h
+                    podMonitorSelectorNilUsesHelmValues: false
+                    serviceMonitorSelectorNilUsesHelmValues: false
+                    resources:
+                      requests: {cpu: 300m, memory: 768Mi}
+                      limits: {cpu: 1000m, memory: 1536Mi}
+                alertmanager:
+                  enabled: false
+            EOT,
+        ] [90m-> null[0m[0m
+      [31m-[0m[0m verify                     = false [90m-> null[0m[0m
+      [31m-[0m[0m version                    = "72.6.2" [90m-> null[0m[0m
+      [31m-[0m[0m wait                       = true [90m-> null[0m[0m
+      [31m-[0m[0m wait_for_jobs              = false [90m-> null[0m[0m
+    }
+
+[1mPlan:[0m [0m0 to add, 0 to change, 2 to destroy.
+[0m[1mhelm_release.agones: Destroying... [id=agones][0m[0m
+[0m[1mhelm_release.agones: Still destroying... [id=agones, 00m10s elapsed][0m[0m
+[0m[1mhelm_release.agones: Still destroying... [id=agones, 00m20s elapsed][0m[0m
+[0m[1mhelm_release.agones: Still destroying... [id=agones, 00m30s elapsed][0m[0m
+[0m[1mhelm_release.agones: Still destroying... [id=agones, 00m40s elapsed][0m[0m
+[0m[1mhelm_release.agones: Still destroying... [id=agones, 00m50s elapsed][0m[0m
+[0m[1mhelm_release.agones: Destruction complete after 54s[0m
+[0m[1mhelm_release.monitoreo: Destroying... [id=monitoreo][0m[0m
+[0m[1mhelm_release.monitoreo: Still destroying... [id=monitoreo, 00m10s elapsed][0m[0m
+[0m[1mhelm_release.monitoreo: Still destroying... [id=monitoreo, 00m20s elapsed][0m[0m
+[0m[1mhelm_release.monitoreo: Still destroying... [id=monitoreo, 00m30s elapsed][0m[0m
+[0m[1mhelm_release.monitoreo: Destruction complete after 39s[0m
+[0m[1m[32m
+Destroy complete! Resources: 2 destroyed.[0m

@@ -1,0 +1,52 @@
+[2026-11-10 05:25:38,611] nebula-dev-locust/INFO/locust.main: Starting Locust 2.47.0
+[2026-11-10 05:25:38,643] nebula-dev-locust/INFO/locust.runners: nebula-dev-locust_2e5683404b43453a8ba4017eb83bb87b (index 0) reported as ready. 1 workers connected.
+[2026-11-10 05:25:38,644] nebula-dev-locust/INFO/locust.runners: nebula-dev-locust_2c5b5e72f8654fe29c00e62e90e171e7 (index 1) reported as ready. 2 workers connected.
+[2026-11-10 05:25:38,646] nebula-dev-locust/INFO/locust.runners: nebula-dev-locust_6e41f0bd37a9471691fb696d3ed4625f (index 2) reported as ready. 3 workers connected.
+[2026-11-10 05:25:38,649] nebula-dev-locust/INFO/locust.runners: nebula-dev-locust_a8c034394b0b499489c514e67012fd14 (index 3) reported as ready. 4 workers connected.
+[2026-11-10 05:25:38,649] nebula-dev-locust/INFO/locust.runners: nebula-dev-locust_dd23744fe7c44f3eb4ed92c889f7d8f6 (index 4) reported as ready. 5 workers connected.
+[2026-11-10 05:25:38,820] nebula-dev-locust/INFO/locust.runners: nebula-dev-locust_69091438b7284d2680811aa8702c96a6 (index 5) reported as ready. 6 workers connected.
+[2026-11-10 05:25:38,822] nebula-dev-locust/INFO/locust.runners: nebula-dev-locust_18f1609e147240b0986a3bd7f231c5b1 (index 6) reported as ready. 7 workers connected.
+[2026-11-10 05:25:38,824] nebula-dev-locust/INFO/locust.runners: nebula-dev-locust_d0119829e450435e90b70989840f16f1 (index 7) reported as ready. 8 workers connected.
+[2026-11-10 05:25:39,644] nebula-dev-locust/INFO/locust.main: Run time limit set to 180 seconds
+[2026-11-10 05:25:39,644] nebula-dev-locust/INFO/locust.runners: Sending spawn jobs of 100 users at 25.00 spawn rate to 8 ready workers
+[2026-11-10 05:25:42,787] nebula-dev-locust/INFO/locust.runners: All users spawned: {"Matchmaking": 100} (100 total users)
+[2026-11-10 05:28:39,645] nebula-dev-locust/INFO/locust.main: --run-time limit reached, shutting down
+[2026-11-10 05:28:39,645] nebula-dev-locust/INFO/locust.runners: Got quit message from master, shutting down...
+[2026-11-10 05:28:39,645] nebula-dev-locust/INFO/locust.runners: Got quit message from master, shutting down...
+[2026-11-10 05:28:39,645] nebula-dev-locust/INFO/locust.runners: Got quit message from master, shutting down...
+[2026-11-10 05:28:39,645] nebula-dev-locust/INFO/locust.runners: Got quit message from master, shutting down...
+[2026-11-10 05:28:39,645] nebula-dev-locust/INFO/locust.runners: Got quit message from master, shutting down...
+[2026-11-10 05:28:39,645] nebula-dev-locust/INFO/locust.runners: Got quit message from master, shutting down...
+[2026-11-10 05:28:39,645] nebula-dev-locust/INFO/locust.runners: Got quit message from master, shutting down...
+[2026-11-10 05:28:39,646] nebula-dev-locust/INFO/locust.runners: Got quit message from master, shutting down...
+[2026-11-10 05:28:39,687] nebula-dev-locust/INFO/locust.main: Shutting down (exit code 0)
+[2026-11-10 05:28:39,687] nebula-dev-locust/INFO/locust.runners: Worker 'nebula-dev-locust_18f1609e147240b0986a3bd7f231c5b1' (index 6) quit. 0 workers ready.
+[2026-11-10 05:28:39,688] nebula-dev-locust/INFO/locust.main: Shutting down (exit code 0)
+[2026-11-10 05:28:39,688] nebula-dev-locust/INFO/locust.runners: Worker 'nebula-dev-locust_6e41f0bd37a9471691fb696d3ed4625f' (index 2) quit. 0 workers ready.
+[2026-11-10 05:28:39,689] nebula-dev-locust/INFO/locust.runners: Worker 'nebula-dev-locust_a8c034394b0b499489c514e67012fd14' (index 3) quit. 0 workers ready.
+[2026-11-10 05:28:39,689] nebula-dev-locust/INFO/locust.main: Shutting down (exit code 0)
+[2026-11-10 05:28:39,689] nebula-dev-locust/INFO/locust.runners: Worker 'nebula-dev-locust_d0119829e450435e90b70989840f16f1' (index 7) quit. 0 workers ready.
+[2026-11-10 05:28:39,689] nebula-dev-locust/INFO/locust.main: Shutting down (exit code 0)
+[2026-11-10 05:28:39,689] nebula-dev-locust/INFO/locust.main: Shutting down (exit code 0)
+[2026-11-10 05:28:39,690] nebula-dev-locust/INFO/locust.runners: Worker 'nebula-dev-locust_69091438b7284d2680811aa8702c96a6' (index 5) quit. 0 workers ready.
+[2026-11-10 05:28:39,690] nebula-dev-locust/INFO/locust.main: Shutting down (exit code 0)
+[2026-11-10 05:28:39,690] nebula-dev-locust/INFO/locust.main: Shutting down (exit code 0)
+[2026-11-10 05:28:39,690] nebula-dev-locust/INFO/locust.runners: Worker 'nebula-dev-locust_dd23744fe7c44f3eb4ed92c889f7d8f6' (index 4) quit. 0 workers ready.
+[2026-11-10 05:28:39,690] nebula-dev-locust/INFO/locust.main: Shutting down (exit code 0)
+[2026-11-10 05:28:39,690] nebula-dev-locust/INFO/locust.runners: Worker 'nebula-dev-locust_2e5683404b43453a8ba4017eb83bb87b' (index 0) quit. 0 workers ready.
+[2026-11-10 05:28:39,690] nebula-dev-locust/INFO/locust.runners: Worker 'nebula-dev-locust_2c5b5e72f8654fe29c00e62e90e171e7' (index 1) quit. 0 workers ready.
+[2026-11-10 05:28:39,690] nebula-dev-locust/INFO/locust.runners: The last worker quit, stopping test.
+[2026-11-10 05:28:40,647] nebula-dev-locust/INFO/locust.main: Shutting down (exit code 0)
+Type     Name                                                                          # reqs      # fails |    Avg     Min     Max    Med |   req/s  failures/s
+--------|----------------------------------------------------------------------------|-------|-------------|-------|-------|-------|-------|--------|-----------
+GET      salud_matchmaking                                                             356542     0(0.00%) |      3       1     143      3 | 1980.77        0.00
+--------|----------------------------------------------------------------------------|-------|-------------|-------|-------|-------|-------|--------|-----------
+         Aggregated                                                                    356542     0(0.00%) |      3       1     143      3 | 1980.77        0.00
+
+Response time percentiles (approximated)
+Type     Name                                                                                  50%    66%    75%    80%    90%    95%    98%    99%  99.9% 99.99%   100% # reqs
+--------|--------------------------------------------------------------------------------|--------|------|------|------|------|------|------|------|------|------|------|------
+GET      salud_matchmaking                                                                       3      4      4      4      5      5      6      6     27    120    140 356542
+--------|--------------------------------------------------------------------------------|--------|------|------|------|------|------|------|------|------|------|------|------
+         Aggregated                                                                              3      4      4      4      5      5      6      6     27    120    140 356542
+

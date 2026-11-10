@@ -1,0 +1,21 @@
+{
+  "nodos": [
+    {
+      "nodo": "gke-nebula-dev-game-pool-89caa13f-5drv",
+      "evento_utc": "2026-11-10T04:50:12Z",
+      "node_ready_utc": "2026-11-10T04:51:16Z",
+      "reaccion_s": 64.0,
+      "evento": "Pod triggered scale-up: [{https://www.googleapis.com/compute/v1/projects/nebula-arena-ga-20261109/zones/us-central1-a/instanceGroups/gke-nebula-dev-game-pool-89caa13f-grp 1->2 (max: 3)}]"
+    },
+    {
+      "nodo": "gke-nebula-dev-game-pool-89caa13f-qmsn",
+      "evento_utc": "2026-11-10T04:53:28Z",
+      "node_ready_utc": "2026-11-10T04:54:32Z",
+      "reaccion_s": 64.0,
+      "evento": "Pod triggered scale-up: [{https://www.googleapis.com/compute/v1/projects/nebula-arena-ga-20261109/zones/us-central1-a/instanceGroups/gke-nebula-dev-game-pool-89caa13f-grp 2->3 (max: 3)}]"
+    }
+  ],
+  "descripcion_reaccion": "El clúster creció de uno a tres nodos. El nodo adicional 1 tardó 64 s desde TriggeredScaleUp hasta Node Ready. El nodo adicional 2 tardó 64 s desde TriggeredScaleUp hasta Node Ready.",
+  "nota": "No es el tiempo total desde el primer jugador. Los CSV de nodos pueden reflejar Ready unos segundos después por el intervalo de scrape.",
+  "interpretacion_capacidad": "El máximo observado fue 1610 jugadores sobre 3 nodos, unos 139 s cerca de ese nivel. En los últimos 65 s el p95 por ventana fue de 10 a 12 ms y la generadora no pasó de 81.6% de CPU. Hubo 190 clientes que no consiguieron servidor. Kubernetes indicó CPU insuficiente y tope de nodos. Es el límite de admisión observado de esta configuración, no un máximo universal del juego. El p95 acumulado del estrés incluye el transitorio inicial."
+}

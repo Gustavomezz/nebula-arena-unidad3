@@ -1,25 +1,18 @@
 {
-  "fecha": "2026-11-09T21:10:11.817028-06:00",
-  "estado": "desplegado_pruebas_nube_en_curso",
-  "pruebas_locales": 21,
+  "fecha": "2026-11-10T06:00:06.219041+00:00",
+  "estado": "terminado_recursos_eliminados",
+  "pruebas_locales": 23,
   "terraform_validate": [
     "infra",
     "infra/bootstrap",
     "infra/addons"
   ],
   "ci_pruebas_y_contenedores": "correcto",
-  "ci_despliegue_nube": "omitido",
+  "ci_despliegue_nube": "correcto",
   "cpu_y_t4_colab": "ejecutados",
-  "recursos_gke_creados": true,
-  "motivo": "GKE, Cloud Run y CDN desplegados; siguen las pruebas de carga y el cierre.",
-  "pendiente": [
-    "ajustar la reserva a la cuota disponible",
-    "rampa y pico de 1000 jugadores",
-    "medir HPA y escalado de nodos",
-    "carga de Cloud Run con 500 usuarios",
-    "capturas finales y documentos",
-    "destrucción de recursos con auditoría"
-  ],
+  "recursos_gke_creados": false,
+  "motivo": "Prácticas y mediciones terminadas, pipeline completo en verde y auditoría posterior con todos los conteos en cero.",
+  "pendiente": [],
   "repositorio": "https://github.com/Gustavomezz/nebula-arena-unidad3",
   "notebook_colab": "https://colab.research.google.com/drive/1-Skk-DTkjCaMUqsacK75J1u6Flt5hMhZ",
   "presentacion_page_id": "page_a369c8b04f588191909b32b2d7741965",
@@ -28,5 +21,8 @@
   "acceso_google_cloud": true,
   "facturacion_habilitada": true,
   "plan_bootstrap": "aplicado",
-  "ci_publicacion_inicial": "correcto"
+  "ci_publicacion_inicial": "correcto",
+  "recursos_del_laboratorio_eliminados": true,
+  "exposicion_en_clase": "Material y demostración preparados; recrear el entorno antes de presentar.",
+  "entregado_en_classroom": false
 }

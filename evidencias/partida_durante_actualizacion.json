@@ -1,0 +1,566 @@
+{
+    "apiVersion": "v1",
+    "items": [
+        {
+            "apiVersion": "agones.dev/v1",
+            "kind": "Fleet",
+            "metadata": {
+                "annotations": {
+                    "agones.dev/sdk-version": "1.62.0",
+                    "kubectl.kubernetes.io/last-applied-configuration": "{\"apiVersion\":\"agones.dev/v1\",\"kind\":\"Fleet\",\"metadata\":{\"annotations\":{},\"name\":\"nebula-fleet\",\"namespace\":\"default\"},\"spec\":{\"replicas\":3,\"scheduling\":\"Packed\",\"strategy\":{\"rollingUpdate\":{\"maxSurge\":\"25%\",\"maxUnavailable\":1},\"type\":\"RollingUpdate\"},\"template\":{\"spec\":{\"health\":{\"failureThreshold\":3,\"initialDelaySeconds\":15,\"periodSeconds\":5},\"ports\":[{\"containerPort\":7654,\"name\":\"game\",\"protocol\":\"TCP\"}],\"template\":{\"spec\":{\"containers\":[{\"env\":[{\"name\":\"AGONES_ENABLED\",\"value\":\"true\"}],\"image\":\"us-central1-docker.pkg.dev/nebula-arena-ga-20261109/nebula/nebula-server:41eab9365317870e31a45490a2d519ed37b2ea38\",\"name\":\"nebula\",\"ports\":[{\"containerPort\":9100,\"name\":\"metrics\"}],\"resources\":{\"limits\":{\"cpu\":\"500m\",\"memory\":\"512Mi\"},\"requests\":{\"cpu\":\"100m\",\"memory\":\"256Mi\"}},\"securityContext\":{\"allowPrivilegeEscalation\":false,\"capabilities\":{\"drop\":[\"ALL\"]},\"readOnlyRootFilesystem\":true}}],\"nodeSelector\":{\"rol\":\"juego\"},\"securityContext\":{\"runAsNonRoot\":true,\"runAsUser\":1000,\"seccompProfile\":{\"type\":\"RuntimeDefault\"}},\"terminationGracePeriodSeconds\":30}}}}}}\n"
+                },
+                "creationTimestamp": "2026-11-10T03:40:48Z",
+                "generation": 2,
+                "name": "nebula-fleet",
+                "namespace": "default",
+                "resourceVersion": "1794283154700383002",
+                "uid": "a6ad5163-ad59-4469-a0f7-828ce10a47dc"
+            },
+            "spec": {
+                "replicas": 3,
+                "scheduling": "Packed",
+                "strategy": {
+                    "rollingUpdate": {
+                        "maxSurge": "25%",
+                        "maxUnavailable": 1
+                    },
+                    "type": "RollingUpdate"
+                },
+                "template": {
+                    "metadata": {},
+                    "spec": {
+                        "health": {
+                            "failureThreshold": 3,
+                            "initialDelaySeconds": 15,
+                            "periodSeconds": 5
+                        },
+                        "immutableReplicas": 1,
+                        "ports": [
+                            {
+                                "containerPort": 7654,
+                                "name": "game",
+                                "protocol": "TCP"
+                            }
+                        ],
+                        "sdkServer": {},
+                        "template": {
+                            "metadata": {},
+                            "spec": {
+                                "containers": [
+                                    {
+                                        "env": [
+                                            {
+                                                "name": "AGONES_ENABLED",
+                                                "value": "true"
+                                            }
+                                        ],
+                                        "image": "us-central1-docker.pkg.dev/nebula-arena-ga-20261109/nebula/nebula-server:41eab9365317870e31a45490a2d519ed37b2ea38",
+                                        "name": "nebula",
+                                        "ports": [
+                                            {
+                                                "containerPort": 9100,
+                                                "name": "metrics"
+                                            }
+                                        ],
+                                        "resources": {
+                                            "limits": {
+                                                "cpu": "500m",
+                                                "memory": "512Mi"
+                                            },
+                                            "requests": {
+                                                "cpu": "100m",
+                                                "memory": "256Mi"
+                                            }
+                                        },
+                                        "securityContext": {
+                                            "allowPrivilegeEscalation": false,
+                                            "capabilities": {
+                                                "drop": [
+                                                    "ALL"
+                                                ]
+                                            },
+                                            "readOnlyRootFilesystem": true
+                                        }
+                                    }
+                                ],
+                                "nodeSelector": {
+                                    "rol": "juego"
+                                },
+                                "securityContext": {
+                                    "runAsNonRoot": true,
+                                    "runAsUser": 1000,
+                                    "seccompProfile": {
+                                        "type": "RuntimeDefault"
+                                    }
+                                },
+                                "terminationGracePeriodSeconds": 30
+                            }
+                        }
+                    }
+                }
+            },
+            "status": {
+                "allocatedReplicas": 1,
+                "allocations": 2,
+                "readyReplicas": 2,
+                "replicas": 3,
+                "reservedReplicas": 0
+            }
+        },
+        {
+            "apiVersion": "agones.dev/v1",
+            "kind": "GameServer",
+            "metadata": {
+                "annotations": {
+                    "agones.dev/last-allocated": "2026-11-10T03:57:05.602934267Z",
+                    "agones.dev/sdk-version": "1.62.0"
+                },
+                "creationTimestamp": "2026-11-10T03:55:51Z",
+                "finalizers": [
+                    "agones.dev/controller"
+                ],
+                "generateName": "nebula-fleet-cphb2-",
+                "generation": 8,
+                "labels": {
+                    "agones.dev/fleet": "nebula-fleet",
+                    "agones.dev/gameserverset": "nebula-fleet-cphb2"
+                },
+                "name": "nebula-fleet-cphb2-qcvnx",
+                "namespace": "default",
+                "ownerReferences": [
+                    {
+                        "apiVersion": "agones.dev/v1",
+                        "blockOwnerDeletion": true,
+                        "controller": true,
+                        "kind": "GameServerSet",
+                        "name": "nebula-fleet-cphb2",
+                        "uid": "401c54cb-2505-4839-ba2e-2fbe648c53b4"
+                    }
+                ],
+                "resourceVersion": "1794283025617663024",
+                "uid": "15a237ef-e376-44d4-9062-a76725e4190a"
+            },
+            "spec": {
+                "container": "nebula",
+                "eviction": {
+                    "safe": "Never"
+                },
+                "health": {
+                    "failureThreshold": 3,
+                    "initialDelaySeconds": 15,
+                    "periodSeconds": 5
+                },
+                "immutableReplicas": 1,
+                "ports": [
+                    {
+                        "container": "nebula",
+                        "containerPort": 7654,
+                        "hostPort": 7578,
+                        "name": "game",
+                        "portPolicy": "Dynamic",
+                        "protocol": "TCP",
+                        "range": "default"
+                    }
+                ],
+                "scheduling": "Packed",
+                "sdkServer": {
+                    "grpcPort": 9357,
+                    "httpPort": 9358,
+                    "logLevel": "Info"
+                },
+                "template": {
+                    "metadata": {},
+                    "spec": {
+                        "containers": [
+                            {
+                                "env": [
+                                    {
+                                        "name": "AGONES_ENABLED",
+                                        "value": "true"
+                                    }
+                                ],
+                                "image": "us-central1-docker.pkg.dev/nebula-arena-ga-20261109/nebula/nebula-server:3b19b25426055cc3bdb401a59be6a14a323e8697",
+                                "name": "nebula",
+                                "ports": [
+                                    {
+                                        "containerPort": 9100,
+                                        "name": "metrics"
+                                    }
+                                ],
+                                "resources": {
+                                    "limits": {
+                                        "cpu": "500m",
+                                        "memory": "512Mi"
+                                    },
+                                    "requests": {
+                                        "cpu": "250m",
+                                        "memory": "256Mi"
+                                    }
+                                },
+                                "securityContext": {
+                                    "allowPrivilegeEscalation": false,
+                                    "capabilities": {
+                                        "drop": [
+                                            "ALL"
+                                        ]
+                                    },
+                                    "readOnlyRootFilesystem": true
+                                }
+                            }
+                        ],
+                        "nodeSelector": {
+                            "rol": "juego"
+                        },
+                        "securityContext": {
+                            "runAsNonRoot": true,
+                            "runAsUser": 1000,
+                            "seccompProfile": {
+                                "type": "RuntimeDefault"
+                            }
+                        },
+                        "terminationGracePeriodSeconds": 30
+                    }
+                }
+            },
+            "status": {
+                "address": "34.10.141.166",
+                "addresses": [
+                    {
+                        "address": "10.40.0.5",
+                        "type": "InternalIP"
+                    },
+                    {
+                        "address": "34.10.141.166",
+                        "type": "ExternalIP"
+                    },
+                    {
+                        "address": "gke-nebula-dev-game-pool-89caa13f-5j59",
+                        "type": "Hostname"
+                    },
+                    {
+                        "address": "10.44.0.34",
+                        "type": "PodIP"
+                    }
+                ],
+                "eviction": {
+                    "safe": "Never"
+                },
+                "immutableReplicas": 1,
+                "nodeName": "gke-nebula-dev-game-pool-89caa13f-5j59",
+                "players": null,
+                "ports": [
+                    {
+                        "name": "game",
+                        "port": 7578
+                    }
+                ],
+                "reservedUntil": null,
+                "state": "Allocated"
+            }
+        },
+        {
+            "apiVersion": "agones.dev/v1",
+            "kind": "GameServer",
+            "metadata": {
+                "annotations": {
+                    "agones.dev/sdk-version": "1.62.0"
+                },
+                "creationTimestamp": "2026-11-10T03:59:10Z",
+                "finalizers": [
+                    "agones.dev/controller"
+                ],
+                "generateName": "nebula-fleet-g2bhp-",
+                "generation": 7,
+                "labels": {
+                    "agones.dev/fleet": "nebula-fleet",
+                    "agones.dev/gameserverset": "nebula-fleet-g2bhp"
+                },
+                "name": "nebula-fleet-g2bhp-kkv2t",
+                "namespace": "default",
+                "ownerReferences": [
+                    {
+                        "apiVersion": "agones.dev/v1",
+                        "blockOwnerDeletion": true,
+                        "controller": true,
+                        "kind": "GameServerSet",
+                        "name": "nebula-fleet-g2bhp",
+                        "uid": "f7f49854-454b-4a40-94c6-3bf529cc0f29"
+                    }
+                ],
+                "resourceVersion": "1794283153878191010",
+                "uid": "d195f0b9-b8bd-4c08-a8ef-74aba19d6cd6"
+            },
+            "spec": {
+                "container": "nebula",
+                "eviction": {
+                    "safe": "Never"
+                },
+                "health": {
+                    "failureThreshold": 3,
+                    "initialDelaySeconds": 15,
+                    "periodSeconds": 5
+                },
+                "immutableReplicas": 1,
+                "ports": [
+                    {
+                        "container": "nebula",
+                        "containerPort": 7654,
+                        "hostPort": 7845,
+                        "name": "game",
+                        "portPolicy": "Dynamic",
+                        "protocol": "TCP",
+                        "range": "default"
+                    }
+                ],
+                "scheduling": "Packed",
+                "sdkServer": {
+                    "grpcPort": 9357,
+                    "httpPort": 9358,
+                    "logLevel": "Info"
+                },
+                "template": {
+                    "metadata": {},
+                    "spec": {
+                        "containers": [
+                            {
+                                "env": [
+                                    {
+                                        "name": "AGONES_ENABLED",
+                                        "value": "true"
+                                    }
+                                ],
+                                "image": "us-central1-docker.pkg.dev/nebula-arena-ga-20261109/nebula/nebula-server:41eab9365317870e31a45490a2d519ed37b2ea38",
+                                "name": "nebula",
+                                "ports": [
+                                    {
+                                        "containerPort": 9100,
+                                        "name": "metrics"
+                                    }
+                                ],
+                                "resources": {
+                                    "limits": {
+                                        "cpu": "500m",
+                                        "memory": "512Mi"
+                                    },
+                                    "requests": {
+                                        "cpu": "100m",
+                                        "memory": "256Mi"
+                                    }
+                                },
+                                "securityContext": {
+                                    "allowPrivilegeEscalation": false,
+                                    "capabilities": {
+                                        "drop": [
+                                            "ALL"
+                                        ]
+                                    },
+                                    "readOnlyRootFilesystem": true
+                                }
+                            }
+                        ],
+                        "nodeSelector": {
+                            "rol": "juego"
+                        },
+                        "securityContext": {
+                            "runAsNonRoot": true,
+                            "runAsUser": 1000,
+                            "seccompProfile": {
+                                "type": "RuntimeDefault"
+                            }
+                        },
+                        "terminationGracePeriodSeconds": 30
+                    }
+                }
+            },
+            "status": {
+                "address": "34.10.141.166",
+                "addresses": [
+                    {
+                        "address": "10.40.0.5",
+                        "type": "InternalIP"
+                    },
+                    {
+                        "address": "34.10.141.166",
+                        "type": "ExternalIP"
+                    },
+                    {
+                        "address": "gke-nebula-dev-game-pool-89caa13f-5j59",
+                        "type": "Hostname"
+                    },
+                    {
+                        "address": "10.44.0.35",
+                        "type": "PodIP"
+                    }
+                ],
+                "eviction": {
+                    "safe": "Never"
+                },
+                "immutableReplicas": 1,
+                "nodeName": "gke-nebula-dev-game-pool-89caa13f-5j59",
+                "players": null,
+                "ports": [
+                    {
+                        "name": "game",
+                        "port": 7845
+                    }
+                ],
+                "reservedUntil": null,
+                "state": "Ready"
+            }
+        },
+        {
+            "apiVersion": "agones.dev/v1",
+            "kind": "GameServer",
+            "metadata": {
+                "annotations": {
+                    "agones.dev/sdk-version": "1.62.0"
+                },
+                "creationTimestamp": "2026-11-10T03:59:10Z",
+                "finalizers": [
+                    "agones.dev/controller"
+                ],
+                "generateName": "nebula-fleet-g2bhp-",
+                "generation": 7,
+                "labels": {
+                    "agones.dev/fleet": "nebula-fleet",
+                    "agones.dev/gameserverset": "nebula-fleet-g2bhp"
+                },
+                "name": "nebula-fleet-g2bhp-znzcc",
+                "namespace": "default",
+                "ownerReferences": [
+                    {
+                        "apiVersion": "agones.dev/v1",
+                        "blockOwnerDeletion": true,
+                        "controller": true,
+                        "kind": "GameServerSet",
+                        "name": "nebula-fleet-g2bhp",
+                        "uid": "f7f49854-454b-4a40-94c6-3bf529cc0f29"
+                    }
+                ],
+                "resourceVersion": "1794283153875359012",
+                "uid": "e56b5745-7fde-49af-a289-cd581c29a776"
+            },
+            "spec": {
+                "container": "nebula",
+                "eviction": {
+                    "safe": "Never"
+                },
+                "health": {
+                    "failureThreshold": 3,
+                    "initialDelaySeconds": 15,
+                    "periodSeconds": 5
+                },
+                "immutableReplicas": 1,
+                "ports": [
+                    {
+                        "container": "nebula",
+                        "containerPort": 7654,
+                        "hostPort": 7294,
+                        "name": "game",
+                        "portPolicy": "Dynamic",
+                        "protocol": "TCP",
+                        "range": "default"
+                    }
+                ],
+                "scheduling": "Packed",
+                "sdkServer": {
+                    "grpcPort": 9357,
+                    "httpPort": 9358,
+                    "logLevel": "Info"
+                },
+                "template": {
+                    "metadata": {},
+                    "spec": {
+                        "containers": [
+                            {
+                                "env": [
+                                    {
+                                        "name": "AGONES_ENABLED",
+                                        "value": "true"
+                                    }
+                                ],
+                                "image": "us-central1-docker.pkg.dev/nebula-arena-ga-20261109/nebula/nebula-server:41eab9365317870e31a45490a2d519ed37b2ea38",
+                                "name": "nebula",
+                                "ports": [
+                                    {
+                                        "containerPort": 9100,
+                                        "name": "metrics"
+                                    }
+                                ],
+                                "resources": {
+                                    "limits": {
+                                        "cpu": "500m",
+                                        "memory": "512Mi"
+                                    },
+                                    "requests": {
+                                        "cpu": "100m",
+                                        "memory": "256Mi"
+                                    }
+                                },
+                                "securityContext": {
+                                    "allowPrivilegeEscalation": false,
+                                    "capabilities": {
+                                        "drop": [
+                                            "ALL"
+                                        ]
+                                    },
+                                    "readOnlyRootFilesystem": true
+                                }
+                            }
+                        ],
+                        "nodeSelector": {
+                            "rol": "juego"
+                        },
+                        "securityContext": {
+                            "runAsNonRoot": true,
+                            "runAsUser": 1000,
+                            "seccompProfile": {
+                                "type": "RuntimeDefault"
+                            }
+                        },
+                        "terminationGracePeriodSeconds": 30
+                    }
+                }
+            },
+            "status": {
+                "address": "34.10.141.166",
+                "addresses": [
+                    {
+                        "address": "10.40.0.5",
+                        "type": "InternalIP"
+                    },
+                    {
+                        "address": "34.10.141.166",
+                        "type": "ExternalIP"
+                    },
+                    {
+                        "address": "gke-nebula-dev-game-pool-89caa13f-5j59",
+                        "type": "Hostname"
+                    },
+                    {
+                        "address": "10.44.0.36",
+                        "type": "PodIP"
+                    }
+                ],
+                "eviction": {
+                    "safe": "Never"
+                },
+                "immutableReplicas": 1,
+                "nodeName": "gke-nebula-dev-game-pool-89caa13f-5j59",
+                "players": null,
+                "ports": [
+                    {
+                        "name": "game",
+                        "port": 7294
+                    }
+                ],
+                "reservedUntil": null,
+                "state": "Ready"
+            }
+        }
+    ],
+    "kind": "List",
+    "metadata": {
+        "resourceVersion": ""
+    }
+}

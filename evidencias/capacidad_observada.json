@@ -1,0 +1,15 @@
+{
+  "maximo_ccu_observado": 1610,
+  "nodos": 3,
+  "promedio_jugadores_por_nodo": 536.6666666666666,
+  "segundos_observados_cerca_del_maximo": 138.78474402427673,
+  "fallos_conexion": 190,
+  "p95_por_ventana_ultimos_65s_min_ms": 10.0,
+  "p95_por_ventana_ultimos_65s_max_ms": 12.0,
+  "cpu_generador_ultimos_65s_media": 79.36153846153844,
+  "cpu_generador_ultimos_65s_max": 81.6,
+  "eventos_limitacion": [
+    "0/3 nodes are available: 3 Insufficient cpu. no new claims to deallocate, preemption: 0/3 nodes are available: 3 No preemption victims found for incoming pod.",
+    "Pod didn't trigger scale-up: 1 max node group size reached"
+  ]
+}

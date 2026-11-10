@@ -1,0 +1,8 @@
+{
+  "maximo_ccu_observado_bajo_80ms": 1000.0,
+  "se_observo_p95_80ms_o_mas": true,
+  "nota_capacidad": "El cruce de 80 ms requiere revisar errores, CPU del generador y duración antes de atribuir un límite al servidor. Si no se cruza, solo se conoce un límite inferior.",
+  "segundos_desde_subida_ccu_hasta_primer_nodo_nuevo": null,
+  "nota_escalado": "Se usan las marcas reales del CSV. Agones y nodos pueden tener una resolución de 30 s en la fuente. Contrastar con eventos de Kubernetes.",
+  "muestras_validas": 588
+}

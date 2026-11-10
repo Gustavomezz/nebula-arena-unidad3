@@ -1,31 +1,50 @@
 {
   "tarifas_referencia_usd": {
-    "e2_standard_4_h": 0.13402284,
+    "n2_standard_8_h": 0.388472,
     "e2_standard_8_h": 0.26804568,
     "gestion_gke_h": 0.1,
-    "ip_externa_h": 0.005
+    "ip_externa_vm_h": 0.005,
+    "pd_standard_gib_mes": 0.04,
+    "mes_horas": 730,
+    "lb_regional_primeras_5_reglas_h": 0.025,
+    "lb_global_primeras_5_reglas_h": 0.025
   },
-  "capacidad_configurada_no_medida": {
+  "dimensionamiento_teorico_1000": {
     "jugadores": 1000,
-    "partidas": 100,
-    "servidores_con_buffer": 125,
-    "vCPU_solo_contenedores_juego": 31.25
+    "partidas_llenas": 100,
+    "servidores_con_buffer_20_por_ciento_total": 125,
+    "vCPU_requests_juego_100m": 12.5,
+    "vCPU_requests_sdk_30m": 3.75,
+    "nota": "Sumar sistema y monitoreo. Las salas parciales pueden elevar el número real."
   },
-  "escenario_10_nodos": {
-    "computo_y_gestion_h": 1.4402284,
-    "computo_gestion_por_jugador_h": 0.0014402284000000001
+  "juego_3_nodos_n2_standard_8": {
+    "computo_h": 1.165416,
+    "gestion_h": 0.1,
+    "ip_h": 0.015,
+    "disco_90gib_h": 0.004931506849315068,
+    "balanceador_interno_h": 0.025,
+    "fijo_total_h": 1.310347506849315,
+    "fijo_por_jugador_h_a_1000": 0.0013103475068493148,
+    "nota": "Monitoreo comparte los nodos. No incluye generador ni CDN."
   },
+  "generador_e2_standard_8_fijo_h": 0.27414157041095893,
+  "cdn_balanceador_global_fijo_h": 0.025,
+  "laboratorio_fijo_3_nodos_mas_generador_y_lb_cdn_h": 1.6094890772602737,
   "stream_500_360p_5min_gb": 15.0,
   "stream_20000_1080p_1h_gb": 54000.0,
   "stream_20000_1080p_1h_gib": 50291.41902923584,
   "cdn_norteamerica_solo_transferencia_usd": 3022.028046607971,
   "serverless_ejemplo_200000_peticiones_100ms_usd_sin_capa_gratuita": 0.585,
   "vm_e2_small_730h_solo_computo_usd": 12.22958415,
-  "exclusiones": "Discos, IP, balanceadores, observabilidad, registro, Firestore, solicitudes CDN e impuestos. Verificar en calculadora antes de ejecutar.",
+  "exclusiones_del_fijo": "Tráfico y procesamiento de red, solicitudes y llenado de CDN, Storage, Artifact Registry, Firestore, Logging, impuestos y otros cargos variables. No se asumen créditos disponibles ni una factura final.",
   "fuentes": [
     "https://cloud.google.com/products/compute/pricing/general-purpose",
     "https://cloud.google.com/kubernetes-engine/pricing",
+    "https://cloud.google.com/compute/disks-image-pricing",
+    "https://cloud.google.com/vpc/network-pricing",
+    "https://cloud.google.com/load-balancing/pricing",
     "https://cloud.google.com/run/pricing",
-    "https://cloud.google.com/cdn/pricing"
+    "https://cloud.google.com/cdn/pricing",
+    "https://cloud.google.com/artifact-registry/pricing"
   ]
 }

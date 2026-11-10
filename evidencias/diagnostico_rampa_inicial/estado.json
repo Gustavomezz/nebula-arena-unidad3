@@ -1,0 +1,5 @@
+{
+  "estado": "interrumpida_para_corregir_matchmaking",
+  "motivo": "Las peticiones de asignación en espera bloquearon los hilos y las comprobaciones de salud. Esta ejecución no es la prueba final de veinte minutos.",
+  "correccion": "Espera no bloqueante, registro de reintentos y reposición de la flota cada cinco segundos."
+}

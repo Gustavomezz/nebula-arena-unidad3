@@ -9,31 +9,51 @@ patrón HLS de 360p, como indica la práctica.
 
 ## Estado de ejecución
 
-Las 21 pruebas automáticas, la validación de Terraform y la construcción y ejecución
-de los contenedores se comprobaron. La práctica 3.1 se ejecutó en Colab con CPU y T4,
-y se conservan el notebook, los JSON y el CSV de la calculadora oficial.
+El laboratorio se desplegó, se midió y se eliminó al terminar. Las seis prácticas,
+la autoevaluación y el reporte técnico están terminados en `Documentos/`.
+La presentación de diez minutos incluye notas y una demostración preparada.
+El reporte técnico tiene seis páginas, incluida su portada.
 
-El proyecto aislado `nebula-arena-ga-20261109` ya tiene facturación activa. Se
-aplicaron los planes de Terraform y se instalaron Agones, Prometheus y Grafana.
-Cloud Run guardó y consultó un resultado real en Firestore, y un reintento no
-duplicó los puntos. La CDN completó cinco minutos con 500 espectadores: 74,500
-solicitudes y cero fallos. Los CSV originales están en `evidencias/`.
+Las 23 pruebas automáticas y las tres etapas del pipeline terminaron correctamente:
+[ejecución completa](https://github.com/Gustavomezz/nebula-arena-unidad3/actions/runs/42763006149). Las imágenes publicadas llevan la etiqueta
+`c589c72567365f1a558c920c6fe539cb6c7e89ce`. La identidad de GitHub usa federación y no una llave JSON.
 
-La sesión piloto de diez jugadores en GKE registró 1,170 RTT, p95 de 2 ms y cero
-fallos. El consumo de una partida rondó 28 milésimas de CPU en una ventana de un
-minuto. Por eso la reserva del contenedor se ajustó a 100m, conservando el límite
-de 500m. Google rechazó ampliar las 32 vCPU globales. El laboratorio usa hasta
-tres nodos n2-standard-8 y una generadora e2-standard-8, dentro de ese límite.
-Se puede reducir la flota inicial a un nodo antes de la prueba para observar su
-crecimiento. Esta reducción se hace cuando no quedan partidas en curso.
+| Prueba real en Google Cloud | Resultado |
+| --- | --- |
+| Rampa de 20 min, 1,000 jugadores, 2 entradas/s | 932,465 RTT, p95 8 ms, p99 16 ms, cero fallos RTT. |
+| Pico de 10 min, 1,000 jugadores, 50 entradas/s | 533,386 RTT, p95 3 ms, p99 12 ms, cero fallos RTT. |
+| Estrés de 5 min, 1,800 solicitados | Máximo observado de 1,610 conectados y 190 que no consiguieron servidor. |
+| Streaming de 5 min, 500 espectadores | 74,500 solicitudes, cero fallos y p95 de segmento de 46 ms. |
+| Cloud Run, 500 usuarios, pesos 80/20 | 169,199 solicitudes, 0 fallos, p99 de 3700 ms. |
 
-Siguen pendientes la rampa y el pico de 1,000 jugadores, la prueba de HPA, la
-carga de Cloud Run, las capturas finales y la destrucción con auditoría. El estado
-se registra en `evidencias/estado_ejecucion.json`.
+Los 1,610 jugadores se observaron cerca del máximo durante unos 139 s. En los últimos
+65 s del estrés, el p95 por ventana fue de 10 a 12 ms y la generadora no superó 81.6%
+de CPU. Los eventos indican CPU insuficiente y el tope de tres nodos. Esta cifra es
+el límite de admisión observado de esta configuración, no un máximo universal.
+El p95 acumulado del estrés fue de 86 ms e incluye el transitorio de entrada.
 
-Los PDF terminados están en `Documentos/`. Los borradores de las otras prácticas
-y del reporte se conservan fuera de esta carpeta de entregas, hasta completar las
-mediciones. La autoevaluación y la práctica 3.1 ya están revisadas.
+La entrada es una limitación importante. La rampa tuvo 4,509 rechazos/reintentos HTTP
+y el pico 44,243. Todos los 1,000 de ambos escenarios lograron conectar, con p95 hasta
+entrar de 43 s y 92 s. En la entrada del pico, el p95 por ventana alcanzó 200 ms y la
+generadora llegó a 99.7% de CPU. Esos segundos no se atribuyen solo al clúster. Las
+mediciones de asignación, conexión y RTT se conservan separadas. Los dos primeros
+ensayos abortados están identificados como diagnósticos y no cuentan como las pruebas finales.
+
+El clúster creció de uno a tres nodos n2-standard-8. Cada nodo nuevo tardó 64 s entre
+TriggeredScaleUp y Node Ready. HPA pasó de dos a nueve réplicas en la rampa y llegó a
+diez en el pico. La generadora fue una e2-standard-8. La cuota global de 32 vCPU
+incluyó los nodos y esa VM. Los contenedores de juego solicitaron 100m de CPU y
+conservaron el límite de 500m, después de medir unos 28m por partida en el piloto.
+
+Cloud Run registró hasta 10 instancias activas. Los datos de
+concurrencia y arranque provienen de Cloud Monitoring. El p99 del cliente también
+incluye red, cola e inicialización de Firestore. La práctica 3.1 se ejecutó en Colab
+con CPU y T4, con sus resultados originales y el CSV de la calculadora.
+
+Las URL de Cloud Run y CDN funcionaron durante las pruebas y se conservaron como
+evidencia. Se retiraron junto con el laboratorio para cumplir `terraform destroy`.
+`evidencias/cierre_verificado.json` y las consultas de `evidencias/auditoria_cierre/`
+confirman el cierre. La cuenta de facturación sigue abierta.
 
 ## Archivos
 
@@ -87,10 +107,10 @@ una ejecución de CPU como una de GPU. PPO completa lotes de 2,048 pasos, así q
 
 Se requiere una cuenta con verificación en dos pasos, facturación activa y cuota para
 el laboratorio. El generador debe correr en `us-central1`, junto al clúster. Antes de
-ejecutar, revisar la calculadora y crear la alerta de USD 10 que pide el material.
+ejecutar, revisar la calculadora y crear una alerta de presupuesto. En esta ejecución se configuraron MXN 150, por debajo del ejemplo de USD 10 del material.
 La alerta avisa del gasto; no funciona como límite automático.
 
-Herramientas: Docker, Google Cloud CLI, kubectl, Terraform 1.6 o superior y Helm.
+Herramientas: Docker, Google Cloud CLI, GitHub CLI, kubectl, Terraform 1.6 o superior, Helm y FFmpeg. Para carga y gráficas instalar `pip install -r loadtest/requirements.txt`; las consultas de Monitoring también usan las dependencias de `requirements-dev.txt`.
 Instalar el complemento `gke-gcloud-auth-plugin`. Agones 1.62 admite Kubernetes
 1.34, 1.35 y 1.36; comprobar la versión que ofrece GKE antes de crear el clúster.
 
@@ -110,6 +130,10 @@ cp infra/terraform.tfvars.example infra/terraform.tfvars
 ```
 
 Editar `infra/terraform.tfvars` con el ID real. Crear y revisar un plan antes de aplicar.
+Para recrear después de `destroy`, cambiar `pool_ci` a un ID nuevo, por ejemplo
+`nebula-github-demo-01`, porque IAM retiene el ID de un pool eliminado durante 30 días.
+Actualizar también la variable `WIF_PROVIDER` de GitHub con la nueva salida.
+[Documentación de eliminación y recuperación de pools](https://docs.cloud.google.com/iam/docs/manage-workload-identity-pools-providers).
 
 ```bash
 terraform -chdir=infra plan -out laboratorio.tfplan
@@ -220,9 +244,29 @@ es “al menos 1,000”, no una capacidad máxima demostrada de 1,000.
 
 ## Demostración de 10 minutos
 
-Abrir el tablero, ejecutar la prueba de pico y mostrar cómo cambian jugadores,
-GameServers y nodos. Explicar el retraso entre llenar la flota y tener nuevos nodos.
-Mostrar una consulta real de `/top`. Las diapositivas acompañan la explicación.
+Recrear la infraestructura antes de la clase. Cambiar `pool_ci` a un ID nuevo si el
+anterior sigue retenido por IAM, actualizar las variables de GitHub y habilitar
+`CLOUD_ENABLED=true` después de preparar el entorno. Las mediciones y las imágenes
+de la entrega permiten revisar lo realizado mientras los recursos están eliminados.
+
+Antes de comenzar la exposición, dejar un nodo y tres servidores listos. Ejecutar
+`scripts/preparar_carga.sh` desde el equipo de control solo cuando ya no existan
+partidas Allocated. Abrir los port-forward y el tablero de Grafana. Preparar la VM
+generadora con su entorno y la variable `MATCHMAKER_URL`.
+
+Las notas de las diapositivas distribuyen siete minutos de explicación y tres de
+demostración. Al comenzar la última diapositiva, en la VM:
+
+```bash
+bash scripts/demostracion.sh
+```
+
+El script solicita 800 usuarios a 50 por segundo durante tres minutos. Mostrar CCU,
+Ready/Allocated, réplicas de matchmaking y la llegada de un nodo. Comparar la reacción
+con los 64 s medidos. Consultar `/top` de Cloud Run y conservar los resultados antes
+de volver a destruir los recursos. Para un evento real de 1,000 jugadores se propone preparar tres nodos y 130 partidas
+listas antes del pico, tomando como referencia los 104 asignados más 26 Ready de la
+rampa. La demostración parte de tres partidas para que se pueda observar el escalado.
 
 ## Cierre
 
@@ -232,7 +276,7 @@ bash scripts/destruir.sh
 
 Guardar las salidas de destrucción y revisar que no quedan VM, discos, balanceadores,
 registros ni servicios cobrando. Tras conservar las evidencias, destruir el bucket del
-estado con `infra/bootstrap`. Las cuentas y proyectos de otros trabajos no se modifican.
+estado con `infra/bootstrap`. Después ejecutar `python scripts/auditar_cierre.py --proyecto "$PROYECTO"` y comprobar que todos los conteos estén en cero. Las cuentas y proyectos de otros trabajos no se modifican.
 
 ## Fuentes de consulta
 
