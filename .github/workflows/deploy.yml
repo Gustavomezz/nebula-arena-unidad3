@@ -40,18 +40,11 @@ jobs:
     runs-on: ubuntu-latest
     permissions:
       contents: read
-      packages: write
     steps:
       - uses: actions/checkout@v4
       - uses: actions/setup-python@v5
         with: {python-version: '3.11'}
       - run: pip install websockets==12.0 requests
-      - uses: docker/login-action@v3
-        if: github.event_name != 'pull_request'
-        with:
-          registry: ghcr.io
-          username: ${{ github.actor }}
-          password: ${{ secrets.GITHUB_TOKEN }}
       - name: Construir y comprobar los tres contenedores
         run: |
           for component in server serverless matchmaker; do
@@ -67,15 +60,15 @@ jobs:
           python scripts/smoke.py
           docker logs nebula-smoke
           docker logs scores-smoke
-      - name: Publicar imágenes con etiqueta del commit
-        if: github.event_name != 'pull_request'
+      - name: Conservar imágenes comprobadas para revisión
         run: |
-          repository="${GITHUB_REPOSITORY,,}"
-          for component in server serverless matchmaker; do
-            image="ghcr.io/$repository-$component:${GITHUB_SHA}"
-            docker tag "nebula-$component:${GITHUB_SHA}" "$image"
-            docker push "$image"
-          done
+          docker save "nebula-server:$GITHUB_SHA" "nebula-serverless:$GITHUB_SHA" \
+            "nebula-matchmaker:$GITHUB_SHA" | gzip > nebula-images.tar.gz
+      - uses: actions/upload-artifact@v4
+        with:
+          name: contenedores-${{ github.sha }}
+          path: nebula-images.tar.gz
+          retention-days: 1
 
   nube:
     if: github.ref == 'refs/heads/main' && vars.CLOUD_ENABLED == 'true'

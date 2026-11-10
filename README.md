@@ -100,8 +100,9 @@ que ya existe y para desinstalar los complementos antes de destruirlo.
 ## Imágenes y CI/CD
 
 La primera etapa de GitHub Actions prueba el código y valida Terraform. La segunda
-construye los tres contenedores, los ejecuta para comprobarlos y publica en GHCR
-con la etiqueta exacta del commit. La etapa `nube` se habilita después de preparar GCP.
+construye los tres contenedores, los ejecuta para comprobarlos y conserva las imágenes
+como artefactos con la etiqueta exacta del commit. La etapa `nube` publica en Artifact
+Registry y se habilita después de preparar GCP.
 Una etapa omitida no demuestra un despliegue exitoso en GKE.
 
 Publicación inicial para poder crear Cloud Run:
