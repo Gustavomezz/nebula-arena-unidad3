@@ -2,6 +2,22 @@
 # Ejecutar desde la raíz del proyecto. Solo elimina recursos de este laboratorio.
 set -euo pipefail
 : "${PROYECTO:?Falta PROYECTO}"
+registro=$(terraform -chdir=infra output -raw registro)
+cluster=$(terraform -chdir=infra output -raw cluster)
+case "$registro" in
+  *"/$PROYECTO/nebula") ;;
+  *) echo "El proyecto indicado no coincide con el estado de Terraform." >&2; exit 1 ;;
+esac
+contexto=$(kubectl config current-context)
+case "$contexto" in
+  "gke_${PROYECTO}_"*"_${cluster}") ;;
+  *) echo "kubectl no apunta al clúster de este laboratorio." >&2; exit 1 ;;
+esac
+asignados=$(kubectl get gameservers -o 'jsonpath={range .items[?(@.status.state=="Allocated")]}{.metadata.name}{"\n"}{end}')
+if [[ -n "$asignados" ]]; then
+  echo "Todavía existen partidas Allocated. Espera su cierre antes de destruir." >&2
+  exit 1
+fi
 mkdir -p evidencias
 kubectl delete -f k8s/autoscaler.yaml --ignore-not-found
 kubectl delete fleet nebula-fleet --ignore-not-found

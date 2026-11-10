@@ -5,7 +5,7 @@ resource "google_service_account" "deploy" {
 }
 
 resource "google_iam_workload_identity_pool" "github" {
-  workload_identity_pool_id = "nebula-github"
+  workload_identity_pool_id = var.pool_ci
   display_name              = "GitHub Nebula Arena"
   depends_on                = [google_project_service.apis]
 }

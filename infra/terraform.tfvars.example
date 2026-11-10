@@ -9,3 +9,6 @@ maquina_nodos = "n2-standard-8"
 crear_generador = true
 crear_cdn       = false
 crear_serverless = false
+
+# Si se recrea tras destroy, usar un ID nuevo mientras IAM retiene el anterior.
+pool_ci = "nebula-github"

@@ -16,3 +16,9 @@ variable "acceso_adicional_juego" {
   type        = list(string)
   default     = []
 }
+
+variable "pool_ci" {
+  description = "ID del pool de CI. Usar otro ID para recrear antes de que expire una eliminación de IAM."
+  type        = string
+  default     = "nebula-github"
+}
