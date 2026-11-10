@@ -13,10 +13,14 @@ Las 21 pruebas automáticas, la validación de Terraform y la construcción y ej
 de los contenedores se comprobaron. La práctica 3.1 se ejecutó en Colab con CPU y T4,
 y se conservan el notebook, los JSON y el CSV de la calculadora oficial.
 
-La ejecución de GKE, Cloud Run y CDN está pendiente del acceso de Google Cloud.
-La consola exige que el propietario active la verificación en dos pasos. Por ello,
-todavía faltan la carga de nube, el plan real, las capturas de escalado y la auditoría
-de destrucción. `evidencias/estado_ejecucion.json` registra esta diferencia.
+El acceso a Google Cloud ya funciona y se creó el proyecto aislado
+`nebula-arena-ga-20261109`. Se generó el plan inicial del bucket de estado, sin
+aplicarlo. La única cuenta de facturación disponible está cerrada y Google exige
+un prepago mínimo de MXN 500 para activarla. El proyecto todavía no tiene
+facturación habilitada. GKE, Cloud Run, CDN, las pruebas de nube y la eliminación
+de esos recursos siguen pendientes. También se puede continuar en un proyecto
+con créditos educativos que proporcione la escuela.
+`evidencias/estado_ejecucion.json` registra el estado comprobado.
 
 Los PDF terminados están en `Documentos/`. Los borradores de las otras prácticas
 y del reporte se conservan fuera de esta carpeta de entregas, hasta completar las
