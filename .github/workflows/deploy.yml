@@ -2,6 +2,7 @@ name: Nebula Arena
 on:
   push:
     branches: [main]
+    paths-ignore: ['Documentos/**', 'evidencias/**', 'README.md', 'ia/*.ipynb']
   pull_request:
   workflow_dispatch:
 
@@ -109,4 +110,4 @@ jobs:
           gcloud run services update nebula-dev-leaderboard --region "$REGION" \
             --image "$REGION-docker.pkg.dev/$PROYECTO/nebula/nebula-serverless:$GITHUB_SHA"
           kubectl rollout status deployment/matchmaker --timeout=180s
-          kubectl get fleet,gameServers,fleetautoscalers
+          kubectl get fleet,gameservers,fleetautoscalers

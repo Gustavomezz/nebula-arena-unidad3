@@ -11,6 +11,6 @@ terraform -chdir=infra destroy -var-file=terraform.tfvars -auto-approve | tee ev
 # Conserva la salida del estado vacío antes de borrar el bucket que lo contiene.
 terraform -chdir=infra state list | tee evidencias/estado_tras_destroy.txt
 gcloud asset search-all-resources --scope="projects/$PROYECTO" \
-  --query='name:nebula' --format='table(assetType,name)' > evidencias/auditoria_recursos.txt
+  --format='table(assetType,name)' > evidencias/auditoria_recursos.txt
 echo "Revisa la auditoría y conserva los logs antes de eliminar el bucket del estado remoto."
 echo "Paso final: terraform -chdir=infra/bootstrap destroy -var proyecto=$PROYECTO"
