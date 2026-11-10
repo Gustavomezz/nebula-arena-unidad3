@@ -48,7 +48,8 @@ class Jugador(User):
                     gevent.sleep(random.uniform(.5, 1.5))
                 if url is None:
                     raise TimeoutError("Agones no tuvo servidores listos en 180 s")
-            self.ws = create_connection(url, timeout=10, enable_multithread=False)
+            self.ws = create_connection(url, timeout=10, enable_multithread=False,
+                                        skip_utf8_validation=True)
             greeting = json.loads(self.ws.recv())
             if "bienvenido" not in greeting:
                 raise ValueError("falta bienvenida")

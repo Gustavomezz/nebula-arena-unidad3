@@ -1,5 +1,6 @@
 locust==2.47.0
 websocket-client==1.9.2
+wsaccel==0.6.7
 requests==2.34.2
 pandas==2.3.3
 matplotlib==3.11.2
